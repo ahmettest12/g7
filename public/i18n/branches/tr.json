@@ -1,0 +1,18 @@
+{
+    "branches": {
+        "title": "Şubeler",
+        "add": "Şube Ekle",
+        "name": "Şube Adı",
+        "address": "Şube Adresi",
+        "addressPlaceholder": "Şube adresini girin",
+        "deleteConfirm": "'{{name}}' şubesini silmek istediğinizden emin misiniz?",
+        "empty": "Henüz şube eklenmedi.",
+        "table": {
+            "name": "Ad",
+            "location": "Konum",
+            "actions": "İşlemler"
+        },
+        "select": "Bir şube seçin",
+        "main": "Ana"
+    }
+}

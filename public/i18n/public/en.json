@@ -1,0 +1,224 @@
+
+{
+    "publicPage": {
+        "search": {
+            "placeholder": "Search for products, dishes...",
+            "noResults": "No results found.",
+            "allCategories": "All Categories",
+            "minPrice": "Min Price",
+            "maxPrice": "Max Price",
+            "sortDefault": "Default Sorting",
+            "sortPriceAsc": "Price: Low to High",
+            "sortPriceDesc": "Price: High to Low"
+        },
+        "tabs": {
+            "content": "Content",
+            "design": "Design",
+            "qrcode": "QR Code"
+        },
+        "googleLogin": {
+            "prompt": "To continue, please sign in with your Google account.",
+            "simulationTitle": "Simulated Google Sign-In",
+            "simulationInfo": "In a real application, this information would be securely obtained from your Google account. Please enter your details to proceed.",
+            "nameLabel": "Full Name",
+            "emailLabel": "Email Address",
+            "continueButton": "Continue as {{name}}"
+        },
+        "saveDesign": "Save Design",
+        "content": {
+            "enable": "Enable Public Page",
+            "sections": "Page Sections",
+            "add": "Add Section",
+            "addTypes": {
+                "hero": "Hero",
+                "banner": "Banner",
+                "text": "Text",
+                "gallery": "Gallery",
+                "testimonials": "Testimonials",
+                "video": "Video",
+                "menu": "Menu",
+                "products": "Products",
+                "rooms": "Rooms",
+                "tours": "Tours",
+                "cars": "Cars",
+                "listings": "Listings",
+                "projects": "Projects",
+                "services": "Services",
+                "appointment_booking": "Booking Form",
+                "reservation": "Reservation",
+                "companies_aggregator": "Companies List",
+                "promotions_aggregator": "Promotions List",
+                "cta": "Call to Action",
+                "contact": "Contact Us",
+                "ecommerce": "E-commerce"
+            }
+        },
+        "design": {
+            "logo": "Logo",
+            "primaryColor": "Primary Color",
+            "socialLinks": "Social Media Links",
+            "whatsapp": "WhatsApp",
+            "whatsappPlaceholder": "Number with country code (e.g., 1555...)",
+            "instagram": "Instagram",
+            "x": "X (formerly Twitter)",
+            "facebook": "Facebook",
+            "themes": {
+                "title": "Themes",
+                "classic": "Classic",
+                "elegant": "Elegant",
+                "bold": "Bold",
+                "dark": "Dark"
+            },
+            "templates": {
+                "title": "Templates",
+                "confirmTitle": "Confirm Template Application",
+                "confirmMessage": "Applying this template will replace your current page content and layout. Are you sure you want to continue?"
+            }
+        },
+        "qrcode": {
+            "title": "QR Code",
+            "description": "Customers can scan this to visit your public page or menu.",
+            "generating": "Generating...",
+            "download": "Download",
+            "printTitle": "Scan for Menu",
+            "printHeader": "Scan to view our menu",
+            "printFooter": "Thank you for visiting!"
+        },
+        "editSection": {
+            "title": "Edit Section: {{type}}",
+            "contact": {
+                "showMap": "Show Map",
+                "showForm": "Show Contact Form"
+            },
+            "field": {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "content": "Content",
+                "imageUrl": "Image URL",
+                "buttonText": "Button Text",
+                "buttonLink": "Button Link",
+                "bgColor": "Background Color"
+            },
+            "appearance": "Appearance",
+            "spacing": {
+                "none": "None",
+                "sm": "Small",
+                "md": "Medium",
+                "lg": "Large",
+                "xl": "Extra Large"
+            },
+            "layout": {
+                "single-column": "Single Column",
+                "two-column": "Two Columns",
+                "three-column": "Three Columns"
+            },
+            "content": {
+                "mainTitle": "Main Section Title",
+                "columnTitle": "Column Title",
+                "columnContent": "Column Content",
+                "addColumn": "Add Column"
+            }
+        },
+        "preview": {
+            "footer": "Powered by ProCount",
+            "copyright": "© {{year}} {{name}}. All rights reserved.",
+            "notFound": {
+                "description": "The page you are looking for does not exist."
+            },
+            "disabled": {
+                "description": "This page is not available at the moment."
+            }
+        },
+        "reservationForm": {
+            "name": "Full Name",
+            "phone": "Phone Number",
+            "guests": "Number of Guests",
+            "submit": "Send Reservation Request"
+        },
+        "gallery": {
+            "image": "Image"
+        },
+        "video": {
+            "invalidUrl": "Invalid video URL."
+        },
+        "defaults": {
+            "contact": {
+                "title": "Contact Us"
+            },
+            "hero": {
+                "title": "Welcome to Our Page",
+                "subtitle": "Discover our amazing products and services"
+            },
+            "text": {
+                "title": "About Us",
+                "content": "Detailed information about the company. You can edit this text from the control panel."
+            },
+            "menu": {
+                "title": "Our Menu"
+            },
+            "products": {
+                "title": "Our Products"
+            },
+            "rooms": {
+                "title": "Our Rooms"
+            },
+            "reservation": {
+                "title": "Book Now"
+            },
+            "cta": {
+              "title": "Ready to get started?",
+              "buttonText": "Order Now"
+            },
+            "gallery": {
+                "title": "Photo Gallery"
+            },
+            "testimonials": {
+                "title": "What Our Customers Say"
+            },
+            "video": {
+                "title": "Watch Our Video"
+            },
+            "banner": {
+                "title": "Banner Ad",
+                "subtitle": "A short and catchy promotional message here.",
+                "buttonText": "Shop Now"
+            }
+        },
+        "contact": {
+            "address": "Address",
+            "phone": "Phone",
+            "email": "Email",
+            "formTitle": "Send us a message",
+            "form": {
+                "name": "Your Name",
+                "email": "Your Email",
+                "message": "Message",
+                "send": "Send Message",
+                "sent": "Message sent successfully!"
+            }
+        },
+        "cart": {
+          "addedToCart": "Added to Cart",
+          "addToCart": "Add to Cart",
+          "added": "Added"
+        },
+        "appointment": {
+            "bookNow": "Book Now",
+            "bookingSubtitle": "Choose your desired service and time to book your appointment."
+        },
+        "templates": {
+            "standard": {
+                "name": "Standard",
+                "description": "A classic layout with all sections."
+            },
+            "minimalist": {
+                "name": "Minimalist",
+                "description": "A clean design focusing on the main hero section."
+            },
+            "bold": {
+                "name": "Bold",
+                "description": "A striking design with strong colors."
+            }
+        }
+    }
+}

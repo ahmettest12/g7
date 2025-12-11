@@ -1,0 +1,112 @@
+
+{
+  "dashboard": {
+    "totalCompanies": "Toplam Şirketler",
+    "activeSubscriptions": "Aktif Abonelikler",
+    "monthlyRevenue": "Aylık Gelir",
+    "totalUsers": "Toplam Kullanıcılar",
+    "newCompaniesChart": {
+      "title": "Yeni Şirketler (Son 7 Gün)"
+    },
+    "companyTypeDistribution": {
+      "title": "Şirket Türü Dağılımı"
+    },
+    "branches": {
+      "main": "Ana Şube"
+    },
+    "companyId": "Şirket Kimliği",
+     "kpi": {
+        "todaysSales": "Bugünün Satışları",
+        "activeTables": "Aktif Masalar",
+        "pendingOrders": "Bekleyen Siparişler",
+        "upcomingReservations": "Bugünün Rezervasyonları",
+        "customerCount": "Müşteri Sayısı",
+        "lowStockItems": "Düşük Stoklu Ürünler",
+        "heldCarts": "Bekletilen Fişler",
+        "occupancy": "Doluluk",
+        "arrivals": "Bugünkü Gelişler",
+        "departures": "Bugünkü Ayrılışlar",
+        "dirtyRooms": "Kirli Odalar",
+        "totalRevenue": "Toplam Gelir",
+        "grossProfit": "Brüt Kar",
+        "totalExpenses": "Toplam Giderler",
+        "expenseBreakdown": "Gider Dökümü",
+        "cogs": "Satılan Malın Maliyeti",
+        "payroll": "Maaş Bordrosu",
+        "purchases": "Satın Almalar",
+        "employeesAtBranch": "Şube Çalışanları",
+        "activeBranches": "Aktif Şubeler",
+        "totalOrdersToday": "Bugünün Siparişleri"
+    },
+    "storage": {
+        "title": "Depolama Kullanımı",
+        "used": "Kullanılan: {{usage}}MB / {{limit}}GB",
+        "override": "(Özel Limit)",
+        "fromPlan": "(Plandan)",
+        "upgrade": "Planı Yükselt"
+    },
+    "aiBriefing": {
+        "title": "Yapay Zeka Sabah Özeti"
+    },
+    "activity": {
+        "title": "Son Etkinlik",
+        "newSale": "{{total}} TL tutarında yeni satış",
+        "newReservation": "{{name}} için yeni rezervasyon",
+        "checkIn": "{{name}} misafiri giriş yaptı",
+        "maintenance": "{{room}} odası için bakım talebi"
+    },
+    "topProducts": {
+        "title": "Bu Ayın En Çok Satan Ürünleri"
+    },
+    "salesChart": {
+        "title": "Satış Performansı (Son 7 Gün)"
+    },
+    "branchPerformance": {
+        "title": "Şube Performansı (Bu Ay)"
+    },
+    "todaysSales": "Bugünün Satışları",
+    "thisMonthsSales": "Bu Ayın Satışları",
+    "lowStockItems": "Düşük Stoklu Ürünler",
+    "salesLast7Days": "Son 7 Günün Satışları",
+    "manageBranch": "Şubeyi Yönet"
+  },
+  "superAdminDashboard": {
+    "title": "Süper Yönetici Paneli",
+    "auditLog": "Denetim Kaydı",
+    "settings": "Sistem Ayarları",
+    "publicPages": "Genel Sayfalar",
+    "subscriptionPlans": "Abonelik Planları",
+    "platformBilling": "Platform Faturalandırma",
+    "backToList": "Listeye Geri Dön",
+    "companies": "Şirketler",
+    "actions": {
+      "manage": "Yönet"
+    }
+  },
+  "settings": {
+    "employees": {
+      "title": "Sistem Çalışanları",
+      "add": "Çalışan Ekle",
+      "table": {
+        "name": "Ad / E-posta",
+        "permissions": "İzinler"
+      }
+    },
+    "currencies": {
+      "title": "Para Birimleri",
+      "add": "Yeni Para Birimi Ekle",
+      "code": "Kod",
+      "name": "Ad",
+      "list": "Para Birimi Listesi"
+    },
+    "profile": {
+      "title": "Profil"
+    }
+  },
+  "currencies": {
+    "sar": "Suudi Arabistan Riyali",
+    "usd": "ABD Doları",
+    "try": "Türk Lirası",
+    "egp": "Mısır Lirası"
+  }
+}

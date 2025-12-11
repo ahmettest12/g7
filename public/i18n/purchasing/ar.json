@@ -1,0 +1,97 @@
+{
+  "purchasing": {
+    "tabs": {
+      "invoices": "فواتير الشراء",
+      "orders": "أوامر الشراء"
+    },
+    "suppliers": {
+        "title": "الموردون"
+    },
+    "invoices": {
+      "title": "فواتير المشتريات",
+      "add": "إضافة فاتورة",
+      "editTitle": "تعديل فاتورة الشراء",
+      "table": {
+        "number": "رقم الفاتورة",
+        "supplier": "المورد",
+        "date": "التاريخ",
+        "description": "الوصف",
+        "total": "الإجمالي",
+        "paymentStatus": "حالة الدفع",
+        "paymentDate": "تاريخ الدفع",
+        "images": "الصور"
+      },
+      "empty": "لم يتم تسجيل أي فواتير شراء بعد.",
+      "markAsPaid": "تحديد كمدفوعة",
+      "viewImages": "عرض الصور"
+    },
+    "addInvoiceForm": {
+      "supplier": "اسم المورد",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "descriptionPlaceholder": "مثال: مخزون افتتاحي، مشتريات شهر مايو...",
+      "total": "المبلغ الإجمالي",
+      "paymentStatus": "حالة الدفع",
+      "paid": "مدفوعة",
+      "unpaid": "غير مدفوعة",
+      "paymentMethod": "طريقة الدفع",
+      "cashDrawer": "صندوق النقدية",
+      "companyAccount": "حساب الشركة",
+      "uploadImages": "رفع صور الفاتورة"
+    },
+    "orders": {
+      "title": "أوامر الشراء",
+      "add": "أمر جديد",
+      "view": "عرض",
+      "send": "إرسال للمورد",
+      "table": {
+        "number": "رقم الأمر",
+        "supplier": "المورد",
+        "date": "التاريخ",
+        "total": "الإجمالي",
+        "status": "الحالة",
+        "actions": "إجراءات"
+      },
+      "statuses": {
+        "draft": "مسودة",
+        "sent": "مرسل",
+        "completed": "مكتمل"
+      },
+      "form": {
+        "requester": "مقدم الطلب",
+        "lowStockItems": "أصناف على وشك النفاذ",
+        "addToOrder": "إضافة للطلب",
+        "orderItems": "أصناف الطلب",
+        "itemName": "اسم الصنف",
+        "supplier": "المورد",
+        "selectSupplier": "اختر مورد",
+        "date": "التاريخ",
+        "items": "الأصناف",
+        "selectProduct": "اختر منتج",
+        "quantity": "الكمية",
+        "cost": "التكلفة",
+        "addItem": "+ إضافة صنف",
+        "total": "الإجمالي",
+        "saveDraft": "حفظ وطباعة",
+        "markComplete": "تأكيد الاستلام وتحديث المخزون",
+        "printOrder": "طباعة الطلب",
+        "saveCosts": "حفظ التكاليف",
+        "searchPlaceholder": "ابحث بالاسم أو الباركود..."
+      },
+      "empty": "لا توجد أوامر شراء.",
+      "print": {
+        "title": "أمر شراء",
+        "poNumber": "رقم أمر الشراء",
+        "date": "التاريخ",
+        "requester": "مقدم الطلب",
+        "supplier": "إلى السيد/ة مدير مبيعات",
+        "item": "الصنف",
+        "quantity": "الكمية",
+        "notesHeader": "ملاحظات:",
+        "notesPlaceholder": "لا توجد ملاحظات.",
+        "requestMessage": "نرجو منكم التكرم بتزويدنا بالبضاعة الموضحة أعلاه. مع جزيل الشكر.",
+        "signature": "التوقيع"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "analytics": {
+    "title": "Analytics",
+    "tabs": {
+        "sales": "Sales",
+        "visitors": "Visitors"
+    },
+    "totalRevenue": "Total Revenue",
+    "totalOrders": "Total Orders",
+    "avgOrderValue": "Avg. Order Value",
+    "newCustomers": "New Customers",
+    "performance": "Performance (Last 7 Days)",
+    "chartPlaceholder": "Not enough data to display chart.",
+    "totalVisitors": "Total Visitors",
+    "uniqueCountries": "Unique Countries",
+    "topCountries": "Top Countries by Visitors",
+    "topReferrers": "Top Referrers",
+    "recentVisitors": "Recent Visitors",
+    "time": "Time",
+    "country": "Country",
+    "referrer": "Referrer"
+  }
+}

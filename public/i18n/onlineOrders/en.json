@@ -1,0 +1,95 @@
+
+{
+    "onlineOrders": {
+        "title": "Online Order Management",
+        "card": {
+            "order": "Order #{{num}}",
+            "items": "{{count}} items",
+            "total": "Total: {{total}} SAR"
+        },
+        "customerLogin": {
+            "title": "Customer Login",
+            "welcome": "Shopper: {{name}}",
+            "button": "Customer Login",
+            "logout": "Logout"
+        },
+        "account": {
+            "title": "My Account",
+            "personalInfo": "Personal Information",
+            "address": "Primary Address",
+            "secondaryAddress": "Secondary Address",
+            "changePassword": "Change Password",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm New Password",
+            "newAddress": "New Address"
+        },
+        "login": {
+            "title": "Store Login",
+            "noAccount": "Don't have an account?",
+            "registerHere": "Register here",
+            "googleSignIn": "Sign in with Google"
+        },
+        "register": {
+            "title": "Create a New Account",
+            "name": "Full Name",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phone": "Phone Number",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "button": "Register",
+            "haveAccount": "Already have an account?",
+            "loginHere": "Login here",
+            "captcha": "Security Code",
+            "captchaError": "Incorrect security code."
+        },
+        "store": {
+            "welcome": "Welcome,",
+            "tabs": {
+                "store": "Store",
+                "myOrders": "My Orders",
+                "myAccount": "My Account"
+            },
+            "logout": "Logout",
+            "searchPlaceholder": "Search for products...",
+            "allCategories": "All Categories",
+            "addToCart": "Add to Cart",
+            "cart": "Shopping Cart",
+            "cartEmpty": "Your cart is empty.",
+            "total": "Total",
+            "address": "Delivery Address",
+            "placeOrder": "Place Order",
+            "orderSuccessTitle": "Your order has been received!",
+            "orderSuccessBody": "We'll process your order and notify you when it's on its way.",
+            "continueShopping": "Continue Shopping",
+            "notesPlaceholder": "Additional notes (optional)",
+            "checkoutTitle": "Checkout",
+            "addressPlaceholder": "Enter your full delivery address",
+            "notes": "Additional Notes"
+        },
+        "myOrders": {
+            "title": "My Orders",
+            "empty": "You have no past orders.",
+            "items": "Items",
+            "notes": "Notes",
+            "editOrder": "Edit Order",
+            "cancelOrder": "Cancel Order",
+            "confirmCancel": "Are you sure you want to cancel this order?",
+            "editModal": {
+                "title": "Edit Order #{{num}}",
+                "address": "Delivery Address",
+                "save": "Save Changes"
+            },
+            "reactivateOrder": "Re-activate"
+        },
+        "details": {
+            "title": "Product Details",
+            "reviewsTitle": "Customer Reviews",
+            "noReviews": "No reviews yet.",
+            "rating": "({{count}} reviews)",
+            "selectVariant": "Select {{name}}",
+            "options": "Options"
+        }
+    }
+}

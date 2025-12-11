@@ -1,0 +1,25 @@
+{
+  "payroll": {
+    "title": "كشوف المرتبات",
+    "processSection": {
+      "title": "معالجة الرواتب",
+      "period": "للفترة: {{period}}",
+      "button": "معالجة الآن"
+    },
+    "pending": "المدفوعات المعلقة",
+    "history": "سجل المدفوعات",
+    "table": {
+      "employee": "الموظف",
+      "netPay": "صافي الراتب",
+      "paymentDate": "تاريخ الدفع",
+      "period": "الفترة",
+      "baseSalary": "الراتب الأساسي",
+      "commissions": "العمولات",
+      "deductions": "الخصومات",
+      "status": "الحالة"
+    },
+    "markAsPaid": "تحديد كمدفوع",
+    "emptyPending": "لا توجد كشوف مرتبات معلقة.",
+    "emptyHistory": "لا يوجد سجل مدفوعات."
+  }
+}

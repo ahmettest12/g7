@@ -1,0 +1,26 @@
+
+{
+  "payroll": {
+    "title": "Maaş Bordrosu",
+    "processSection": {
+      "title": "Bordro İşle",
+      "period": "Dönem için: {{period}}",
+      "button": "Şimdi İşle"
+    },
+    "pending": "Bekleyen Ödemeler",
+    "history": "Ödeme Geçmişi",
+    "table": {
+      "employee": "Çalışan",
+      "netPay": "Net Maaş",
+      "paymentDate": "Ödeme Tarihi",
+      "period": "Dönem",
+      "baseSalary": "Temel Maaş",
+      "commissions": "Komisyonlar",
+      "deductions": "Kesintiler",
+      "status": "Durum"
+    },
+    "markAsPaid": "Ödendi Olarak İşaretle",
+    "emptyPending": "Bekleyen bordro yok.",
+    "emptyHistory": "Ödeme geçmişi yok."
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "branches": {
+        "title": "Branches",
+        "add": "Add Branch",
+        "name": "Branch Name",
+        "address": "Branch Address",
+        "addressPlaceholder": "Enter the branch address",
+        "deleteConfirm": "Are you sure you want to delete the '{{name}}' branch?",
+        "empty": "No branches have been added yet.",
+        "table": {
+            "name": "Name",
+            "location": "Location",
+            "actions": "Actions"
+        },
+        "select": "Select a branch",
+        "main": "Main"
+    }
+}

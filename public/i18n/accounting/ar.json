@@ -1,0 +1,111 @@
+{
+  "accounting": {
+    "accounts": {
+      "assets": "الأصول",
+      "currentAssets": "الأصول المتداولة",
+      "cash": "النقدية",
+      "bank": "البنك",
+      "inventory": "المخزون",
+      "fixedAssets": "الأصول الثابتة",
+      "liabilities": "الخصوم",
+      "currentLiabilities": "الخصوم المتداولة",
+      "suppliers": "الموردون",
+      "commissionsPayable": "عمولات مستحقة الدفع",
+      "salariesPayable": "رواتب مستحقة الدفع",
+      "equity": "حقوق الملكية",
+      "capital": "رأس المال",
+      "revenue": "الإيرادات",
+      "salesRevenue": "إيرادات المبيعات",
+      "expenses": "المصروفات",
+      "cogs": "تكلفة البضاعة المباعة",
+      "salaryExpenses": "مصروفات الرواتب",
+      "rentExpenses": "مصروفات الإيجار",
+      "utilitiesExpenses": "مصروفات الخدمات",
+      "marketingExpenses": "مصروفات التسويق",
+      "generalAdminExpenses": "مصروفات عمومية وإدارية",
+      "commissionExpenses": "مصروفات العمولات",
+      "guestLedger": "حسابات النزلاء",
+      "roomRevenue": "إيرادات الغرف",
+      "otherHotelRevenue": "إيرادات فندقية أخرى",
+      "fbRevenue": "إيرادات الأطعمة والمشروبات",
+      "purchasesExpenses": "مصروفات المشتريات"
+    },
+    "tabs": {
+      "reports": "التقارير المالية",
+      "journal": "قيود اليومية",
+      "chart": "شجرة الحسابات"
+    },
+    "chart": {
+      "title": "شجرة الحسابات",
+      "add": "إضافة حساب",
+      "table": {
+        "name": "اسم الحساب",
+        "number": "رقم الحساب",
+        "type": "النوع",
+        "balance": "الرصيد"
+      }
+    },
+    "addAccountForm": {
+      "id": "رقم الحساب",
+      "name": "اسم الحساب",
+      "type": "نوع الحساب",
+      "parent": "الحساب الرئيسي",
+      "noParent": "لا يوجد (حساب رئيسي)",
+      "add": "إضافة"
+    },
+    "journal": {
+      "title": "قيود اليومية",
+      "add": "إضافة قيد",
+      "table": {
+        "date": "التاريخ",
+        "description": "الوصف",
+        "amount": "المبلغ"
+      }
+    },
+    "journalTemplates": {
+        "payWaiterCommission": "دفع عمولة للنادل: {{name}}",
+        "payEmployeeCommission": "دفع عمولة للموظف: {{name}}",
+        "payPartnerCommission": "دفع عمولة للشركة الشريكة: {{name}}",
+        "paySalary": "دفع راتب الموظف: {{name}}"
+    },
+    "addJournalForm": {
+      "date": "التاريخ",
+      "description": "الوصف",
+      "account": "اختر حساب",
+      "debit": "مدين",
+      "credit": "دائن",
+      "addLine": "+ إضافة سطر",
+      "save": "حفظ القيد"
+    },
+    "reports": {
+      "income": "قائمة الدخل",
+      "balance": "الميزانية العمومية",
+      "empty": {
+        "title": "لا توجد بيانات متاحة",
+        "subtitle": "عندما يتم إنشاء قيود يومية، ستظهر التقارير هنا."
+      }
+    },
+    "incomeStatement": {
+      "title": "قائمة الدخل",
+      "period": "للفترة المنتهية في {{date}}",
+      "revenue": "الإيرادات",
+      "totalRevenue": "إجمالي الإيرادات",
+      "expenses": "المصروفات",
+      "totalExpenses": "إجمالي المصروفات",
+      "netIncome": "صافي الدخل",
+      "netLoss": "صافي الخسارة"
+    },
+    "balanceSheet": {
+      "title": "الميزانية العمومية",
+      "date": "بتاريخ {{date}}",
+      "assets": "الأصول",
+      "totalAssets": "إجمالي الأصول",
+      "liabilitiesEquity": "الخصوم وحقوق الملكية",
+      "liabilities": "الخصوم",
+      "totalLiabilities": "إجمالي الخصوم",
+      "equity": "حقوق الملكية",
+      "totalEquity": "إجمالي حقوق الملكية",
+      "totalLiabilitiesEquity": "إجمالي الخصوم وحقوق الملكية"
+    }
+  }
+}

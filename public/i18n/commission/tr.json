@@ -1,0 +1,162 @@
+
+{
+  "commission": {
+    "title": "Komisyonlu Şirket Yönetimi",
+    "tabs": {
+      "groups": {
+        "sales": "Satışlar",
+        "inventory": "Envanter & Satın Alma",
+        "commissions": "Komisyonlar",
+        "people": "Kişiler",
+        "general": "Genel"
+      },
+      "sales": "Satışlar",
+      "online_orders": "Online Siparişler",
+      "inventory": "Envanter",
+      "employees": "Çalışan Performansı",
+      "partners": "Partnerler",
+      "purchasing": "Satın Alma",
+      "accounting": "Muhasebe",
+      "payroll": "Maaş Bordrosu",
+      "hr": "İK",
+      "manage_employees": "Çalışanları Yönet",
+      "public_page": "Genel Sayfa",
+      "ai_assistant": "Yapay Zeka Asistanı",
+      "settings": "Ayarlar",
+      "reports": "Raporlar"
+    },
+    "sales": {
+      "products": "Ürünler",
+      "seller": "Satış Elemanı",
+      "referringCompany": "Yönlendiren Şirket",
+      "noCompany": "Şirket Yok",
+      "variants": "'{{name}}' için beden ve renk seçin",
+      "available": "(Mevcut: {{stock}})"
+    },
+    "inventory": {
+      "form": {
+        "employeeCommissionRate": "Çalışan Komisyon Oranı (%)",
+        "companyCommissionRate": "Partner Şirket Komisyon Oranı (%)",
+        "variants": "Varyantlar (Beden, Renk)",
+        "addVariant": "+ Varyant Ekle"
+      },
+      "table": {
+        "size": "Beden",
+        "color": "Renk",
+        "stock": "Stok"
+      }
+    },
+    "partners": {
+      "title": "Partner Şirket Komisyonları",
+      "add": "Şirket Ekle",
+      "form": {
+        "addTitle": "Yeni Partner Şirket Ekle",
+        "name": "Şirket Adı",
+        "address": "Adres",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "taxNumber": "Vergi Numarası",
+        "commissionRate": "Komisyon Oranı (%)"
+      },
+      "card": {
+        "rate": "Komisyon Oranı",
+        "unpaidInvoices": "Ödenmemiş Faturalar",
+        "dueAmount": "Ödenecek Komisyon",
+        "payButton": "Komisyonu Öde"
+      },
+      "archiveTitle": "Ödenmiş Komisyon Geçmişi",
+      "archiveTable": {
+        "paymentDate": "Ödeme Tarihi",
+        "companyName": "Şirket Adı",
+        "amountPaid": "Ödenen Tutar",
+        "reprint": "Yeniden Yazdır",
+        "period": "Dönem"
+      },
+      "emptyArchive": "Henüz ödeme kaydı yok."
+    },
+    "commissions": {
+      "pendingTitle": "Bekleyen Çalışan Komisyonları",
+      "archiveTitle": "Ödenen Çalışan Komisyonları Geçmişi",
+      "card": {
+        "rate": "Etkin Oran: %{{rate}}",
+        "unpaidSales": "Ödenmemiş Satışlar",
+        "dueAmount": "Ödenecek Komisyon",
+        "payButton": "Komisyonu Öde"
+      },
+      "archiveTable": {
+        "paymentDate": "Ödeme Tarihi",
+        "employeeName": "Çalışan Adı",
+        "amountPaid": "Ödenen Tutar",
+        "period": "Dönem"
+      },
+      "emptyArchive": "Henüz ödeme kaydı yok.",
+      "emptyPending": "Komisyon oranı ayarlanmış çalışan yok.",
+      "receipt": {
+        "title": "Çalışan Komisyon Fişi",
+        "employee": "Çalışan",
+        "table": {
+          "category": "Kategori",
+          "totalSales": "Toplam Satışlar",
+          "commission": "Komisyon"
+        },
+        "footer": {
+          "totalSales": "Toplam Satışlar:",
+          "totalCommission": "Toplam Ödenen Komisyon:"
+        }
+      }
+    },
+    "receipt": {
+      "title": "Şirket Komisyon Faturası",
+      "company": "Şirket",
+      "date": "Tarih",
+      "table": {
+        "category": "Kategori",
+        "totalSales": "Toplam Satış",
+        "commission": "Hak Edilen Komisyon",
+        "commissionRate": "Oran %"
+      },
+      "footer": {
+        "totalInvoices": "Toplam Fatura",
+        "totalSales": "Toplam Satış",
+        "totalCommission": "Toplam Hak Edilen Komisyon",
+        "companyRate": "Şirket Oranı:",
+        "productsRateAvg": "Ort. Ürün Oranı:",
+        "totalRateAvg": "Toplam Ort. Oran:"
+      }
+    },
+    "settings": {
+      "title": "Komisyon Ayarları"
+    },
+    "reports": {
+        "dailyPayments": "Günlük Ödemeler Raporu"
+    }
+  },
+  "mock": {
+    "categories": {
+        "womenswear": "Kadın Giyim",
+        "menswear": "Erkek Giyim"
+    },
+     "colors": {
+        "red": "Kırmızı",
+        "blue": "Mavi",
+        "black": "Siyah"
+    }
+  },
+  "loyalty": {
+    "title": "Sadakat Programı",
+    "enable": "Sadakat programını etkinleştir",
+    "earningRate": {
+      "label": "Puan Kazanma Oranı",
+      "description": "Para birimi başına puan."
+    },
+    "redemptionRate": {
+      "label": "Puan Kullanma Oranı",
+      "description": "İndirim birimi başına puan."
+    },
+    "tiersTitle": "Sadakat Seviyeleri",
+    "addTier": "Seviye Ekle",
+    "discountValue": "Sadakat İndirimi",
+    "availablePoints": "{{name}} adlı kullanıcının puanları: {{points}}",
+    "redeemPlaceholder": "Kullanılacak puanlar"
+  }
+}

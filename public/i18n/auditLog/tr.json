@@ -1,0 +1,26 @@
+{
+  "auditLog": {
+    "title": "Denetim Kaydı",
+    "description": "Şirket hesabınızda gerçekleştirilen önemli eylemleri izleyin.",
+    "descriptionSystem": "Tüm platformda gerçekleştirilen önemli eylemleri izleyin.",
+    "loginHistory": {
+      "title": "Giriş Geçmişi",
+      "user": "Kullanıcı",
+      "ip": "IP Adresi",
+      "location": "Konum",
+      "timestamp": "Zaman"
+    },
+    "filters": {
+      "allUsers": "Tüm Kullanıcılar",
+      "search": "Detaylarda ara..."
+    },
+    "table": {
+      "user": "Kullanıcı",
+      "action": "Eylem",
+      "details": "Detaylar",
+      "date": "Tarih"
+    },
+    "empty": "Denetim kaydı girdisi yok.",
+    "USER_LOGIN": "Kullanıcı {{location}} konumundan giriş yaptı (IP: {{ip}})"
+  }
+}

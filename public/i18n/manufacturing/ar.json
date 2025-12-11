@@ -1,0 +1,90 @@
+{
+    "manufacturing": {
+        "title": "التصنيع",
+        "tabs": {
+            "dashboard": "لوحة التحكم",
+            "projects": "المشاريع",
+            "blueprint_designer": "مصمم المخططات",
+            "raw_materials": "المواد الخام",
+            "finished_goods": "المنتجات النهائية",
+            "purchasing": "المشتريات",
+            "customers": "العملاء",
+            "accounting": "المحاسبة",
+            "employees": "الموظفين",
+            "hr": "الموارد البشرية",
+            "public_page": "الصفحة العامة",
+            "settings": "الإعدادات"
+        },
+        "mobile": {
+            "scan_materials": "مسح المواد",
+            "view_blueprints": "عرض المخططات"
+        },
+        "projects": {
+            "title": "إدارة المشاريع",
+            "add": "إضافة مشروع",
+            "empty": "لم يتم إضافة أي مشاريع بعد.",
+            "details": "التفاصيل",
+            "blueprint": "المخطط",
+            "table": {
+                "name": "اسم المشروع",
+                "customer": "العميل",
+                "status": "الحالة",
+                "startDate": "تاريخ البدء",
+                "cost": "التكلفة التقديرية"
+            },
+            "statuses": {
+                "new": "جديد",
+                "in_progress": "قيد التنفيذ",
+                "completed": "مكتمل",
+                "on_hold": "قيد الانتظار"
+            }
+        },
+        "form": {
+            "addTitle": "إضافة مشروع جديد",
+            "editTitle": "تعديل المشروع",
+            "name": "اسم المشروع",
+            "description": "الوصف",
+            "customer": "العميل",
+            "selectCustomer": "اختر عميل",
+            "status": "الحالة",
+            "startDate": "تاريخ البدء",
+            "estimatedCost": "التكلفة التقديرية",
+            "blueprintAndDimensions": "المخطط والأبعاد",
+            "blueprintUpload": "صورة المخطط",
+            "dimensions": "الأبعاد",
+            "dim": {
+                "description": "الوصف",
+                "length": "الطول",
+                "width": "العرض",
+                "height": "الارتفاع",
+                "unit": "الوحدة",
+                "notes": "ملاحظات",
+                "addDimension": "إضافة بعد"
+            }
+        },
+        "blueprint": {
+            "list": "المخططات",
+            "newName": "مخطط جديد",
+            "selectPrompt": "لبدء العمل، اختر مخططًا من القائمة.",
+            "tools": {
+                "select": "تحديد وتحريك",
+                "rectangle": "مستطيل",
+                "circle": "دائرة",
+                "line": "خط",
+                "text": "نص",
+                "polygon": "مضلع",
+                "eraser": "ممحاة"
+            },
+            "properties": {
+                "title": "الخصائص",
+                "fill": "لون التعبئة",
+                "stroke": "لون الحد",
+                "strokeWidth": "عرض الحد",
+                "text": "أدخل نصًا"
+            }
+        }
+    },
+    "companyTypes": {
+        "manufacturing": "تصنيع"
+    }
+}

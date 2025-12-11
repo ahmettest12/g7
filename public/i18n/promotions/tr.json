@@ -1,0 +1,72 @@
+
+{
+   "promotions": {
+    "title": "Promosyonlar",
+    "add": "Promosyon Ekle",
+    "edit": "Promosyonu Düzenle",
+    "table": {
+      "name": "Promosyon Adı",
+      "type": "Tür"
+    },
+    "types": {
+      "BOGO": "X Al, Y Götür",
+      "CATEGORY_DISCOUNT": "Kategori İndirimi",
+      "BUNDLE_DEAL": "Paket Fırsatı",
+      "TIERED_DISCOUNT": "Kademeli İndirim",
+      "GLOBAL_DISCOUNT": "Genel İndirim"
+    },
+    "templates": {
+      "bogo_1_1_free": "Bir alana bir bedava",
+      "bogo_2_2_free": "İki alana iki bedava",
+      "bogo_1_1_discount": "Bir alana ikincisi indirimli",
+      "bogo_custom": "Özel Teklif (X Al, Y Götür)",
+      "global_discount": "Tüm ürünlerde indirim",
+      "tiered_discount": "Miktara göre kademeli indirim",
+      "category_discount": "Kategori indirimi",
+      "bundle_deal": "Paket fırsatı (sabit fiyat)"
+    },
+    "statuses": {
+      "active": "Aktif",
+      "inactive": "Pasif"
+    },
+    "form": {
+      "name": "Promosyon Adı",
+      "description": "Açıklama (genel gösterim için)",
+      "generateWithAi": "Yapay Zeka ile Oluştur",
+      "type": "Promosyon Türü",
+      "active": "Promosyon Aktif",
+      "scheduling": "Zamanlama (İsteğe Bağlı)",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi",
+      "time": "Belirli Zaman (Happy Hour)",
+      "startTime": "Başlangıç Saati",
+      "endTime": "Bitiş Saati",
+      "categoryName": "Kategori Adı",
+      "discountPercentage": "İndirim Yüzdesi (%)",
+      "buyProducts": "Satın Alınacak Ürünler",
+      "buyQuantity": "Satın Alma Miktarı",
+      "getProducts": "Alınacak Ürünler",
+      "getQuantity": "Alma Miktarı",
+      "getDiscountPercentage": "Alınan Üründeki İndirim Yüzdesi (%)",
+      "bogoDescription": "Örnek: 'Ürün A'dan 2 adet alana, 'Ürün B'den 1 adet %50 indirimli. Ücretsiz bir ürün için indirim yüzdesini 100 olarak ayarlayın.",
+      "bundleProducts": "Paket Ürünleri",
+      "bundlePrice": "Paket Fiyatı",
+      "tieredDiscount": "İndirim Kademeleri",
+      "tieredDescription": "Örnek: 3 adet alana %10 indirim; 5 adet alana %20 indirim. İndirim seçilen ürünlere uygulanır.",
+      "addTier": "Kademe Ekle",
+      "tierQuantity": "Miktar",
+      "applicableProducts": "Uygulanacak Ürünler",
+      "aiPrompt": "'{{name}}' adlı bir {{type}} promosyonu için kısa, akılda kalıcı bir tanıtım açıklaması yazın. Detaylar: {{details}}",
+      "applyTo": "Uygulama Kapsamı",
+      "allProducts": "Tüm Ürünler",
+      "specificCategories": "Belirli Kategoriler",
+      "specificProducts": "Belirli Ürünler",
+      "getSameItem": "Aynı ürünü al",
+      "buyCategories": "Satın Alma Kategorileri"
+    },
+    "delete": {
+      "title": "Promosyonu Sil",
+      "message": "'{{name}}' adlı promosyonu silmek istediğinizden emin misiniz?"
+    }
+  }
+}

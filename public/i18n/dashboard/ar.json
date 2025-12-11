@@ -1,0 +1,112 @@
+
+{
+  "dashboard": {
+    "totalCompanies": "إجمالي الشركات",
+    "activeSubscriptions": "الاشتراكات النشطة",
+    "monthlyRevenue": "الإيرادات الشهرية",
+    "totalUsers": "إجمالي المستخدمين",
+    "newCompaniesChart": {
+      "title": "الشركات الجديدة (آخر 7 أيام)"
+    },
+    "companyTypeDistribution": {
+      "title": "توزيع أنواع الشركات"
+    },
+    "branches": {
+      "main": "الفرع الرئيسي"
+    },
+    "companyId": "الرقم التعريفي للشركة",
+    "kpi": {
+        "todaysSales": "مبيعات اليوم",
+        "activeTables": "الطاولات النشطة",
+        "pendingOrders": "الطلبات المعلقة",
+        "upcomingReservations": "حجوزات اليوم",
+        "customerCount": "عدد العملاء",
+        "lowStockItems": "أصناف منخفضة المخزون",
+        "heldCarts": "فواتير معلقة",
+        "occupancy": "نسبة الإشغال",
+        "arrivals": "وصول اليوم",
+        "departures": "مغادرة اليوم",
+        "dirtyRooms": "غرف للتنظيف",
+        "totalRevenue": "إجمالي الإيرادات",
+        "grossProfit": "الربح الإجمالي",
+        "totalExpenses": "إجمالي المصروفات",
+        "expenseBreakdown": "تفصيل المصروفات",
+        "cogs": "تكلفة البضاعة المباعة",
+        "payroll": "الرواتب",
+        "purchases": "المشتريات",
+        "employeesAtBranch": "موظفو الفرع",
+        "activeBranches": "الفروع النشطة",
+        "totalOrdersToday": "طلبات اليوم"
+    },
+    "storage": {
+        "title": "استخدام التخزين",
+        "used": "المستخدم: {{usage}} ميجابايت / {{limit}} جيجابايت",
+        "override": "(حد مخصص)",
+        "fromPlan": "(من الباقة)",
+        "upgrade": "ترقية الباقة"
+    },
+    "aiBriefing": {
+        "title": "موجز المساعد الذكي"
+    },
+    "activity": {
+        "title": "النشاط الأخير",
+        "newSale": "عملية بيع جديدة بقيمة {{total}} ر.س",
+        "newReservation": "حجز جديد لـ {{name}}",
+        "checkIn": "النزيل {{name}} قام بتسجيل الدخول",
+        "maintenance": "طلب صيانة للغرفة {{room}}"
+    },
+    "topProducts": {
+        "title": "المنتجات الأكثر مبيعاً هذا الشهر"
+    },
+    "salesChart": {
+        "title": "أداء المبيعات (آخر 7 أيام)"
+    },
+    "branchPerformance": {
+        "title": "أداء الفروع (هذا الشهر)"
+    },
+    "todaysSales": "مبيعات اليوم",
+    "thisMonthsSales": "مبيعات هذا الشهر",
+    "lowStockItems": "أصناف منخفضة المخزون",
+    "salesLast7Days": "المبيعات في آخر 7 أيام",
+    "manageBranch": "إدارة الفرع"
+  },
+  "superAdminDashboard": {
+    "title": "لوحة تحكم المدير العام",
+    "auditLog": "سجل التدقيق",
+    "settings": "إعدادات النظام",
+    "publicPages": "الصفحات العامة",
+    "subscriptionPlans": "باقات الاشتراك",
+    "platformBilling": "فوترة المنصة",
+    "backToList": "العودة إلى القائمة",
+    "companies": "الشركات",
+    "actions": {
+      "manage": "إدارة"
+    }
+  },
+  "settings": {
+    "employees": {
+      "title": "موظفو النظام",
+      "add": "إضافة موظف",
+      "table": {
+        "name": "الاسم / البريد الإلكتروني",
+        "permissions": "الصلاحيات"
+      }
+    },
+    "currencies": {
+      "title": "العملات",
+      "add": "إضافة عملة",
+      "code": "الرمز",
+      "name": "الاسم",
+      "list": "قائمة العملات"
+    },
+    "profile": {
+      "title": "الملف الشخصي"
+    }
+  },
+  "currencies": {
+    "sar": "ريال سعودي",
+    "usd": "دولار أمريكي",
+    "try": "ليرة تركية",
+    "egp": "جنيه مصري"
+  }
+}

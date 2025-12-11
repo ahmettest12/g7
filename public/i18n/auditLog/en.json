@@ -1,0 +1,26 @@
+{
+  "auditLog": {
+    "title": "Audit Log",
+    "description": "Track important actions taken within your company account.",
+    "descriptionSystem": "Track important actions taken across the entire platform.",
+    "loginHistory": {
+      "title": "Login History",
+      "user": "User",
+      "ip": "IP Address",
+      "location": "Location",
+      "timestamp": "Time"
+    },
+    "filters": {
+      "allUsers": "All Users",
+      "search": "Search details..."
+    },
+    "table": {
+      "user": "User",
+      "action": "Action",
+      "details": "Details",
+      "date": "Date"
+    },
+    "empty": "No audit log entries.",
+    "USER_LOGIN": "User logged in from {{location}} (IP: {{ip}})"
+  }
+}

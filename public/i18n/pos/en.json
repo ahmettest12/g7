@@ -1,0 +1,71 @@
+{
+    "pos": {
+        "quantity": "Qty",
+        "price": "Price",
+        "discount": "Discount",
+        "totalDiscount": "Total Discount",
+        "subtotal": "Subtotal",
+        "netSubtotal": "Net Subtotal",
+        "tax": "Tax ({{taxName}} {{rate}}%)",
+        "taxAmount": "Tax Amount",
+        "total": "Total",
+        "hold": "Hold",
+        "pay": "Pay",
+        "clearBill": "New Bill (F6)",
+        "clearBillShort": "Clear All",
+        "emptyCart": "Start by adding products to the cart.",
+        "deleteItem": "Delete Item"
+    },
+    "numpad": {
+        "qty": "Qty",
+        "price": "Price",
+        "disc": "Disc %"
+    },
+    "paymentModal": {
+        "summary": "Order Summary",
+        "refundDue": "Refund Due",
+        "completeReturn": "Complete Return",
+        "completeExchange": "Complete Transaction",
+        "refundMethod": "Choose refund method:",
+        "refundToCard": "Refund to Card",
+        "refundCash": "Refund Cash",
+        "chargeToRoom": "Charge to Room",
+        "payByCard": "Pay by Card (B)",
+        "payByCash": "Pay by Cash (C)",
+        "amountReceived": "Amount Tendered",
+        "change": "Change",
+        "amountDue": "Amount Due",
+        "confirmCash": "Confirm Cash Payment",
+        "splitPayment": "Split Payment",
+        "fullPayment": "Full Payment",
+        "remainingAmount": "Remaining Amount",
+        "paidAmount": "Paid Amount",
+        "paymentsList": "Payments List",
+        "noPaymentsAdded": "No payments added yet.",
+        "fillRemaining": "Fill Remaining",
+        "enterAmount": "Enter Amount",
+        "addCard": "Add Card",
+        "addCash": "Add Cash",
+        "finalizeSplit": "Finalize Split Payment",
+        "paidBy": "Paid by"
+    },
+    "paymentMethods": {
+        "cash": "Cash",
+        "card": "Card",
+        "room_charge": "Room Charge",
+        "split": "Split Payment"
+    },
+    "shortcuts": {
+        "title": "Keyboard Shortcuts",
+        "description": "Use these keys to speed up your workflow on the POS screen.",
+        "key": "Key",
+        "action": "Action",
+        "pay": "Open Payment Screen",
+        "hold": "Hold Bill (Supermarket)",
+        "send": "Send to Kitchen (Restaurant)",
+        "search": "Focus Product Search",
+        "back": "Go Back / Exit POS",
+        "clearBill": "Clear Bill / New Bill",
+        "toggleNumpad": "Show/Hide Keypad"
+    }
+}

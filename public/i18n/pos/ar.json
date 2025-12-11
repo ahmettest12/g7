@@ -1,0 +1,71 @@
+{
+    "pos": {
+        "quantity": "الكمية",
+        "price": "السعر",
+        "discount": "الخصم",
+        "totalDiscount": "إجمالي الخصم",
+        "subtotal": "المجموع الفرعي",
+        "netSubtotal": "صافي المجموع",
+        "tax": "ضريبة ({{taxName}} {{rate}}%)",
+        "taxAmount": "مبلغ الضريبة",
+        "total": "الإجمالي",
+        "hold": "تعليق",
+        "pay": "دفع",
+        "clearBill": "فاتورة جديدة (F6)",
+        "clearBillShort": "مسح الكل",
+        "emptyCart": "ابدأ بإضافة منتجات إلى السلة.",
+        "deleteItem": "حذف الصنف"
+    },
+    "numpad": {
+        "qty": "الكمية",
+        "price": "السعر",
+        "disc": "خصم %"
+    },
+    "paymentModal": {
+        "summary": "ملخص الطلب",
+        "refundDue": "المبلغ المسترد",
+        "completeReturn": "إكمال الإرجاع",
+        "completeExchange": "إكمال العملية",
+        "refundMethod": "اختر طريقة الاسترداد:",
+        "refundToCard": "استرداد للبطاقة",
+        "refundCash": "استرداد نقدي",
+        "chargeToRoom": "تحميل على الغرفة",
+        "payByCard": "الدفع بالبطاقة (B)",
+        "payByCash": "الدفع نقداً (C)",
+        "amountReceived": "المبلغ المستلم",
+        "change": "الباقي",
+        "amountDue": "المبلغ المستحق",
+        "confirmCash": "تأكيد الدفع النقدي",
+        "splitPayment": "دفع مجزأ",
+        "fullPayment": "دفع كامل",
+        "remainingAmount": "المبلغ المتبقي",
+        "paidAmount": "المبلغ المدفوع",
+        "paymentsList": "قائمة الدفعات",
+        "noPaymentsAdded": "لم يتم إضافة دفعات بعد.",
+        "fillRemaining": "إكمال المتبقي",
+        "enterAmount": "أدخل المبلغ",
+        "addCard": "إضافة بطاقة",
+        "addCash": "إضافة نقد",
+        "finalizeSplit": "إتمام الدفع المجزأ",
+        "paidBy": "مدفوع بـ"
+    },
+    "paymentMethods": {
+        "cash": "نقدي",
+        "card": "بطاقة",
+        "room_charge": "تحميل على الغرفة",
+        "split": "دفع مجزأ"
+    },
+    "shortcuts": {
+        "title": "اختصارات لوحة المفاتيح",
+        "description": "استخدم هذه المفاتيح لتسريع عملك في شاشة نقاط البيع.",
+        "key": "المفتاح",
+        "action": "الإجراء",
+        "pay": "فتح شاشة الدفع",
+        "hold": "تعليق الفاتورة (سوبرماركت)",
+        "send": "إرسال للمطبخ (مطعم)",
+        "search": "التركيز على بحث المنتج",
+        "back": "رجوع / خروج من نقطة البيع",
+        "clearBill": "مسح الفاتورة / فاتورة جديدة",
+        "toggleNumpad": "إظهار/إخفاء لوحة المفاتيح"
+    }
+}

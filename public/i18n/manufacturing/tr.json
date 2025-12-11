@@ -1,0 +1,90 @@
+{
+    "manufacturing": {
+        "title": "Üretim",
+        "tabs": {
+            "dashboard": "Kontrol Paneli",
+            "projects": "Projeler",
+            "blueprint_designer": "Teknik Resim Tasarımcısı",
+            "raw_materials": "Ham Maddeler",
+            "finished_goods": "Bitmiş Ürünler",
+            "purchasing": "Satın Alma",
+            "customers": "Müşteriler",
+            "accounting": "Muhasebe",
+            "employees": "Çalışanlar",
+            "hr": "İK",
+            "public_page": "Genel Sayfa",
+            "settings": "Ayarlar"
+        },
+        "mobile": {
+            "scan_materials": "Malzeme Tara",
+            "view_blueprints": "Teknik Resimleri Görüntüle"
+        },
+        "projects": {
+            "title": "Proje Yönetimi",
+            "add": "Proje Ekle",
+            "empty": "Henüz proje eklenmedi.",
+            "details": "Detaylar",
+            "blueprint": "Teknik Resim",
+            "table": {
+                "name": "Proje Adı",
+                "customer": "Müşteri",
+                "status": "Durum",
+                "startDate": "Başlangıç Tarihi",
+                "cost": "Tahmini Maliyet"
+            },
+            "statuses": {
+                "new": "Yeni",
+                "in_progress": "Devam Ediyor",
+                "completed": "Tamamlandı",
+                "on_hold": "Beklemede"
+            }
+        },
+        "form": {
+            "addTitle": "Yeni Proje Ekle",
+            "editTitle": "Projeyi Düzenle",
+            "name": "Proje Adı",
+            "description": "Açıklama",
+            "customer": "Müşteri",
+            "selectCustomer": "Bir müşteri seçin",
+            "status": "Durum",
+            "startDate": "Başlangıç Tarihi",
+            "estimatedCost": "Tahmini Maliyet",
+            "blueprintAndDimensions": "Teknik Resim & Boyutlar",
+            "blueprintUpload": "Teknik Resim Yükle",
+            "dimensions": "Boyutlar",
+            "dim": {
+                "description": "Açıklama",
+                "length": "Uzunluk",
+                "width": "Genişlik",
+                "height": "Yükseklik",
+                "unit": "Birim",
+                "notes": "Notlar",
+                "addDimension": "Boyut Ekle"
+            }
+        },
+        "blueprint": {
+            "list": "Teknik Resimler",
+            "newName": "Yeni Teknik Resim",
+            "selectPrompt": "Başlamak için listeden bir teknik resim seçin.",
+            "tools": {
+                "select": "Seç & Taşı",
+                "rectangle": "Dikdörtgen",
+                "circle": "Daire",
+                "line": "Çizgi",
+                "text": "Metin",
+                "polygon": "Çokgen",
+                "eraser": "Silgi"
+            },
+            "properties": {
+                "title": "Özellikler",
+                "fill": "Dolgu Rengi",
+                "stroke": "Çizgi Rengi",
+                "strokeWidth": "Çizgi Kalınlığı",
+                "text": "Metin girin"
+            }
+        }
+    },
+    "companyTypes": {
+        "manufacturing": "Üretim"
+    }
+}

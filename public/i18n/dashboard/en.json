@@ -1,0 +1,112 @@
+
+{
+  "dashboard": {
+    "totalCompanies": "Total Companies",
+    "activeSubscriptions": "Active Subscriptions",
+    "monthlyRevenue": "Monthly Revenue",
+    "totalUsers": "Total Users",
+    "newCompaniesChart": {
+      "title": "New Companies (Last 7 Days)"
+    },
+    "companyTypeDistribution": {
+      "title": "Company Type Distribution"
+    },
+    "branches": {
+      "main": "Main Branch"
+    },
+    "companyId": "Company ID",
+     "kpi": {
+        "todaysSales": "Today's Sales",
+        "activeTables": "Active Tables",
+        "pendingOrders": "Pending Orders",
+        "upcomingReservations": "Today's Reservations",
+        "customerCount": "Customer Count",
+        "lowStockItems": "Low Stock Items",
+        "heldCarts": "Held Carts",
+        "occupancy": "Occupancy",
+        "arrivals": "Today's Arrivals",
+        "departures": "Today's Departures",
+        "dirtyRooms": "Dirty Rooms",
+        "totalRevenue": "Total Revenue",
+        "grossProfit": "Gross Profit",
+        "totalExpenses": "Total Expenses",
+        "expenseBreakdown": "Expense Breakdown",
+        "cogs": "Cost of Goods Sold",
+        "payroll": "Payroll",
+        "purchases": "Purchases",
+        "employeesAtBranch": "Branch Employees",
+        "activeBranches": "Active Branches",
+        "totalOrdersToday": "Today's Orders"
+    },
+    "storage": {
+        "title": "Storage Usage",
+        "used": "Used: {{usage}}MB / {{limit}}GB",
+        "override": "(Override)",
+        "fromPlan": "(From Plan)",
+        "upgrade": "Upgrade Plan"
+    },
+    "aiBriefing": {
+        "title": "AI Morning Briefing"
+    },
+    "activity": {
+        "title": "Recent Activity",
+        "newSale": "New sale of {{total}} SAR",
+        "newReservation": "New reservation for {{name}}",
+        "checkIn": "Guest {{name}} checked in",
+        "maintenance": "Maintenance request for room {{room}}"
+    },
+    "topProducts": {
+        "title": "Top Products This Month"
+    },
+    "salesChart": {
+        "title": "Sales Performance (Last 7 Days)"
+    },
+    "branchPerformance": {
+        "title": "Branch Performance (This Month)"
+    },
+    "todaysSales": "Today's Sales",
+    "thisMonthsSales": "This Month's Sales",
+    "lowStockItems": "Low Stock Items",
+    "salesLast7Days": "Sales in Last 7 Days",
+    "manageBranch": "Manage Branch"
+  },
+  "superAdminDashboard": {
+    "title": "Super Admin Dashboard",
+    "auditLog": "Audit Log",
+    "settings": "System Settings",
+    "publicPages": "Public Pages",
+    "subscriptionPlans": "Subscription Plans",
+    "platformBilling": "Platform Billing",
+    "backToList": "Back to List",
+    "companies": "Companies",
+    "actions": {
+      "manage": "Manage"
+    }
+  },
+  "settings": {
+    "employees": {
+      "title": "System Employees",
+      "add": "Add Employee",
+      "table": {
+        "name": "Name / Email",
+        "permissions": "Permissions"
+      }
+    },
+    "currencies": {
+      "title": "Currencies",
+      "add": "Add New Currency",
+      "code": "Code",
+      "name": "Name",
+      "list": "Currencies List"
+    },
+    "profile": {
+      "title": "Profile"
+    }
+  },
+  "currencies": {
+    "sar": "Saudi Riyal",
+    "usd": "US Dollar",
+    "try": "Turkish Lira",
+    "egp": "Egyptian Pound"
+  }
+}

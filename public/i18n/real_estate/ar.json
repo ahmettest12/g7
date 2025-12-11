@@ -1,0 +1,167 @@
+{
+  "companyTypes": {
+    "real_estate": "وكالة عقارية"
+  },
+  "dashboard": {
+    "kpi": {
+      "propertiesForSale": "عقارات للبيع",
+      "propertiesForRent": "عقارات للإيجار",
+      "contractsThisMonth": "عقود هذا الشهر",
+      "totalSalesValue": "إجمالي قيمة المبيعات",
+      "totalCommissionPaid": "إجمالي العمولات المدفوعة"
+    }
+  },
+  "realEstate": {
+    "title": "إدارة العقارات",
+    "tabs": {
+      "listings": "قوائم العقارات",
+      "map": "عرض الخريطة",
+      "contracts": "العقود",
+      "agents": "الوكلاء",
+      "crm": "إدارة علاقات العملاء (CRM)",
+      "commissions": "العمولات",
+      "publicPage": "الصفحة العامة",
+      "settings": "الإعدادات",
+      "analytics": "التحليلات"
+    },
+    "mobile": {
+      "my_listings": "عقاراتي",
+      "dashboard": "لوحة التحكم",
+      "clients": "العملاء"
+    },
+    "map": {
+      "title": "خريطة العقارات المتاحة",
+      "forSale": "للبيع",
+      "forRent": "للإيجار"
+    },
+    "filters": {
+      "listingType": "نوع القائمة",
+      "all": "الكل",
+      "forSale": "للبيع",
+      "forRent": "للإيجار",
+      "priceRange": "نطاق السعر",
+      "minPrice": "أدنى سعر",
+      "maxPrice": "أعلى سعر",
+      "bedrooms": "غرف نوم",
+      "bathrooms": "حمامات",
+      "any": "أي",
+      "reset": "إعادة تعيين"
+    },
+    "analytics": {
+      "title": "التحليلات",
+      "totalSalesValue": "إجمالي قيمة المبيعات",
+      "totalRentalIncome": "إجمالي دخل الإيجارات (سنوي)",
+      "propertiesSold": "العقارات المباعة",
+      "propertiesRented": "العقارات المؤجرة",
+      "salesTrend": "اتجاه المبيعات (آخر 6 أشهر)",
+      "listingStatus": "حالة العقارات",
+      "agentPerformance": "أداء الوكلاء"
+    },
+    "listings": {
+      "title": "قوائم العقارات",
+      "add": "إضافة عقار",
+      "edit": "تعديل العقار",
+      "createContract": "إنشاء عقد",
+      "table": {
+        "title": "العنوان",
+        "type": "النوع",
+        "status": "الحالة",
+        "price": "السعر / الإيجار",
+        "agent": "الوكيل"
+      },
+      "form": {
+        "addTitle": "إضافة عقار جديد",
+        "editTitle": "تعديل العقار",
+        "title": "عنوان العقار",
+        "description": "الوصف",
+        "address": "العنوان",
+        "price": "سعر البيع",
+        "rent": "الإيجار الشهري",
+        "area": "المساحة (م²)",
+        "bedrooms": "غرف النوم",
+        "bathrooms": "دورات المياه",
+        "imageUrls": "الصور",
+        "agent": "الوكيل المسؤول",
+        "selectAgent": "اختر وكيلاً"
+      },
+      "types": {
+        "sale": "بيع",
+        "rent": "إيجار"
+      },
+      "statuses": {
+        "available": "متاح",
+        "sold": "مباع",
+        "rented": "مؤجر"
+      }
+    },
+    "contracts": {
+      "title": "العقود",
+      "salesTitle": "عقود البيع",
+      "rentalsTitle": "عقود الإيجار",
+      "empty": "لا توجد عقود بعد.",
+      "table": {
+        "listing": "العقار",
+        "customer": "العميل",
+        "agent": "الوكيل",
+        "date": "التاريخ",
+        "price": "المبلغ"
+      },
+      "modal": {
+        "titleSale": "إنشاء عقد بيع لـ: {{title}}",
+        "titleRent": "إنشاء عقد إيجار لـ: {{title}}",
+        "customer": "العميل",
+        "selectCustomer": "اختر عميلاً",
+        "salePrice": "سعر البيع النهائي",
+        "rentAmount": "مبلغ الإيجار",
+        "commission": "العمولة المحسوبة",
+        "saleDate": "تاريخ البيع",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "create": "إنشاء العقد"
+      }
+    },
+    "commissions": {
+      "unpaidContracts": "عقود غير مدفوعة",
+      "agentName": "اسم الوكيل"
+    },
+    "customers": {
+      "interests": "الاهتمامات",
+      "interestsPlaceholder": "شراء، إيجار، فيلا، شقة...",
+      "budget": "الميزانية"
+    },
+    "documents": {
+      "title": "المستندات",
+      "add": "إضافة مستند",
+      "namePlaceholder": "اسم المستند (مثال: صك الملكية)",
+      "urlPlaceholder": "رابط المستند"
+    },
+    "publicPage": {
+        "heroSubtitle": "منزلك المثالي في انتظارك",
+        "listingsTitle": "عقاراتنا المتاحة"
+    },
+    "settings": {
+        "title": "إعدادات الوكالة العقارية"
+    }
+  },
+  "notifications": {
+    "listingAdded": "تمت إضافة العقار بنجاح.",
+    "listingUpdated": "تم تحديث العقار بنجاح.",
+    "listingDeleted": "تم حذف العقار بنجاح.",
+    "contractCreated": "تم إنشاء العقد بنجاح."
+  },
+  "employee": {
+      "profile": {
+          "tabs": {
+              "performance": "الأداء"
+          },
+          "performance": {
+              "realEstate": {
+                  "totalSalesValue": "إجمالي قيمة المبيعات",
+                  "totalRentalValue": "إجمالي قيمة الإيجارات",
+                  "salesCount": "عدد المبيعات",
+                  "rentalsCount": "عدد الإيجارات"
+              }
+          }
+      }
+  }
+}

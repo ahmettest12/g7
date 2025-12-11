@@ -1,0 +1,236 @@
+{
+  "automotive": {
+    "title": "إدارة السيارات",
+    "editProduct": "تعديل المنتج",
+    "tabs": {
+        "publicPage": "الصفحة العامة",
+        "pos": "نقاط البيع (قطع)",
+        "partsInventory": "مخزون القطع",
+        "salesHistory": "سجل المبيعات",
+        "cashDrawer": "درج النقدية",
+        "customers": "العملاء",
+        "settings": "الإعدادات"
+    },
+    "contracts": {
+        "title": "العقود",
+        "idNumber": "رقم الهوية / الإقامة",
+        "address": "العنوان",
+        "vin": "رقم الهيكل",
+        "plate": "اللوحة",
+        "color": "اللون",
+        "mileage": "المسافة المقطوعة",
+        "saleContract": "عقد بيع مركبة",
+        "rentalContract": "عقد إيجار مركبة",
+        "contractDate": "تاريخ العقد",
+        "seller": "البائع",
+        "buyer": "المشتري",
+        "renter": "المستأجر",
+        "representative": "الممثل",
+        "vehicleDetails": "تفاصيل المركبة",
+        "saleDetails": "تفاصيل البيع",
+        "rentalDetails": "تفاصيل الإيجار",
+        "salePrice": "سعر البيع",
+        "rentalPeriod": "فترة الإيجار",
+        "from": "من",
+        "to": "إلى",
+        "dailyRate": "السعر اليومي",
+        "termsAndConditions": "الشروط والأحكام",
+        "sellerSignature": "توقيع الطرف الأول",
+        "buyerSignature": "توقيع الطرف الثاني (المشتري)",
+        "renterSignature": "توقيع الطرف الثاني (المستأجر)",
+        "priceInWordsPlaceholder": "فقط...",
+        "printContract": "طباعة العقد",
+        "emptyTitle": "لا توجد عقود",
+        "emptyDescription": "لإنشاء عقد جديد، اذهب إلى 'مخزون المركبات' واختر 'إنشاء عقد' لمركبة متاحة.",
+        "terms": {
+            "sale": {
+                "p1": "أقر الطرف الأول، {{companyName}}، بأنه باع المركبة الموضحة أعلاه إلى الطرف الثاني.",
+                "p2": "أقر الطرف الثاني بأنه عاين المركبة المعاينة التامة النافية للجهالة وقبل شرائها بالحالة الراهنة.",
+                "p3": "تم الاتفاق على السعر الموضح أعلاه، ويعتبر توقيع الطرف الثاني على هذا العقد إقرارًا منه باستلام المركبة وسداد كامل المبلغ.",
+                "p4": "يلتزم الطرف الثاني بنقل ملكية المركبة خلال المدة النظامية."
+            },
+            "rental": {
+                "p1": "أجر الطرف الأول، {{companyName}}، المركبة الموضحة أعلاه إلى الطرف الثاني للفترة المحددة.",
+                "p2": "يلتزم الطرف الثاني بالمحافظة على المركبة وإعادتها بنفس الحالة التي استلمها بها.",
+                "p3": "يتحمل الطرف الثاني مسؤولية جميع المخالفات المرورية وأي أضرار تلحق بالمركبة خلال فترة الإيجار.",
+                "p4": "يتم دفع مبلغ الإيجار بالكامل عند توقيع العقد."
+            }
+        },
+        "wizard": {
+            "step1": "العميل والنوع",
+            "step2": "التفاصيل المالية",
+            "step3": "المراجعة والإتمام"
+        },
+        "selectCustomer": "اختر عميل حالي",
+        "customer": "العميل",
+        "downPayment": "الدفعة الأولى",
+        "paymentMethod": "طريقة السداد",
+        "paymentMethods": {
+            "cash": "نقدي",
+            "installments": "أقساط"
+        },
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "securityDeposit": "مبلغ التأمين",
+        "insuranceDetails": "تفاصيل التأمين",
+        "notes": "ملاحظات إضافية",
+        "auditNotes": "ملاحظات التدقيق (اختياري)",
+        "auditNotesPlaceholder": "مثال: تم التحقق من جميع المستندات.",
+        "auditConfirm": "أؤكد أنني قمت بمراجعة جميع تفاصيل العقد وهي صحيحة.",
+        "finalize": "إتمام وإنشاء العقد",
+        "auditorSignature": "توقيع المدقق",
+        "errors": {
+            "noCustomer": "يرجى اختيار عميل قبل المتابعة."
+        },
+        "notifications": {
+            "saleSuccess": "تم تسجيل عقد البيع بنجاح.",
+            "rentalSuccess": "تم تسجيل عقد الإيجار بنجاح."
+        }
+    },
+    "inventory": {
+      "title": "مخزون السيارات",
+      "vehicleInventory": "مخزون المركبات",
+      "addProduct": "إضافة مركبة",
+      "sellRent": "بيع / تأجير",
+      "createContract": "إنشاء عقد",
+      "empty": "لم يتم إضافة أي مركبات بعد.",
+      "table": {
+        "product": "المركبة",
+        "type": "النوع",
+        "status": "الحالة",
+        "price": "السعر"
+      },
+      "form": {
+        "type": "النوع",
+        "types": {
+          "sale": "بيع",
+          "rental": "إيجار",
+          "part": "قطعة غيار"
+        },
+        "status": "الحالة",
+        "statuses": {
+          "available": "متاح",
+          "sold": "مباع",
+          "rented": "مؤجر"
+        },
+        "make": "ماركة",
+        "model": "موديل",
+        "year": "سنة الصنع",
+        "price": "سعر البيع",
+        "dailyRate": "سعر الإيجار اليومي",
+        "partPrice": "سعر القطعة",
+        "features": "الميزات",
+        "featuresPlaceholder": "مفصولة بفاصلة، مثال: ناقل حركة أوتوماتيكي، فتحة سقف",
+        "imageUrls": "الصور",
+        "basicInfo": "معلومات أساسية",
+        "series": "الفئة",
+        "condition": "حالة المركبة",
+        "conditions": {
+          "new": "جديدة",
+          "used": "مستعملة"
+        },
+        "mileage": "المسافة المقطوعة (كم)",
+        "bodyType": "نوع الهيكل",
+        "engineSpecs": "مواصفات المحرك",
+        "enginePower": "قوة المحرك (حصان)",
+        "engineVolume": "حجم المحرك (سي سي)",
+        "fuelType": "نوع الوقود",
+        "fuelTypes": {
+          "gasoline": "بنزين",
+          "diesel": "ديزل",
+          "electric": "كهرباء",
+          "hybrid": "هجين"
+        },
+        "transmission": "ناقل الحركة",
+        "transmissions": {
+          "automatic": "أوتوماتيك",
+          "manual": "يدوي"
+        },
+        "drivetrain": "نظام الدفع",
+        "drivetrains": {
+          "fwd": "دفع أمامي",
+          "rwd": "دفع خلفي",
+          "awd": "دفع رباعي"
+        },
+        "otherInfo": "معلومات أخرى",
+        "color": "اللون",
+        "warranty": "الضمان",
+        "warrantyOptions": {
+          "yes": "نعم",
+          "no": "لا"
+        },
+        "heavilyDamaged": "أضرار جسيمة",
+        "plate": "اللوحة / بلد المنشأ",
+        "pricing": "التسعير",
+        "description": "الوصف"
+      }
+    },
+    "publicPage": {
+      "details": {
+        "price": "السعر",
+        "dailyRate": "لليوم",
+        "specifications": "المواصفات",
+        "make": "الماركة",
+        "model": "الموديل",
+        "year": "السنة",
+        "features": "الميزات",
+        "inquireNow": "استفسر الآن"
+      }
+    },
+    "sales": {
+      "title": "المبيعات والإيجارات",
+      "salesHistory": "سجل المبيعات",
+      "activeRentals": "الإيجارات النشطة",
+      "completeRental": "إنهاء الإيجار",
+      "transactionModal": {
+        "titleSale": "تسجيل عملية بيع",
+        "titleRental": "تسجيل عملية إيجار",
+        "customer": "العميل",
+        "salesperson": "مندوب المبيعات",
+        "salePrice": "سعر البيع",
+        "dailyRate": "السعر اليومي",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "completeSale": "إتمام البيع",
+        "startRental": "بدء الإيجار"
+      },
+      "table": {
+        "date": "التاريخ",
+        "vehicle": "المركبة",
+        "customer": "العميل",
+        "salesperson": "مندوب المبيعات",
+        "price": "السعر",
+        "profit": "الربح",
+        "period": "الفترة",
+        "status": "الحالة",
+        "actions": "إجراءات"
+      }
+    },
+    "settings": {
+      "title": "إعدادات السيارات"
+    },
+    "service": {
+      "title": "مركز الخدمة",
+      "workOrders": "أوامر العمل",
+      "newWorkOrder": "أمر عمل جديد",
+      "addTitle": "إضافة أمر عمل جديد",
+      "editTitle": "تعديل أمر العمل",
+      "technician": "الفني",
+      "statuses": {
+        "pending": "قيد الانتظار",
+        "in_progress": "قيد التنفيذ",
+        "awaiting_parts": "في انتظار قطع الغيار",
+        "completed": "مكتمل"
+      },
+      "notifications": {
+        "workOrderAdded": "تمت إضافة أمر العمل بنجاح."
+      }
+    },
+    "mobile": {
+      "scan_vin": "مسح رقم الهيكل",
+      "service_bay": "قسم الخدمة",
+      "new_contract": "عقد جديد",
+      "start_process": "بدء العملية"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "title": "التمويل الشخصي",
+    "tabs": {
+      "dashboard": "لوحة التحكم",
+      "transactions": "المعاملات",
+      "goals": "الأهداف",
+      "spreadsheet": "جدول البيانات",
+      "settings": "الإعدادات"
+    },
+    "dashboard": {
+      "expenseChart": "توزيع المصروفات",
+      "aiInsight": "رؤى ذكية",
+      "generatingInsight": "جاري إنشاء رؤى..."
+    },
+    "summary": {
+      "income": "الدخل الشهري",
+      "expense": "المصروفات الشهرية",
+      "balance": "الرصيد المتبقي"
+    },
+    "form": {
+      "title": "إضافة معاملة جديدة",
+      "add": "إضافة معاملة",
+      "expense": "مصروف",
+      "income": "دخل",
+      "description": "الوصف",
+      "amount": "المبلغ"
+    },
+    "transactions": {
+      "title": "سجل المعاملات"
+    },
+    "searchPlaceholder": "بحث في المعاملات...",
+    "deleteConfirm": "هل أنت متأكد من حذف هذه المعاملة؟",
+    "aiInputPlaceholder": "أضف معاملة جديدة (مثال: دفعت 50 ريال للغداء)...",
+    "scanReceipt": "مسح إيصال",
+    "scanReceiptTitle": "مسح إيصال جديد",
+    "capture": "التقاط",
+    "processingReceipt": "جاري تحليل الإيصال...",
+    "categories": {
+      "salary": "راتب",
+      "food": "طعام",
+      "transport": "مواصلات",
+      "housing": "سكن",
+      "bills": "فواتير",
+      "entertainment": "ترفيه",
+      "health": "صحة",
+      "shopping": "تسوق",
+      "other": "أخرى",
+      "savings": "ادخار"
+    },
+    "budgets": {
+      "title": "تقدم الميزانية",
+      "budgeted": "الميزانية",
+      "spentOf": "أنفقت {{spent}} من {{budgeted}}",
+      "overBudget": "تجاوزت الميزانية!"
+    },
+    "reports": {
+      "title": "تقرير المصروفات",
+      "category": "الفئة",
+      "amount": "المبلغ",
+      "percentage": "النسبة المئوية"
+    },
+    "spreadsheet": {
+      "sheets": {
+        "sheet": "ورقة"
+      },
+      "toolbar": {
+        "bold": "عريض",
+        "italic": "مائل",
+        "textColor": "لون النص",
+        "bgColor": "لون الخلفية",
+        "alignLeft": "محاذاة لليسار",
+        "alignCenter": "توسيط",
+        "alignRight": "محاذاة لليمين",
+        "addRow": "إضافة صف",
+        "removeRow": "إزالة صف",
+        "addColumn": "إضافة عمود",
+        "removeColumn": "إزالة عمود"
+      },
+      "renameSheetPrompt": "أدخل اسمًا جديدًا للورقة:",
+      "deleteSheetConfirm": "هل أنت متأكد من حذف هذه الورقة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "sheets": {
+        "newSheetName": "ورقة {{number}}"
+      }
+    },
+    "goals": {
+      "title": "الأهداف المالية",
+      "add": "إضافة هدف جديد",
+      "empty": "لم تقم بتحديد أي أهداف بعد. ابدأ الآن!",
+      "target": "الهدف",
+      "progress": "التقدم",
+      "addFunds": "إضافة أموال",
+      "editGoal": "تعديل الهدف",
+      "form": {
+        "addTitle": "إنشاء هدف مالي جديد",
+        "editTitle": "تعديل الهدف المالي",
+        "name": "اسم الهدف",
+        "namePlaceholder": "مثال: سيارة جديدة، صندوق سفر",
+        "targetAmount": "المبلغ المستهدف",
+        "targetDate": "التاريخ المستهدف (اختياري)"
+      },
+      "addFundsModal": {
+        "title": "إضافة أموال إلى '{{name}}'",
+        "amount": "المبلغ المراد إضافته",
+        "contribute": "مساهمة"
+      },
+      "aiSuggestionTitle": "اقتراح ذكي",
+      "aiSuggestionLoading": "جاري البحث عن أهداف مناسبة لك...",
+      "aiSuggestionCreate": "إنشاء هذا الهدف",
+      "aiSuggestionPrompt": "بصفتك مستشارًا ماليًا، انظر إلى دخل المستخدم ({{income}}) ومصروفاته ({{expenses}}) خلال الشهر الماضي. اقترح هدف ادخار واحدًا واقعيًا يمكن تحقيقه. اذكر اسم الهدف والمبلغ المقترح والمدة الزمنية المتوقعة لتحقيقه باللغة العربية. اجعل الاقتراح قصيرًا ومحفزًا. مثال: 'يمكنك توفير 5000 ريال لصندوق الطوارئ في 3 أشهر'. لا تقدم سوى الاقتراح."
+    },
+     "aiInsightPrompt": "بصفتك مستشارًا ماليًا، قم بتحليل بيانات المستخدم هذه لشهر {{currentMonth}}. قدم نصيحة واحدة موجزة وقابلة للتنفيذ. بيانات: الدخل الإجمالي={{totalIncome}} {{currency}}، إجمالي المصاريف={{totalExpenses}} {{currency}}، الرصيد={{balance}} {{currency}}. الميزانيات={{budgets}}. المصاريف حسب الفئة={{expenses}}. خاطب المستخدم مباشرة باللغة العربية."
+  }
+}

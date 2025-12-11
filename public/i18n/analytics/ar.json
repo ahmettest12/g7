@@ -1,0 +1,23 @@
+{
+  "analytics": {
+    "title": "التحليلات",
+    "tabs": {
+        "sales": "المبيعات",
+        "visitors": "الزوار"
+    },
+    "totalRevenue": "إجمالي الإيرادات",
+    "totalOrders": "إجمالي الطلبات",
+    "avgOrderValue": "متوسط قيمة الطلب",
+    "newCustomers": "عملاء جدد",
+    "performance": "أداء آخر 7 أيام",
+    "chartPlaceholder": "لا توجد بيانات كافية لعرض الرسم البياني.",
+    "totalVisitors": "إجمالي الزوار",
+    "uniqueCountries": "دول فريدة",
+    "topCountries": "أكثر الدول زيارة",
+    "topReferrers": "أهم مصادر الزيارات",
+    "recentVisitors": "الزوار الجدد",
+    "time": "الوقت",
+    "country": "الدولة",
+    "referrer": "المصدر"
+  }
+}

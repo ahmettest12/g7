@@ -1,0 +1,401 @@
+{
+  "common": {
+    "appName": "ProCount",
+    "appTitle": "Comprehensive Accounting Software",
+    "greeting": "Hello, {{name}}",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "open": "Open",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "unassigned": "Unassigned",
+    "undefined": "Undefined",
+    "notApplicable": "N/A",
+    "searchPlaceholder": "Search...",
+    "finish": "Finish",
+    "monthly": "monthly",
+    "status": "Status",
+    "actions": "Actions",
+    "total": "Total",
+    "back": "Back",
+    "close": "Close",
+    "submit": "Submit",
+    "print": "Print",
+    "editReservation": "Edit Reservation",
+    "noAccess": "Access Denied",
+    "noData": {
+      "default": "No data available.",
+      "makeSelections": "Make selections to see details."
+    },
+    "featureUnderDevelopment": "This feature is under development.",
+    "example": "Example",
+    "currency": "SAR",
+    "optional": "Optional",
+    "loading": "Loading",
+    "phone": "Phone",
+    "address": "Address",
+    "printInvoice": "Print Invoice",
+    "next": "Next",
+    "overrides": "Overrides",
+    "zoomOut": "Zoom Out",
+    "zoomIn": "Zoom In",
+    "reset": "Reset",
+    "unknown": "Unknown",
+    "printPdf": "Print / PDF",
+    "and": " and ",
+    "unknownUser": "Unknown User",
+    "saveChanges": "Save Changes",
+    "all": "All",
+    "upload": "Upload",
+    "free": "Free",
+    "paymentSource": {
+      "title": "Select Payment Source",
+      "cashDrawer": "Cash Drawer",
+      "bankAccount": "Company Account",
+      "drawerNotAvailable": "Cash drawer not available (No open shift)"
+    },
+    "expenses": {
+      "title": "Expenses",
+      "add": "Add Expense",
+      "empty": "No expenses have been recorded yet.",
+      "form": {
+        "title": "Add New Expense",
+        "description": "Description",
+        "amount": "Amount",
+        "date": "Date",
+        "category": "Expense Category",
+        "selectCategory": "Select a category",
+        "paymentSource": "Payment Source"
+      },
+      "table": {
+        "date": "Date",
+        "description": "Description",
+        "category": "Category",
+        "amount": "Amount"
+      }
+    },
+    "recordWastage": "Record Waste",
+    "wastageWarning": "This action will deduct the quantity from inventory and record it as an expense (loss) at cost value.",
+    "quantity": "Quantity",
+    "reason": "Reason",
+    "selectReason": "Select Reason",
+    "confirm": "Confirm",
+    "itemName": "Item Name",
+    "reasons": {
+        "expired": "Expired",
+        "damaged": "Damaged / Broken",
+        "theft": "Theft / Shortage",
+        "internalUse": "Internal Use",
+        "other": "Other"
+    },
+    "addCurrencyHint": "To add more currencies (e.g., USD), go to Settings > General > Exchange Rates."
+  },
+  "brochureGenerator": {
+    "brochureName": "Ad for: {{promoName}}",
+    "free": "Free!",
+    "discount": "{{percent}}% OFF",
+    "bogo": {
+      "sameProduct": {
+        "title": "Buy {{buy}}, Get {{get}} {{discount}}",
+        "subtitle": "on {{name}}"
+      },
+      "diffProduct": {
+        "title": "Buy {{name}}",
+        "subtitle": "and get {{name}} {{discount}}"
+      }
+    },
+    "global": {
+      "title": "{{percent}}% OFF",
+      "subtitle": "On All Products!"
+    },
+    "validity": "Offer valid from {{startDate}} to {{endDate}}"
+  },
+  "reports": {
+    "printPdf": "Print / PDF"
+  },
+  "aiAssistant": {
+    "title": "AI Assistant",
+    "inputPlaceholder": "Ask about your sales, top products, or trends...",
+    "send": "Send"
+  },
+  "theme": {
+    "toggle": "Toggle light/dark mode"
+  },
+  "pwa": {
+    "install": "Install",
+    "installApp": "Install App"
+  },
+  "features": {
+    "pos": "Point of Sale",
+    "accounting": "Accounting",
+    "inventory": "Inventory",
+    "crm": "CRM",
+    "payroll": "Payroll",
+    "commissions": "Commissions",
+    "ecommerce": "E-commerce"
+  },
+  "languages": {
+    "ar": "Arabic",
+    "en": "English",
+    "tr": "Turkish"
+  },
+  "loginPage": {
+    "welcomeBack": "Welcome Back!",
+    "signInToContinue": "Sign in to continue to your dashboard.",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "********",
+    "demoCredentials": "Demo credentials (password: {{password}})",
+    "tagline": "A comprehensive and flexible accounting solution to efficiently manage all your business needs.",
+    "roles": {
+      "superAdmin": "Super Admin",
+      "restaurantAdmin": "Restaurant Admin",
+      "waiter": "Waiter",
+      "kitchen": "Kitchen Staff",
+      "cashier": "Cashier"
+    }
+  },
+  "layout": {
+    "sidebar": {
+      "brand": "ProCount",
+      "favorites": "Favorites"
+    },
+    "header": {
+      "welcome": "Welcome,"
+    }
+  },
+  "superAdminDashboard": {
+    "title": "Super Admin Dashboard",
+    "mainDashboard": "Main Dashboard",
+    "myCompany": "My Company",
+    "addCompany": "Add Company",
+    "companies": "Companies",
+    "publicPages": "Public Pages",
+    "publicPagesManagement": {
+      "title": "System Public Pages Management",
+      "add": "Add Page",
+      "deleteConfirm": "Are you sure you want to delete this page?",
+      "table": {
+        "name": "Name",
+        "type": "Type",
+        "slug": "Slug"
+      },
+      "actions": {
+        "editContent": "Edit Content",
+        "settings": "Settings"
+      },
+      "types": {
+        "PLATFORM_OFFERS": "Offers Aggregator",
+        "COMPANIES_AGGREGATOR": "Companies Aggregator"
+      },
+      "addModal": {
+        "title": "Add New System Page",
+        "name": "Page Name",
+        "type": "Page Type"
+      },
+      "settingsModal": {
+        "title": "Companies Aggregator Settings",
+        "visibleCompanies": "Visible Companies"
+      }
+    },
+    "subscriptionPlans": "Subscription Plans",
+    "platformBilling": "Platform Billing",
+    "auditLog": "Audit Log",
+    "settings": "System Settings",
+    "totalCompanies": "Total Companies",
+    "activeSubscriptions": "Active Subscriptions",
+    "monthlyRevenue": "Monthly Revenue",
+    "searchCompanyOrAdmin": "Search by company or admin name...",
+    "table": {
+      "branches": "Branches"
+    },
+    "actions": {
+      "manage": "Manage",
+      "addBranch": "+ Add Branch"
+    },
+    "activeRevenue": "Active Monthly Revenue",
+    "potentialRevenue": "Potential Revenue (Expired)",
+    "expiredSubscriptions": "Expired Subscriptions",
+    "subscriptionDetails": "Subscription Revenue Details",
+    "company": "Company",
+    "plan": "Plan",
+    "expiryDate": "Expiry Date",
+    "totalActiveMonthly": "Total Active Monthly Revenue:",
+    "companyTypeDistribution": "Company Type Distribution"
+  },
+  "companyCard": {
+    "admin": "Admin",
+    "publicPage": "Public Page",
+    "subscription": "Subscription",
+    "editAdmin": "Edit Admin",
+    "editCompany": "Edit Company",
+    "loginAs": "Login as Admin"
+  },
+  "impersonation": {
+    "banner": "You are currently viewing as {{name}}.",
+    "return": "Return to Super Admin"
+  },
+  "companyTypes": {
+    "restaurant": "Restaurant",
+    "supermarket": "Supermarket",
+    "commission": "Commission-Based",
+    "personal": "Personal Finance",
+    "hotel": "Hotel",
+    "automotive": "Automotive",
+    "real_estate": "Real Estate",
+    "manufacturing": "Manufacturing",
+    "tourism": "Tourism",
+    "ecommerce": "E-commerce",
+    "website_builder": "Website Builder",
+    "appointment": "Appointment-based",
+    "unknown": "Unknown"
+  },
+  "subscriptions": {
+    "status": {
+      "active": "Active",
+      "expired": "Expired"
+    },
+    "management": {
+      "title": "Subscription Plan Management",
+      "add": "Add New Plan",
+      "edit": "Edit",
+      "deleteConfirm": "Are you sure you want to delete this plan? This may affect subscribed companies.",
+      "storage": "Storage"
+    }
+  },
+  "subscriptionPlans": {
+    "basic": {
+      "name": "Basic Plan"
+    },
+    "premium": {
+      "name": "Premium Plan"
+    },
+    "professional": {
+      "name": "Professional Plan"
+    }
+  },
+  "modals": {
+    "addCompany": {
+      "title": "Add New Company",
+      "details": "Company Details",
+      "name": "Company Name",
+      "type": "Company Type",
+      "features": "Enabled Features",
+      "adminAccount": "Company Admin Account",
+      "adminEmail": "Admin Email",
+      "password": "Password",
+      "addButton": "Add Company",
+      "adminNameTemplate": "{{name}} Admin",
+      "adminFirstName": "Admin First Name",
+      "adminLastName": "Admin Last Name",
+      "adminPhone": "Admin Phone",
+      "adminAddress": "Admin Address",
+      "companyInfo": "Company Information",
+      "commissions": "Base Commission Rates (%)",
+      "taxNumber": "Tax Number"
+    },
+    "editCompany": {
+      "title": "Edit Company: {{name}}",
+      "customDomain": "Custom Domain (optional)",
+      "domainPlaceholder": "example.com",
+      "saveButton": "Save Changes",
+      "storageOverride": "Storage Limit Override (MB)",
+      "storageOverridePlaceholder": "Leave empty to use plan limit"
+    },
+    "editAdmin": {
+      "title": "Edit Admin: {{name}}",
+      "name": "Admin Name",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Leave blank to keep current password"
+    },
+    "manageSubscription": {
+      "title": "Manage Subscription: {{name}}",
+      "plan": "Subscription Plan",
+      "expiryDate": "Expiry Date",
+      "currentStatus": "Current Status"
+    },
+    "planForm": {
+      "addTitle": "Add New Subscription Plan",
+      "editTitle": "Edit Subscription Plan",
+      "name": "Plan Name",
+      "price": "Monthly Price",
+      "storage": "Storage Limit (MB)",
+      "features": "Enabled Features"
+    }
+  },
+  "settings": {
+    "app": {
+      "title": "App Settings"
+    },
+    "notifications": {
+      "enable": "Enable Notifications",
+      "description": "Show in-app toast notifications."
+    },
+    "employees": {
+      "title": "System Employees",
+      "add": "Add Employee",
+      "table": {
+        "name": "Name / Email",
+        "permissions": "Permissions"
+      }
+    },
+    "currencies": {
+      "title": "Currencies",
+      "add": "Add New Currency",
+      "code": "Code",
+      "name": "Name",
+      "list": "Currencies List"
+    },
+    "profile": {
+      "title": "Profile"
+    },
+    "general": {
+      "title": "General Settings",
+      "companyInfo": "Company Info",
+      "address": "Address",
+      "currency": {
+        "label": "Currency",
+        "placeholder": "$",
+        "description": "Used currency"
+      },
+      "logo": { "title": "Logo" },
+      "mainBranchName": "Main Branch Name",
+      "mainBranchPhone": "Main Branch Phone",
+      "mainBranchNamePlaceholder": "Leave empty if single branch",
+      "mainBranchPhonePlaceholder": "e.g. +1...",
+      "branchRenaming": { "title": "Branch Renaming", "branchLabel": "Branch Name" },
+      "exchangeRates": {
+        "title": "Exchange Rates",
+        "description": "Define exchange rates relative to your base currency ({{currency}}). e.g., 1 USD = 3.75 {{currency}}.",
+        "currency": "Currency (e.g. USD)",
+        "rate": "Rate (e.g. 3.75)",
+        "add": "Add",
+        "empty": "No exchange rates defined."
+      }
+    },
+    "formatting": {
+      "title": "Formatting",
+      "calendar": { "label": "Calendar", "gregorian": "Gregorian", "hijri": "Hijri" },
+      "dateFormat": { "label": "Date Format", "description": "Choose how dates are displayed across the application.", "yyyymmdd": "YYYY-MM-DD", "ddmmyyyy": "DD/MM/YYYY", "monthdyyyy": "Month D, YYYY" }
+    }
+  },
+  "tax": {
+    "settings": "Tax Settings",
+    "general": "General Tax",
+    "enable": "Enable General Tax",
+    "name": "Tax Name",
+    "namePlaceholder": "e.g. VAT",
+    "rate": "Rate (%)",
+    "productSpecific": "Item Tax (%)"
+  },
+  "defaults": {
+    "currency": "SAR"
+  }
+}

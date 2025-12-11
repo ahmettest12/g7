@@ -1,0 +1,152 @@
+
+{
+  "employee": {
+    "title": "Employee Management",
+    "add": "Add Employee",
+    "noEmployeesFound": "No employees found",
+    "table": {
+      "name": "Name",
+      "role": "Role",
+      "permissions": "Permissions",
+      "commission": "Commission",
+      "salary": "Salary",
+      "branch": "Branch"
+    },
+    "form": {
+      "name": "Employee Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "address": "Address",
+      "email": "Email",
+      "password": "Password",
+      "passwordPlaceholder": "Leave blank to keep current password",
+      "salary": "Base Salary",
+      "commission": "Commission Rate (%)",
+      "role": "Role",
+      "accountRole": "Account Role",
+      "permissionRole": "Permission Role",
+      "branch": "Branch",
+      "job": "Job Title (Preset)",
+      "jobPlaceholder": "To apply permissions, choose a job title",
+      "jobPresets": {
+        "waiter": "Waiter",
+        "cashier": "Cashier",
+        "kitchen": "Kitchen",
+        "floorManager": "Floor Manager",
+        "delivery": "Delivery Driver"
+      },
+      "customPermissions": "Custom Permissions",
+      "editButton": "Edit Employee",
+      "addButton": "Add Employee",
+      "publiclyBookable": "Publicly Bookable",
+      "workingHours": "Working Hours",
+      "days": {
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday"
+      }
+    },
+    "roles": {
+      "employee": "Employee",
+      "admin": "Company Admin",
+      "branch_manager": "Branch Manager"
+    },
+    "permissions": {
+      "CAN_ACCESS_POS": "Access POS",
+      "CAN_USE_PRICE_CHECKER": "Use Price Checker",
+      "CAN_APPROVE_ORDERS": "Approve Orders",
+      "CAN_ACCESS_KDS": "Access KDS",
+      "CAN_MANAGE_DELIVERY": "Manage Delivery",
+      "CAN_VIEW_REPORTS": "View Reports",
+      "CAN_MANAGE_INVENTORY": "Manage Inventory",
+      "CAN_MANAGE_RESERVATIONS": "Manage Reservations",
+      "CAN_USE_INVENTORY_SCANNER": "Use Inventory Scanner",
+      "CAN_MANAGE_FRONT_DESK": "Manage Front Desk",
+      "CAN_MANAGE_HOUSEKEEPING": "Manage Housekeeping",
+      "CAN_MANAGE_MAINTENANCE": "Manage Maintenance",
+      "CAN_PERFORM_MAINTENANCE": "Perform Maintenance",
+      "CAN_MANAGE_ECOMMERCE_ORDERS": "Manage E-commerce Orders",
+      "CAN_MANAGE_ECOMMERCE_PRODUCTS": "Manage E-commerce Products",
+      "HAS_GENERAL_PERMISSIONS": "General Permissions (Acts as Branch Manager)",
+      "all": "All Permissions"
+    },
+    "noPermissions": "No specific permissions",
+    "profile": {
+      "title": "Employee Profile",
+      "backToList": "Back to Employee List",
+      "totalPaid": "Total Salary Paid",
+      "totalCommission": "Total Commission Paid",
+      "attendanceToday": "Attendance Today",
+      "lastCheckIn": "Last Check-in",
+      "tabs": {
+        "hr": "HR Details",
+        "payroll": "Payroll History",
+        "commission": "Commission History",
+        "performance": "Performance",
+        "preferences": "Preferences",
+        "working_hours": "Working Hours"
+      },
+      "hrDetails": {
+        "recentAttendance": "Recent Attendance",
+        "leaveRequests": "Leave Requests",
+        "documents": "Documents"
+      },
+      "noData": "No data for this section.",
+      "performance": {
+        "realEstate": {
+          "totalSalesValue": "Total Sales Value",
+          "totalRentalValue": "Total Rental Value",
+          "salesCount": "Sales Count",
+          "rentalsCount": "Rentals Count"
+        }
+      },
+      "cannotViewAdmin": "You do not have permission to view or edit the company admin's profile."
+    },
+    "performance": {
+      "title": "Performance Metrics",
+      "totalSales": "Total Sales",
+      "numberOfSales": "Number of Invoices",
+      "avgSaleValue": "Average Sale Value",
+      "totalCommission": "Total Commission Earned"
+    },
+     "preferences": {
+      "title": "Interface Preferences",
+      "restaurant": {
+        "defaultMain": "Default Main View",
+        "defaultManagement": "Default Management View"
+      },
+      "supermarket": {
+        "defaultMain": "Default Main View"
+      },
+      "hotel": {
+        "defaultMain": "Default Main View"
+      }
+    }
+  },
+  "roles": {
+    "title": "Roles & Permissions",
+    "add": "Add Role",
+    "deleteConfirm": "Are you sure you want to delete the '{{name}}' role?",
+    "table": {
+      "name": "Role Name",
+      "permissions": "Permissions",
+      "permissionCount": "{{count}} permissions"
+    },
+    "form": {
+      "editTitle": "Edit Role",
+      "addTitle": "Add New Role",
+      "name": "Role Name",
+      "permissions": "Permissions",
+      "selectRole": "Select a role"
+    },
+    "empty": "No roles have been defined yet."
+  },
+  "branches": {
+    "select": "Select a branch"
+  }
+}

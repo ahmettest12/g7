@@ -1,0 +1,71 @@
+{
+    "pos": {
+        "quantity": "Miktar",
+        "price": "Fiyat",
+        "discount": "İndirim",
+        "totalDiscount": "Toplam İndirim",
+        "subtotal": "Ara Toplam",
+        "netSubtotal": "Net Ara Toplam",
+        "tax": "Vergi ({{taxName}} %{{rate}})",
+        "taxAmount": "Vergi Tutarı",
+        "total": "Toplam",
+        "hold": "Beklet",
+        "pay": "Öde",
+        "clearBill": "Yeni Fiş (F6)",
+        "clearBillShort": "Tümünü Temizle",
+        "emptyCart": "Sepete ürün ekleyerek başlayın.",
+        "deleteItem": "Ürünü Sil"
+    },
+    "numpad": {
+        "qty": "Miktar",
+        "price": "Fiyat",
+        "disc": "İnd %"
+    },
+    "paymentModal": {
+        "summary": "Sipariş Özeti",
+        "refundDue": "İade Tutarı",
+        "completeReturn": "İadeyi Tamamla",
+        "completeExchange": "İşlemi Tamamla",
+        "refundMethod": "İade yöntemini seçin:",
+        "refundToCard": "Karta İade",
+        "refundCash": "Nakit İade",
+        "chargeToRoom": "Odaya Yaz",
+        "payByCard": "Kartla Öde (B)",
+        "payByCash": "Nakit Öde (C)",
+        "amountReceived": "Alınan Tutar",
+        "change": "Para Üstü",
+        "amountDue": "Ödenecek Tutar",
+        "confirmCash": "Nakit Ödemeyi Onayla",
+        "splitPayment": "Parçalı Ödeme",
+        "fullPayment": "Tam Ödeme",
+        "remainingAmount": "Kalan Tutar",
+        "paidAmount": "Ödenen Tutar",
+        "paymentsList": "Ödeme Listesi",
+        "noPaymentsAdded": "Henüz ödeme eklenmedi.",
+        "fillRemaining": "Kalanı Doldur",
+        "enterAmount": "Tutar Girin",
+        "addCard": "Kart Ekle",
+        "addCash": "Nakit Ekle",
+        "finalizeSplit": "Parçalı Ödemeyi Tamamla",
+        "paidBy": "Ödeme Yöntemi"
+    },
+    "paymentMethods": {
+        "cash": "Nakit",
+        "card": "Kredi Kartı",
+        "room_charge": "Odaya Yaz",
+        "split": "Parçalı Ödeme"
+    },
+    "shortcuts": {
+        "title": "Klavye Kısayolları",
+        "description": "POS ekranında iş akışınızı hızlandırmak için bu tuşları kullanın.",
+        "key": "Tuş",
+        "action": "Eylem",
+        "pay": "Ödeme Ekranını Aç",
+        "hold": "Fişi Beklet (Süpermarket)",
+        "send": "Mutfağa Gönder (Restoran)",
+        "search": "Ürün Aramaya Odaklan",
+        "back": "Geri Git / POS'tan Çık",
+        "clearBill": "Fişi Temizle / Yeni Fiş",
+        "toggleNumpad": "Tuş Takımını Göster/Gizle"
+    }
+}

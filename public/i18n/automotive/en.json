@@ -1,0 +1,238 @@
+{
+  "automotive": {
+    "title": "Automotive Management",
+    "editProduct": "Edit Product",
+    "tabs": {
+        "publicPage": "Public Page",
+        "pos": "POS (Parts)",
+        "partsInventory": "Parts Inventory",
+        "salesHistory": "Sales History",
+        "cashDrawer": "Cash Drawer",
+        "customers": "Customers",
+        "settings": "Settings"
+    },
+    "contracts": {
+        "title": "Contracts",
+        "idNumber": "ID / Iqama Number",
+        "address": "Address",
+        "vin": "VIN",
+        "plate": "Plate",
+        "color": "Color",
+        "mileage": "Mileage",
+        "saleContract": "Vehicle Sale Contract",
+        "rentalContract": "Vehicle Rental Contract",
+        "contractDate": "Contract Date",
+        "seller": "Seller",
+        "buyer": "Buyer",
+        "renter": "Renter",
+        "representative": "Representative",
+        "vehicleDetails": "Vehicle Details",
+        "saleDetails": "Sale Details",
+        "rentalDetails": "Rental Details",
+        "salePrice": "Sale Price",
+        "rentalPeriod": "Rental Period",
+        "from": "From",
+        "to": "To",
+        "dailyRate": "Daily Rate",
+        "termsAndConditions": "Terms & Conditions",
+        "sellerSignature": "First Party Signature",
+        "buyerSignature": "Second Party Signature (Buyer)",
+        "renterSignature": "Second Party Signature (Renter)",
+        "priceInWordsPlaceholder": "Only...",
+        "printContract": "Print Contract",
+        "emptyTitle": "No Contracts Found",
+        "emptyDescription": "To create a new contract, go to 'Vehicle Inventory' and select 'Create Contract' for an available vehicle.",
+        "terms": {
+            "sale": {
+                "p1": "The First Party, {{companyName}}, acknowledges that it has sold the vehicle described above to the Second Party.",
+                "p2": "The Second Party acknowledges that they have thoroughly inspected the vehicle to their satisfaction and accepted its purchase in its current condition.",
+                "p3": "The price stated above has been agreed upon, and the Second Party's signature on this contract constitutes acknowledgment of receiving the vehicle and full payment.",
+                "p4": "The Second Party is obligated to transfer the vehicle's ownership within the legal period."
+            },
+            "rental": {
+                "p1": "The First Party, {{companyName}}, has rented the vehicle described above to the Second Party for the specified period.",
+                "p2": "The Second Party is obligated to maintain the vehicle and return it in the same condition it was received.",
+                "p3": "The Second Party is responsible for all traffic violations and any damages to the vehicle during the rental period.",
+                "p4": "The full rental amount is to be paid upon signing the contract."
+            }
+        },
+        "wizard": {
+            "step1": "Customer & Type",
+            "step2": "Financial Details",
+            "step3": "Review & Finalize"
+        },
+        "selectCustomer": "Select an existing customer",
+        "customer": "Customer",
+        "downPayment": "Down Payment",
+        "paymentMethod": "Payment Method",
+        "paymentMethods": {
+            "cash": "Cash",
+            "installments": "Installments"
+        },
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "securityDeposit": "Security Deposit",
+        "insuranceDetails": "Insurance Details",
+        "notes": "Additional Notes",
+        "auditNotes": "Audit Notes (Optional)",
+        "auditNotesPlaceholder": "e.g. All documents verified.",
+        "auditConfirm": "I confirm that I have reviewed all contract details and they are correct.",
+        "finalize": "Finalize & Create Contract",
+        "auditorSignature": "Auditor Signature",
+        "errors": {
+            "noCustomer": "Please select a customer before proceeding."
+        },
+        "notifications": {
+            "saleSuccess": "Sale contract recorded successfully.",
+            "rentalSuccess": "Rental contract recorded successfully."
+        }
+    },
+    "inventory": {
+      "title": "Vehicle Inventory",
+      "vehicleInventory": "Vehicle Inventory",
+      "addProduct": "Add Vehicle",
+      "sellRent": "Sell / Rent",
+      "createContract": "Create Contract",
+      "empty": "No vehicles have been added yet.",
+      "table": {
+        "product": "Product",
+        "type": "Type",
+        "status": "Status",
+        "price": "Price"
+      },
+      "form": {
+        "type": "Type",
+        "types": {
+          "sale": "Sale",
+          "rental": "Rental",
+          "part": "Part"
+        },
+        "status": "Status",
+        "statuses": {
+          "available": "Available",
+          "sold": "Sold",
+          "rented": "Rented"
+        },
+        "make": "Make",
+        "model": "Model",
+        "year": "Year",
+        "price": "Sale Price",
+        "dailyRate": "Daily Rental Rate",
+        "partPrice": "Part Price",
+        "features": "Features",
+        "featuresPlaceholder": "Comma-separated, e.g. Automatic, Sunroof",
+        "imageUrls": "Images",
+        "basicInfo": "Basic Info",
+        "series": "Series",
+        "condition": "Vehicle Condition",
+        "conditions": {
+          "new": "New",
+          "used": "Used"
+        },
+        "mileage": "Mileage (KM)",
+        "bodyType": "Body Type",
+        "engineSpecs": "Engine Specs",
+        "enginePower": "Engine Power (HP)",
+        "engineVolume": "Engine Volume (cc)",
+        "fuelType": "Fuel Type",
+        "fuelTypes": {
+          "gasoline": "Gasoline",
+          "diesel": "Diesel",
+          "electric": "Electric",
+          "hybrid": "Hybrid"
+        },
+        "transmission": "Transmission",
+        "transmissions": {
+          "automatic": "Automatic",
+          "manual": "Manual"
+        },
+        "drivetrain": "Drivetrain",
+        "drivetrains": {
+          "fwd": "FWD",
+          "rwd": "RWD",
+          "awd": "AWD"
+        },
+        "otherInfo": "Other Info",
+        "color": "Color",
+        "warranty": "Warranty",
+        "warrantyOptions": {
+          "yes": "Yes",
+          "no": "No"
+        },
+        "heavilyDamaged": "Heavily Damaged",
+        "plate": "Plate / Origin",
+        "pricing": "Pricing",
+        "description": "Description"
+      }
+    },
+    "publicPage": {
+      "heroSubtitle": "The Best Cars for Sale and Rent",
+      "carsTitle": "Our Showroom",
+      "details": {
+        "price": "Price",
+        "dailyRate": "Daily",
+        "specifications": "Specifications",
+        "make": "Make",
+        "model": "Model",
+        "year": "Year",
+        "features": "Features",
+        "inquireNow": "Inquire Now"
+      }
+    },
+    "sales": {
+      "title": "Sales & Rentals",
+      "salesHistory": "Sales History",
+      "activeRentals": "Active Rentals",
+      "completeRental": "Complete Rental",
+      "transactionModal": {
+        "titleSale": "Record a Sale",
+        "titleRental": "Record a Rental",
+        "customer": "Customer",
+        "salesperson": "Salesperson",
+        "salePrice": "Sale Price",
+        "dailyRate": "Daily Rate",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "completeSale": "Complete Sale",
+        "startRental": "Start Rental"
+      },
+      "table": {
+        "date": "Date",
+        "vehicle": "Vehicle",
+        "customer": "Customer",
+        "salesperson": "Salesperson",
+        "price": "Price",
+        "profit": "Profit",
+        "period": "Period",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "settings": {
+      "title": "Automotive Settings"
+    },
+    "service": {
+      "title": "Service Center",
+      "workOrders": "Work Orders",
+      "newWorkOrder": "New Work Order",
+      "addTitle": "Add New Work Order",
+      "editTitle": "Edit Work Order",
+      "technician": "Technician",
+      "statuses": {
+        "pending": "Pending",
+        "in_progress": "In Progress",
+        "awaiting_parts": "Awaiting Parts",
+        "completed": "Completed"
+      },
+      "notifications": {
+        "workOrderAdded": "Work order added successfully."
+      }
+    },
+    "mobile": {
+        "scan_vin": "Scan VIN",
+        "service_bay": "Service Bay",
+        "new_contract": "New Contract",
+        "start_process": "Start Process"
+    }
+  }
+}

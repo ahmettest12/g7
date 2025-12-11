@@ -1,0 +1,167 @@
+{
+  "companyTypes": {
+    "real_estate": "Real Estate Agency"
+  },
+  "dashboard": {
+    "kpi": {
+      "propertiesForSale": "Properties for Sale",
+      "propertiesForRent": "Properties for Rent",
+      "contractsThisMonth": "Contracts this Month",
+      "totalSalesValue": "Total Sales Value",
+      "totalCommissionPaid": "Total Commission Paid"
+    }
+  },
+  "realEstate": {
+    "title": "Real Estate Management",
+    "tabs": {
+      "listings": "Listings",
+      "map": "Map View",
+      "contracts": "Contracts",
+      "agents": "Agents",
+      "crm": "CRM",
+      "commissions": "Commissions",
+      "publicPage": "Public Page",
+      "settings": "Settings",
+      "analytics": "Analytics"
+    },
+    "mobile": {
+      "my_listings": "My Listings",
+      "dashboard": "Dashboard",
+      "clients": "Clients"
+    },
+    "map": {
+      "title": "Available Properties Map",
+      "forSale": "For Sale",
+      "forRent": "For Rent"
+    },
+    "filters": {
+      "listingType": "Listing Type",
+      "all": "All",
+      "forSale": "For Sale",
+      "forRent": "For Rent",
+      "priceRange": "Price Range",
+      "minPrice": "Min Price",
+      "maxPrice": "Max Price",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "any": "Any",
+      "reset": "Reset Filters"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "totalSalesValue": "Total Sales Value",
+      "totalRentalIncome": "Total Rental Income (Annual)",
+      "propertiesSold": "Properties Sold",
+      "propertiesRented": "Properties Rented",
+      "salesTrend": "Sales Trend (Last 6 Months)",
+      "listingStatus": "Listing Status",
+      "agentPerformance": "Agent Performance"
+    },
+    "listings": {
+      "title": "Property Listings",
+      "add": "Add Listing",
+      "edit": "Edit Listing",
+      "createContract": "Create Contract",
+      "table": {
+        "title": "Title",
+        "type": "Type",
+        "status": "Status",
+        "price": "Price / Rent",
+        "agent": "Agent"
+      },
+      "form": {
+        "addTitle": "Add New Listing",
+        "editTitle": "Edit Listing",
+        "title": "Property Title",
+        "description": "Description",
+        "address": "Address",
+        "price": "Sale Price",
+        "rent": "Monthly Rent",
+        "area": "Area (sqm)",
+        "bedrooms": "Bedrooms",
+        "bathrooms": "Bathrooms",
+        "imageUrls": "Images",
+        "agent": "Assigned Agent",
+        "selectAgent": "Select an agent"
+      },
+      "types": {
+        "sale": "Sale",
+        "rent": "Rent"
+      },
+      "statuses": {
+        "available": "Available",
+        "sold": "Sold",
+        "rented": "Rented"
+      }
+    },
+    "contracts": {
+      "title": "Contracts",
+      "salesTitle": "Sales Contracts",
+      "rentalsTitle": "Rental Contracts",
+      "empty": "No contracts yet.",
+      "table": {
+        "listing": "Property",
+        "customer": "Customer",
+        "agent": "Agent",
+        "date": "Date",
+        "price": "Amount"
+      },
+      "modal": {
+        "titleSale": "Create Sale Contract for: {{title}}",
+        "titleRent": "Create Rental Contract for: {{title}}",
+        "customer": "Customer",
+        "selectCustomer": "Select a customer",
+        "salePrice": "Final Sale Price",
+        "rentAmount": "Rent Amount",
+        "commission": "Calculated Commission",
+        "saleDate": "Sale Date",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "create": "Create Contract"
+      }
+    },
+    "commissions": {
+      "unpaidContracts": "Unpaid Contracts",
+      "agentName": "Agent Name"
+    },
+    "customers": {
+      "interests": "Interests",
+      "interestsPlaceholder": "Buy, rent, villa, apartment...",
+      "budget": "Budget"
+    },
+    "documents": {
+      "title": "Documents",
+      "add": "Add Document",
+      "namePlaceholder": "Document Name (e.g. Title Deed)",
+      "urlPlaceholder": "Document URL"
+    },
+     "publicPage": {
+        "heroSubtitle": "Your Perfect Home Awaits",
+        "listingsTitle": "Our Available Properties"
+    },
+    "settings": {
+        "title": "Real Estate Agency Settings"
+    }
+  },
+   "notifications": {
+    "listingAdded": "Listing added successfully.",
+    "listingUpdated": "Listing updated successfully.",
+    "listingDeleted": "Listing deleted successfully.",
+    "contractCreated": "Contract created successfully."
+  },
+  "employee": {
+      "profile": {
+          "tabs": {
+              "performance": "Performance"
+          },
+          "performance": {
+              "realEstate": {
+                  "totalSalesValue": "Total Sales Value",
+                  "totalRentalValue": "Total Rental Value",
+                  "salesCount": "Sales Count",
+                  "rentalsCount": "Rentals Count"
+              }
+          }
+      }
+  }
+}

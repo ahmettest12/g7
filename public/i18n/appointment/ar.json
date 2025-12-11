@@ -1,0 +1,105 @@
+{
+    "appointment": {
+        "title": "إدارة المواعيد",
+        "tabs": {
+            "dashboard": "لوحة التحكم",
+            "calendar": "التقويم",
+            "services": "الخدمات",
+            "staff": "الموظفون",
+            "customers": "العملاء",
+            "reports": "التقارير",
+            "public_page": "الصفحة العامة",
+            "settings": "الإعدادات",
+            "public_reservations": "الحجوزات الإلكترونية"
+        },
+        "calendar": {
+            "title": "تقويم المواعيد",
+            "noAppointments": "لا توجد مواعيد لهذا اليوم.",
+            "allStaff": "كل الموظفين",
+            "addAppointment": "إضافة موعد"
+        },
+        "services": {
+            "title": "إدارة الخدمات",
+            "add": "إضافة خدمة",
+            "editTitle": "تعديل الخدمة",
+            "addTitle": "إضافة خدمة جديدة",
+            "deleteTitle": "حذف الخدمة",
+            "deleteConfirm": "هل أنت متأكد من حذف خدمة '{{name}}'؟",
+            "duration": "{{count}} دقيقة",
+            "form": {
+                "name": "اسم الخدمة",
+                "description": "الوصف",
+                "duration": "المدة (دقائق)",
+                "price": "السعر"
+            }
+        },
+        "details": {
+            "title": "تفاصيل الموعد",
+            "customer": "العميل",
+            "phone": "الهاتف",
+            "service": "الخدمة",
+            "staff": "الأخصائي",
+            "dateTime": "التاريخ والوقت",
+            "notes": "الملاحظات",
+            "edit": "تعديل",
+            "cancel": "إلغاء الموعد"
+        },
+        "cancel": {
+            "title": "إلغاء الموعد",
+            "confirm": "هل أنت متأكد من رغبتك في إلغاء هذا الموعد؟"
+        },
+        "form": {
+            "editTitle": "تعديل الموعد"
+        },
+        "addModal": {
+            "title": "إضافة موعد جديد",
+            "customerName": "اسم العميل",
+            "customerPhone": "هاتف العميل",
+            "service": "الخدمة",
+            "staff": "الموظف",
+            "date": "التاريخ",
+            "time": "الوقت",
+            "notes": "ملاحظات",
+            "selectService": "-- اختر خدمة --",
+            "selectStaff": "-- اختر موظف --"
+        }
+    },
+    "publicPage": {
+        "appointment": {
+            "selectService": "اختر الخدمة",
+            "selectStaff": "اختر الأخصائي",
+            "selectDateTime": "اختر الوقت والتاريخ",
+            "yourDetails": "أدخل بياناتك",
+            "availableSlots": "الأوقات المتاحة",
+            "noSlots": "لا توجد أوقات متاحة في هذا اليوم.",
+            "back": "رجوع",
+            "next": "التالي",
+            "yourName": "الاسم الكامل",
+            "yourPhone": "رقم الهاتف",
+            "requestAppointment": "طلب موعد",
+            "success": "تم إرسال طلب موعدك بنجاح! سيتم التواصل معك للتأكيد.",
+            "confirmDetails": "تأكيد تفاصيل الموعد",
+            "service": "الخدمة",
+            "with": "مع",
+            "on": "بتاريخ",
+            "at": "الساعة",
+            "change": "تغيير",
+            "confirmYourBooking": "تأكيد حجزك",
+            "confirm": "تأكيد",
+            "sendRequest": "إرسال الطلب",
+            "bookNow": "احجز الآن",
+            "bookingSubtitle": "اختر الخدمة والوقت المناسب لك لحجز موعدك بكل سهولة."
+        }
+    },
+    "publicPageDefaults": {
+        "appointment": {
+            "heroSubtitle": "احجز موعدك بسهولة",
+            "servicesTitle": "خدماتنا",
+            "bookingTitle": "احجز موعدك"
+        }
+    },
+    "notifications": {
+        "appointmentConfirmed": "تم تأكيد الموعد لـ {{name}}.",
+        "appointmentCancelled": "تم إلغاء الموعد."
+    }
+}

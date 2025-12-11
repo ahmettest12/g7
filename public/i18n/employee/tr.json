@@ -1,0 +1,152 @@
+
+{
+  "employee": {
+    "title": "Çalışan Yönetimi",
+    "add": "Çalışan Ekle",
+    "noEmployeesFound": "Çalışan bulunamadı",
+    "table": {
+      "name": "İsim",
+      "role": "Rol",
+      "permissions": "İzinler",
+      "commission": "Komisyon",
+      "salary": "Maaş",
+      "branch": "Şube"
+    },
+    "form": {
+      "name": "Çalışan Adı",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "phone": "Telefon Numarası",
+      "address": "Adres",
+      "email": "E-posta",
+      "password": "Şifre",
+      "passwordPlaceholder": "Mevcut şifreyi korumak için boş bırakın",
+      "salary": "Temel Maaş",
+      "commission": "Komisyon Oranı (%)",
+      "role": "Rol",
+      "accountRole": "Hesap Rolü",
+      "permissionRole": "İzin Rolü",
+      "branch": "Şube",
+      "job": "Görev (Ön Ayarlı)",
+      "jobPlaceholder": "İzinleri uygulamak için bir görev seçin",
+      "jobPresets": {
+        "waiter": "Garson",
+        "cashier": "Kasiyer",
+        "kitchen": "Mutfak",
+        "floorManager": "Kat Sorumlusu",
+        "delivery": "Teslimat Sürücüsü"
+      },
+      "customPermissions": "Özel İzinler",
+      "editButton": "Çalışanı Düzenle",
+      "addButton": "Çalışan Ekle",
+      "publiclyBookable": "Halka Açık Randevu Alınabilir",
+      "workingHours": "Çalışma Saatleri",
+      "days": {
+        "sunday": "Pazar",
+        "monday": "Pazartesi",
+        "tuesday": "Salı",
+        "wednesday": "Çarşamba",
+        "thursday": "Perşembe",
+        "friday": "Cuma",
+        "saturday": "Cumartesi"
+      }
+    },
+    "roles": {
+      "employee": "Çalışan",
+      "admin": "Şirket Yöneticisi",
+      "branch_manager": "Şube Müdürü"
+    },
+    "permissions": {
+      "CAN_ACCESS_POS": "POS'a Eriş",
+      "CAN_USE_PRICE_CHECKER": "Fiyat Kontrol Cihazını Kullan",
+      "CAN_APPROVE_ORDERS": "Siparişleri Onayla",
+      "CAN_ACCESS_KDS": "Mutfak Ekranına Eriş",
+      "CAN_MANAGE_DELIVERY": "Teslimatı Yönet",
+      "CAN_VIEW_REPORTS": "Raporları Görüntüle",
+      "CAN_MANAGE_INVENTORY": "Envanteri Yönet",
+      "CAN_MANAGE_RESERVATIONS": "Rezervasyonları Yönet",
+      "CAN_USE_INVENTORY_SCANNER": "Envanter Tarayıcısını Kullan",
+      "CAN_MANAGE_FRONT_DESK": "Ön Büro Yönetimi",
+      "CAN_MANAGE_HOUSEKEEPING": "Kat Hizmetleri Yönetimi",
+      "CAN_MANAGE_MAINTENANCE": "Bakım Yönetimi",
+      "CAN_PERFORM_MAINTENANCE": "Bakım Yap",
+      "CAN_MANAGE_ECOMMERCE_ORDERS": "E-ticaret Siparişlerini Yönet",
+      "CAN_MANAGE_ECOMMERCE_PRODUCTS": "E-ticaret Ürünlerini Yönet",
+      "HAS_GENERAL_PERMISSIONS": "Genel Yetkiler (Şube Müdürü gibi davranır)",
+      "all": "Tüm İzinler"
+    },
+    "noPermissions": "Belirli bir izin yok",
+    "profile": {
+      "title": "Çalışan Profili",
+      "backToList": "Çalışan Listesine Geri Dön",
+      "totalPaid": "Toplam Ödenen Maaş",
+      "totalCommission": "Toplam Ödenen Komisyon",
+      "attendanceToday": "Bugünkü Devam Durumu",
+      "lastCheckIn": "Son Giriş",
+      "tabs": {
+        "hr": "İK Detayları",
+        "payroll": "Maaş Bordrosu Geçmişi",
+        "commission": "Komisyon Geçmişi",
+        "performance": "Performans",
+        "preferences": "Tercihler",
+        "working_hours": "Çalışma Saatleri"
+      },
+      "hrDetails": {
+        "recentAttendance": "Son Devam Kayıtları",
+        "leaveRequests": "İzin Talepleri",
+        "documents": "Belgeler"
+      },
+      "noData": "Bu bölüm için veri yok.",
+      "performance": {
+        "realEstate": {
+          "totalSalesValue": "Toplam Satış Değeri",
+          "totalRentalValue": "Toplam Kiralama Değeri",
+          "salesCount": "Satış Sayısı",
+          "rentalsCount": "Kiralama Sayısı"
+        }
+      },
+      "cannotViewAdmin": "Şirket yöneticisinin profilini görüntüleme veya düzenleme izniniz yok."
+    },
+    "performance": {
+      "title": "Performans Metrikleri",
+      "totalSales": "Toplam Satışlar",
+      "numberOfSales": "Fatura Sayısı",
+      "avgSaleValue": "Ortalama Satış Değeri",
+      "totalCommission": "Kazanılan Toplam Komisyon"
+    },
+     "preferences": {
+      "title": "Arayüz Tercihleri",
+      "restaurant": {
+        "defaultMain": "Varsayılan Ana Görünüm",
+        "defaultManagement": "Varsayılan Yönetim Görünümü"
+      },
+      "supermarket": {
+        "defaultMain": "Varsayılan Ana Görünüm"
+      },
+      "hotel": {
+        "defaultMain": "Varsayılan Ana Görünüm"
+      }
+    }
+  },
+  "roles": {
+    "title": "Roller & İzinler",
+    "add": "Rol Ekle",
+    "deleteConfirm": "'{{name}}' rolünü silmek istediğinizden emin misiniz?",
+    "table": {
+      "name": "Rol Adı",
+      "permissions": "İzinler",
+      "permissionCount": "{{count}} izin"
+    },
+    "form": {
+      "editTitle": "Rolü Düzenle",
+      "addTitle": "Yeni Rol Ekle",
+      "name": "Rol Adı",
+      "permissions": "İzinler",
+      "selectRole": "Bir rol seçin"
+    },
+    "empty": "Henüz tanımlanmış bir rol yok."
+  },
+  "branches": {
+    "select": "Bir şube seçin"
+  }
+}

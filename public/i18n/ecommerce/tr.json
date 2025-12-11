@@ -1,0 +1,123 @@
+
+{
+  "ecommerce": {
+    "title": "E-ticaret Yönetimi",
+    "tabs": {
+      "dashboard": "Kontrol Paneli",
+      "orders": "Siparişler",
+      "products": "Ürünler",
+      "customers": "Müşteriler",
+      "analytics": "Analiz",
+      "promotions": "Promosyonlar",
+      "public_page": "Mağaza Arayüzü",
+      "settings": "Ayarlar"
+    },
+    "dashboard": {
+      "newOrders": "Yeni Siparişler",
+      "pendingShipments": "Bekleyen Gönderiler",
+      "totalRevenue": "Toplam Gelir",
+      "topSelling": "En Çok Satanlar"
+    },
+    "products": {
+      "title": "Ürün Yönetimi",
+      "addProduct": "Ürün Ekle",
+      "editProduct": "Ürünü Düzenle",
+       "table": {
+        "image": "Resim",
+        "name": "Ad",
+        "sku": "SKU",
+        "price": "Fiyat",
+        "stock": "Stok"
+      },
+      "form": {
+        "title": "Ürün Detayları",
+        "name": "Ürün Adı",
+        "sku": "SKU (Stok Tutma Birimi)",
+        "category": "Kategori",
+        "price": "Fiyat",
+        "cost": "Maliyet",
+        "stock": "Stok Miktarı",
+        "lowStock": "Düşük Stok Eşiği",
+        "multiImage": "Ürün Resimleri",
+        "richDesc": "Açıklama",
+        "shipping": "Kargo Detayları",
+        "weight": "Ağırlık (kg)",
+        "dimensions": "Boyutlar (U×G×Y) cm",
+        "digital": "Dijital ürün (kargo gerektirmez)",
+        "seo": "Arama Motoru Optimizasyonu (SEO)",
+        "metaTitle": "Meta Başlığı",
+        "metaDesc": "Meta Açıklaması",
+        "taxRate": "Vergi Oranı (%)"
+      }
+    },
+    "orders": {
+      "title": "Sipariş Yönetimi",
+      "statuses": {
+        "new": "Yeni",
+        "processing": "İşleniyor",
+        "shipped": "Kargolandı",
+        "delivered": "Teslim Edildi",
+        "cancelled": "İptal Edildi"
+      },
+      "actions": {
+        "printSlip": "Paketleme Fişi Yazdır",
+        "addTracking": "Kargo Takip Numarası Ekle"
+      }
+    },
+    "settings": {
+      "title": "E-ticaret Ayarları",
+      "shipping": {
+        "title": "Kargo Bölgeleri & Ücretleri",
+        "addZone": "Kargo Bölgesi Ekle",
+        "zoneName": "Bölge Adı",
+        "countries": "Ülkeler (virgülle ayrılmış)",
+        "price": "Fiyat"
+      },
+      "payments": {
+        "title": "Ödeme Ağ Geçitleri"
+      },
+       "checkout": {
+        "title": "Ödeme Ayarları",
+        "allowGuest": "Misafir ödemesine izin ver"
+      }
+    },
+    "publicPage": {
+        "heroSubtitle": "En Son Koleksiyonlarımızı Satın Alın",
+        "productsTitle": "Ürünlerimiz",
+        "sort": "Sırala",
+        "sortDefault": "Varsayılan",
+        "sortPriceAsc": "Fiyat: Düşükten Yükseğe",
+        "sortPriceDesc": "Fiyat: Yüksekten Düşüğe"
+    },
+    "cart": {
+        "promotionApplied": "Promosyon Uygulandı!",
+        "totalDiscount": "Promosyon İndirimi"
+    }
+  },
+  "onlineOrders": {
+    "customerLogin": {
+      "button": "Müşteri Girişi"
+    },
+    "login": {
+      "title": "Mağaza Girişi",
+      "googleSignIn": "Google ile Giriş Yap"
+    }
+  },
+  "loyalty": {
+    "title": "Sadakat Programı",
+    "enable": "Sadakat programını etkinleştir",
+    "earningRate": {
+      "label": "Puan Kazanma Oranı",
+      "description": "Para birimi başına puan."
+    },
+    "redemptionRate": {
+      "label": "Puan Kullanma Oranı",
+      "description": "İndirim birimi başına puan."
+    },
+    "tiersTitle": "Sadakat Seviyeleri",
+    "addTier": "Seviye Ekle",
+    "discountValue": "Sadakat İndirimi",
+    "availablePoints": "{{name}} adlı kullanıcının puanları: {{points}}",
+    "redeemPlaceholder": "Kullanılacak puanlar"
+  }
+}

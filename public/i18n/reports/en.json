@@ -1,0 +1,21 @@
+{
+    "reports": {
+        "printPdf": "Print / PDF",
+        "filterByDateRange": "Filter by Date Range",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "dailyPayments": {
+            "title": "Daily Payments Report",
+            "description": "View all recorded expenses for the selected day.",
+            "date": "Date",
+            "descriptionColumn": "Description",
+            "amount": "Amount",
+            "source": "Payment Source",
+            "empty": "No payments recorded for this day.",
+            "sources": {
+                "cash": "Cash Drawer",
+                "bank": "Company Account"
+            }
+        }
+    }
+}

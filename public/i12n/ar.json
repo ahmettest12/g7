@@ -1,0 +1,2499 @@
+
+{
+  "common": {
+    "appName": "ProCount",
+    "appTitle": "برنامج محاسبة شامل",
+    "greeting": "أهلاً بك، {{name}}",
+    "logout": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "open": "فتح",
+    "copied": "تم النسخ!",
+    "unassigned": "غير معين",
+    "undefined": "غير محدد",
+    "notApplicable": "لا ينطبق",
+    "searchPlaceholder": "بحث...",
+    "finish": "إنهاء",
+    "monthly": "شهرياً",
+    "status": "الحالة",
+    "actions": "إجراءات",
+    "total": "الإجمالي",
+    "back": "رجوع",
+    "close": "إغلاق",
+    "submit": "إرسال",
+    "print": "طباعة",
+    "editReservation": "تعديل الحجز",
+    "noAccess": "وصول مرفوض",
+    "noData": {
+      "default": "لا توجد بيانات متاحة.",
+      "makeSelections": "قم بالاختيار لعرض التفاصيل."
+    },
+    "featureUnderDevelopment": "هذه الميزة قيد التطوير.",
+    "example": "مثال",
+    "currency": "ر.س",
+    "optional": "اختياري",
+    "loading": "جاري التحميل",
+    "phone": "الهاتف",
+    "printInvoice": "طباعة الفاتورة"
+  },
+  "theme": {
+    "toggle": "تبديل الوضع الفاتح/المظلم"
+  },
+  "features": {
+    "pos": "نقاط البيع",
+    "accounting": "المحاسبة",
+    "inventory": "المخزون",
+    "crm": "إدارة علاقات العملاء",
+    "payroll": "كشوف المرتبات",
+    "commissions": "العمولات",
+    "ecommerce": "التجارة الإلكترونية"
+  },
+  "languages": {
+    "ar": "العربية",
+    "en": "الإنجليزية",
+    "tr": "التركية"
+  },
+  "loginPage": {
+    "welcomeBack": "أهلاً بعودتك!",
+    "signInToContinue": "سجل الدخول للمتابعة إلى لوحة التحكم.",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "demoCredentials": "بيانات الدخول التجريبية (كلمة المرور: {{password}})",
+    "tagline": "حل محاسبي شامل ومرن لإدارة جميع احتياجات عملك بكفاءة.",
+    "roles": {
+      "superAdmin": "مدير عام",
+      "restaurantAdmin": "مدير مطعم",
+      "waiter": "نادل",
+      "kitchen": "موظف مطبخ",
+      "cashier": "كاشير"
+    }
+  },
+  "layout": {
+    "sidebar": {
+      "brand": "ProCount"
+    },
+    "header": {
+      "welcome": "أهلاً بك،"
+    }
+  },
+  "superAdminDashboard": {
+    "mainDashboard": "لوحة التحكم الرئيسية",
+    "myCompany": "شركتي",
+    "addCompany": "إضافة شركة",
+    "companies": "الشركات",
+    "platformAccounting": "محاسبة المنصة",
+    "platformAnalytics": "تحليلات المنصة",
+    "platformWebsite": "موقع المنصة",
+    "subscriptionPlans": "باقات الاشتراك",
+    "totalCompanies": "إجمالي الشركات",
+    "activeSubscriptions": "الاشتراكات النشطة",
+    "monthlyRevenue": "الإيرادات الشهرية",
+    "searchCompanyOrAdmin": "ابحث بالشركة أو اسم المدير...",
+    "expiryAlertsTitle": "تنبيهات انتهاء الاشتراك",
+    "expiryAlertBody": "اشتراك <strong>{{name}}</strong> سينتهي خلال <strong>{{days}} أيام</strong>.",
+    "activeRevenue": "الإيرادات الشهرية النشطة",
+    "potentialRevenue": "الإيرادات المحتملة (المنتهية)",
+    "expiredSubscriptions": "الاشتراكات المنتهية",
+    "subscriptionDetails": "تفاصيل إيرادات الاشتراك",
+    "company": "الشركة",
+    "plan": "الباقة",
+    "expiryDate": "تاريخ الانتهاء",
+    "totalActiveMonthly": "إجمالي الإيرادات الشهرية النشطة:",
+    "platformBilling": "فوترة المنصة",
+    "companyTypeDistribution": "توزيع أنواع الشركات"
+  },
+  "companyCard": {
+    "admin": "المدير",
+    "publicPage": "الصفحة العامة",
+    "subscription": "الاشتراك",
+    "editAdmin": "تعديل المدير",
+    "editCompany": "تعديل الشركة"
+  },
+  "companyTypes": {
+    "restaurant": "مطعم",
+    "supermarket": "سوبرماركت",
+    "commission": "قائم على العمولة",
+    "personal": "تمويل شخصي",
+    "hotel": "فندق",
+    "automotive": "سيارات",
+    "unknown": "غير معروف"
+  },
+  "subscriptions": {
+    "status": {
+      "active": "نشط",
+      "expired": "منتهي الصلاحية"
+    },
+    "management": {
+      "title": "إدارة باقات الاشتراك",
+      "add": "إضافة باقة جديدة",
+      "edit": "تعديل",
+      "deleteConfirm": "هل أنت متأكد من حذف هذه الباقة؟ قد يؤثر هذا على الشركات المشتركة."
+    }
+  },
+  "subscriptionPlans": {
+    "basic": {
+      "name": "الباقة الأساسية"
+    },
+    "premium": {
+      "name": "الباقة المميزة"
+    },
+    "professional": {
+      "name": "الباقة الاحترافية"
+    }
+  },
+  "modals": {
+    "deleteTable": {
+      "title": "حذف الطاولة",
+      "message": "هل أنت متأكد من رغبتك في حذف '{{name}}'؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "deleteProduct": {
+      "title": "حذف المنتج",
+      "message": "هل أنت متأكد من رغبتك في حذف '{{name}}'؟ سيتم إزالته من المخزون."
+    },
+    "addCompany": {
+      "title": "إضافة شركة جديدة",
+      "details": "تفاصيل الشركة",
+      "name": "اسم الشركة",
+      "type": "نوع الشركة",
+      "features": "الميزات المفعلة",
+      "adminAccount": "حساب مدير الشركة",
+      "adminEmail": "بريد المدير الإلكتروني",
+      "password": "كلمة المرور",
+      "addButton": "إضافة الشركة",
+      "adminNameTemplate": "مدير {{name}}"
+    },
+    "editCompany": {
+      "title": "تعديل الشركة: {{name}}",
+      "customDomain": "نطاق مخصص (اختياري)",
+      "domainPlaceholder": "example.com",
+      "saveButton": "حفظ التغييرات"
+    },
+    "editAdmin": {
+      "title": "تعديل المدير: {{name}}",
+      "name": "اسم المدير",
+      "newPassword": "كلمة مرور جديدة",
+      "newPasswordPlaceholder": "اتركه فارغاً للحفاظ على كلمة المرور الحالية"
+    },
+    "manageSubscription": {
+      "title": "إدارة الاشتراك: {{name}}",
+      "plan": "باقة الاشتراك",
+      "expiryDate": "تاريخ الانتهاء",
+      "currentStatus": "الحالة الحالية"
+    },
+    "planForm": {
+      "addTitle": "إضافة باقة اشتراك جديدة",
+      "editTitle": "تعديل باقة الاشتراك",
+      "name": "اسم الباقة",
+      "price": "السعر الشهري",
+      "features": "الميزات المفعلة"
+    },
+    "addProduct": "إدارة المنتج",
+    "addAccount": "إضافة حساب جديد",
+    "addJournalEntry": "إضافة قيد يومية جديد",
+    "addPurchaseInvoice": "إضافة فاتورة شراء جديدة",
+    "addPurchaseOrder": "إنشاء أمر شراء جديد",
+    "viewPurchaseOrder": "عرض أمر الشراء",
+    "addAttendance": "إضافة سجل حضور جديد",
+    "addLeaveRequest": "إضافة طلب إجازة جديد",
+    "addDocument": "إضافة مستند جديد",
+    "addIngredient": "إضافة مكون جديد",
+    "createDeliveryOrder": {
+      "title": "إنشاء طلب توصيل جديد",
+      "customerName": "اسم العميل",
+      "phone": "رقم الهاتف",
+      "address": "العنوان",
+      "deliveryFee": "رسوم التوصيل",
+      "createButton": "إنشاء الطلب"
+    },
+    "customerSearch": {
+      "title": "البحث عن عميل",
+      "placeholder": "ابحث بالاسم أو رقم الهاتف...",
+      "addNew": "+ جديد",
+      "noResults": "لم يتم العثور على عملاء.",
+      "prompt": "ابدأ الكتابة للبحث..."
+    },
+    "addCustomer": {
+      "title": "إضافة عميل جديد",
+      "name": "اسم العميل",
+      "phone": "رقم الهاتف",
+      "addButton": "إضافة العميل"
+    },
+    "heldCarts": {
+      "title": "الفواتير المعلقة",
+      "empty": "لا توجد فواتير معلقة حاليًا.",
+      "billId": "فاتورة #{{id}}",
+      "items": "{{count}} أصناف",
+      "total": "الإجمالي: {{total}}",
+      "discard": "تجاهل",
+      "resume": "استئناف"
+    },
+    "printPreview": {
+      "title": "معاينة الطباعة"
+    },
+    "ledger": "دفتر الأستاذ: {{name}}",
+    "addRoomType": "إضافة نوع غرفة",
+    "addRatePlan": "إضافة خطة أسعار",
+    "addRoom": "إضافة غرفة",
+    "addHotelReservation": "إضافة حجز فندقي",
+    "editReservation": {
+      "title": "تعديل الحجز: {{name}}",
+      "availability": {
+        "available": "متاح",
+        "unavailable": "غير متاح"
+      }
+    },
+    "reservationFolio": "حساب النزيل",
+    "addGuest": {
+      "title": "إضافة نزيل جديد",
+      "name": "الاسم الكامل",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني"
+    },
+    "chargeToRoom": {
+      "title": "تحميل الفاتورة على الغرفة",
+      "searchPlaceholder": "ابحث باسم النزيل أو رقم الغرفة...",
+      "confirmButton": "تأكيد التحميل"
+    },
+    "findRoom": {
+      "title": "البحث عن غرفة متاحة",
+      "roomType": "نوع الغرفة",
+      "checkIn": "تاريخ الوصول",
+      "checkOut": "تاريخ المغادرة",
+      "findButton": "بحث عن غرفة",
+      "result": "غرفة {{roomNumber}} متاحة!",
+      "noResult": "لا توجد غرف من هذا النوع متاحة للتواريخ المختارة.",
+      "availableRooms": "الغرف المتاحة",
+      "bookNow": "احجز الآن"
+    },
+    "addFolioItem": {
+      "titleCharge": "إضافة رسوم إلى الحساب",
+      "titlePayment": "تسجيل دفعة على الحساب",
+      "description": "الوصف",
+      "amount": "المبلغ",
+      "paymentMethod": "طريقة الدفع"
+    },
+    "groupBooking": {
+      "title": "إنشاء حجز مجموعة",
+      "groupName": "اسم المجموعة",
+      "checkIn": "تاريخ الوصول",
+      "checkOut": "تاريخ المغادرة",
+      "roomType": "نوع الغرفة",
+      "numberOfRooms": "عدد الغرف",
+      "availability": "المتاح: {{count}} غرف",
+      "confirmButton": "تأكيد الحجز"
+    },
+    "confirmBookingTitle": "تأكيد الحجز وتعيين الغرفة",
+    "editTransaction": "تعديل المعاملة"
+  },
+  "notifications": {
+    "welcomeBack": "أهلاً بعودتك، {{name}}!",
+    "loginError": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح.",
+    "deleteCompanyConfirm": "هل أنت متأكد من حذف هذه الشركة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "companyDeleted": "تم حذف الشركة بنجاح.",
+    "publicPageEnabled": "تم تفعيل الصفحة العامة.",
+    "publicPageDisabled": "تم تعطيل الصفحة العامة.",
+    "adminNotFound": "لم يتم العثور على مدير لهذه الشركة.",
+    "fillAllFields": "يرجى ملء جميع الحقول المطلوبة.",
+    "fillAllFieldsError": "يرجى ملء جميع الحقول بشكل صحيح.",
+    "companyAdded": "تمت إضافة شركة '{{name}}' بنجاح.",
+    "dataUpdated": "تم تحديث البيانات بنجاح.",
+    "adminUpdated": "تم تحديث بيانات المدير لـ '{{name}}' بنجاح.",
+    "subscriptionUpdated": "تم تحديث اشتراك '{{name}}' بنجاح.",
+    "planAdded": "تمت إضافة باقة الاشتراك '{{name}}' بنجاح.",
+    "planUpdated": "تم تحديث باقة الاشتراك '{{name}}' بنجاح.",
+    "planDeleted": "تم حذف باقة الاشتراك بنجاح.",
+    "tableLayoutSaved": "تم حفظ تصميم الطاولات بنجاح.",
+    "tableDeleted": "تم حذف الطاولة '{{name}}' بنجاح.",
+    "deleteTableConfirm": "هل أنت متأكد من حذف هذه الطاولة؟",
+    "productDeleted": "تم حذف المنتج '{{name}}' بنجاح.",
+    "assignWaiterSuccess": "تم تعيين النادل للطاولة {{name}}.",
+    "assignWaiterAuto": "تم تعيينك تلقائيًا للطاولة {{name}}.",
+    "addItemsFirst": "يرجى إضافة أصناف إلى الطلب أولاً.",
+    "orderSentToKitchen": "تم إرسال طلب {{name}} إلى المطبخ.",
+    "orderSentForApproval": "تم إرسال طلب {{name}} للموافقة.",
+    "deliveryOrderUpdated": "تم تحديث طلب التوصيل #{{num}}.",
+    "takeawayOrderToKitchen": "تم إرسال طلب خارجي #{{num}} إلى المطبخ.",
+    "paymentFinalizedAndTableCleared": "تم إنهاء الدفع وإخلاء الطاولة {{name}}.",
+    "takeawayPaymentFinalized": "تم إنهاء الدفع للطلب الخارجي #{{num}}.",
+    "orderReady": "طلب '{{name}}' جاهز للاستلام!",
+    "orderIsReady": "طلب {{name}} جاهز للاستلام!",
+    "productOutOfStock": "عذراً، '{{name}}' غير متوفر حالياً.",
+    "maxStockReached": "لا يمكن إضافة المزيد من '{{name}}'، المخزون المتاح هو {{stock}}.",
+    "quantityAvailable": "الكمية المتاحة هي {{stock}} فقط.",
+    "discountRangeError": "يجب أن يكون الخصم بين 0 و 100.",
+    "saleCompleted": "تمت عملية الدفع بنجاح!",
+    "saleCompletedFor": "تمت عملية البيع بنجاح للموظف {{name}}.",
+    "cannotDeleteSelf": "لا يمكنك حذف حسابك الخاص.",
+    "deleteEmployeeConfirm": "هل أنت متأكد من حذف الموظف '{{name}}'؟",
+    "employeeDeleted": "تم حذف الموظف بنجاح.",
+    "employeeFormError": "يرجى ملء حقول الاسم والبريد الإلكتروني وكلمة المرور.",
+    "employeeUpdated": "تم تحديث معلومات '{{name}}' بنجاح.",
+    "employeeAdded": "تمت إضافة الموظف '{{name}}' بنجاح.",
+    "pageDesignSaved": "تم حفظ تصميم الصفحة العامة بنجاح!",
+    "reservationSent": "تم إرسال طلب الحجز الخاص بك! سنتصل بك للتأكيد.",
+    "accountAdded": "تمت إضافة الحساب بنجاح.",
+    "journalEntryInvalid": "يجب أن يتساوى إجمالي المدين مع إجمالي الدائن وألا يكون صفراً.",
+    "journalEntryMinTwoLines": "يجب أن يحتوي قيد اليومية على سطرين على الأقل.",
+    "journalEntryAdded": "تمت إضافة قيد اليومية بنجاح.",
+    "purchaseInvoiceAdded": "تمت إضافة فاتورة الشراء بنجاح.",
+    "purchaseInvoiceFormError": "يرجى ملء جميع الحقول بشكل صحيح.",
+    "purchaseOrderAdded": "تمت إضافة أمر الشراء بنجاح.",
+    "purchaseOrderCompleted": "تم إكمال أمر الشراء وتحديث المخزون.",
+    "payrollProcessed": "تمت معالجة كشوف المرتبات للفترة {{period}}.",
+    "payrollPaid": "تم دفع راتب {{name}}.",
+    "attendanceRecorded": "تم تسجيل الحضور بنجاح.",
+    "employeeRequired": "يرجى اختيار موظف.",
+    "leaveRequestSent": "تم إرسال طلب الإجازة بنجاح.",
+    "leaveRequestFormError": "يرجى ملء جميع الحقول.",
+    "leaveStatusUpdated": "تم تحديث حالة طلب الإجازة.",
+    "documentSaved": "تم حفظ المستند بنجاح.",
+    "ingredientAdded": "تمت إضافة المكون بنجاح.",
+    "recipeUpdated": "تم تحديث وصفة '{{name}}' بنجاح.",
+    "noCommissionDue": "لا توجد عمولة مستحقة للدفع.",
+    "commissionPaid": "تم دفع عمولة {{name}} بنجاح.",
+    "productAdded": "تمت إضافة المنتج '{{name}}' بنجاح.",
+    "productUpdated": "تم تحديث المنتج '{{name}}' بنجاح.",
+    "customerAdded": "تمت إضافة العميل '{{name}}' بنجاح.",
+    "customerFormError": "يرجى ملء جميع الحقول.",
+    "billHeld": "تم تعليق الفاتورة الحالية بنجاح.",
+    "billEmpty": "الفاتورة فارغة!",
+    "resumeHeldCartError": "يرجى تعليق الفاتورة الحالية قبل استئناف فاتورة أخرى.",
+    "billResumed": "تم استئناف الفاتورة بنجاح.",
+    "discardHeldCartConfirm": "هل أنت متأكد من تجاهل هذه الفاتورة المعلقة؟",
+    "billDiscarded": "تم تجاهل الفاتورة المعلقة.",
+    "receiptSettingsSaved": "تم حفظ إعدادات الفاتورة بنجاح.",
+    "selectProductsToPrint": "يرجى تحديد المنتجات للطباعة أولاً.",
+    "drawerOpened": "تم فتح درج النقدية. يمكنك الآن بدء المبيعات.",
+    "drawerOpenFormError": "يرجى إدخال رصيد افتتاحي صالح.",
+    "drawerCloseFormError": "يرجى إدخال المبلغ المعدود بشكل صحيح.",
+    "drawerClosed": "تم إغلاق درج النقدية بنجاح.",
+    "assignDriverError": "يرجى اختيار سائق.",
+    "driverAssigned": "تم تعيين السائق وبدء التوصيل.",
+    "transactionAdded": "تمت إضافة المعاملة بنجاح.",
+    "transactionUpdated": "تم تحديث المعاملة بنجاح.",
+    "transactionDeleted": "تم حذف المعاملة بنجاح.",
+    "clearBillConfirm": "هل أنت متأكد من مسح الفاتورة الحالية؟ لا يمكن التراجع عن هذا الإجراء.",
+    "returnProcessed": "تمت معالجة الإرجاع / الاستبدال بنجاح.",
+    "productNotFound": "المنتج بالباركود {{barcode}} غير موجود.",
+    "ratePlanAdded": "تمت إضافة خطة الأسعار بنجاح.",
+    "roomTypeAdded": "تمت إضافة نوع الغرفة بنجاح.",
+    "roomAdded": "تمت إضافة الغرفة بنجاح.",
+    "housekeepingStatusUpdated": "تم تحديث حالة تنظيف الغرفة.",
+    "hotelReservationAdded": "تمت إضافة الحجز الفندقي بنجاح.",
+    "folioChargeAdded": "تمت إضافة الرسوم إلى الحساب.",
+    "folioPaymentRecorded": "تم تسجيل الدفعة على الحساب.",
+    "nightlyChargesPosted": "تم ترحيل الرسوم الليلية لتاريخ {{date}} بنجاح.",
+    "guestAdded": "تمت إضافة النزيل '{{name}}' بنجاح.",
+    "folioCheckoutError": "لا يمكن تسجيل الخروج. رصيد الحساب هو {{balance}}.",
+    "folioCheckoutPrompt": "رصيد الحساب صفر. هل ترغب في تسجيل خروج هذا النزيل؟",
+    "folioCheckoutSuccess": "تم تسجيل خروج النزيل بنجاح.",
+    "tasksAssigned": "تم تعيين المهام بنجاح.",
+    "maintenanceRequestCreated": "تم إنشاء طلب الصيانة بنجاح.",
+    "chargeToRoomSuccess": "تم تحميل الفاتورة بنجاح على غرفة {{roomNumber}} للنزيل {{guestName}}.",
+    "noCheckedInGuests": "لا يوجد نزلاء مسجل دخولهم حالياً.",
+    "selectGuestError": "يرجى اختيار نزيل.",
+    "deleteRoomConfirm": "هل أنت متأكد من حذف هذه الغرفة؟",
+    "notEnoughRooms": "لا توجد غرف كافية متاحة (المتاح: {{count}}).",
+    "groupBookingCreated": "تم إنشاء حجز المجموعة '{{name}}' بنجاح.",
+    "overbookingError": "لا يمكن إنشاء الحجز. الغرفة محجوزة بالفعل في هذه التواريخ.",
+    "ratePlanNotFound": "لم يتم العثور على سعر لنوع الغرفة هذا. يرجى الاتصال بالفندق.",
+    "checkoutAfterCheckin": "يجب أن يكون تاريخ المغادرة بعد تاريخ الوصول.",
+    "reservationConfirmed": "تم تأكيد الحجز لـ {{name}} بنجاح.",
+    "reservationCancelled": "تم إلغاء الحجز لـ {{name}}.",
+    "selectFloorFirst": "يرجى تحديد طابق قبل إضافة غرفة.",
+    "createRoomTypeFirst": "يرجى إنشاء نوع غرفة واحد على الأقل في الإعدادات قبل إضافة غرفة.",
+    "roleAdded": "تمت إضافة الدور بنجاح.",
+    "roleUpdated": "تم تحديث الدور بنجاح.",
+    "roleDeleted": "تم حذف الدور بنجاح.",
+    "roleInUseError": "لا يمكن حذف هذا الدور لأنه معين لموظف واحد أو أكثر.",
+    "customerExists": "عميل بهذا البريد الإلكتروني أو الهاتف موجود بالفعل.",
+    "orderUpdated": "تم تحديث تفاصيل الطلب بنجاح.",
+    "orderCancelled": "تم إلغاء الطلب بنجاح.",
+    "passwordMismatch": "كلمات المرور غير متطابقة. يرجى المحاولة مرة أخرى.",
+    "roomNotAvailable": "الغرفة غير متاحة للتواريخ المختارة.",
+    "invoicesGenerated": "تم إنشاء فواتير الاشتراك الشهرية بنجاح.",
+    "invoiceMarkedPaid": "تم تحديد الفاتورة كمدفوعة."
+  },
+  "pos": {
+    "quantity": "الكمية",
+    "price": "السعر",
+    "discount": "الخصم",
+    "totalDiscount": "إجمالي الخصم",
+    "subtotal": "المجموع الفرعي",
+    "netSubtotal": "صافي المجموع",
+    "total": "الإجمالي",
+    "hold": "تعليق",
+    "pay": "دفع",
+    "clearBill": "فاتورة جديدة (F6)",
+    "clearBillShort": "مسح الكل"
+  },
+  "shortcuts": {
+    "title": "اختصارات لوحة المفاتيح",
+    "description": "استخدم هذه المفاتيح لتسريع عملك في شاشة نقاط البيع.",
+    "key": "المفتاح",
+    "action": "الإجراء",
+    "pay": "فتح شاشة الدفع",
+    "hold": "تعليق الفاتورة (سوبرماركت)",
+    "send": "إرسال للمطبخ (مطعم)",
+    "search": "التركيز على بحث المنتج",
+    "back": "رجوع / خروج من نقطة البيع",
+    "clearBill": "مسح الفاتورة / فاتورة جديدة"
+  },
+  "restaurant": {
+    "title": "إدارة المطعم",
+    "tabs": {
+      "pos": "نقاط البيع",
+      "approval": "الموافقات",
+      "delivery": "التوصيل",
+      "reservations": "الحجوزات",
+      "kds": "شاشة المطبخ",
+      "management": "الإدارة"
+    },
+    "managementTabs": {
+      "groups": {
+        "operations": "العمليات",
+        "inventory": "المخزون والقائمة",
+        "people": "الأفراد والرواتب",
+        "general": "عام"
+      },
+      "analytics": "التحليلات",
+      "online_orders": "الطلبات الإلكترونية",
+      "menu_items": "عناصر القائمة",
+      "promotions": "العروض الترويجية",
+      "purchasing": "المشتريات",
+      "ingredients": "المكونات",
+      "recipes": "الوصفات",
+      "crm": "إدارة العملاء",
+      "employee_commissions": "عمولات الموظفين",
+      "partner_commissions": "عمولات الشركاء",
+      "payroll": "كشوف المرتبات",
+      "hr": "الموارد البشرية",
+      "employees": "الموظفين",
+      "roles": "الأدوار والصلاحيات",
+      "accounting": "المحاسبة",
+      "publicPage": "الصفحة العامة",
+      "mobile": "واجهات الجوال",
+      "aiAssistant": "المساعد الذكي",
+      "settings": "الإعدادات"
+    },
+    "tableLayout": {
+      "title": "تصميم الطاولات",
+      "designMode": "وضع التصميم",
+      "pendingApproval": "بانتظار الموافقة",
+      "newTableName": "طاولة {{number}}"
+    },
+    "pos": {
+      "assignWaiterModal": {
+        "title": "تعيين نادل | طاولة: {{name}}",
+        "prompt": "يرجى اختيار النادل المسؤول عن هذه الطاولة.",
+        "selectPlaceholder": "-- اختر نادل --",
+        "assignButton": "تعيين"
+      },
+      "header": {
+        "waiter": "النادل: {{name}}",
+        "cashier": "الكاشير",
+        "deliveryOrder": "توصيل #{{num}}",
+        "takeawayOrder": "سفري #{{num}}"
+      },
+      "actions": {
+        "sendToKitchen": "إرسال إلى المطبخ",
+        "sendForApproval": "إرسال للموافقة"
+      }
+    },
+    "kds": {
+      "title": "شاشة عرض المطبخ (KDS)",
+      "newOrders": "طلبات جديدة",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز للاستلام",
+      "time": {
+        "now": "الآن",
+        "minutesAgo": "قبل {{minutes}} د"
+      },
+      "actions": {
+        "startPreparing": "بدء التحضير",
+        "markAsReady": "تحديد كجاهز"
+      },
+      "empty": "لا توجد طلبات هنا."
+    },
+    "approvals": {
+      "title": "طلبات بانتظار الموافقة ({{count}})",
+      "waiter": "النادل: {{name}}",
+      "approveButton": "موافقة وإرسال للمطبخ",
+      "empty": {
+        "title": "لا توجد طلبات معلقة",
+        "subtitle": "تمت الموافقة على جميع الطلبات."
+      }
+    },
+    "delivery": {
+      "title": "إدارة التوصيل",
+      "assignDriverModal": {
+        "title": "تعيين سائق للطلب #{{num}}",
+        "prompt": "اختر السائق المسؤول عن هذا التوصيل.",
+        "selectPlaceholder": "-- اختر سائق --",
+        "assignButton": "تعيين وبدء التوصيل"
+      },
+      "card": {
+        "order": "طلب #{{num}}",
+        "driver": "السائق: {{name}}",
+        "actions": {
+          "readyForDelivery": "جاهز للتوصيل",
+          "assignDriver": "تعيين سائق",
+          "delivered": "تم التوصيل"
+        }
+      },
+      "statuses": {
+        "new": "جديد",
+        "preparing": "قيد التحضير",
+        "ready_for_delivery": "جاهز للتوصيل",
+        "out_for_delivery": "قيد التوصيل",
+        "delivered": "تم التوصيل",
+        "cancelled": "ملغى"
+      }
+    },
+    "reservations": {
+      "title": "إدارة الحجوزات",
+      "filterLabel": "عرض حجوزات يوم:",
+      "empty": "لا توجد حجوزات لهذا اليوم.",
+      "card": {
+        "guests": "{{count}} أشخاص",
+        "actions": {
+          "cancel": "إلغاء",
+          "confirm": "تأكيد الحجز",
+          "complete": "تحديد كـ 'حضر'"
+        }
+      },
+      "statuses": {
+        "pending": "معلق",
+        "confirmed": "مؤكد",
+        "cancelled": "ملغى",
+        "completed": "مكتمل"
+      }
+    },
+    "commissions": {
+      "title": "عمولات النادلين",
+      "pendingTitle": "العمولات المستحقة",
+      "archiveTitle": "سجل العمولات المدفوعة",
+      "card": {
+        "rate": "نسبة العمولة: {{rate}}%",
+        "unpaidSales": "المبيعات غير المدفوعة",
+        "dueAmount": "العمولة المستحقة",
+        "payButton": "دفع العمولة"
+      },
+      "archiveTable": {
+        "paymentDate": "تاريخ الدفع",
+        "waiterName": "اسم النادل",
+        "amountPaid": "المبلغ المدفوع",
+        "period": "الفترة"
+      },
+      "emptyArchive": "لا توجد سجلات دفع حتى الآن."
+    },
+    "ingredients": {
+      "title": "إدارة المكونات (المواد الخام)",
+      "addIngredient": "إضافة مكون",
+      "table": {
+        "ingredient": "المكون",
+        "stock": "المخزون الحالي",
+        "unit": "الوحدة",
+        "cost": "تكلفة الوحدة",
+        "status": "الحالة"
+      },
+      "statuses": {
+        "inStock": "متوفر",
+        "lowStock": "مخزون منخفض"
+      },
+      "form": {
+        "name": "اسم المكون",
+        "stock": "الكمية في المخزون",
+        "unit": "الوحدة",
+        "unitPlaceholder": "جرام، مل، قطعة",
+        "cost": "تكلفة الوحدة",
+        "lowStockThreshold": "حد المخزون المنخفض"
+      }
+    },
+    "recipes": {
+      "title": "وصفات القائمة",
+      "selectPrompt": {
+        "title": "يرجى تحديد صنف",
+        "description": "اختر صنفًا من القائمة على اليسار لتعديل وصفته."
+      },
+      "editor": {
+        "title": "وصفة: {{name}}",
+        "description": "حدد المكونات والكميات المستخدمة في هذا الطبق.",
+        "selectIngredient": "اختر مكون",
+        "quantity": "الكمية",
+        "addIngredient": "+ إضافة مكون",
+        "totalCost": "إجمالي تكلفة الوصفة",
+        "costBasedOn": "بناءً على التكاليف الحالية للمكونات.",
+        "saveButton": "حفظ الوصفة"
+      }
+    },
+    "receipt": {
+      "title": "فاتورة ضريبية مبسطة",
+      "invoiceNo": "رقم الفاتورة:",
+      "date": "التاريخ:",
+      "order": "الطلب:",
+      "employee": "خدمة بواسطة:",
+      "item": "الصنف",
+      "qty": "الكمية",
+      "price": "السعر",
+      "tableFallback": "طاولة"
+    },
+    "takeaway": {
+      "title": "طلبات خارجية",
+      "newOrder": "+ طلب جديد",
+      "orderId": "سفري #{{num}}"
+    },
+    "deliveryOrders": "طلبات التوصيل",
+    "newDeliveryOrder": "+ طلب توصيل جديد",
+    "settings": {
+      "title": "إعدادات المطعم",
+      "tabs": {
+        "general": "عام",
+        "receipt": "تصميم الفاتورة",
+        "tax": "الضريبة"
+      }
+    },
+    "menu": {
+      "title": "إدارة قائمة الطعام",
+      "add": "إضافة صنف",
+      "edit": "تعديل الصنف",
+      "form": {
+        "name": "اسم الصنف",
+        "category": "الفئة",
+        "price": "السعر",
+        "cost": "التكلفة",
+        "taxRate": "ضريبة الصنف (%)"
+      }
+    },
+    "splitBill": {
+      "title": "تقسيم الفاتورة",
+      "evenly": "تقسيم بالتساوي",
+      "byItem": "تقسيم حسب الصنف",
+      "numWays": "عدد طرق التقسيم",
+      "perPerson": "المبلغ للشخص الواحد",
+      "originalBill": "الفاتورة الأصلية",
+      "newBill": "فاتورة جديدة",
+      "move": "نقل إلى فاتورة جديدة",
+      "pay": "دفع الفاتورة",
+      "totalAmount": "المبلغ الإجمالي",
+      "splitBetween": "تقسيم بين",
+      "people": "أشخاص",
+      "eachPays": "كل شخص يدفع",
+      "evenPayNote": "هذا مجرد حساب. يجب معالجة كل دفعة على حدة.",
+      "bill": "فاتورة"
+    },
+    "design": {
+      "title": "تصميم الفاتورة",
+      "form": {
+        "header": "نص الترويسة",
+        "footer": "نص التذييل",
+        "fontSize": "حجم الخط",
+        "showLogo": "إظهار الشعار"
+      }
+    },
+    "modifiers": {
+      "title": "الإضافات",
+      "groupName": "اسم المجموعة",
+      "optionName": "اسم الخيار",
+      "priceChange": "تغيير السعر",
+      "addOption": "إضافة خيار",
+      "addGroup": "إضافة مجموعة إضافات"
+    }
+  },
+  "supermarket": {
+    "title": "إدارة السوبرماركت",
+    "tabs": {
+      "groups": {
+        "sales": "عمليات البيع",
+        "products": "المنتجات والمخزون",
+        "people": "الأفراد",
+        "admin": "الإدارة والتقارير"
+      },
+      "pos": "نقاط البيع",
+      "sales_history": "سجل المبيعات",
+      "online_orders": "الطلبات الإلكترونية",
+      "cash_drawer": "درج النقدية",
+      "inventory": "المخزون",
+      "purchasing": "المشتريات",
+      "scale_settings": "إعدادات الميزان",
+      "customers": "العملاء",
+      "crm": "إدارة علاقات العملاء",
+      "employees": "الموظفين",
+      "roles": "الأدوار والصلاحيات",
+      "employee_commissions": "عمولات الموظفين",
+      "partner_commissions": "عمولات الشركاء",
+      "hr": "الموارد البشرية",
+      "reports": "التقارير",
+      "analytics": "التحليلات",
+      "ai_assistant": "المساعد الذكي",
+      "settings": "الإعدادات",
+      "design_print": "التصميم والطباعة",
+      "accounting": "المحاسبة",
+      "payroll": "كشوف المرتبات",
+      "public_page": "الصفحة العامة",
+      "mobile_views": "واجهات الجوال",
+      "promotions": "العروض الترويجية",
+      "management": "الإدارة"
+    },
+    "scaleSettings": {
+      "title": "إعدادات الميزان الإلكتروني",
+      "description": "قم بتهيئة تنسيق الباركود من الميزان الإلكتروني الخاص بك لضمان أن نقاط البيع يمكنها قراءة رمز المنتج والوزن/السعر بشكل صحيح.",
+      "format": {
+        "label": "العلامة التجارية للميزان / التنسيق",
+        "generic": "عام / مخصص",
+        "mettler_toledo": "Mettler Toledo",
+        "digi": "Digi",
+        "cas": "CAS"
+      },
+      "prefix": {
+        "label": "بادئة الباركود",
+        "description": "أول رقمين يميزان الصنف الموزون. (مثال: 27, 28, 29)"
+      },
+      "productCodeLength": {
+        "label": "طول رمز المنتج",
+        "description": "عدد الخانات المخصصة لرمز المنتج داخل الباركود."
+      },
+      "valueLength": {
+        "label": "طول القيمة (وزن/سعر)",
+        "description": "عدد الخانات المخصصة لقيمة الوزن أو السعر."
+      },
+      "valueIsPrice": {
+        "label": "القيمة في الباركود تمثل السعر بدلاً من الوزن"
+      },
+      "weightDecimalPlaces": {
+        "label": "عدد الخانات العشرية للوزن",
+        "description": "لـ 1.250 كجم، أدخل 3. لـ 12.50 كجم، أدخل 2."
+      },
+      "barcodeStructure": "مصور بنية الباركود (13 خانة)",
+      "productCode": {
+        "label": "رمز المنتج"
+      },
+      "price": {
+        "label": "السعر"
+      },
+      "weight": {
+        "label": "الوزن"
+      },
+      "checksum": "رقم التحقق",
+      "digit": "خانة",
+      "digits": "خانات",
+      "result": "الباركود الناتج",
+      "autoCalculated": "يحسب تلقائياً",
+      "error": {
+        "length": "يجب أن يكون الطول الإجمالي للبادئة ورمز المنتج والقيمة 12 خانة أو أقل لتناسب باركود EAN-13."
+      }
+    },
+    "commissions": {
+      "pendingTitle": "العمولات المستحقة",
+      "archiveTitle": "سجل العمولات المدفوعة",
+      "card": {
+        "rate": "نسبة العمولة: {{rate}}%",
+        "unpaidSales": "المبيعات غير المدفوعة",
+        "dueAmount": "العمولة المستحقة",
+        "payButton": "دفع العمولة"
+      },
+      "archiveTable": {
+        "paymentDate": "تاريخ الدفع",
+        "employeeName": "اسم الموظف",
+        "amountPaid": "المبلغ المدفوع",
+        "period": "الفترة"
+      },
+      "emptyArchive": "لا توجد سجلات دفع حتى الآن.",
+      "emptyPending": "لا يوجد موظفون لديهم نسبة عمولة محددة. يمكنك إضافة واحد من قسم إدارة الموظفين."
+    },
+    "pos": {
+      "title": "نقاط بيع سوبرماركت",
+      "points": "{{count}} نقطة",
+      "customer": "العميل",
+      "heldBills": "الفواتير المعلقة",
+      "selectCustomer": "اختيار عميل",
+      "selectEmployee": "اختيار موظف البيع"
+    },
+    "inventory": {
+      "title": "إدارة المخزون",
+      "addProduct": "إضافة / تعديل منتج",
+      "table": {
+        "product": "المنتج",
+        "category": "الفئة",
+        "price": "السعر",
+        "stock": "المخزون"
+      },
+      "form": {
+        "name": "اسم المنتج",
+        "category": "الفئة",
+        "sku": "SKU",
+        "barcode": "الباركود",
+        "price": "السعر",
+        "cost": "التكلفة",
+        "stock": "المخزون",
+        "lowStock": "حد المخزون المنخفض",
+        "addTitle": "إضافة منتج جديد",
+        "editTitle": "تعديل المنتج: {{name}}",
+        "unitType": "نوع الوحدة",
+        "unitPiece": "قطعة",
+        "unitWeight": "وزن",
+        "scaleCode": "رمز منتج الميزان",
+        "stockKg": "المخزون (كجم)",
+        "createdAt": "تاريخ الإضافة",
+        "soldCount": "الكمية المباعة",
+        "priceLastUpdatedAt": "آخر تحديث للسعر",
+        "expiryDate": "تاريخ انتهاء الصلاحية"
+      }
+    },
+    "salesHistory": {
+      "title": "سجل المبيعات والبحث في الفواتير",
+      "searchPlaceholder": "ابحث برقم الفاتورة...",
+      "table": {
+        "invoiceNo": "رقم الفاتورة",
+        "dateTime": "التاريخ والوقت",
+        "customer": "العميل",
+        "employee": "الموظف"
+      },
+      "reprint": "إعادة طباعة",
+      "return": "إرجاع / استبدال",
+      "customerGeneral": "عام",
+      "employeeUndefined": "غير محدد",
+      "empty": {
+        "noSales": "لم يتم تسجيل أي مبيعات بعد.",
+        "noResults": "لا توجد فواتير تطابق بحثك."
+      }
+    },
+    "return": {
+      "returnedItemsTitle": "الأصناف المرتجعة (فاتورة: {{id}})",
+      "originalQty": "الكمية الأصلية: {{qty}}",
+      "returnedQty": "الكمية المرتجعة",
+      "refundTotal": "إجمالي الاسترداد",
+      "totalRefundAmount": "إجمالي مبلغ الاسترداد:",
+      "newItemsTitle": "الأصناف الجديدة (استبدال)",
+      "newItemsTotal": "إجمالي الأصناف الجديدة:",
+      "finalBalance": {
+        "dueToCustomer": "المبلغ المستحق للعميل",
+        "dueFromCustomer": "المبلغ المستحق من العميل"
+      },
+      "completeReturn": "إكمال الإرجاع",
+      "completeTransaction": "إكمال العملية"
+    },
+    "crm": {
+      "customerListTitle": "العملاء",
+      "searchPlaceholder": "ابحث عن عميل...",
+      "details": {
+        "points": "نقاط الولاء",
+        "totalSpent": "إجمالي الإنفاق",
+        "invoiceCount": "عدد الفواتير",
+        "history": "سجل المشتريات"
+      },
+      "historyTable": {
+        "invoiceNo": "رقم الفاتورة",
+        "date": "التاريخ",
+        "amount": "المبلغ"
+      },
+      "selectPrompt": {
+        "title": "يرجى تحديد عميل",
+        "description": "اختر عميلًا من القائمة لعرض تفاصيله."
+      }
+    },
+    "sidebar": {
+      "editOrder": "تعديل ترتيب القائمة"
+    },
+    "cashDrawer": {
+      "open": {
+        "title": "فتح وردية جديدة",
+        "description": "يجب فتح درج النقدية قبل قبول المدفوعات. الرجاء إدخال الرصيد النقدي الافتتاحي (العهدة).",
+        "placeholder": "0.00",
+        "button": "فتح الصندوق"
+      },
+      "manage": {
+        "title": "إغلاق الصندوق الحالي",
+        "openingBalance": "الرصيد الافتتاحي",
+        "cashSales": "مبيعات نقدية",
+        "expectedBalance": "الرصيد المتوقع",
+        "countedAmount": "المبلغ المعدود",
+        "closeButton": "إغلاق الصندوق",
+        "difference": "الفرق: {{amount}}",
+        "surplus": "(فائض)",
+        "shortage": "(عجز)",
+        "noActive": "لا يوجد درج مفتوح لهذا المستخدم.",
+        "historyTitle": "سجل الصناديق المغلقة",
+        "table": {
+          "employee": "الموظف",
+          "openTime": "وقت الفتح",
+          "closeTime": "وقت الإغلاق",
+          "opening": "الافتتاحي",
+          "expected": "المتوقع",
+          "closed": "الرصيد الختامي",
+          "difference": "الفرق"
+        },
+        "historyEmpty": "لا توجد سجلات بعد."
+      }
+    },
+    "design": {
+      "tabs": {
+        "receipt": "الفاتورة",
+        "priceTags": "بطاقات الأسعار",
+        "barcodes": "الباركود"
+      },
+      "receipt": {
+        "header": "نص الترويسة",
+        "footer": "نص التذييل",
+        "fontSize": "حجم الخط",
+        "showLogo": "إظهار الشعار",
+        "barcodeSettings": "إعدادات الباركود",
+        "barcodeHeight": "ارتفاع الباركود: {{height}}px",
+        "barcodeWidth": "عرض الباركود: {{width}}",
+        "elements": "العناصر",
+        "showBarcode": "إظهار الباركود"
+      },
+      "productSelector": {
+        "titlePriceTags": "اختر المنتجات لطباعة بطاقات الأسعار",
+        "titleBarcodes": "اختر المنتجات لطباعة الباركود"
+      },
+      "print": "طباعة"
+    },
+    "receiptContent": {
+      "title": "فاتورة ضريبية مبسطة",
+      "invoiceNo": "رقم الفاتورة:",
+      "date": "التاريخ:",
+      "customer": "العميل:",
+      "cashier": "الكاشير:",
+      "item": "الصنف",
+      "qty": "الكمية",
+      "price": "السعر",
+      "loyaltyDiscount": "خصم ولاء"
+    },
+    "settings": {
+      "title": "إعدادات السوبرماركت",
+      "tabs": {
+        "general": "عامة",
+        "scale": "الميزان",
+        "tax": "الضريبة",
+        "ecommerce": "التجارة الإلكترونية"
+      },
+      "ecommerce": {
+        "title": "إعدادات المتجر الإلكتروني",
+        "allowRegistration": "السماح للعملاء الجدد بالتسجيل"
+      }
+    },
+    "customer": {
+      "title": "إدارة العملاء",
+      "addCustomer": "إضافة عميل",
+      "searchPlaceholder": "ابحث بالاسم أو رقم الهاتف...",
+      "table": {
+        "customer": "العميل",
+        "phone": "الهاتف",
+        "points": "النقاط"
+      },
+      "empty": "لم يتم العثور على عملاء."
+    },
+    "reports": {
+      "title": "تقارير المبيعات",
+      "totalSales": "إجمالي المبيعات",
+      "totalTransactions": "إجمالي المعاملات",
+      "topSelling": "المنتجات الأكثر مبيعاً",
+      "table": {
+        "product": "المنتج",
+        "quantity": "الكمية المباعة",
+        "revenue": "الإيرادات"
+      },
+      "empty": {
+        "title": "لا توجد بيانات مبيعات",
+        "subtitle": "عند إجراء المبيعات، ستظهر تقاريرك هنا."
+      }
+    }
+  },
+  "commission": {
+    "title": "إدارة شركة العمولة",
+    "tabs": {
+      "groups": {
+        "sales": "المبيعات",
+        "inventory": "المخزون والمشتريات",
+        "commissions": "العمولات",
+        "people": "الأفراد",
+        "general": "عام"
+      },
+      "sales": "المبيعات",
+      "online_orders": "الطلبات الإلكترونية",
+      "inventory": "المخزون",
+      "employees": "أداء الموظفين",
+      "partners": "الشركاء",
+      "purchasing": "المشتريات",
+      "accounting": "المحاسبة",
+      "payroll": "كشوف المرتبات",
+      "hr": "الموارد البشرية",
+      "manage_employees": "إدارة الموظفين",
+      "public_page": "الصفحة العامة",
+      "ai_assistant": "المساعد الذكي",
+      "settings": "الإعدادات"
+    },
+    "sales": {
+      "products": "المنتجات",
+      "seller": "موظف البيع",
+      "referringCompany": "الشركة المحيلة",
+      "noCompany": "بدون شركة",
+      "variants": "اختر المقاس واللون لـ '{{name}}'",
+      "available": "(المتاح: {{stock}})"
+    },
+    "inventory": {
+      "form": {
+        "employeeCommissionRate": "نسبة عمولة الموظف (%)",
+        "companyCommissionRate": "نسبة عمولة الشركة الشريكة (%)",
+        "variants": "المتغيرات (مقاسات، ألوان)",
+        "addVariant": "+ إضافة متغير"
+      },
+      "table": {
+        "size": "المقاس",
+        "color": "اللون",
+        "stock": "المخزون"
+      }
+    },
+    "partners": {
+      "title": "عمولات الشركات الشريكة",
+      "add": "إضافة شركة",
+      "dueAmount": "العمولة المستحقة",
+      "payAndPrint": "دفع وطباعة الفاتورة",
+      "form": {
+        "addTitle": "إضافة شركة شريكة جديدة",
+        "name": "اسم الشركة"
+      },
+      "archiveTitle": "سجل العمولات المدفوعة",
+      "archiveTable": {
+        "paymentDate": "تاريخ الدفع",
+        "companyName": "اسم الشركة",
+        "amountPaid": "المبلغ المدفوع",
+        "reprint": "إعادة طباعة"
+      }
+    },
+    "receipt": {
+      "title": "فاتورة عمولة شركة",
+      "company": "الشركة",
+      "date": "التاريخ",
+      "table": {
+        "category": "الفئة",
+        "totalSales": "إجمالي المبيعات",
+        "commission": "العمولة المستحقة"
+      },
+      "footer": {
+        "totalInvoices": "إجمالي الفواتير",
+        "totalSales": "إجمالي المبيعات",
+        "totalCommission": "إجمالي العمولة المستحقة"
+      }
+    },
+    "settings": {
+      "title": "إعدادات العمولة"
+    }
+  },
+  "personal": {
+    "title": "التمويل الشخصي",
+    "tabs": {
+      "dashboard": "لوحة التحكم",
+      "transactions": "المعاملات",
+      "budgets": "الميزانيات",
+      "reports": "التقارير",
+      "spreadsheet": "جدول البيانات"
+    },
+    "dashboard": {
+      "expenseBreakdown": "توزيع المصروفات"
+    },
+    "summary": {
+      "income": "إجمالي الدخل",
+      "expense": "إجمالي المصروفات",
+      "balance": "الرصيد الحالي"
+    },
+    "form": {
+      "title": "إضافة معاملة جديدة",
+      "expense": "مصروف",
+      "income": "دخل",
+      "description": "الوصف",
+      "amount": "المبلغ",
+      "add": "إضافة"
+    },
+    "transactions": "المعاملات الأخيرة",
+    "searchPlaceholder": "بحث في المعاملات...",
+    "deleteConfirm": "هل أنت متأكد من حذف هذه المعاملة؟",
+    "categories": {
+      "salary": "راتب",
+      "food": "طعام",
+      "transport": "مواصلات",
+      "bills": "فواتير",
+      "entertainment": "ترفيه",
+      "health": "صحة",
+      "shopping": "تسوق",
+      "other": "أخرى"
+    },
+    "budgets": {
+      "title": "الميزانيات الشهرية",
+      "budgeted": "الميزانية",
+      "spent": "أنفق: {{amount}}",
+      "remaining": "متبقي: {{amount}}"
+    },
+    "reports": {
+      "title": "تقرير المصروفات",
+      "category": "الفئة",
+      "amount": "المبلغ",
+      "percentage": "النسبة المئوية"
+    }
+  },
+  "spreadsheet": {
+    "addColumn": "إضافة عمود",
+    "addRow": "إضافة صف",
+    "removeRow": "إزالة صف",
+    "removeCol": "إزالة عمود",
+    "bold": "عريض",
+    "italic": "مائل",
+    "textColor": "لون النص",
+    "bgColor": "لون الخلفية",
+    "freezeHeader": "تجميد العنوان",
+    "showSummary": "إظهار صف الملخص",
+    "addSheet": "إضافة ورقة",
+    "renameSheetPrompt": "أدخل اسمًا جديدًا للورقة:",
+    "deleteSheetConfirm": "هل أنت متأكد من حذف هذه الورقة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "total": "المجموع",
+    "enterColName": "أدخل اسم عمود جديد",
+    "renameHint": "انقر نقرًا مزدوجًا لإعادة التسمية",
+    "newSheetName": "ورقة {{number}}",
+    "newColumnName": "عمود {{number}}",
+    "toolbar": {
+      "bold": "عريض",
+      "italic": "مائل",
+      "alignLeft": "محاذاة لليسار",
+      "alignCenter": "توسيط",
+      "alignRight": "محاذاة لليمين",
+      "addRow": "إضافة صف",
+      "removeRow": "إزالة صف",
+      "addColumn": "إضافة عمود",
+      "removeColumn": "إزالة عمود"
+    },
+    "defaultSheetName": "ورقتي",
+    "defaultColumnName1": "عمود أ",
+    "defaultColumnName2": "عمود ب",
+    "defaultColumnName3": "عمود ج"
+  },
+  "publicPageDefaults": {
+    "platformName": "اسم المنصة",
+    "platformSubtitle": "نظام إدارة أعمالك المتكامل",
+    "platformAboutTitle": "عن منصتنا",
+    "platformAboutContent": "نقدم حلاً شاملاً لإدارة أعمالك، من نقاط البيع والمخزون إلى المحاسبة وإدارة علاقات العملاء، كل ذلك في مكان واحد.",
+    "restaurantSubtitle": "أشهى الأطباق في انتظارك",
+    "restaurantMenuTitle": "قائمة طعامنا",
+    "supermarketSubtitle": "كل ما تحتاجه عائلتك تحت سقف واحد",
+    "supermarketProductsTitle": "منتجاتنا المميزة",
+    "commissionTitle": "أهلاً بكم في {{companyName}}",
+    "commissionContent": "نقدم أحدث صيحات الموضة بأفضل الأسعار.",
+    "hotelSubtitle": "راحتك هي أولويتنا",
+    "hotelReservationTitle": "احجز إقامتك معنا",
+    "platformFeaturesTitle": "ميزاتنا",
+    "platformFeaturesContent": "نقاط بيع متقدمة، محاسبة دقيقة، إدارة مخزون شاملة، وأكثر من ذلك بكثير.",
+    "ecommerce": {
+      "title": "متجرنا الإلكتروني",
+      "subtitle": "سجل الدخول لتصفح منتجاتنا وطلبها بكل سهولة."
+    },
+    "hero": {
+      "title": "أهلاً بكم في صفحتنا",
+      "subtitle": "اكتشفوا منتجاتنا وخدماتنا الرائعة"
+    },
+    "text": {
+      "title": "من نحن",
+      "content": "معلومات مفصلة عن الشركة."
+    },
+    "menu": {
+      "title": "قائمة طعامنا"
+    },
+    "products": {
+      "title": "منتجاتنا"
+    },
+    "rooms": {
+      "title": "غرفنا"
+    },
+    "reservation": {
+      "title": "احجز الآن"
+    }
+  },
+  "defaults": {
+    "supermarket": {
+      "receiptHeader": "شكراً لتسوقكم معنا!",
+      "receiptFooter": "نتطلع لزيارتكم مرة أخرى!"
+    },
+    "restaurant": {
+      "receiptHeader": "بالعافية!",
+      "receiptFooter": "نتطلع لرؤيتكم مرة أخرى."
+    },
+    "hotel": {
+      "receiptHeader": "فاتورة الإقامة",
+      "receiptFooter": "نتمنى لكم إقامة ممتعة."
+    },
+    "currency": "ر.س"
+  },
+  "currencies": {
+    "sar": "ريال سعودي",
+    "usd": "دولار أمريكي",
+    "try": "ليرة تركية",
+    "egp": "جنيه مصري"
+  },
+  "addon": {
+    "breakfast": "فطور",
+    "airportTransfer": "توصيل المطار",
+    "spaAccess": "دخول السبا"
+  },
+  "package": {
+    "weekendGetaway": "باقة عطلة نهاية الأسبوع",
+    "weekendGetaway.desc": "استمتع بإقامة مريحة مع فطور ودخول للسبا.",
+    "businessTraveler": "باقة رجل الأعمال",
+    "businessTraveler.desc": "باقة مصممة لتلبية احتياجات المسافرين من رجال الأعمال."
+  },
+  "loyalty": {
+    "tiers": {
+      "silver": "المستوى الفضي",
+      "silver.benefits": "خصم 5% في المطاعم.",
+      "gold": "المستوى الذهبي",
+      "gold.benefits": "خصم 10% وترقية مجانية للغرفة (حسب التوفر).",
+      "platinum": "المستوى البلاتيني",
+      "platinum.benefits": "خصم 15%، ترقية للغرفة، ودخول مجاني للسبا."
+    }
+  },
+  "mock": {
+    "categories": {
+        "dairy": "ألبان",
+        "bakery": "مخبوزات",
+        "womenswear": "ملابس نسائية",
+        "menswear": "ملابس رجالية"
+    },
+    "menu": {
+        "category": {
+            "main": "الأطباق الرئيسية",
+            "side": "الأطباق الجانبية"
+        }
+    },
+    "units": {
+        "gram": "جرام",
+        "ml": "مل",
+        "piece": "قطعة"
+    },
+    "customers": {
+        "delivery1": {
+            "address": "طريق الملك فهد، الرياض"
+        },
+        "supermarket1": {
+            "address1": "شارع التحلية، جدة",
+            "address2": "حي الروضة"
+        }
+    },
+    "suppliers": {
+        "restaurant": "مورد أغذية مطاعم",
+        "food": "مورد أغذية عام"
+    },
+    "roles": {
+        "waiter": "نادل",
+        "kitchen": "مطبخ",
+        "cashier": "كاشير"
+    },
+    "colors": {
+        "red": "أحمر",
+        "blue": "أزرق",
+        "black": "أسود"
+    },
+    "spreadsheet": {
+        "sheets": {
+            "expenses": "المصروفات"
+        },
+        "cols": {
+            "date": "التاريخ",
+            "description": "الوصف",
+            "debit": "مدين",
+            "credit": "دائن",
+            "balance": "الرصيد",
+            "notes": "ملاحظات"
+        }
+    },
+    "floors": {
+        "f1": "الطابق الأول"
+    },
+    "roomTypes": {
+        "single": "غرفة مفردة",
+        "double": "غرفة مزدوجة",
+        "suite": "جناح"
+    },
+    "amenities": {
+        "wifi": "واي فاي",
+        "ac": "تكييف",
+        "tv": "تلفزيون",
+        "cityView": "إطلالة على المدينة",
+        "kitchenette": "مطبخ صغير",
+        "balcony": "شرفة"
+    },
+    "ratePlans": {
+        "standard": "السعر القياسي"
+    }
+  },
+  "hotel": {
+    "title": "إدارة الفندق",
+    "tabs": {
+      "frontDesk": "الاستقبال",
+      "public_reservations": "حجوزات الويب",
+      "tapeChart": "شريط الحجوزات",
+      "housekeeping": "التدبير المنزلي",
+      "settings": "الإعدادات",
+      "guests": "النزلاء",
+      "billing": "الفواتير",
+      "reports": "التقارير",
+      "reservations": "الحجوزات",
+      "rooms": "الغرف",
+      "employees": "الموظفين",
+      "maintenance": "الصيانة",
+      "channelManager": "مدير القنوات",
+      "floorPlan": "مخطط الطوابق",
+      "pos": "نقاط البيع",
+      "publicPage": "الصفحة العامة",
+      "aiAssistant": "المساعد الذكي",
+      "groups": {
+          "operations": "العمليات",
+          "bookings": "الحجوزات",
+          "management": "الإدارة",
+          "general": "عام",
+          "hotel_inventory": "المخزون والقائمة"
+      },
+      "menu_items": "عناصر القائمة",
+      "ingredients": "المكونات",
+      "recipes": "الوصفات"
+    },
+    "tapeChart": {
+      "title": "شريط الحجوزات الزمني",
+      "goToToday": "اليوم",
+      "newReservation": "حجز جديد",
+      "findRoom": "إيجاد غرفة",
+      "modal": {
+        "guestSearchPlaceholder": "ابحث عن نزيل أو أدخل اسم جديد",
+        "guestList": "النزلاء الحاليون",
+        "reservationDetails": "تفاصيل الحجز"
+      }
+    },
+     "publicReservations": {
+      "title": "الحجوزات من الصفحة العامة",
+      "empty": "لا توجد حجوزات جديدة من الصفحة العامة.",
+      "card": {
+        "confirm": "تأكيد الحجز",
+        "cancel": "إلغاء الحجز"
+      }
+    },
+    "housekeeping": {
+      "title": "حالة التدبير المنزلي",
+      "filters": {
+          "all": "الكل"
+      },
+      "assignTasks": "تعيين مهام",
+      "reportIssue": "الإبلاغ عن مشكلة",
+      "assignedTo": "مُعيّن لـ",
+      "assignModal": {
+        "housekeeper": "عامل النظافة",
+        "selectHousekeeper": "اختر عامل نظافة",
+        "dirtyRooms": "الغرف المتسخة",
+        "selectAll": "اختر الكل",
+        "confirm": "تعيين"
+      },
+       "actions": {
+        "startCleaning": "بدء التنظيف",
+        "finishCleaning": "إنهاء التنظيف",
+        "inspect": "فحص والموافقة",
+        "pendingInspection": "في انتظار الفحص"
+      }
+    },
+    "settings": {
+      "title": "إعدادات الفندق",
+      "roomTypes": "أنواع الغرف",
+      "addRoomType": "إضافة نوع غرفة",
+      "ratePlans": "خطط الأسعار",
+      "addRatePlan": "إضافة خطة أسعار",
+      "tabs": {
+        "general": "عام",
+        "types_rates": "الأنواع والأسعار",
+        "addons_packages": "الإضافات والباقات",
+        "loyalty_program": "برنامج الولاء",
+        "tax": "الضريبة"
+      },
+      "formatting": {
+        "title": "تنسيق التاريخ والوقت",
+        "calendar": {
+          "label": "نظام التقويم",
+          "gregorian": "ميلادي",
+          "hijri": "هجري"
+        },
+        "dateFormat": {
+          "label": "تنسيق التاريخ",
+          "description": "اختر كيفية عرض التواريخ في جميع أنحاء التطبيق.",
+          "yyyymmdd": "سنة-شهر-يوم (YYYY-MM-DD)",
+          "ddmmyyyy": "يوم/شهر/سنة (DD/MM/YYYY)",
+          "monthdyyyy": "اسم الشهر يوم، سنة (Month D, YYYY)"
+        }
+      }
+    },
+    "folio": {
+      "title": "حساب النزيل",
+      "balance": "الرصيد",
+      "addCharge": "إضافة رسوم",
+      "recordPayment": "تسجيل دفعة",
+      "description": "الوصف",
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "item": "البند",
+      "charges": "الرسوم",
+      "payments": "المدفوعات",
+      "empty": "لم يتم تسجيل أي بنود في هذا الحساب بعد.",
+      "settleAndCheckout": "تسوية ومغادرة",
+      "paymentMethod": "طريقة الدفع"
+    },
+    "frontDesk": {
+      "title": "لوحة تحكم الاستقبال",
+      "arrivals": "وصول اليوم",
+      "departures": "مغادرة اليوم",
+      "inHouse": "النزلاء المقيمون",
+      "occupancy": "نسبة الإشغال",
+      "nightAudit": "التدقيق الليلي",
+      "nightAuditConfirm": "هل أنت متأكد من إجراء التدقيق الليلي لتاريخ {{date}}؟ سيتم ترحيل رسوم الغرف لجميع النزلاء المسجلين.",
+      "checkIn": "تسجيل الدخول",
+      "checkOut": "تسجيل الخروج",
+      "viewFolio": "عرض الحساب"
+    },
+    "rooms": {
+      "title": "إدارة الغرف",
+      "roomNumber": "رقم الغرفة",
+      "type": "النوع",
+      "addRoom": "إضافة غرفة",
+      "table": {
+        "roomNumber": "رقم الغرفة",
+        "type": "النوع",
+        "status": "حالة النظافة"
+      },
+      "empty": "لم يتم إضافة أي غرف بعد."
+    },
+    "reservations": {
+      "title": "إدارة الحجوزات",
+      "searchPlaceholder": "ابحث باسم النزيل...",
+      "filterByDate": "تصفية حسب التاريخ:",
+      "filterByStatus": "تصفية حسب الحالة:",
+      "allStatuses": "جميع الحالات",
+      "table": {
+        "guest": "النزيل",
+        "dates": "التواريخ",
+        "room": "الغرفة",
+        "status": "الحالة",
+        "group": "المجموعة"
+      },
+      "empty": "لم يتم العثور على حجوزات بالمعايير المحددة.",
+      "newGroupBooking": "حجز مجموعة جديد"
+    },
+    "form": {
+      "roomTypeName": "اسم نوع الغرفة",
+      "ratePlanName": "اسم خطة الأسعار",
+      "ratePlanNamePlaceholder": "مثال: السعر القياسي، غرفة مع فطور",
+      "price": "السعر",
+      "pricePerNight": "السعر لليلة",
+      "totalStayCost": "إجمالي تكلفة الإقامة",
+      "nights": "{{count}} ليالي",
+      "capacity": "السعة (أشخاص)",
+      "basePrice": "السعر الأساسي",
+      "roomNumber": "رقم الغرفة",
+      "roomType": "نوع الغرفة",
+      "guestName": "اسم النزيل",
+      "checkIn": "تاريخ الوصول",
+      "checkOut": "تاريخ المغادرة",
+      "totalAmount": "المبلغ الإجمالي",
+      "selectRoom": "اختر غرفة",
+      "selectRatePlan": "اختر خطة أسعار",
+      "floor": "الطابق",
+      "selectFloor": "اختر طابق",
+      "room": "الغرفة",
+      "imageUrls": "روابط الصور",
+      "imageUrlPlaceholder": "https://example.com/image.png",
+      "addImageUrl": "إضافة رابط صورة",
+      "amenitiesLabel": "المرافق",
+      "amenitiesPlaceholder": "مفصولة بفاصلة، مثال: واي فاي، تكييف"
+    },
+    "statuses": {
+      "clean": "نظيفة",
+      "dirty": "متسخة",
+      "cleaninginprogress": "قيد التنظيف",
+      "inspected": "تم فحصها",
+      "outofservice": "خارج الخدمة",
+      "pending": "معلق",
+      "confirmed": "مؤكد",
+      "checkedin": "مسجل دخوله",
+      "checkedout": "مسجل خروجه",
+      "cancelled": "ملغى",
+      "noshow": "لم يحضر",
+      "checkin": "تسجيل دخول",
+      "checkout": "تسجيل خروج"
+    },
+    "guests": {
+      "title": "إدارة النزلاء",
+      "searchPlaceholder": "ابحث بالاسم أو الهاتف...",
+      "addGuest": "إضافة نزيل",
+      "editGuest": "تعديل النزيل",
+      "table": {
+        "name": "الاسم",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني",
+        "stays": "# الإقامات"
+      },
+      "empty": "لم يتم العثور على نزلاء.",
+      "backToList": "العودة إلى قائمة النزلاء",
+      "preferences": "التفضيلات",
+      "notes": "ملاحظات",
+      "noInfo": "لا توجد معلومات.",
+      "reservationHistory": "سجل الحجوزات",
+      "historyTable": {
+        "room": "الغرفة",
+        "dates": "التواريخ",
+        "status": "الحالة"
+      }
+    },
+    "reports": {
+      "title": "تقارير الفندق",
+      "dailyReportTitle": "التقرير المالي اليومي",
+      "roomRevenue": "إيرادات الغرف",
+      "fbRevenue": "إيرادات الأطعمة والمشروبات",
+      "totalRevenue": "إجمالي الإيرادات",
+      "occupancy": "نسبة الإشغال",
+      "adr": "متوسط السعر اليومي (ADR)",
+      "revpar": "الإيراد لكل غرفة متاحة (RevPAR)",
+      "occupancyTrend": "اتجاه الإشغال الأسبوعي",
+      "dailyMovements": "تقرير الحركة اليومي",
+      "selectDate": "اختر تاريخ التقرير",
+      "arrivals": "الوصول",
+      "departures": "المغادرة",
+      "inHouse": "النزلاء المقيمون",
+      "empty": "لا توجد حركات لهذا التاريخ."
+    },
+    "billing": {
+      "title": "الفواتير والحسابات",
+      "searchPlaceholder": "ابحث باسم النزيل أو الغرفة...",
+      "guestLedger": "دفتر حسابات النزلاء",
+      "viewFolio": "عرض الحساب",
+      "table": {
+        "guest": "النزيل",
+        "room": "الغرفة",
+        "balance": "الرصيد",
+        "date": "التاريخ",
+        "description": "الوصف",
+        "charge": "رسوم",
+        "payment": "دفعة"
+      },
+      "empty": "لا توجد حسابات برصيد مستحق.",
+      "activeAccounts": "الحسابات النشطة",
+      "invoiceHistory": "سجل الفواتير",
+      "emptyHistory": "لا توجد فواتير سابقة."
+    },
+    "receipt": {
+      "invoice": "فاتورة",
+      "invoiceNo": "رقم الفاتورة",
+      "printDate": "تاريخ الطباعة",
+      "guestInfo": "معلومات النزيل",
+      "roomNumber": "رقم الغرفة",
+      "checkIn": "الوصول",
+      "checkOut": "المغادرة",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "charge": "رسوم",
+      "payment": "دفعة",
+      "totalCharges": "إجمالي الرسوم",
+      "totalPayments": "إجمالي الدفعات",
+      "balance": "الرصيد",
+      "reprintInvoice": "إعادة طباعة الفاتورة"
+    },
+    "floorPlan": {
+      "designMode": "وضع التصميم",
+      "manageFloors": "إدارة الطوابق",
+      "addFloor": "إضافة طابق",
+      "newFloorName": "اسم الطابق الجديد",
+      "deleteFloorConfirm": "هل أنت متأكد من حذف هذا الطابق وجميع غرفه؟",
+      "statuses": {
+        "available": "متاحة",
+        "occupied": "مشغولة",
+        "dirty": "متسخة",
+        "outofservice": "خارج الخدمة"
+      }
+    },
+    "roomStatusModal": {
+      "title": "حالة الغرفة: {{roomNumber}}",
+      "type": "النوع",
+      "status": "الحالة",
+      "guest": "النزيل",
+      "checkIn": "الوصول",
+      "checkOut": "المغادرة",
+      "createReservation": "إنشاء حجز",
+      "viewFolio": "عرض الحساب",
+      "markClean": "تحديد كنظيفة",
+      "startCleaning": "بدء التنظيف"
+    },
+    "packages": {
+      "addonsTitle": "الخدمات الإضافية",
+      "addAddon": "إضافة خدمة",
+      "perGuest": "للشخص الواحد",
+      "perNight": "لليلة الواحدة",
+      "packagesTitle": "الباقات",
+      "addPackage": "إضافة باقة",
+      "modal": {
+        "title_addon_add": "إضافة خدمة جديدة",
+        "title_addon_edit": "تعديل الخدمة",
+        "title_package_add": "إضافة باقة جديدة",
+        "title_package_edit": "تعديل الباقة"
+      },
+      "form": {
+        "name": "الاسم",
+        "price": "السعر",
+        "description": "الوصف",
+        "includedAddons": "الخدمات المضمنة"
+      }
+    },
+    "loyalty": {
+      "title": "برنامج الولاء",
+      "enable": "تفعيل برنامج الولاء",
+      "pointsRate": "نقاط / وحدة عملة",
+      "tiersTitle": "مستويات الولاء",
+      "addTier": "إضافة مستوى",
+      "pointsThreshold": "{{count}} نقطة مطلوبة",
+      "points": "نقاط",
+      "noTier": "لا يوجد مستوى",
+      "progress": "{{points}} نقطة متبقية للوصول إلى {{tier}}",
+      "benefits": "المزايا",
+      "modal": {
+        "title_add": "إضافة مستوى جديد",
+        "title_edit": "تعديل المستوى"
+      },
+      "form": {
+        "name": "اسم المستوى",
+        "points": "عتبة النقاط",
+        "benefits": "المزايا"
+      }
+    },
+     "maintenance": {
+        "title": "طلبات الصيانة",
+        "createRequestTitle": "إنشاء طلب صيانة: غرفة {{roomNumber}}",
+        "description": "الوصف",
+        "descriptionPlaceholder": "مثال: المكيف لا يعمل، الحنفية تسرب...",
+        "markOutOfService": "تحديد الغرفة كخارج الخدمة",
+        "table": {
+            "room": "الغرفة",
+            "description": "الوصف",
+            "reportedBy": "المبلغ",
+            "date": "التاريخ",
+            "status": "الحالة"
+        },
+        "statuses": {
+            "reported": "تم الإبلاغ",
+            "inprogress": "قيد التنفيذ",
+            "completed": "مكتمل"
+        },
+        "empty": "لا توجد طلبات صيانة نشطة."
+    },
+    "channelManager": {
+        "title": "مدير القنوات",
+        "description": "قم بمزامنة حجوزاتك من قنوات الحجز الخاصة بك.",
+        "forceSync": "مزامنة الآن",
+        "syncStatus": "المزامنة",
+        "channels": "القنوات المتصلة",
+        "lastSync": "آخر مزامنة",
+        "activityLog": "سجل النشاط",
+        "statuses": {
+            "connected": "متصل",
+            "syncing": "جاري المزامنة",
+            "error": "خطأ",
+            "disabled": "معطل"
+        },
+        "time": {
+            "justNow": "الآن",
+            "secondsAgo": "قبل {{seconds}} ثانية",
+            "minutesAgo": "قبل {{minutes}} دقيقة"
+        }
+    }
+  },
+  "employee": {
+    "title": "إدارة الموظفين",
+    "add": "إضافة موظف",
+    "noEmployeesFound": "لم يتم العثور على موظفين",
+    "table": {
+      "name": "الاسم",
+      "role": "الدور",
+      "permissions": "الصلاحيات",
+      "commission": "العمولة",
+      "salary": "الراتب"
+    },
+    "form": {
+      "name": "اسم الموظف",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "اتركه فارغاً للحفاظ على كلمة المرور الحالية",
+      "salary": "الراتب الأساسي",
+      "commission": "نسبة العمولة (%)",
+      "role": "الدور",
+      "job": "المسمى الوظيفي (معد مسبقاً)",
+      "jobPlaceholder": "لتطبيق الصلاحيات، اختر مسمى وظيفي",
+      "jobPresets": {
+        "waiter": "نادل",
+        "cashier": "كاشير",
+        "kitchen": "مطبخ",
+        "floorManager": "مدير صالة",
+        "delivery": "سائق توصيل"
+      },
+      "customPermissions": "صلاحيات مخصصة",
+      "editButton": "تعديل موظف",
+      "addButton": "إضافة موظف"
+    },
+    "roles": {
+      "employee": "موظف",
+      "admin": "مدير"
+    },
+    "permissions": {
+      "CAN_ACCESS_POS": "الوصول إلى نقاط البيع",
+      "CAN_USE_PRICE_CHECKER": "استخدام مدقق الأسعار",
+      "CAN_APPROVE_ORDERS": "الموافقة على الطلبات",
+      "CAN_ACCESS_KDS": "الوصول إلى شاشة المطبخ",
+      "CAN_MANAGE_DELIVERY": "إدارة التوصيل",
+      "CAN_VIEW_REPORTS": "عرض التقارير",
+      "CAN_MANAGE_INVENTORY": "إدارة المخزون",
+      "CAN_MANAGE_RESERVATIONS": "إدارة الحجوزات",
+      "CAN_USE_INVENTORY_SCANNER": "استخدام ماسح المخزون",
+      "CAN_MANAGE_FRONT_DESK": "إدارة الاستقبال",
+      "CAN_MANAGE_HOUSEKEEPING": "إدارة التدبير المنزلي",
+      "CAN_MANAGE_MAINTENANCE": "إدارة الصيانة",
+      "all": "جميع الصلاحيات"
+    },
+    "noPermissions": "لا توجد صلاحيات محددة",
+    "profile": {
+      "title": "ملف الموظف",
+      "backToList": "العودة إلى قائمة الموظفين",
+      "totalPaid": "إجمالي الراتب المدفوع",
+      "totalCommission": "إجمالي العمولة المدفوعة",
+      "attendanceToday": "حضور اليوم",
+      "lastCheckIn": "آخر تسجيل دخول",
+      "tabs": {
+        "hr": "تفاصيل الموارد البشرية",
+        "payroll": "سجل الرواتب",
+        "commission": "سجل العمولات",
+        "performance": "الأداء"
+      },
+      "hrDetails": {
+        "recentAttendance": "سجل الحضور الأخير",
+        "leaveRequests": "طلبات الإجازة",
+        "documents": "المستندات"
+      },
+      "noData": "لا توجد بيانات لهذا القسم."
+    },
+    "performance": {
+      "title": "مؤشرات الأداء",
+      "totalSales": "إجمالي المبيعات",
+      "numberOfSales": "عدد الفواتير",
+      "avgSaleValue": "متوسط قيمة الفاتورة",
+      "totalCommission": "إجمالي العمولة المكتسبة"
+    }
+  },
+  "roles": {
+    "title": "الأدوار والصلاحيات",
+    "add": "إضافة دور",
+    "deleteConfirm": "هل أنت متأكد من حذف دور '{{name}}'؟",
+    "table": {
+      "name": "اسم الدور",
+      "permissions": "الصلاحيات",
+      "permissionCount": "{{count}} صلاحيات"
+    },
+    "form": {
+      "editTitle": "تعديل الدور",
+      "addTitle": "إضافة دور جديد",
+      "name": "اسم الدور",
+      "permissions": "الصلاحيات",
+      "selectRole": "اختر دور"
+    },
+    "empty": "لم يتم تحديد أي أدوار بعد."
+  },
+  "aiAssistant": {
+    "title": "المساعد الذكي",
+    "initialMessage": "مرحباً! أنا مساعدك في تحليل الأعمال. كيف يمكنني مساعدتك في تحليل بيانات مبيعاتك اليوم؟",
+    "placeholder": "اسأل عن مبيعاتك، أفضل المنتجات، أو الاتجاهات...",
+     "briefingError": "تعذر الحصول على موجز اليوم. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "mobileViews": {
+    "title": "واجهات الجوال المحسنة",
+    "description": "قم بتمكين موظفيك بواجهات محمولة مخصصة للعمليات أثناء التنقل. هذه مصممة للهواتف الذكية وتتطلب أذونات الموظفين.",
+    "waiter": {
+      "title": "تطبيق النادل",
+      "description": "يسمح للنادلين بأخذ الطلبات مباشرة من الطاولة، وعرض حالات الطاولات، وإرسال الطلبات فورًا إلى المطبخ."
+    },
+    "driver": {
+      "title": "تطبيق السائق",
+      "description": "يوفر لسائقي التوصيل تفاصيل الطلب، وعناوين العملاء، وقدرات تحديث الحالة لإدارة توصيل فعالة."
+    },
+    "inventory": {
+      "title": "تطبيق ماسح المخزون",
+      "description": "يمكّن الموظفين من إجراء جرد للمخزون، والتحقق من معلومات المنتج، واستلام البضائع ببساطة عن طريق مسح الباركود بكاميرا هواتفهم."
+    }
+  },
+  "hr": {
+    "tabs": {
+      "attendance": "الحضور",
+      "leave": "طلبات الإجازة",
+      "documents": "المستندات"
+    },
+    "attendance": {
+      "title": "الحضور اليومي",
+      "add": "إضافة سجل",
+      "table": {
+        "employee": "الموظف",
+        "status": "الحالة",
+        "checkIn": "وقت الدخول",
+        "checkOut": "وقت الخروج"
+      },
+      "statuses": {
+        "present": "حاضر",
+        "absent": "غائب",
+        "late": "متأخر"
+      },
+      "empty": "لا توجد سجلات حضور لهذا اليوم."
+    },
+    "leave": {
+      "pending": "طلبات الإجازة المعلقة",
+      "history": "سجل الإجازات",
+      "add": "طلب جديد",
+      "fromTo": "من {{start}} إلى {{end}}",
+      "reason": "السبب:",
+      "actions": {
+        "reject": "رفض",
+        "approve": "موافقة"
+      },
+      "emptyPending": "لا توجد طلبات إجازة معلقة.",
+      "table": {
+        "employee": "الموظف",
+        "period": "الفترة",
+        "reason": "السبب",
+        "status": "الحالة"
+      },
+      "statuses": {
+        "pending": "معلق",
+        "approved": "موافق عليه",
+        "rejected": "مرفوض"
+      }
+    },
+    "documents": {
+      "title": "مستندات الموظفين",
+      "add": "إضافة مستند",
+      "view": "عرض",
+      "empty": "لم يتم تحميل أي مستندات بعد.",
+      "table": {
+        "name": "اسم المستند",
+        "actions": "إجراءات"
+      }
+    },
+    "addAttendanceForm": {
+      "employee": "الموظف",
+      "selectEmployee": "اختر موظف",
+      "date": "التاريخ",
+      "status": "الحالة",
+      "checkIn": "وقت الدخول",
+      "checkOut": "وقت الخروج"
+    },
+    "addLeaveForm": {
+      "employee": "الموظف",
+      "selectEmployee": "اختر موظف",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "reason": "السبب",
+      "submit": "إرسال الطلب"
+    },
+    "addDocForm": {
+      "employee": "الموظف",
+      "selectEmployee": "اختر موظف",
+      "name": "اسم المستند",
+      "namePlaceholder": "مثال: نسخة من الهوية، عقد",
+      "file": "تحميل ملف",
+      "fileNote": "عمليات تحميل الملفات محاكاة في هذا العرض التوضيحي."
+    }
+  },
+  "payroll": {
+    "title": "كشوف المرتبات",
+    "processSection": {
+      "title": "معالجة الرواتب",
+      "period": "للفترة: {{period}}",
+      "button": "معالجة الآن"
+    },
+    "pending": "المدفوعات المعلقة",
+    "history": "سجل المدفوعات",
+    "table": {
+      "employee": "الموظف",
+      "netPay": "صافي الراتب",
+      "paymentDate": "تاريخ الدفع",
+      "period": "الفترة",
+      "baseSalary": "الراتب الأساسي",
+      "commissions": "العمولات",
+      "deductions": "الخصومات"
+    },
+    "markAsPaid": "تحديد كمدفوع",
+    "emptyPending": "لا توجد كشوف مرتبات معلقة.",
+    "emptyHistory": "لا يوجد سجل مدفوعات."
+  },
+  "paymentModal": {
+    "summary": "ملخص الطلب",
+    "pay": "الدفع",
+    "amountReceived": "المبلغ المستلم",
+    "change": "الباقي",
+    "payByCard": "الدفع بالبطاقة (B)",
+    "payByCash": "الدفع نقداً (C)",
+    "chargeToRoom": "تحميل على الغرفة",
+    "completeReturn": "إكمال الإرجاع",
+    "completeExchange": "إكمال العملية",
+    "refundDue": "المبلغ المسترد",
+    "refundMethod": "اختر طريقة الاسترداد:",
+    "refundToCard": "استرداد للبطاقة",
+    "refundCash": "استرداد نقدي"
+  },
+  "publicPage": {
+    "tabs": {
+      "content": "المحتوى",
+      "design": "التصميم",
+      "qrcode": "رمز QR"
+    },
+    "saveDesign": "حفظ التصميم",
+    "content": {
+      "enable": "تفعيل الصفحة العامة",
+      "sections": "أقسام الصفحة",
+      "add": "إضافة قسم",
+      "addTypes": {
+        "hero": "قسم رئيسي",
+        "text": "قسم نصي",
+        "menu": "قائمة طعام",
+        "products": "منتجات",
+        "reservation": "حجز",
+        "rooms": "غرف",
+        "cta": "دعوة للعمل",
+        "ecommerce": "تجارة إلكترونية"
+      }
+    },
+    "design": {
+      "logo": "رابط الشعار",
+      "logoPlaceholder": "https://example.com/logo.png",
+      "primaryColor": "اللون الأساسي",
+      "bgColor": "لون الخلفية",
+      "globalStyles": "الأنماط العامة",
+      "fontFamily": "الخط",
+      "layout": "التخطيط",
+      "layoutContained": "محتوى",
+      "layoutFullWidth": "عرض كامل"
+    },
+    "qrcode": {
+      "title": "رمز QR",
+      "description": "يمكن للعملاء مسح هذا الرمز لزيارة صفحتك العامة.",
+      "generating": "جاري إنشاء الرمز...",
+      "download": "تحميل الرمز"
+    },
+    "editSection": {
+      "title": "تعديل قسم: {{type}}",
+      "field": {
+        "title": "العنوان",
+        "subtitle": "العنوان الفرعي",
+        "content": "المحتوى",
+        "imageUrl": "رابط الصورة",
+        "buttonText": "نص الزر",
+        "buttonLink": "رابط الزر",
+        "bgColor": "لون خلفية القسم"
+      },
+      "appearance": "المظهر"
+    },
+    "preview": {
+      "footer": "مدعوم من ProCount",
+      "copyright": "© {{year}} {{name}}. جميع الحقوق محفوظة.",
+      "notFound": {
+        "title": "الصفحة غير موجودة",
+        "description": "الصفحة التي تبحث عنها غير موجودة."
+      },
+      "disabled": {
+        "title": "الصفحة غير متاحة حالياً",
+        "description": "هذه الصفحة غير متوفرة في الوقت الحالي."
+      }
+    },
+    "reservationForm": {
+      "name": "الاسم الكامل",
+      "phone": "رقم الهاتف",
+      "guests": "عدد الضيوف",
+      "submit": "إرسال طلب الحجز"
+    },
+    "hotel": {
+        "roomsTitle": "غرفنا",
+        "bookYourStay": "احجز إقامتك"
+    }
+  },
+  "accounting": {
+    "accounts": {
+      "assets": "الأصول",
+      "currentAssets": "الأصول المتداولة",
+      "cash": "النقدية",
+      "bank": "البنك",
+      "inventory": "المخزون",
+      "fixedAssets": "الأصول الثابتة",
+      "liabilities": "الخصوم",
+      "currentLiabilities": "الخصوم المتداولة",
+      "suppliers": "الموردون",
+      "commissionsPayable": "عمولات مستحقة الدفع",
+      "salariesPayable": "رواتب مستحقة الدفع",
+      "equity": "حقوق الملكية",
+      "capital": "رأس المال",
+      "revenue": "الإيرادات",
+      "salesRevenue": "إيرادات المبيعات",
+      "expenses": "المصروفات",
+      "cogs": "تكلفة البضاعة المباعة",
+      "salaryExpenses": "مصروفات الرواتب",
+      "rentExpenses": "مصروفات الإيجار",
+      "commissionExpenses": "مصروفات العمولات",
+      "guestLedger": "حسابات النزلاء",
+      "roomRevenue": "إيرادات الغرف",
+      "otherHotelRevenue": "إيرادات فندقية أخرى",
+      "fbRevenue": "إيرادات الأطعمة والمشروبات"
+    },
+    "tabs": {
+      "reports": "التقارير المالية",
+      "journal": "قيود اليومية",
+      "chart": "شجرة الحسابات"
+    },
+    "chart": {
+      "title": "شجرة الحسابات",
+      "add": "إضافة حساب",
+      "table": {
+        "name": "اسم الحساب",
+        "number": "رقم الحساب",
+        "type": "النوع",
+        "balance": "الرصيد"
+      }
+    },
+    "addAccountForm": {
+      "id": "رقم الحساب",
+      "name": "اسم الحساب",
+      "type": "نوع الحساب",
+      "parent": "الحساب الرئيسي",
+      "noParent": "لا يوجد (حساب رئيسي)",
+      "add": "إضافة"
+    },
+    "journal": {
+      "title": "قيود اليومية",
+      "add": "إضافة قيد",
+      "table": {
+        "date": "التاريخ",
+        "description": "الوصف",
+        "amount": "المبلغ"
+      }
+    },
+    "addJournalForm": {
+      "date": "التاريخ",
+      "description": "الوصف",
+      "account": "اختر حساب",
+      "debit": "مدين",
+      "credit": "دائن",
+      "addLine": "+ إضافة سطر",
+      "save": "حفظ القيد"
+    },
+    "reports": {
+      "income": "قائمة الدخل",
+      "balance": "الميزانية العمومية"
+    },
+    "incomeStatement": {
+      "title": "قائمة الدخل",
+      "period": "للفترة المنتهية في {{date}}",
+      "revenue": "الإيرادات",
+      "totalRevenue": "إجمالي الإيرادات",
+      "expenses": "المصروفات",
+      "totalExpenses": "إجمالي المصروفات",
+      "netIncome": "صافي الدخل",
+      "netLoss": "صافي الخسارة"
+    },
+    "balanceSheet": {
+      "title": "الميزانية العمومية",
+      "date": "بتاريخ {{date}}",
+      "assets": "الأصول",
+      "totalAssets": "إجمالي الأصول",
+      "liabilitiesEquity": "الخصوم وحقوق الملكية",
+      "liabilities": "الخصوم",
+      "totalLiabilities": "إجمالي الخصوم",
+      "equity": "حقوق الملكية",
+      "totalEquity": "إجمالي حقوق الملكية",
+      "totalLiabilitiesEquity": "إجمالي الخصوم وحقوق الملكية"
+    }
+  },
+  "purchasing": {
+    "tabs": {
+      "invoices": "فواتير الشراء",
+      "orders": "أوامر الشراء"
+    },
+    "invoices": {
+      "title": "فواتير الشراء",
+      "add": "إضافة فاتورة",
+      "table": {
+        "number": "رقم الفاتورة",
+        "supplier": "المورد",
+        "date": "التاريخ",
+        "description": "الوصف",
+        "total": "الإجمالي"
+      },
+      "empty": "لم يتم تسجيل أي فواتير شراء بعد."
+    },
+    "addInvoiceForm": {
+      "supplier": "اسم المورد",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "descriptionPlaceholder": "مثال: مخزون افتتاحي، مشتريات شهر مايو...",
+      "total": "المبلغ الإجمالي"
+    },
+    "orders": {
+      "title": "أوامر الشراء",
+      "add": "أمر جديد",
+      "view": "عرض",
+      "table": {
+        "number": "رقم الأمر",
+        "supplier": "المورد",
+        "date": "التاريخ",
+        "total": "الإجمالي",
+        "status": "الحالة",
+        "actions": "إجراءات"
+      },
+      "statuses": {
+        "draft": "مسودة",
+        "sent": "مرسل",
+        "completed": "مكتمل"
+      },
+      "form": {
+        "supplier": "المورد",
+        "selectSupplier": "اختر مورد",
+        "date": "التاريخ",
+        "items": "الأصناف",
+        "selectProduct": "اختر منتج",
+        "quantity": "الكمية",
+        "cost": "التكلفة",
+        "addItem": "+ إضافة صنف",
+        "total": "الإجمالي",
+        "saveDraft": "حفظ كمسودة",
+        "markComplete": "استلام البضاعة"
+      },
+      "empty": "لا توجد أوامر شراء."
+    }
+  },
+  "dashboard": {
+    "salesChart": {
+      "title": "أداء المبيعات (آخر 7 أيام)"
+    },
+    "aiBriefing": {
+      "title": "موجز الصباح من المساعد الذكي",
+      "briefingError": "تعذر الحصول على موجز اليوم. يرجى المحاولة مرة أخرى لاحقًا."
+    },
+    "activity": {
+      "title": "النشاط الأخير",
+      "newSale": "عملية بيع جديدة بقيمة {{total}} ر.س",
+      "newReservation": "حجز جديد لـ {{name}}",
+      "checkIn": "النزيل {{name}} قام بتسجيل الدخول",
+      "maintenance": "طلب صيانة للغرفة {{room}}"
+    },
+    "kpi": {
+      "todaysSales": "مبيعات اليوم",
+      "activeTables": "الطاولات النشطة",
+      "pendingOrders": "الطلبات المعلقة",
+      "upcomingReservations": "حجوزات اليوم",
+      "customerCount": "عدد العملاء",
+      "lowStockItems": "أصناف منخفضة المخزون",
+      "heldCarts": "فواتير معلقة",
+      "occupancy": "نسبة الإشغال",
+      "arrivals": "وصول اليوم",
+      "departures": "مغادرة اليوم",
+      "dirtyRooms": "غرف للتنظيف"
+    }
+  },
+  "analytics": {
+    "title": "لوحة التحليلات",
+    "totalRevenue": "إجمالي الإيرادات",
+    "totalOrders": "إجمالي الطلبات",
+    "avgOrderValue": "متوسط قيمة الطلب",
+    "newCustomers": "عملاء جدد",
+    "performance": "أداء آخر 7 أيام",
+    "chartPlaceholder": "لا توجد بيانات كافية لعرض الرسم البياني."
+  },
+   "priceChecker": {
+    "title": "مدقق الأسعار",
+    "scanButton": "مسح الباركود",
+    "scanning": "وجه الكاميرا إلى الباركود...",
+    "enterBarcode": "أو أدخل الباركود يدوياً",
+    "checkPrice": "تحقق",
+    "scanAgain": "مسح منتج آخر",
+    "productNotFound": "المنتج غير موجود.",
+    "cameraError": "تعذر الوصول إلى الكاميرا. يرجى التحقق من الأذونات."
+  },
+  "settings": {
+    "general": {
+      "title": "الإعدادات العامة",
+      "currency": {
+        "label": "رمز العملة المحلية",
+        "placeholder": "مثال: ر.س، $، €",
+        "description": "سيظهر هذا الرمز لجميع الأسعار والمجاميع."
+      }
+    },
+    "formatting": {
+      "title": "التنسيق",
+      "calendar": {
+        "label": "نظام التقويم",
+        "gregorian": "ميلادي",
+        "hijri": "هجري"
+      },
+      "dateFormat": {
+        "label": "تنسيق التاريخ",
+        "description": "اختر كيفية عرض التواريخ في جميع أنحاء التطبيق.",
+        "yyyymmdd": "سنة-شهر-يوم (YYYY-MM-DD)",
+        "ddmmyyyy": "يوم/شهر/سنة (DD/MM/YYYY)",
+        "monthdyyyy": "اسم الشهر يوم، سنة (Month D, YYYY)"
+      }
+    }
+  },
+  "tax": {
+    "settings": "إعدادات الضريبة",
+    "general": "الضريبة العامة",
+    "enable": "تفعيل الضريبة العامة",
+    "name": "اسم الضريبة",
+    "namePlaceholder": "مثال: ضريبة القيمة المضافة",
+    "rate": "النسبة (%)",
+    "productSpecific": "ضريبة الصنف (%)"
+  },
+  "reports": {
+    "printPdf": "طباعة / PDF",
+    "filterByDateRange": "تصفية حسب النطاق الزمني",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء"
+  },
+  "onlineOrders": {
+    "title": "إدارة الطلبات الإلكترونية",
+    "card": {
+      "order": "طلب #{{num}}",
+      "items": "{{count}} أصناف",
+      "total": "الإجمالي: {{total}} ر.س"
+    },
+    "customerLogin": {
+      "title": "تسجيل دخول العميل",
+      "welcome": "المتسوق: {{name}}",
+      "button": "دخول العملاء",
+      "logout": "تسجيل الخروج"
+    },
+    "account": {
+      "title": "حسابي",
+      "personalInfo": "المعلومات الشخصية",
+      "address": "العنوان الأساسي",
+      "secondaryAddress": "العنوان الثانوي",
+      "changePassword": "تغيير كلمة المرور",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة",
+      "newAddress": "عنوان جديد"
+    },
+    "login": {
+      "title": "تسجيل الدخول للمتجر",
+      "noAccount": "ليس لديك حساب؟",
+      "registerHere": "سجل من هنا"
+    },
+    "register": {
+      "title": "إنشاء حساب جديد",
+      "name": "الاسم الكامل",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "button": "تسجيل",
+      "haveAccount": "هل لديك حساب بالفعل؟",
+      "loginHere": "سجل الدخول من هنا"
+    },
+    "store": {
+      "welcome": "أهلاً،",
+      "tabs": {
+        "store": "المتجر",
+        "myOrders": "طلباتي",
+        "myAccount": "حسابي"
+      },
+      "logout": "تسجيل الخروج",
+      "searchPlaceholder": "ابحث عن منتجات...",
+      "allCategories": "جميع الفئات",
+      "addToCart": "أضف إلى السلة",
+      "cart": "سلة التسوق",
+      "cartEmpty": "سلتك فارغة.",
+      "total": "الإجمالي",
+      "address": "عنوان التوصيل",
+      "placeOrder": "إتمام الطلب",
+      "orderSuccessTitle": "تم استلام طلبك بنجاح!",
+      "orderSuccessBody": "سنقوم بتجهيز طلبك وإعلامك عندما يكون جاهزًا للتوصيل.",
+      "continueShopping": "متابعة التسوق",
+      "notesPlaceholder": "ملاحظات إضافية (اختياري)",
+      "checkoutTitle": "إتمام الطلب",
+      "addressPlaceholder": "أدخل عنوان التوصيل الكامل",
+      "notes": "ملاحظات إضافية"
+    },
+    "myOrders": {
+      "title": "طلباتي",
+      "empty": "ليس لديك طلبات سابقة.",
+      "items": "الأصناف",
+      "notes": "الملاحظات",
+      "editOrder": "تعديل الطلب",
+      "cancelOrder": "إلغاء الطلب",
+      "confirmCancel": "هل أنت متأكد من رغبتك في إلغاء هذا الطلب؟",
+      "editModal": {
+        "title": "تعديل الطلب #{{num}}",
+        "address": "عنوان التوصيل",
+        "save": "حفظ التغييرات"
+      },
+      "reactivateOrder": "إعادة تفعيل"
+    },
+    "details": {
+      "title": "تفاصيل المنتج",
+      "reviewsTitle": "تقييمات العملاء",
+      "noReviews": "لا توجد تقييمات بعد.",
+      "rating": "({{count}} تقييمات)",
+      "selectVariant": "اختر {{name}}",
+      "options": "الخيارات",
+      "customerInfo": "معلومات العميل",
+      "shippingAddress": "عنوان الشحن",
+      "items": "الأصناف",
+      "product": "المنتج",
+      "quantity": "الكمية",
+      "price": "السعر",
+      "total": "الإجمالي"
+    }
+  },
+  "paymentMethods": {
+    "cash": "نقدي",
+    "card": "بطاقة",
+    "room_charge": "تحميل على الغرفة"
+  },
+  "numpad": {
+    "qty": "الكمية",
+    "price": "السعر",
+    "disc": "خصم %"
+  },
+  "designStudio": {
+    "preview": {
+      "productName": "منتج تجريبي",
+      "productName2": "صنف آخر",
+      "customerName": "عميل عام",
+      "employeeName": "كاشير"
+    }
+  },
+  "promotions": {
+    "title": "العروض الترويجية",
+    "add": "إضافة عرض",
+    "edit": "تعديل العرض",
+    "table": {
+      "name": "اسم العرض",
+      "type": "النوع"
+    },
+    "types": {
+      "CATEGORY_DISCOUNT": "خصم على الفئة",
+      "BOGO": "اشتر س واحصل على ص",
+      "BUNDLE_DEAL": "صفقة حزمة"
+    },
+    "statuses": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "form": {
+      "name": "اسم العرض",
+      "type": "نوع العرض",
+      "active": "العرض نشط",
+      "categoryName": "اسم الفئة",
+      "discountPercentage": "نسبة الخصم (%)",
+      "buyProducts": "منتجات للشراء",
+      "buyQuantity": "كمية الشراء",
+      "getProducts": "منتجات للحصول عليها",
+      "getQuantity": "كمية الحصول",
+      "getDiscountPercentage": "نسبة الخصم على المنتج المحصول عليه (%)",
+      "bundleProducts": "منتجات الحزمة",
+      "bundlePrice": "سعر الحزمة"
+    },
+    "delete": {
+      "title": "حذف العرض",
+      "message": "هل أنت متأكد من رغبتك في حذف العرض '{{name}}'؟"
+    }
+  },
+  "automotive": {
+    "title": "إدارة السيارات",
+    "inventory": {
+      "title": "مخزون السيارات",
+      "addProduct": "إضافة منتج",
+      "table": {
+        "product": "المنتج",
+        "type": "النوع",
+        "status": "الحالة",
+        "price": "السعر"
+      },
+      "form": {
+        "type": "النوع",
+        "types": {
+          "sale": "بيع",
+          "rental": "إيجار",
+          "part": "قطعة غيار"
+        },
+        "status": "الحالة",
+        "statuses": {
+          "available": "متاح",
+          "sold": "مباع",
+          "rented": "مؤجر"
+        },
+        "make": "ماركة",
+        "model": "موديل",
+        "year": "سنة الصنع",
+        "price": "سعر البيع",
+        "dailyRate": "سعر الإيجار اليومي",
+        "partPrice": "سعر القطعة",
+        "features": "الميزات",
+        "featuresPlaceholder": "مفصولة بفاصلة، مثال: ناقل حركة أوتوماتيكي، فتحة سقف",
+        "imageUrls": "روابط الصور"
+      }
+    },
+    "publicPage": {
+      "details": {
+        "price": "السعر",
+        "dailyRate": "الإيجار اليومي",
+        "specifications": "المواصفات",
+        "make": "الماركة",
+        "model": "الموديل",
+        "year": "السنة",
+        "features": "الميزات",
+        "inquireNow": "استفسر الآن"
+      }
+    }
+  },
+  "billing": {
+    "title": "الفوترة",
+    "generateInvoices": "إنشاء فواتير شهرية",
+    "unpaidAmount": "المبالغ غير المدفوعة",
+    "revenueThisMonth": "إيرادات هذا الشهر",
+    "table": {
+      "invoiceId": "رقم الفاتورة",
+      "company": "الشركة",
+      "plan": "الباقة",
+      "amount": "المبلغ",
+      "issueDate": "تاريخ الإصدار",
+      "dueDate": "تاريخ الاستحقاق",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "actions": {
+      "markPaid": "تحديد كمدفوع",
+      "viewPrint": "عرض / طباعة"
+    },
+    "statuses": {
+      "paid": "مدفوعة",
+      "unpaid": "غير مدفوعة",
+      "overdue": "متأخرة"
+    }
+  },
+  "invoice": {
+    "title": "فاتورة",
+    "billTo": "فاتورة إلى:",
+    "invoiceNo": "رقم الفاتورة",
+    "issueDate": "تاريخ الإصدار",
+    "dueDate": "تاريخ الاستحقاق",
+    "table": {
+      "item": "البند",
+      "price": "السعر",
+      "total": "الإجمالي"
+    },
+    "statusPaid": "مدفوعة",
+    "statusUnpaid": "غير مدفوعة"
+  }
+}

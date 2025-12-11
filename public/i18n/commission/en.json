@@ -1,0 +1,162 @@
+
+{
+  "commission": {
+    "title": "Commission Company Management",
+    "tabs": {
+      "groups": {
+        "sales": "Sales",
+        "inventory": "Inventory & Purchasing",
+        "commissions": "Commissions",
+        "people": "People",
+        "general": "General"
+      },
+      "sales": "Sales",
+      "online_orders": "Online Orders",
+      "inventory": "Inventory",
+      "employees": "Employee Performance",
+      "partners": "Partners",
+      "purchasing": "Purchasing",
+      "accounting": "Accounting",
+      "payroll": "Payroll",
+      "hr": "HR",
+      "manage_employees": "Manage Employees",
+      "public_page": "Public Page",
+      "ai_assistant": "AI Assistant",
+      "settings": "Settings",
+      "reports": "Reports"
+    },
+    "sales": {
+      "products": "Products",
+      "seller": "Sales Employee",
+      "referringCompany": "Referring Company",
+      "noCompany": "No Company",
+      "variants": "Select size and color for '{{name}}'",
+      "available": "(Available: {{stock}})"
+    },
+    "inventory": {
+      "form": {
+        "employeeCommissionRate": "Employee Commission Rate (%)",
+        "companyCommissionRate": "Partner Company Commission Rate (%)",
+        "variants": "Variants (sizes, colors)",
+        "addVariant": "+ Add Variant"
+      },
+      "table": {
+        "size": "Size",
+        "color": "Color",
+        "stock": "Stock"
+      }
+    },
+    "partners": {
+      "title": "Partner Company Commissions",
+      "add": "Add Company",
+      "form": {
+        "addTitle": "Add New Partner Company",
+        "name": "Company Name",
+        "address": "Address",
+        "email": "Email",
+        "phone": "Phone",
+        "taxNumber": "Tax Number",
+        "commissionRate": "Commission Rate (%)"
+      },
+      "card": {
+        "rate": "Commission Rate",
+        "unpaidInvoices": "Unpaid Invoices",
+        "dueAmount": "Commission Due",
+        "payButton": "Pay Commission"
+      },
+      "archiveTitle": "Paid Commissions History",
+      "archiveTable": {
+        "paymentDate": "Payment Date",
+        "companyName": "Company Name",
+        "amountPaid": "Amount Paid",
+        "reprint": "Reprint",
+        "period": "Period"
+      },
+      "emptyArchive": "No payment records yet."
+    },
+    "commissions": {
+      "pendingTitle": "Pending Employee Commissions",
+      "archiveTitle": "Paid Employee Commissions History",
+      "card": {
+        "rate": "Effective Rate: {{rate}}%",
+        "unpaidSales": "Unpaid Sales",
+        "dueAmount": "Commission Due",
+        "payButton": "Pay Commission"
+      },
+      "archiveTable": {
+        "paymentDate": "Payment Date",
+        "employeeName": "Employee Name",
+        "amountPaid": "Amount Paid",
+        "period": "Period"
+      },
+      "emptyArchive": "No payment records yet.",
+      "emptyPending": "No employees with a commission rate set.",
+      "receipt": {
+        "title": "Employee Commission Receipt",
+        "employee": "Employee",
+        "table": {
+          "category": "Category",
+          "totalSales": "Total Sales",
+          "commission": "Commission"
+        },
+        "footer": {
+          "totalSales": "Total Sales:",
+          "totalCommission": "Total Commission Paid:"
+        }
+      }
+    },
+    "receipt": {
+      "title": "Company Commission Invoice",
+      "company": "Company",
+      "date": "Date",
+      "table": {
+        "category": "Category",
+        "totalSales": "Total Sales",
+        "commission": "Commission Due",
+        "commissionRate": "Rate %"
+      },
+      "footer": {
+        "totalInvoices": "Total Invoices",
+        "totalSales": "Total Sales",
+        "totalCommission": "Total Commission Due",
+        "companyRate": "Company Rate:",
+        "productsRateAvg": "Avg. Products Rate:",
+        "totalRateAvg": "Total Avg. Rate:"
+      }
+    },
+    "settings": {
+      "title": "Commission Settings"
+    },
+    "reports": {
+        "dailyPayments": "Daily Payments Report"
+    }
+  },
+  "mock": {
+    "categories": {
+      "womenswear": "Womenswear",
+      "menswear": "Menswear"
+    },
+     "colors": {
+        "red": "Red",
+        "blue": "Blue",
+        "black": "Black"
+    }
+  },
+  "loyalty": {
+    "title": "Loyalty Program",
+    "enable": "Enable loyalty program",
+    "earningRate": {
+      "label": "Points Earning Rate",
+      "description": "Points per currency unit."
+    },
+    "redemptionRate": {
+      "label": "Points Redemption Rate",
+      "description": "Points per discount unit."
+    },
+    "tiersTitle": "Loyalty Tiers",
+    "addTier": "Add Tier",
+    "discountValue": "Loyalty Discount",
+    "availablePoints": "{{name}}'s available points: {{points}}",
+    "redeemPlaceholder": "Points to redeem"
+  }
+}

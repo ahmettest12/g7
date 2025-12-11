@@ -1,0 +1,90 @@
+{
+    "manufacturing": {
+        "title": "Manufacturing",
+        "tabs": {
+            "dashboard": "Dashboard",
+            "projects": "Projects",
+            "blueprint_designer": "Blueprint Designer",
+            "raw_materials": "Raw Materials",
+            "finished_goods": "Finished Goods",
+            "purchasing": "Purchasing",
+            "customers": "Customers",
+            "accounting": "Accounting",
+            "employees": "Employees",
+            "hr": "HR",
+            "public_page": "Public Page",
+            "settings": "Settings"
+        },
+        "mobile": {
+            "scan_materials": "Scan Materials",
+            "view_blueprints": "View Blueprints"
+        },
+        "projects": {
+            "title": "Project Management",
+            "add": "Add Project",
+            "empty": "No projects have been added yet.",
+            "details": "Details",
+            "blueprint": "Blueprint",
+            "table": {
+                "name": "Project Name",
+                "customer": "Customer",
+                "status": "Status",
+                "startDate": "Start Date",
+                "cost": "Estimated Cost"
+            },
+            "statuses": {
+                "new": "New",
+                "in_progress": "In Progress",
+                "completed": "Completed",
+                "on_hold": "On Hold"
+            }
+        },
+        "form": {
+            "addTitle": "Add New Project",
+            "editTitle": "Edit Project",
+            "name": "Project Name",
+            "description": "Description",
+            "customer": "Customer",
+            "selectCustomer": "Select a customer",
+            "status": "Status",
+            "startDate": "Start Date",
+            "estimatedCost": "Estimated Cost",
+            "blueprintAndDimensions": "Blueprint & Dimensions",
+            "blueprintUpload": "Blueprint Image",
+            "dimensions": "Dimensions",
+            "dim": {
+                "description": "Description",
+                "length": "Length",
+                "width": "Width",
+                "height": "Height",
+                "unit": "Unit",
+                "notes": "Notes",
+                "addDimension": "Add Dimension"
+            }
+        },
+        "blueprint": {
+            "list": "Blueprints",
+            "newName": "New Blueprint",
+            "selectPrompt": "Select a blueprint from the list to start.",
+            "tools": {
+                "select": "Select & Move",
+                "rectangle": "Rectangle",
+                "circle": "Circle",
+                "line": "Line",
+                "text": "Text",
+                "polygon": "Polygon",
+                "eraser": "Eraser"
+            },
+            "properties": {
+                "title": "Properties",
+                "fill": "Fill Color",
+                "stroke": "Stroke Color",
+                "strokeWidth": "Stroke Width",
+                "text": "Enter text"
+            }
+        }
+    },
+    "companyTypes": {
+        "manufacturing": "Manufacturing"
+    }
+}

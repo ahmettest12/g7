@@ -1,0 +1,72 @@
+
+{
+    "promotions": {
+        "title": "Promotions",
+        "add": "Add Promotion",
+        "edit": "Edit Promotion",
+        "table": {
+            "name": "Promotion Name",
+            "type": "Type"
+        },
+        "types": {
+            "BOGO": "Buy X, Get Y",
+            "CATEGORY_DISCOUNT": "Category Discount",
+            "BUNDLE_DEAL": "Bundle Deal",
+            "TIERED_DISCOUNT": "Tiered Discount",
+            "GLOBAL_DISCOUNT": "Global Discount"
+        },
+        "templates": {
+          "bogo_1_1_free": "Buy one, get one free",
+          "bogo_2_2_free": "Buy two, get two free",
+          "bogo_1_1_discount": "Buy one, get second with discount",
+          "bogo_custom": "Custom Offer (Buy X, Get Y)",
+          "global_discount": "Discount on all products",
+          "tiered_discount": "Tiered discount by quantity",
+          "category_discount": "Category discount",
+          "bundle_deal": "Bundle deal (set price)"
+        },
+        "statuses": {
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "form": {
+            "name": "Promotion Name",
+            "description": "Description (for public display)",
+            "generateWithAi": "Generate with AI",
+            "type": "Promotion Type",
+            "active": "Promotion is active",
+            "scheduling": "Scheduling (Optional)",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "time": "Specific Time (Happy Hour)",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "categoryName": "Category Name",
+            "discountPercentage": "Discount Percentage (%)",
+            "buyProducts": "Products to Buy",
+            "buyQuantity": "Buy Quantity",
+            "getProducts": "Products to Get",
+            "getQuantity": "Get Quantity",
+            "getDiscountPercentage": "Discount % on 'Get' Product",
+            "bogoDescription": "Example: Buy 2 of 'Product A' to get 1 of 'Product B' at a 50% discount. For a free item, set discount to 100.",
+            "bundleProducts": "Bundle Products",
+            "bundlePrice": "Bundle Price",
+            "tieredDiscount": "Discount Tiers",
+            "tieredDescription": "Example: Buy 3 items, get 10% off; buy 5 items, get 20% off. Applies to selected products.",
+            "addTier": "Add Tier",
+            "tierQuantity": "Quantity",
+            "applicableProducts": "Applicable Products",
+            "aiPrompt": "Write a short, catchy promotional description for a {{type}} promotion named '{{name}}'. Details: {{details}}",
+            "applyTo": "Apply To",
+            "allProducts": "All Products",
+            "specificCategories": "Specific Categories",
+            "specificProducts": "Specific Products",
+            "getSameItem": "Get same item(s)",
+            "buyCategories": "Buy Categories"
+        },
+        "delete": {
+            "title": "Delete Promotion",
+            "message": "Are you sure you want to delete the promotion '{{name}}'?"
+        }
+    }
+}

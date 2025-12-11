@@ -1,0 +1,320 @@
+
+{
+  "restaurant": {
+    "title": "إدارة المطعم",
+    "tabs": {
+      "pos": "نقاط البيع",
+      "approval": "الموافقات",
+      "delivery": "التوصيل",
+      "reservations": "الحجوزات",
+      "kds": "شاشة المطبخ",
+      "management": "الإدارة",
+      "queue": "شاشة الدور"
+    },
+    "managementTabs": {
+      "groups": {
+        "operations": "العمليات",
+        "inventory": "المخزون والقائمة",
+        "people": "الأفراد والرواتب",
+        "general": "عام"
+      },
+      "analytics": "التحليلات",
+      "online_orders": "الطلبات الإلكترونية",
+      "menu_items": "عناصر القائمة",
+      "promotions": "العروض الترويجية",
+      "purchasing": "المشتريات",
+      "ingredients": "المكونات",
+      "recipes": "الوصفات",
+      "crm": "إدارة العملاء",
+      "employee_commissions": "عمولات الموظفين",
+      "partner_commissions": "عمولات الشركاء",
+      "payroll": "كشوف المرتبات",
+      "hr": "الموارد البشرية",
+      "employees": "الموظفين",
+      "roles": "الأدوار والصلاحيات",
+      "accounting": "المحاسبة",
+      "public_page": "الصفحة العامة",
+      "mobile": "واجهات الجوال",
+      "aiAssistant": "المساعد الذكي",
+      "settings": "الإعدادات",
+      "design_print": "التصميم والطباعة",
+      "reports": "التقارير"
+    },
+    "tableLayout": {
+      "title": "تصميم الطاولات",
+      "designMode": "وضع التصميم",
+      "pendingApproval": "بانتظار الموافقة",
+      "newTableName": "طاولة {{number}}"
+    },
+    "pos": {
+      "tabs": {
+        "dineIn": "صالة",
+        "takeaway": "سفري",
+        "delivery": "توصيل"
+      },
+      "assignWaiterModal": {
+        "title": "تعيين نادل | طاولة: {{name}}",
+        "prompt": "يرجى اختيار النادل المسؤول عن هذه الطاولة.",
+        "selectPlaceholder": "-- اختر نادل --",
+        "assignButton": "تعيين"
+      },
+      "header": {
+        "waiter": "النادل: {{name}}",
+        "cashier": "الكاشير",
+        "deliveryOrder": "توصيل #{{num}}",
+        "takeawayOrder": "سفري #{{num}}"
+      },
+      "actions": {
+        "sendToKitchen": "إرسال إلى المطبخ",
+        "sendForApproval": "إرسال للموافقة"
+      },
+      "notesPlaceholder": "ملاحظات (مثال: بدون بصل)",
+      "mergeErrorNotOccupied": "لا يمكن دمج طاولة غير مشغولة.",
+      "selectTargetTable": "اختر الطاولة الرئيسية التي سيتم دمج الطلبات إليها:",
+      "mergeInstruction": "اختر الطاولات التي تريد دمجها، ثم اضغط تأكيد."
+    },
+    "kds": {
+      "title": "شاشة عرض المطبخ (KDS)",
+      "newOrders": "طلبات جديدة",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز للاستلام",
+      "time": {
+        "now": "الآن",
+        "minutesAgo": "قبل {{minutes}} د"
+      },
+      "actions": {
+        "startPreparing": "بدء التحضير",
+        "markAsReady": "تحديد كجاهز"
+      },
+      "empty": "لا توجد طلبات هنا."
+    },
+    "approvals": {
+      "title": "طلبات بانتظار الموافقة ({{count}})",
+      "waiter": "النادل: {{name}}",
+      "approveButton": "موافقة وإرسال للمطبخ",
+      "newItem": "صنف جديد",
+      "empty": {
+        "title": "لا توجد طلبات معلقة",
+        "subtitle": "تمت الموافقة على جميع الطلبات."
+      }
+    },
+    "delivery": {
+      "title": "إدارة التوصيل",
+      "inKitchen": "في المطبخ",
+      "kdsTitle": "توصيل #{{num}}",
+      "assignDriverModal": {
+        "title": "تعيين سائق للطلب #{{num}}",
+        "prompt": "اختر السائق المسؤول عن هذا التوصيل.",
+        "selectPlaceholder": "-- اختر سائق --",
+        "assignButton": "تعيين وبدء التوصيل"
+      },
+      "card": {
+        "order": "طلب #{{num}}",
+        "driver": "السائق: {{name}}",
+        "actions": {
+          "accept": "قبول وإرسال للمطبخ",
+          "readyForDelivery": "جاهز للتوصيل",
+          "assignDriver": "تعيين سائق",
+          "delivered": "تم التوصيل"
+        }
+      },
+      "statuses": {
+        "new": "جديد",
+        "preparing": "قيد التحضير",
+        "ready_for_delivery": "جاهز للتوصيل",
+        "shipped": "تم الشحن",
+        "out_for_delivery": "قيد التوصيل",
+        "delivered": "تم التسليم",
+        "cancelled": "ملغى"
+      }
+    },
+    "reservations": {
+      "title": "إدارة الحجوزات",
+      "filterLabel": "عرض حجوزات يوم:",
+      "empty": "لا توجد حجوزات لهذا اليوم.",
+      "card": {
+        "guests": "{{count}} أشخاص",
+        "actions": {
+          "cancel": "إلغاء",
+          "confirm": "تأكيد الحجز",
+          "complete": "تحديد كـ 'حضر'"
+        }
+      },
+      "statuses": {
+        "pending": "معلق",
+        "confirmed": "مؤكد",
+        "cancelled": "ملغى",
+        "completed": "مكتمل"
+      }
+    },
+    "commissions": {
+      "title": "عمولات النادلين",
+      "pendingTitle": "العمولات المستحقة",
+      "archiveTitle": "سجل العمولات المدفوعة",
+      "card": {
+        "rate": "نسبة العمولة: {{rate}}%",
+        "unpaidSales": "المبيعات غير المدفوعة",
+        "dueAmount": "العمولة المستحقة",
+        "payButton": "دفع العمولة"
+      },
+      "archiveTable": {
+        "paymentDate": "تاريخ الدفع",
+        "waiterName": "اسم النادل",
+        "amountPaid": "المبلغ المدفوع",
+        "period": "الفترة"
+      },
+      "emptyArchive": "لا توجد سجلات دفع حتى الآن."
+    },
+    "ingredients": {
+      "title": "إدارة المكونات (المواد الخام)",
+      "addIngredient": "إضافة مكون",
+      "table": {
+        "ingredient": "المكون",
+        "stock": "المخزون الحالي",
+        "unit": "الوحدة",
+        "cost": "تكلفة الوحدة",
+        "status": "الحالة"
+      },
+      "statuses": {
+        "inStock": "متوفر",
+        "lowStock": "مخزون منخفض"
+      },
+      "form": {
+        "name": "اسم المكون",
+        "stock": "الكمية في المخزون",
+        "unit": "الوحدة",
+        "unitPlaceholder": "جرام، مل، قطعة",
+        "cost": "تكلفة الوحدة",
+        "lowStockThreshold": "حد المخزون المنخفض"
+      }
+    },
+    "recipes": {
+      "title": "وصفات القائمة",
+      "selectPrompt": {
+        "title": "يرجى تحديد صنف",
+        "description": "اختر صنفًا من القائمة على اليسار لتعديل وصفته."
+      },
+      "editor": {
+        "title": "وصفة: {{name}}",
+        "description": "حدد المكونات والكميات المستخدمة في هذا الطبق.",
+        "selectIngredient": "اختر مكون",
+        "quantity": "الكمية",
+        "addIngredient": "+ إضافة مكون",
+        "totalCost": "إجمالي تكلفة الوصفة",
+        "costBasedOn": "بناءً على التكاليف الحالية للمكونات.",
+        "saveButton": "حفظ الوصفة"
+      }
+    },
+    "receipt": {
+      "title": "فاتورة ضريبية مبسطة",
+      "invoiceNo": "رقم الفاتورة:",
+      "date": "التاريخ:",
+      "order": "الطلب:",
+      "employee": "خدمة بواسطة:",
+      "item": "الصنف",
+      "qty": "الكمية",
+      "price": "السعر",
+      "tableFallback": "طاولة",
+      "customerCopy": "نسخة العميل",
+      "kitchenCopy": "نسخة المطبخ"
+    },
+    "takeaway": {
+      "title": "طلبات خارجية",
+      "newOrder": "طلب سفري جديد",
+      "orderId": "سفري #{{num}}",
+      "resetTitle": "إعادة تعيين عداد السفري",
+      "resetMessage": "هل أنت متأكد؟ سيتم ترقيم الطلب التالي بالرقم 1.",
+      "resetButton": "إعادة تعيين العداد",
+      "backToTables": "العودة إلى الطاولات"
+    },
+    "dineIn": {
+      "backToTakeaway": "العودة إلى الطلبات الخارجية"
+    },
+    "deliveryOrders": {
+      "newDeliveryOrder": "طلب توصيل جديد"
+    },
+    "settings": {
+      "title": "إعدادات المطعم",
+      "tabs": {
+        "general": "عام",
+        "receipt": "الفاتورة",
+        "ecommerce": "التجارة الإلكترونية",
+        "tax": "الضريبة"
+      },
+      "receipt": {
+        "title": "تصميم الفاتورة"
+      }
+    },
+    "menu": {
+      "default": {
+        "name": "قائمة طعام افتراضية",
+        "headerText": "قائمة طعامنا",
+        "subHeaderText": "أشهى الأطباق المحضرة بعناية",
+        "bodyText": "اكتشف مجموعتنا المتنوعة من الأطباق اللذيذة المحضرة من مكونات طازجة. استمتع بتجربة طعام لا تنسى معنا."
+      },
+      "title": "إدارة قائمة الطعام",
+      "add": "إضافة صنف",
+      "edit": "تعديل الصنف",
+      "form": {
+        "name": "اسم الصنف",
+        "category": "الفئة",
+        "price": "السعر",
+        "cost": "التكلفة",
+        "taxRate": "ضريبة الصنف (%)",
+        "imageUrl": "صورة الصنف"
+      }
+    },
+    "splitBill": {
+      "title": "تقسيم الفاتورة",
+      "splitEvenly": "تقسيم بالتساوي",
+      "byItem": "تقسيم حسب الصنف",
+      "totalAmount": "المبلغ الإجمالي",
+      "splitBetween": "تقسيم بين",
+      "people": "أشخاص",
+      "eachPays": "كل شخص يدفع",
+      "evenPayNote": "هذا مجرد حساب. يجب معالجة كل دفعة على حدة.",
+      "originalBill": "الفاتورة الأصلية",
+      "bill": "فاتورة",
+      "newBill": "فاتورة جديدة",
+      "mergeTables": "دمج الطاولات"
+    },
+    "modifiers": {
+      "title": "الإضافات",
+      "groupName": "اسم المجموعة",
+      "optionName": "اسم الخيار",
+      "priceChange": "تغيير السعر",
+      "addOption": "إضافة خيار",
+      "addGroup": "إضافة مجموعة إضافات"
+    },
+    "queue": {
+      "title": "شاشة متابعة الطلبات",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز للاستلام",
+      "collect": "تم الاستلام",
+      "empty": "لا توجد طلبات حالياً"
+    },
+    "reports": {
+      "title": "تقارير المطعم",
+      "salesSummary": "ملخص المبيعات",
+      "zReportTab": "تقرير Z",
+      "dailyPaymentsReportTab": "المدفوعات اليومية",
+      "reportDate": "تاريخ التقرير",
+      "zReport": {
+        "title": "تقرير Z اليومي",
+        "salesTotals": "إجماليات المبيعات",
+        "grossSales": "إجمالي المبيعات (قبل الخصم)",
+        "discounts": "الخصومات",
+        "netSales": "صافي المبيعات (بعد الخصم)",
+        "tax": "الضريبة",
+        "totalSales": "إجمالي المبيعات (شامل الضريبة)",
+        "paymentBreakdown": "تفصيل المدفوعات",
+        "totalCash": "إجمالي النقد",
+        "totalCard": "إجمالي البطاقة",
+        "totalRoomCharge": "إجمالي على الغرفة",
+        "transactionSummary": "ملخص الحركات",
+        "salesCount": "عدد المبيعات",
+        "salesByCategory": "المبيعات حسب الفئة"
+      }
+    }
+  }
+}

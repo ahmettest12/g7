@@ -1,0 +1,88 @@
+{
+  "hr": {
+    "title": "Human Resources",
+    "tabs": {
+      "attendance": "Attendance",
+      "leave": "Leave Requests",
+      "documents": "Documents"
+    },
+    "attendance": {
+      "title": "Daily Attendance",
+      "add": "Add Record",
+      "table": {
+        "employee": "Employee",
+        "status": "Status",
+        "checkIn": "Check-in Time",
+        "checkOut": "Check-out Time"
+      },
+      "statuses": {
+        "present": "Present",
+        "absent": "Absent",
+        "late": "Late"
+      },
+      "empty": "No attendance records for this day."
+    },
+    "documents": {
+      "title": "Employee Documents",
+      "add": "Add Document",
+      "view": "View",
+      "empty": "No documents uploaded yet.",
+      "table": {
+        "name": "Document Name",
+        "actions": "Actions"
+      }
+    },
+    "leave": {
+      "pending": "Pending Requests",
+      "history": "Leave History",
+      "add": "New Request",
+      "fromTo": "From {{start}} to {{end}}",
+      "reason": "Reason:",
+      "actions": {
+        "reject": "Reject",
+        "approve": "Approve"
+      },
+      "emptyPending": "No pending leave requests.",
+      "table": {
+        "employee": "Employee",
+        "period": "Period",
+        "reason": "Reason",
+        "status": "Status"
+      },
+      "statuses": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      }
+    },
+    "addDocForm": {
+      "employee": "Employee",
+      "selectEmployee": "Select an employee",
+      "name": "Document Name",
+      "namePlaceholder": "e.g. ID Copy, Contract",
+      "file": "File Upload",
+      "fileNote": "File uploads are simulated in this demo."
+    },
+    "addAttendanceForm": {
+      "employee": "Employee",
+      "selectEmployee": "Select an employee",
+      "date": "Date",
+      "status": "Status",
+      "checkIn": "Check-in Time",
+      "checkOut": "Check-out Time"
+    },
+    "addLeaveForm": {
+      "employee": "Employee",
+      "selectEmployee": "Select an employee",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "reason": "Reason",
+      "submit": "Submit Request"
+    }
+  },
+  "modals": {
+    "addAttendance": "Add New Attendance Record",
+    "addLeaveRequest": "Add New Leave Request",
+    "addDocument": "Add New Document"
+  }
+}

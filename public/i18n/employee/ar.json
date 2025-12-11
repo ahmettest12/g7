@@ -1,0 +1,152 @@
+
+{
+  "employee": {
+    "title": "إدارة الموظفين",
+    "add": "إضافة موظف",
+    "noEmployeesFound": "لم يتم العثور على موظفين",
+    "table": {
+      "name": "الاسم",
+      "role": "الدور",
+      "permissions": "الصلاحيات",
+      "commission": "العمولة",
+      "salary": "الراتب",
+      "branch": "الفرع"
+    },
+    "form": {
+      "name": "اسم الموظف",
+      "firstName": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "phone": "رقم الهاتف",
+      "address": "العنوان",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "اتركه فارغاً للحفاظ على كلمة المرور الحالية",
+      "salary": "الراتب الأساسي",
+      "commission": "نسبة العمولة (%)",
+      "role": "الدور الوظيفي",
+      "accountRole": "دور الحساب",
+      "permissionRole": "مجموعة الصلاحيات",
+      "branch": "الفرع",
+      "job": "المسمى الوظيفي (معد مسبقاً)",
+      "jobPlaceholder": "لتطبيق الصلاحيات، اختر مسمى وظيفي",
+      "jobPresets": {
+        "waiter": "نادل",
+        "cashier": "كاشير",
+        "kitchen": "مطبخ",
+        "floorManager": "مدير صالة",
+        "delivery": "سائق توصيل"
+      },
+      "customPermissions": "صلاحيات مخصصة",
+      "editButton": "تعديل موظف",
+      "addButton": "إضافة موظف",
+      "publiclyBookable": "متاح للحجز العام",
+      "workingHours": "ساعات العمل",
+      "days": {
+        "sunday": "الأحد",
+        "monday": "الاثنين",
+        "tuesday": "الثلاثاء",
+        "wednesday": "الأربعاء",
+        "thursday": "الخميس",
+        "friday": "الجمعة",
+        "saturday": "السبت"
+      }
+    },
+    "roles": {
+      "employee": "موظف",
+      "admin": "مدير الشركة",
+      "branch_manager": "مدير فرع"
+    },
+    "permissions": {
+      "CAN_ACCESS_POS": "الوصول إلى نقاط البيع",
+      "CAN_USE_PRICE_CHECKER": "استخدام مدقق الأسعار",
+      "CAN_APPROVE_ORDERS": "الموافقة على الطلبات",
+      "CAN_ACCESS_KDS": "الوصول إلى شاشة المطبخ",
+      "CAN_MANAGE_DELIVERY": "إدارة التوصيل",
+      "CAN_VIEW_REPORTS": "عرض التقارير",
+      "CAN_MANAGE_INVENTORY": "إدارة المخزون",
+      "CAN_MANAGE_RESERVATIONS": "إدارة الحجوزات",
+      "CAN_USE_INVENTORY_SCANNER": "استخدام ماسح المخزون",
+      "CAN_MANAGE_FRONT_DESK": "إدارة الاستقبال",
+      "CAN_MANAGE_HOUSEKEEPING": "إدارة التدبير المنزلي",
+      "CAN_MANAGE_MAINTENANCE": "إدارة الصيانة",
+      "CAN_PERFORM_MAINTENANCE": "تنفيذ أعمال الصيانة",
+      "CAN_MANAGE_ECOMMERCE_ORDERS": "إدارة طلبات التجارة الإلكترونية",
+      "CAN_MANAGE_ECOMMERCE_PRODUCTS": "إدارة منتجات التجارة الإلكترونية",
+      "HAS_GENERAL_PERMISSIONS": "صلاحيات عامة (مثل مدير الفرع)",
+      "all": "جميع الصلاحيات"
+    },
+    "noPermissions": "لا توجد صلاحيات محددة",
+    "profile": {
+      "title": "ملف الموظف",
+      "backToList": "العودة إلى قائمة الموظفين",
+      "totalPaid": "إجمالي الراتب المدفوع",
+      "totalCommission": "إجمالي العمولة المدفوعة",
+      "attendanceToday": "حضور اليوم",
+      "lastCheckIn": "آخر تسجيل دخول",
+      "tabs": {
+        "hr": "تفاصيل الموارد البشرية",
+        "payroll": "سجل الرواتب",
+        "commission": "سجل العمولات",
+        "performance": "الأداء",
+        "preferences": "التفضيلات",
+        "working_hours": "ساعات العمل"
+      },
+      "hrDetails": {
+        "recentAttendance": "سجل الحضور الأخير",
+        "leaveRequests": "طلبات الإجازة",
+        "documents": "المستندات"
+      },
+      "noData": "لا توجد بيانات لهذا القسم.",
+      "performance": {
+        "realEstate": {
+          "totalSalesValue": "إجمالي قيمة المبيعات",
+          "totalRentalValue": "إجمالي قيمة الإيجارات",
+          "salesCount": "عدد المبيعات",
+          "rentalsCount": "عدد الإيجارات"
+        }
+      },
+      "cannotViewAdmin": "ليس لديك صلاحية لعرض أو تعديل ملف مدير الشركة."
+    },
+    "performance": {
+      "title": "مؤشرات الأداء",
+      "totalSales": "إجمالي المبيعات",
+      "numberOfSales": "عدد الفواتير",
+      "avgSaleValue": "متوسط قيمة الفاتورة",
+      "totalCommission": "إجمالي العمولة المكتسبة"
+    },
+    "preferences": {
+      "title": "تفضيلات الواجهة",
+      "restaurant": {
+        "defaultMain": "العرض الرئيسي الافتراضي",
+        "defaultManagement": "عرض الإدارة الافتراضي"
+      },
+      "supermarket": {
+        "defaultMain": "العرض الرئيسي الافتراضي"
+      },
+      "hotel": {
+        "defaultMain": "العرض الرئيسي الافتراضي"
+      }
+    }
+  },
+  "roles": {
+    "title": "الأدوار والصلاحيات",
+    "add": "إضافة دور",
+    "deleteConfirm": "هل أنت متأكد من حذف دور '{{name}}'؟",
+    "table": {
+      "name": "اسم الدور",
+      "permissions": "الصلاحيات",
+      "permissionCount": "{{count}} صلاحيات"
+    },
+    "form": {
+      "editTitle": "تعديل الدور",
+      "addTitle": "إضافة دور جديد",
+      "name": "اسم الدور",
+      "permissions": "الصلاحيات",
+      "selectRole": "اختر دور"
+    },
+    "empty": "لم يتم تحديد أي أدوار بعد."
+  },
+  "branches": {
+    "select": "اختر فرع"
+  }
+}

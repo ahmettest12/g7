@@ -1,0 +1,26 @@
+
+{
+  "payroll": {
+    "title": "Payroll",
+    "processSection": {
+      "title": "Process Payroll",
+      "period": "For the period: {{period}}",
+      "button": "Process Now"
+    },
+    "pending": "Pending Payments",
+    "history": "Payment History",
+    "table": {
+      "employee": "Employee",
+      "netPay": "Net Pay",
+      "paymentDate": "Payment Date",
+      "period": "Period",
+      "baseSalary": "Base Salary",
+      "commissions": "Commissions",
+      "deductions": "Deductions",
+      "status": "Status"
+    },
+    "markAsPaid": "Mark as Paid",
+    "emptyPending": "No pending payrolls.",
+    "emptyHistory": "No payment history."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "purchasing": {
+    "tabs": {
+      "invoices": "Alım Faturaları",
+      "orders": "Satın Alma Siparişleri"
+    },
+     "suppliers": {
+      "title": "Tedarikçiler"
+    },
+    "invoices": {
+      "title": "Alım Faturaları",
+      "add": "Fatura Ekle",
+      "table": {
+        "number": "Fatura No",
+        "supplier": "Tedarikçi",
+        "date": "Tarih",
+        "description": "Açıklama",
+        "total": "Toplam",
+        "paymentStatus": "Ödeme Durumu",
+        "paymentDate": "Ödeme Tarihi",
+        "images": "Resimler"
+      },
+      "empty": "Henüz alım faturası kaydedilmemiş.",
+      "markAsPaid": "Ödendi Olarak İşaretle",
+      "viewImages": "Resimleri Görüntüle"
+    },
+    "addInvoiceForm": {
+      "supplier": "Tedarikçi Adı",
+      "date": "Tarih",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Örn: Açılış stoku, Mayıs alımları...",
+      "total": "Toplam Tutar",
+      "paymentStatus": "Ödeme Durumu",
+      "paid": "Ödendi",
+      "unpaid": "Ödenmedi",
+      "paymentMethod": "Ödeme Yöntemi",
+      "cashDrawer": "Nakit Kasa",
+      "companyAccount": "Şirket Hesabı",
+      "uploadImages": "Fatura Resimlerini Yükle"
+    },
+    "orders": {
+      "title": "Satın Alma Siparişleri",
+      "add": "Yeni Sipariş",
+      "view": "Görüntüle",
+      "send": "Tedarikçiye Gönder",
+      "table": {
+        "number": "Sipariş No",
+        "supplier": "Tedarikçi",
+        "date": "Tarih",
+        "total": "Toplam",
+        "status": "Durum",
+        "actions": "İşlemler"
+      },
+      "statuses": {
+        "draft": "Taslak",
+        "sent": "Gönderildi",
+        "completed": "Tamamlandı"
+      },
+      "form": {
+        "requester": "Talep Eden",
+        "lowStockItems": "Düşük Stoklu Ürünler",
+        "addToOrder": "Siparişe Ekle",
+        "orderItems": "Sipariş Öğeleri",
+        "itemName": "Ürün Adı",
+        "supplier": "Tedarikçi",
+        "selectSupplier": "Bir tedarikçi seçin",
+        "date": "Tarih",
+        "items": "Ürünler",
+        "selectProduct": "Bir ürün seçin",
+        "quantity": "Miktar",
+        "cost": "Maliyet",
+        "addItem": "+ Ürün Ekle",
+        "total": "Toplam",
+        "saveDraft": "Kaydet ve Yazdır",
+        "markComplete": "Teslim Alındı & Stok Güncelle",
+        "printOrder": "Siparişi Yazdır",
+        "saveCosts": "Maliyetleri Kaydet",
+        "searchPlaceholder": "İsme veya barkoda göre ara..."
+      },
+      "empty": "Satın alma siparişi yok.",
+       "print": {
+        "title": "Satın Alma Siparişi",
+        "poNumber": "Sipariş Numarası",
+        "date": "Tarih",
+        "requester": "Talep Eden",
+        "supplier": "Kime: Satış Müdürü",
+        "item": "Ürün",
+        "quantity": "Miktar",
+        "notesHeader": "Notlar:",
+        "notesPlaceholder": "Not bulunmuyor.",
+        "requestMessage": "Yukarıda listelenen malların tedarikini talep ediyoruz. Teşekkür ederiz.",
+        "signature": "İmza"
+      }
+    }
+  }
+}

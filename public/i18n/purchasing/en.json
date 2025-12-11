@@ -1,0 +1,96 @@
+{
+  "purchasing": {
+    "tabs": {
+      "invoices": "Purchase Invoices",
+      "orders": "Purchase Orders"
+    },
+    "suppliers": {
+      "title": "Suppliers"
+    },
+    "invoices": {
+      "title": "Purchase Invoices",
+      "add": "Add Invoice",
+      "table": {
+        "number": "Invoice #",
+        "supplier": "Supplier",
+        "date": "Date",
+        "description": "Description",
+        "total": "Total",
+        "paymentStatus": "Payment Status",
+        "paymentDate": "Payment Date",
+        "images": "Images"
+      },
+      "empty": "No purchase invoices recorded yet.",
+      "markAsPaid": "Mark as Paid",
+      "viewImages": "View Images"
+    },
+    "addInvoiceForm": {
+      "supplier": "Supplier Name",
+      "date": "Date",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. Opening stock, May purchases...",
+      "total": "Total Amount",
+      "paymentStatus": "Payment Status",
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "paymentMethod": "Payment Method",
+      "cashDrawer": "Cash Drawer",
+      "companyAccount": "Company Account",
+      "uploadImages": "Upload Invoice Image(s)"
+    },
+    "orders": {
+      "title": "Purchase Orders",
+      "add": "New Order",
+      "view": "View",
+      "send": "Send to Supplier",
+      "table": {
+        "number": "Order #",
+        "supplier": "Supplier",
+        "date": "Date",
+        "total": "Total",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "statuses": {
+        "draft": "Draft",
+        "sent": "Sent",
+        "completed": "Completed"
+      },
+      "form": {
+        "requester": "Requester",
+        "lowStockItems": "Low Stock Items",
+        "addToOrder": "Add to Order",
+        "orderItems": "Order Items",
+        "itemName": "Item Name",
+        "supplier": "Supplier",
+        "selectSupplier": "Select a supplier",
+        "date": "Date",
+        "items": "Items",
+        "selectProduct": "Select a product",
+        "quantity": "Quantity",
+        "cost": "Cost",
+        "addItem": "+ Add Item",
+        "total": "Total",
+        "saveDraft": "Save and Print",
+        "markComplete": "Confirm Receipt & Update Stock",
+        "printOrder": "Print Order",
+        "saveCosts": "Save Costs",
+        "searchPlaceholder": "Search by name or barcode..."
+      },
+      "empty": "No purchase orders.",
+      "print": {
+        "title": "Purchase Order",
+        "poNumber": "PO Number",
+        "date": "Date",
+        "requester": "Requester",
+        "supplier": "To: Sales Manager",
+        "item": "Item",
+        "quantity": "Quantity",
+        "notesHeader": "Notes:",
+        "notesPlaceholder": "No notes provided.",
+        "requestMessage": "We would like to request the supply of the goods listed above. Thank you.",
+        "signature": "Signature"
+      }
+    }
+  }
+}

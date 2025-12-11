@@ -1,0 +1,432 @@
+{
+  "hotel": {
+    "title": "Hotel Management",
+    "tabs": {
+      "frontDesk": "Front Desk",
+      "public_reservations": "Web Bookings",
+      "tapeChart": "Tape Chart",
+      "housekeeping": "Housekeeping",
+      "settings": "Settings",
+      "guests": "Guests",
+      "billing": "Billing",
+      "reports": "Reports",
+      "reservations": "Reservations",
+      "rooms": "Rooms",
+      "employees": "Employees",
+      "maintenance": "Maintenance",
+      "channelManager": "Channel Manager",
+      "floorPlan": "Floor Plan",
+      "pos": "POS",
+      "publicPage": "Public Page",
+      "aiAssistant": "AI Assistant",
+      "groups": {
+          "operations": "Operations",
+          "bookings": "Bookings",
+          "management": "Management",
+          "general": "General",
+          "hotel_inventory": "Inventory & Menu"
+      },
+      "menu_items": "Menu Items",
+      "ingredients": "Ingredients",
+      "recipes": "Recipes"
+    },
+    "tapeChart": {
+      "title": "Reservation Tape Chart",
+      "goToToday": "Today",
+      "newReservation": "New Reservation",
+      "findRoom": "Find Room",
+      "modal": {
+        "guestSearchPlaceholder": "Search for a guest or enter a new name",
+        "guestList": "Existing Guests",
+        "reservationDetails": "Reservation Details"
+      }
+    },
+     "publicReservations": {
+      "title": "Reservations from Public Page",
+      "empty": "No new reservations from the public page.",
+      "card": {
+        "confirm": "Confirm Booking",
+        "cancel": "Cancel Booking"
+      }
+    },
+    "housekeeping": {
+      "title": "Housekeeping Status",
+      "filters": {
+          "all": "All"
+      },
+      "assignTasks": "Assign Tasks",
+      "reportIssue": "Report Issue",
+      "assignedTo": "Assigned to",
+      "assignModal": {
+        "housekeeper": "Housekeeper",
+        "selectHousekeeper": "Select a housekeeper",
+        "dirtyRooms": "Dirty Rooms",
+        "selectAll": "Select All",
+        "confirm": "Assign"
+      },
+       "actions": {
+        "startCleaning": "Start Cleaning",
+        "finishCleaning": "Finish Cleaning",
+        "inspect": "Inspect & Approve",
+        "pendingInspection": "Pending Inspection"
+      }
+    },
+    "settings": {
+      "title": "Hotel Settings",
+      "roomTypes": "Room Types",
+      "addRoomType": "Add Room Type",
+      "ratePlans": "Rate Plans",
+      "addRatePlan": "Add Rate Plan",
+      "tabs": {
+        "general": "General",
+        "types_rates": "Types & Rates",
+        "addons_packages": "Add-ons & Packages",
+        "loyalty_program": "Loyalty Program",
+        "tax": "Tax"
+      },
+      "formatting": {
+        "title": "Date & Time Formatting",
+        "calendar": {
+          "label": "Calendar System",
+          "gregorian": "Gregorian",
+          "hijri": "Hijri"
+        },
+        "dateFormat": {
+          "label": "Date Format",
+          "description": "Choose how dates are displayed across the application.",
+          "yyyymmdd": "Year-Month-Day (YYYY-MM-DD)",
+          "ddmmyyyy": "Day/Month/Year (DD/MM/YYYY)",
+          "monthdyyyy": "Month Day, Year (Month D, YYYY)"
+        }
+      }
+    },
+    "folio": {
+      "title": "Guest Folio",
+      "balance": "Balance",
+      "addCharge": "Add Charge",
+      "recordPayment": "Record Payment",
+      "description": "Description",
+      "amount": "Amount",
+      "date": "Date",
+      "item": "Item",
+      "charges": "Charges",
+      "payments": "Payments",
+      "empty": "No items have been posted to this folio yet.",
+      "settleAndCheckout": "Settle & Checkout",
+      "paymentMethod": "Payment Method"
+    },
+    "frontDesk": {
+      "title": "Front Desk Dashboard",
+      "arrivals": "Today's Arrivals",
+      "departures": "Today's Departures",
+      "inHouse": "In-House Guests",
+      "occupancy": "Occupancy",
+      "nightAudit": "Night Audit",
+      "nightAuditConfirm": "Are you sure you want to run the night audit for {{date}}? This will post room charges for all checked-in guests.",
+      "checkIn": "Check In",
+      "checkOut": "Check Out",
+      "viewFolio": "View Folio"
+    },
+    "rooms": {
+      "title": "Room Management",
+      "roomNumber": "Room Number",
+      "type": "Type",
+      "addRoom": "Add Room",
+      "table": {
+        "roomNumber": "Room Number",
+        "type": "Type",
+        "status": "Housekeeping Status"
+      },
+      "empty": "No rooms have been added yet."
+    },
+    "reservations": {
+      "title": "Reservation Management",
+      "searchPlaceholder": "Search by guest name...",
+      "filterByDate": "Filter by date:",
+      "filterByStatus": "Filter by status:",
+      "allStatuses": "All Statuses",
+      "table": {
+        "guest": "Guest",
+        "dates": "Dates",
+        "room": "Room",
+        "status": "Status",
+        "group": "Group"
+      },
+      "empty": "No reservations found with the selected criteria.",
+      "newGroupBooking": "New Group Booking"
+    },
+    "form": {
+      "roomTypeName": "Room Type Name",
+      "ratePlanName": "Rate Plan Name",
+      "ratePlanNamePlaceholder": "e.g. Standard Rate, Bed & Breakfast",
+      "price": "Price",
+      "pricePerNight": "Price per Night",
+      "totalStayCost": "Total Stay Cost",
+      "nights": "{{count}} nights",
+      "capacity": "Capacity (people)",
+      "basePrice": "Base Price",
+      "roomNumber": "Room Number",
+      "roomType": "Room Type",
+      "guestName": "Guest Name",
+      "checkIn": "Check-in Date",
+      "checkOut": "Check-out Date",
+      "totalAmount": "Total Amount",
+      "selectRoom": "Select a Room",
+      "selectRatePlan": "Select a Rate Plan",
+      "floor": "Floor",
+      "selectFloor": "Select a Floor",
+      "room": "Room",
+      "imageUrls": "Images",
+      "imageUrlPlaceholder": "https://example.com/image.png",
+      "addImageUrl": "Add Image URL",
+      "amenitiesLabel": "Amenities",
+      "amenitiesPlaceholder": "Comma-separated, e.g. Wi-Fi, Air Conditioning"
+    },
+    "statuses": {
+      "clean": "Clean",
+      "dirty": "Dirty",
+      "cleaninginprogress": "Cleaning in Progress",
+      "inspected": "Inspected",
+      "outofservice": "Out of Service",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "checkedin": "Checked In",
+      "checkedout": "Checked Out",
+      "cancelled": "Cancelled",
+      "noshow": "No Show",
+      "checkin": "Check In",
+      "checkout": "Check Out"
+    },
+    "guests": {
+      "title": "Guest Management",
+      "searchPlaceholder": "Search by name or phone...",
+      "addGuest": "Add Guest",
+      "editGuest": "Edit Guest",
+      "table": {
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email",
+        "stays": "# Stays"
+      },
+      "empty": "No guests found.",
+      "backToList": "Back to Guest List",
+      "preferences": "Preferences",
+      "notes": "Notes",
+      "noInfo": "No information.",
+      "reservationHistory": "Reservation History",
+      "historyTable": {
+        "room": "Room",
+        "dates": "Dates",
+        "status": "Status"
+      }
+    },
+    "reports": {
+      "title": "Hotel Reports",
+      "dailyReportTitle": "Daily Financial Report",
+      "roomRevenue": "Room Revenue",
+      "fbRevenue": "F&B Revenue",
+      "totalRevenue": "Total Revenue",
+      "occupancy": "Occupancy",
+      "adr": "Average Daily Rate (ADR)",
+      "revpar": "Revenue Per Available Room (RevPAR)",
+      "occupancyTrend": "Weekly Occupancy Trend",
+      "dailyMovements": "Daily Movement Report",
+      "selectDate": "Select Report Date",
+      "arrivals": "Arrivals",
+      "departures": "Departures",
+      "inHouse": "In-House Guests",
+      "empty": "No movements for this date."
+    },
+    "billing": {
+      "title": "Billing & Folios",
+      "searchPlaceholder": "Search by guest name or room...",
+      "guestLedger": "Guest Ledger",
+      "viewFolio": "View Folio",
+      "table": {
+        "guest": "Guest",
+        "room": "Room",
+        "balance": "Balance",
+        "date": "Date",
+        "description": "Description",
+        "charge": "Charge",
+        "payment": "Payment"
+      },
+      "empty": "No accounts with an outstanding balance.",
+      "activeAccounts": "Active Accounts",
+      "invoiceHistory": "Invoice History",
+      "emptyHistory": "No past invoices."
+    },
+    "receipt": {
+      "invoice": "Invoice",
+      "invoiceNo": "Invoice No",
+      "printDate": "Print Date",
+      "guestInfo": "Guest Information",
+      "stayInfo": "Stay Information",
+      "roomNumber": "Room Number",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "date": "Date",
+      "description": "Description",
+      "charge": "Charge",
+      "payment": "Payment",
+      "totalCharges": "Total Charges",
+      "totalPayments": "Total Payments",
+      "balance": "Balance",
+      "reprintInvoice": "Reprint Invoice"
+    },
+    "floorPlan": {
+      "designMode": "Design Mode",
+      "manageFloors": "Manage Floors",
+      "addFloor": "Add Floor",
+      "newFloorName": "New Floor Name",
+      "deleteFloorConfirm": "Are you sure you want to delete this floor and all its rooms?",
+      "statuses": {
+        "available": "Available",
+        "occupied": "Occupied",
+        "dirty": "Dirty",
+        "outofservice": "Out of Service"
+      }
+    },
+    "roomStatusModal": {
+      "title": "Room Status: {{roomNumber}}",
+      "type": "Type",
+      "status": "Status",
+      "guest": "Guest",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "createReservation": "Create Reservation",
+      "viewFolio": "View Folio",
+      "markClean": "Mark as Clean",
+      "startCleaning": "Start Cleaning"
+    },
+    "packages": {
+      "addonsTitle": "Add-on Services",
+      "addAddon": "Add Service",
+      "perGuest": "Per Guest",
+      "perNight": "Per Night",
+      "packagesTitle": "Packages",
+      "addPackage": "Add Package",
+      "modal": {
+        "title_addon_add": "Add New Service",
+        "title_addon_edit": "Edit Service",
+        "title_package_add": "Add New Package",
+        "title_package_edit": "Edit Package"
+      },
+      "form": {
+        "name": "Name",
+        "price": "Price",
+        "description": "Description",
+        "includedAddons": "Included Services"
+      }
+    },
+    "loyalty": {
+      "title": "Loyalty Program",
+      "enable": "Enable loyalty program",
+      "earningRate": {
+        "label": "Points Earning Rate",
+        "description": "Points per currency unit."
+      },
+      "redemptionRate": {
+        "label": "Points Redemption Rate",
+        "description": "Points per discount unit."
+      },
+      "tiersTitle": "Loyalty Tiers",
+      "addTier": "Add Tier",
+      "pointsThreshold": "{{count}} points required",
+      "points": "points",
+      "noTier": "No Tier",
+      "progress": "{{points}} points to reach {{tier}}",
+      "benefits": "Benefits",
+      "modal": {
+        "title_add": "Add New Tier",
+        "title_edit": "Edit Tier"
+      },
+      "form": {
+        "name": "Tier Name",
+        "points": "Points Threshold",
+        "benefits": "Benefits"
+      },
+      "discountValue": "Loyalty Discount",
+      "availablePoints": "{{name}}'s available points: {{points}}",
+      "redeemPlaceholder": "Points to redeem"
+    },
+     "maintenance": {
+        "title": "Maintenance Requests",
+        "createRequestTitle": "Create Maintenance Request: Room {{roomNumber}}",
+        "description": "Description",
+        "descriptionPlaceholder": "e.g. AC not working, faucet leaking...",
+        "markOutOfService": "Mark room as Out of Service",
+        "table": {
+            "room": "Room",
+            "description": "Description",
+            "reportedBy": "Reported By",
+            "date": "Date",
+            "status": "Status"
+        },
+        "statuses": {
+            "reported": "Reported",
+            "inprogress": "In Progress",
+            "completed": "Completed"
+        },
+        "empty": "No active maintenance requests."
+    },
+    "channelManager": {
+        "title": "Channel Manager",
+        "description": "Synchronize your bookings from your booking channels.",
+        "forceSync": "Sync Now",
+        "syncStatus": "Synchronization",
+        "channels": "Connected Channels",
+        "lastSync": "Last Sync",
+        "activityLog": "Activity Log",
+        "statuses": {
+            "connected": "Connected",
+            "syncing": "Syncing",
+            "error": "Error",
+            "disabled": "Disabled"
+        },
+        "time": {
+            "justNow": "Just now",
+            "secondsAgo": "{{seconds}}s ago",
+            "minutesAgo": "{{minutes}}m ago"
+        }
+    }
+  },
+  "defaults": {
+    "hotel": {
+      "receiptHeader": "Stay Invoice",
+      "receiptFooter": "We wish you a pleasant stay."
+    }
+  },
+  "addon": {
+    "breakfast": "Breakfast",
+    "airportTransfer": "Airport Transfer",
+    "spaAccess": "Spa Access"
+  },
+  "package": {
+    "weekendGetaway": "Weekend Getaway Package",
+    "weekendGetaway.desc": "Enjoy a relaxing stay with breakfast and spa access included.",
+    "businessTraveler": "Business Traveler Package",
+    "businessTraveler.desc": "A package designed to meet the needs of business travelers."
+  },
+  "mock": {
+    "floors": {
+        "f1": "First Floor"
+    },
+    "roomTypes": {
+        "single": "Single Room",
+        "double": "Double Room",
+        "suite": "Suite"
+    },
+    "amenities": {
+        "wifi": "Wi-Fi",
+        "ac": "Air Conditioning",
+        "tv": "Television",
+        "cityView": "City View",
+        "kitchenette": "Kitchenette",
+        "balcony": "Balcony"
+    },
+    "ratePlans": {
+        "standard": "Standard Rate"
+    }
+  }
+}

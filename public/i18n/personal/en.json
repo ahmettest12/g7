@@ -1,0 +1,112 @@
+{
+  "personal": {
+    "title": "Personal Finance",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "transactions": "Transactions",
+      "goals": "Goals",
+      "spreadsheet": "Spreadsheet",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "expenseChart": "Expense Breakdown",
+      "aiInsight": "Smart Insights",
+      "generatingInsight": "Generating insights..."
+    },
+    "summary": {
+      "income": "Monthly Income",
+      "expense": "Monthly Expense",
+      "balance": "Remaining Balance"
+    },
+    "form": {
+      "title": "Add New Transaction",
+      "add": "Add Transaction",
+      "expense": "Expense",
+      "income": "Income",
+      "description": "Description",
+      "amount": "Amount"
+    },
+    "transactions": {
+        "title": "Transaction Log"
+    },
+    "searchPlaceholder": "Search transactions...",
+    "deleteConfirm": "Are you sure you want to delete this transaction?",
+    "aiInputPlaceholder": "Add a new transaction (e.g., paid 50 for lunch)...",
+    "scanReceipt": "Scan Receipt",
+    "scanReceiptTitle": "Scan New Receipt",
+    "capture": "Capture",
+    "processingReceipt": "Analyzing receipt...",
+    "categories": {
+      "salary": "Salary",
+      "food": "Food",
+      "transport": "Transport",
+      "housing": "Housing",
+      "bills": "Bills",
+      "entertainment": "Entertainment",
+      "health": "Health",
+      "shopping": "Shopping",
+      "other": "Other",
+      "savings": "Savings"
+    },
+    "budgets": {
+      "title": "Budget Progress",
+      "budgeted": "Budgeted",
+      "spentOf": "Spent {{spent}} of {{budgeted}}",
+      "overBudget": "Over budget!"
+    },
+    "reports": {
+      "title": "Expense Report",
+      "category": "Category",
+      "amount": "Amount",
+      "percentage": "Percentage"
+    },
+    "spreadsheet": {
+        "sheets": {
+            "sheet": "Sheet"
+        },
+        "toolbar": {
+            "bold": "Bold",
+            "italic": "Italic",
+            "textColor": "Text Color",
+            "bgColor": "Background Color",
+            "alignLeft": "Align Left",
+            "alignCenter": "Align Center",
+            "alignRight": "Align Right",
+            "addRow": "Add Row",
+            "removeRow": "Remove Row",
+            "addColumn": "Add Column",
+            "removeColumn": "Remove Column"
+        },
+        "renameSheetPrompt": "Enter new sheet name:",
+        "deleteSheetConfirm": "Are you sure you want to delete this sheet? This cannot be undone.",
+        "newSheetName": "Sheet {{number}}"
+    },
+    "goals": {
+      "title": "Financial Goals",
+      "add": "Add New Goal",
+      "empty": "You haven't set any goals yet. Get started now!",
+      "target": "Target",
+      "progress": "Progress",
+      "addFunds": "Add Funds",
+      "editGoal": "Edit Goal",
+      "form": {
+        "addTitle": "Create a New Financial Goal",
+        "editTitle": "Edit Financial Goal",
+        "name": "Goal Name",
+        "namePlaceholder": "e.g., New Car, Vacation Fund",
+        "targetAmount": "Target Amount",
+        "targetDate": "Target Date (Optional)"
+      },
+      "addFundsModal": {
+        "title": "Add Funds to '{{name}}'",
+        "amount": "Amount to add",
+        "contribute": "Contribute"
+      },
+      "aiSuggestionTitle": "Smart Suggestion",
+      "aiSuggestionLoading": "Finding a suitable goal for you...",
+      "aiSuggestionCreate": "Create this goal",
+      "aiSuggestionPrompt": "As a financial advisor, look at the user's income ({{income}}) and expenses ({{expenses}}) over the past month. Suggest one realistic, achievable savings goal. State the goal name, suggested amount, and the estimated time to achieve it. Make it short and motivational. Example: 'You could save $1,000 for an Emergency Fund in 4 months'. Only provide the suggestion."
+    },
+    "aiInsightPrompt": "As a financial advisor, analyze this user data for {{currentMonth}}. Provide one concise, actionable insight. Data: Total Income={{totalIncome}} {{currency}}, Total Expenses={{totalExpenses}} {{currency}}, Balance={{balance}} {{currency}}. Budgets={{budgets}}. Expenses by category={{expenses}}. Address the user directly."
+  }
+}

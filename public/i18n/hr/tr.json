@@ -1,0 +1,88 @@
+{
+  "hr": {
+    "title": "İnsan Kaynakları",
+    "tabs": {
+      "attendance": "Devam",
+      "leave": "İzin Talepleri",
+      "documents": "Belgeler"
+    },
+    "attendance": {
+      "title": "Günlük Devam",
+      "add": "Kayıt Ekle",
+      "table": {
+        "employee": "Çalışan",
+        "status": "Durum",
+        "checkIn": "Giriş Saati",
+        "checkOut": "Çıkış Saati"
+      },
+      "statuses": {
+        "present": "Mevcut",
+        "absent": "Yok",
+        "late": "Geç"
+      },
+      "empty": "Bu gün için devam kaydı yok."
+    },
+    "documents": {
+      "title": "Çalışan Belgeleri",
+      "add": "Belge Ekle",
+      "view": "Görüntüle",
+      "empty": "Henüz belge yüklenmedi.",
+      "table": {
+        "name": "Belge Adı",
+        "actions": "İşlemler"
+      }
+    },
+    "leave": {
+      "pending": "Bekleyen Talepler",
+      "history": "İzin Geçmişi",
+      "add": "Yeni Talep",
+      "fromTo": "{{start}} - {{end}}",
+      "reason": "Sebep:",
+      "actions": {
+        "reject": "Reddet",
+        "approve": "Onayla"
+      },
+      "emptyPending": "Bekleyen izin talebi yok.",
+      "table": {
+        "employee": "Çalışan",
+        "period": "Dönem",
+        "reason": "Sebep",
+        "status": "Durum"
+      },
+      "statuses": {
+        "pending": "Beklemede",
+        "approved": "Onaylandı",
+        "rejected": "Reddedildi"
+      }
+    },
+    "addDocForm": {
+      "employee": "Çalışan",
+      "selectEmployee": "Bir çalışan seçin",
+      "name": "Belge Adı",
+      "namePlaceholder": "Örn: Kimlik Kopyası, Sözleşme",
+      "file": "Dosya Yükle",
+      "fileNote": "Dosya yüklemeleri bu demoda simüle edilmiştir."
+    },
+    "addAttendanceForm": {
+      "employee": "Çalışan",
+      "selectEmployee": "Bir çalışan seçin",
+      "date": "Tarih",
+      "status": "Durum",
+      "checkIn": "Giriş Saati",
+      "checkOut": "Çıkış Saati"
+    },
+    "addLeaveForm": {
+      "employee": "Çalışan",
+      "selectEmployee": "Bir çalışan seçin",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi",
+      "reason": "Sebep",
+      "submit": "Talep Gönder"
+    }
+  },
+  "modals": {
+    "addAttendance": "Yeni Devam Kaydı Ekle",
+    "addLeaveRequest": "Yeni İzin Talebi Ekle",
+    "addDocument": "Yeni Belge Ekle"
+  }
+}

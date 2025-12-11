@@ -1,0 +1,224 @@
+
+{
+  "publicPage": {
+    "search": {
+        "placeholder": "Ürün, yemek ara...",
+        "noResults": "Sonuç bulunamadı.",
+        "allCategories": "Tüm Kategoriler",
+        "minPrice": "Min Fiyat",
+        "maxPrice": "Maks Fiyat",
+        "sortDefault": "Varsayılan Sıralama",
+        "sortPriceAsc": "Fiyat: Düşükten Yükseğe",
+        "sortPriceDesc": "Fiyat: Yüksekten Düşüğe"
+    },
+    "tabs": {
+      "content": "İçerik",
+      "design": "Tasarım",
+      "qrcode": "QR Kod"
+    },
+    "googleLogin": {
+      "prompt": "Devam etmek için lütfen Google hesabınızla giriş yapın.",
+      "simulationTitle": "Simüle Edilmiş Google Girişi",
+      "simulationInfo": "Gerçek bir uygulamada, bu bilgiler Google hesabınızdan güvenli bir şekilde alınacaktır. Devam etmek için lütfen bilgilerinizi girin.",
+      "nameLabel": "Tam Ad",
+      "emailLabel": "E-posta Adresi",
+      "continueButton": "{{name}} olarak devam et"
+    },
+    "saveDesign": "Tasarımı Kaydet",
+    "content": {
+      "enable": "Genel Sayfayı Etkinleştir",
+      "sections": "Sayfa Bölümleri",
+      "add": "Bölüm Ekle",
+      "addTypes": {
+        "hero": "Giriş",
+        "banner": "Banner",
+        "text": "Metin",
+        "gallery": "Galeri",
+        "testimonials": "Yorumlar",
+        "video": "Video",
+        "menu": "Menü",
+        "products": "Ürünler",
+        "rooms": "Odalar",
+        "tours": "Turlar",
+        "cars": "Arabalar",
+        "listings": "İlanlar",
+        "projects": "Projeler",
+        "services": "Hizmetler",
+        "appointment_booking": "Rezervasyon Formu",
+        "reservation": "Rezervasyon",
+        "companies_aggregator": "Şirket Listesi",
+        "promotions_aggregator": "Promosyon Listesi",
+        "cta": "Eylem Çağrısı",
+        "contact": "İletişim",
+        "ecommerce": "E-ticaret"
+      }
+    },
+    "design": {
+      "logo": "Logo",
+      "primaryColor": "Ana Renk",
+      "socialLinks": "Sosyal Medya",
+      "whatsapp": "WhatsApp",
+      "whatsappPlaceholder": "Ülke kodlu numara (örn: 90...)",
+      "instagram": "Instagram",
+      "x": "X (eski adıyla Twitter)",
+      "facebook": "Facebook",
+      "themes": {
+        "title": "Temalar",
+        "classic": "Klasik",
+        "elegant": "Zarif",
+        "bold": "Canlı",
+        "dark": "Koyu"
+      },
+      "templates": {
+        "title": "Şablonlar",
+        "confirmTitle": "Şablonu Uygulamayı Onayla",
+        "confirmMessage": "Bu şablonu uygulamak mevcut sayfa içeriğinizi ve düzeninizi değiştirecektir. Devam etmek istediğinizden emin misiniz?"
+      }
+    },
+    "qrcode": {
+      "title": "QR Kod",
+      "description": "Müşteriler sayfanızı veya menünüzü ziyaret etmek için tarayabilir.",
+      "generating": "Oluşturuluyor...",
+      "download": "İndir",
+      "printTitle": "Menü için Tara",
+      "printHeader": "Menümüzü görüntülemek için tarayın",
+      "printFooter": "Ziyaretiniz için teşekkürler!"
+    },
+    "editSection": {
+      "title": "Bölümü Düzenle: {{type}}",
+       "contact": {
+        "showMap": "Haritayı Göster",
+        "showForm": "İletişim Formunu Göster"
+      },
+      "field": {
+        "title": "Başlık",
+        "subtitle": "Alt Başlık",
+        "content": "İçerik",
+        "imageUrl": "Resim URL'si",
+        "buttonText": "Düğme Metni",
+        "buttonLink": "Düğme Bağlantısı",
+        "bgColor": "Arka Plan Rengi"
+      },
+      "appearance": "Görünüm",
+      "spacing": {
+        "none": "Yok",
+        "sm": "Küçük",
+        "md": "Orta",
+        "lg": "Büyük",
+        "xl": "Çok Büyük"
+      },
+      "layout": {
+        "single-column": "Tek Sütun",
+        "two-column": "İki Sütun",
+        "three-column": "Üç Sütun"
+      },
+      "content": {
+        "mainTitle": "Bölüm Başlığı",
+        "columnTitle": "Sütun Başlığı",
+        "columnContent": "Sütun İçeriği",
+        "addColumn": "Sütun Ekle"
+      }
+    },
+    "preview": {
+      "footer": "ProCount tarafından desteklenmektedir",
+      "copyright": "© {{year}} {{name}}. Tüm hakları saklıdır.",
+      "notFound": {
+        "description": "Aradığınız sayfa mevcut değil."
+      },
+      "disabled": {
+        "description": "Bu sayfa şu anda kullanılamıyor."
+      }
+    },
+    "reservationForm": {
+      "name": "Tam Adı",
+      "phone": "Telefon Numarası",
+      "guests": "Misafir Sayısı",
+      "submit": "Rezervasyon Talebi Gönder"
+    },
+    "gallery": {
+      "image": "Resim"
+    },
+    "video": {
+      "invalidUrl": "Geçersiz video URL'si."
+    },
+    "defaults": {
+        "contact": {
+            "title": "Bize Ulaşın"
+        },
+        "hero": {
+            "title": "Sayfamıza Hoş Geldiniz",
+            "subtitle": "Harika ürünlerimizi ve hizmetlerimizi keşfedin"
+        },
+        "text": {
+            "title": "Hakkımızda",
+            "content": "Şirket hakkında detaylı bilgi. Bu metni kontrol panelinden düzenleyebilirsiniz."
+        },
+        "menu": {
+            "title": "Menümüz"
+        },
+        "products": {
+            "title": "Ürünlerimiz"
+        },
+        "rooms": {
+            "title": "Odalarımız"
+        },
+        "reservation": {
+            "title": "Şimdi Rezervasyon Yapın"
+        },
+        "cta": {
+          "title": "Başlamaya hazır mısınız?",
+          "buttonText": "Şimdi Sipariş Ver"
+        },
+        "gallery": {
+            "title": "Fotoğraf Galerisi"
+        },
+        "testimonials": {
+            "title": "Müşterilerimiz Ne Diyor"
+        },
+        "video": {
+            "title": "Videomuzu İzleyin"
+        },
+        "banner": {
+            "title": "Banner Reklamı",
+            "subtitle": "Kısa ve akılda kalıcı bir promosyon mesajı.",
+            "buttonText": "Şimdi Alışveriş Yap"
+        }
+    },
+    "contact": {
+        "address": "Adres",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "formTitle": "Bize bir mesaj gönderin",
+        "form": {
+            "name": "Adınız",
+            "email": "E-postanız",
+            "message": "Mesaj",
+            "send": "Mesajı Gönder",
+            "sent": "Mesaj başarıyla gönderildi!"
+        }
+    },
+    "cart": {
+      "addedToCart": "Sepete Eklendi",
+      "addToCart": "Sepete Ekle",
+      "added": "Eklendi"
+    },
+    "appointment": {
+        "bookNow": "Şimdi Rezervasyon Yap",
+        "bookingSubtitle": "Randevunuzu oluşturmak için istediğiniz hizmeti ve zamanı seçin."
+    },
+    "templates": {
+      "standard": {
+        "name": "Standart",
+        "description": "Tüm bölümleri içeren klasik bir düzen."
+      },
+      "minimalist": {
+        "name": "Minimalist",
+        "description": "Ana giriş bölümüne odaklanan temiz bir tasarım."
+      },
+      "bold": {
+        "name": "Canlı",
+        "description": "Güçlü renklerle dikkat çekici bir tasarım."
+      }
+    }
+  }
+}

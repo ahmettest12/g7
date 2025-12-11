@@ -1,0 +1,123 @@
+
+{
+  "ecommerce": {
+    "title": "E-commerce Management",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "products": "Products",
+      "customers": "Customers",
+      "analytics": "Analytics",
+      "promotions": "Promotions",
+      "public_page": "Storefront",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "newOrders": "New Orders",
+      "pendingShipments": "Pending Shipments",
+      "totalRevenue": "Total Revenue",
+      "topSelling": "Top Selling"
+    },
+    "products": {
+      "title": "Product Management",
+      "addProduct": "Add Product",
+      "editProduct": "Edit Product",
+       "table": {
+        "image": "Image",
+        "name": "Name",
+        "sku": "SKU",
+        "price": "Price",
+        "stock": "Stock"
+      },
+      "form": {
+        "title": "Product Details",
+        "name": "Product Name",
+        "sku": "SKU (Stock Keeping Unit)",
+        "category": "Category",
+        "price": "Price",
+        "cost": "Cost",
+        "stock": "Stock Quantity",
+        "lowStock": "Low Stock Threshold",
+        "multiImage": "Product Images",
+        "richDesc": "Description",
+        "shipping": "Shipping Details",
+        "weight": "Weight (kg)",
+        "dimensions": "Dimensions (L×W×H) cm",
+        "digital": "Digital product (no shipping required)",
+        "seo": "Search Engine Optimization (SEO)",
+        "metaTitle": "Meta Title",
+        "metaDesc": "Meta Description",
+        "taxRate": "Tax Rate (%)"
+      }
+    },
+    "orders": {
+      "title": "Order Fulfillment",
+      "statuses": {
+        "new": "New",
+        "processing": "Processing",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
+      },
+      "actions": {
+        "printSlip": "Print Packing Slip",
+        "addTracking": "Add Tracking Number"
+      }
+    },
+    "settings": {
+      "title": "E-commerce Settings",
+      "shipping": {
+        "title": "Shipping Zones & Rates",
+        "addZone": "Add Shipping Zone",
+        "zoneName": "Zone Name",
+        "countries": "Countries (comma-separated)",
+        "price": "Price"
+      },
+      "payments": {
+        "title": "Payment Gateways"
+      },
+       "checkout": {
+        "title": "Checkout Settings",
+        "allowGuest": "Allow guest checkout"
+      }
+    },
+    "publicPage": {
+        "heroSubtitle": "Shop Our Latest Collections",
+        "productsTitle": "Our Products",
+        "sort": "Sort by",
+        "sortDefault": "Default",
+        "sortPriceAsc": "Price: Low to High",
+        "sortPriceDesc": "Price: High to Low"
+    },
+     "cart": {
+        "promotionApplied": "Promotion Applied!",
+        "totalDiscount": "Promotion Discount"
+    }
+  },
+  "onlineOrders": {
+    "customerLogin": {
+      "button": "Customer Login"
+    },
+    "login": {
+      "title": "Store Login",
+      "googleSignIn": "Sign in with Google"
+    }
+  },
+  "loyalty": {
+    "title": "Loyalty Program",
+    "enable": "Enable loyalty program",
+    "earningRate": {
+      "label": "Points Earning Rate",
+      "description": "Points per currency unit."
+    },
+    "redemptionRate": {
+      "label": "Points Redemption Rate",
+      "description": "Points per discount unit."
+    },
+    "tiersTitle": "Loyalty Tiers",
+    "addTier": "Add Tier",
+    "discountValue": "Loyalty Discount",
+    "availablePoints": "{{name}}'s available points: {{points}}",
+    "redeemPlaceholder": "Points to redeem"
+  }
+}

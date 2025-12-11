@@ -1,0 +1,432 @@
+{
+  "hotel": {
+    "title": "إدارة الفندق",
+    "tabs": {
+      "frontDesk": "الاستقبال",
+      "public_reservations": "حجوزات الويب",
+      "tapeChart": "شريط الحجوزات",
+      "housekeeping": "التدبير المنزلي",
+      "settings": "الإعدادات",
+      "guests": "النزلاء",
+      "billing": "الفواتير",
+      "reports": "التقارير",
+      "reservations": "الحجوزات",
+      "rooms": "الغرف",
+      "employees": "الموظفين",
+      "maintenance": "الصيانة",
+      "channelManager": "مدير القنوات",
+      "floorPlan": "مخطط الطوابق",
+      "pos": "نقاط البيع",
+      "publicPage": "الصفحة العامة",
+      "aiAssistant": "المساعد الذكي",
+      "groups": {
+          "operations": "العمليات",
+          "bookings": "الحجوزات",
+          "management": "الإدارة",
+          "general": "عام",
+          "hotel_inventory": "المخزون والقائمة"
+      },
+      "menu_items": "عناصر القائمة",
+      "ingredients": "المكونات",
+      "recipes": "الوصفات"
+    },
+    "tapeChart": {
+      "title": "شريط الحجوزات الزمني",
+      "goToToday": "اليوم",
+      "newReservation": "حجز جديد",
+      "findRoom": "إيجاد غرفة",
+      "modal": {
+        "guestSearchPlaceholder": "ابحث عن نزيل أو أدخل اسم جديد",
+        "guestList": "النزلاء الحاليون",
+        "reservationDetails": "تفاصيل الحجز"
+      }
+    },
+     "publicReservations": {
+      "title": "الحجوزات من الصفحة العامة",
+      "empty": "لا توجد حجوزات جديدة من الصفحة العامة.",
+      "card": {
+        "confirm": "تأكيد الحجز",
+        "cancel": "إلغاء الحجز"
+      }
+    },
+    "housekeeping": {
+      "title": "حالة التدبير المنزلي",
+      "filters": {
+          "all": "الكل"
+      },
+      "assignTasks": "تعيين مهام",
+      "reportIssue": "الإبلاغ عن مشكلة",
+      "assignedTo": "مُعيّن لـ",
+      "assignModal": {
+        "housekeeper": "عامل النظافة",
+        "selectHousekeeper": "اختر عامل نظافة",
+        "dirtyRooms": "الغرف المتسخة",
+        "selectAll": "اختر الكل",
+        "confirm": "تعيين"
+      },
+       "actions": {
+        "startCleaning": "بدء التنظيف",
+        "finishCleaning": "إنهاء التنظيف",
+        "inspect": "فحص والموافقة",
+        "pendingInspection": "في انتظار الفحص"
+      }
+    },
+    "settings": {
+      "title": "إعدادات الفندق",
+      "roomTypes": "أنواع الغرف",
+      "addRoomType": "إضافة نوع غرفة",
+      "ratePlans": "خطط الأسعار",
+      "addRatePlan": "إضافة خطة أسعار",
+      "tabs": {
+        "general": "عام",
+        "types_rates": "الأنواع والأسعار",
+        "addons_packages": "الإضافات والباقات",
+        "loyalty_program": "برنامج الولاء",
+        "tax": "الضريبة"
+      },
+      "formatting": {
+        "title": "تنسيق التاريخ والوقت",
+        "calendar": {
+          "label": "نظام التقويم",
+          "gregorian": "ميلادي",
+          "hijri": "هجري"
+        },
+        "dateFormat": {
+          "label": "تنسيق التاريخ",
+          "description": "اختر كيفية عرض التواريخ في جميع أنحاء التطبيق.",
+          "yyyymmdd": "سنة-شهر-يوم (YYYY-MM-DD)",
+          "ddmmyyyy": "يوم/شهر/سنة (DD/MM/YYYY)",
+          "monthdyyyy": "اسم الشهر يوم، سنة (Month D, YYYY)"
+        }
+      }
+    },
+    "folio": {
+      "title": "حساب النزيل",
+      "balance": "الرصيد",
+      "addCharge": "إضافة رسوم",
+      "recordPayment": "تسجيل دفعة",
+      "description": "الوصف",
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "item": "البند",
+      "charges": "الرسوم",
+      "payments": "المدفوعات",
+      "empty": "لم يتم تسجيل أي بنود في هذا الحساب بعد.",
+      "settleAndCheckout": "تسوية ومغادرة",
+      "paymentMethod": "طريقة الدفع"
+    },
+    "frontDesk": {
+      "title": "لوحة تحكم الاستقبال",
+      "arrivals": "وصول اليوم",
+      "departures": "مغادرة اليوم",
+      "inHouse": "النزلاء المقيمون",
+      "occupancy": "نسبة الإشغال",
+      "nightAudit": "التدقيق الليلي",
+      "nightAuditConfirm": "هل أنت متأكد من إجراء التدقيق الليلي لتاريخ {{date}}؟ سيتم ترحيل رسوم الغرف لجميع النزلاء المسجلين.",
+      "checkIn": "تسجيل الدخول",
+      "checkOut": "تسجيل الخروج",
+      "viewFolio": "عرض الحساب"
+    },
+    "rooms": {
+      "title": "إدارة الغرف",
+      "roomNumber": "رقم الغرفة",
+      "type": "النوع",
+      "addRoom": "إضافة غرفة",
+      "table": {
+        "roomNumber": "رقم الغرفة",
+        "type": "النوع",
+        "status": "حالة النظافة"
+      },
+      "empty": "لم يتم إضافة أي غرف بعد."
+    },
+    "reservations": {
+      "title": "إدارة الحجوزات",
+      "searchPlaceholder": "ابحث باسم النزيل...",
+      "filterByDate": "تصفية حسب التاريخ:",
+      "filterByStatus": "تصفية حسب الحالة:",
+      "allStatuses": "جميع الحالات",
+      "table": {
+        "guest": "النزيل",
+        "dates": "التواريخ",
+        "room": "الغرفة",
+        "status": "الحالة",
+        "group": "المجموعة"
+      },
+      "empty": "لم يتم العثور على حجوزات بالمعايير المحددة.",
+      "newGroupBooking": "حجز مجموعة جديد"
+    },
+    "form": {
+      "roomTypeName": "اسم نوع الغرفة",
+      "ratePlanName": "اسم خطة الأسعار",
+      "ratePlanNamePlaceholder": "مثال: السعر القياسي، غرفة مع فطور",
+      "price": "السعر",
+      "pricePerNight": "السعر لليلة",
+      "totalStayCost": "إجمالي تكلفة الإقامة",
+      "nights": "{{count}} ليالي",
+      "capacity": "السعة (أشخاص)",
+      "basePrice": "السعر الأساسي",
+      "roomNumber": "رقم الغرفة",
+      "roomType": "نوع الغرفة",
+      "guestName": "اسم النزيل",
+      "checkIn": "تاريخ الوصول",
+      "checkOut": "تاريخ المغادرة",
+      "totalAmount": "المبلغ الإجمالي",
+      "selectRoom": "اختر غرفة",
+      "selectRatePlan": "اختر خطة أسعار",
+      "floor": "الطابق",
+      "selectFloor": "اختر طابق",
+      "room": "الغرفة",
+      "imageUrls": "روابط الصور",
+      "imageUrlPlaceholder": "https://example.com/image.png",
+      "addImageUrl": "إضافة رابط صورة",
+      "amenitiesLabel": "المرافق",
+      "amenitiesPlaceholder": "مفصولة بفاصلة، مثال: واي فاي، تكييف"
+    },
+    "statuses": {
+      "clean": "نظيفة",
+      "dirty": "متسخة",
+      "cleaninginprogress": "قيد التنظيف",
+      "inspected": "تم فحصها",
+      "outofservice": "خارج الخدمة",
+      "pending": "معلق",
+      "confirmed": "مؤكد",
+      "checkedin": "مسجل دخوله",
+      "checkedout": "مسجل خروجه",
+      "cancelled": "ملغى",
+      "noshow": "لم يحضر",
+      "checkin": "تسجيل دخول",
+      "checkout": "تسجيل خروج"
+    },
+    "guests": {
+      "title": "إدارة النزلاء",
+      "searchPlaceholder": "ابحث بالاسم أو الهاتف...",
+      "addGuest": "إضافة نزيل",
+      "editGuest": "تعديل النزيل",
+      "table": {
+        "name": "الاسم",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني",
+        "stays": "# الإقامات"
+      },
+      "empty": "لم يتم العثور على نزلاء.",
+      "backToList": "العودة إلى قائمة النزلاء",
+      "preferences": "التفضيلات",
+      "notes": "ملاحظات",
+      "noInfo": "لا توجد معلومات.",
+      "reservationHistory": "سجل الحجوزات",
+      "historyTable": {
+        "room": "الغرفة",
+        "dates": "التواريخ",
+        "status": "الحالة"
+      }
+    },
+    "reports": {
+      "title": "تقارير الفندق",
+      "dailyReportTitle": "التقرير المالي اليومي",
+      "roomRevenue": "إيرادات الغرف",
+      "fbRevenue": "إيرادات الأطعمة والمشروبات",
+      "totalRevenue": "إجمالي الإيرادات",
+      "occupancy": "نسبة الإشغال",
+      "adr": "متوسط السعر اليومي (ADR)",
+      "revpar": "الإيراد لكل غرفة متاحة (RevPAR)",
+      "occupancyTrend": "اتجاه الإشغال الأسبوعي",
+      "dailyMovements": "تقرير الحركة اليومي",
+      "selectDate": "اختر تاريخ التقرير",
+      "arrivals": "الوصول",
+      "departures": "المغادرة",
+      "inHouse": "النزلاء المقيمون",
+      "empty": "لا توجد حركات لهذا التاريخ."
+    },
+    "billing": {
+      "title": "الفواتير والحسابات",
+      "searchPlaceholder": "ابحث باسم النزيل أو الغرفة...",
+      "guestLedger": "دفتر حسابات النزلاء",
+      "viewFolio": "عرض الحساب",
+      "table": {
+        "guest": "النزيل",
+        "room": "الغرفة",
+        "balance": "الرصيد",
+        "date": "التاريخ",
+        "description": "الوصف",
+        "charge": "رسوم",
+        "payment": "دفعة"
+      },
+      "empty": "لا توجد حسابات برصيد مستحق.",
+      "activeAccounts": "الحسابات النشطة",
+      "invoiceHistory": "سجل الفواتير",
+      "emptyHistory": "لا توجد فواتير سابقة."
+    },
+    "receipt": {
+      "invoice": "فاتورة",
+      "invoiceNo": "رقم الفاتورة",
+      "printDate": "تاريخ الطباعة",
+      "guestInfo": "معلومات النزيل",
+      "stayInfo": "معلومات الإقامة",
+      "roomNumber": "رقم الغرفة",
+      "checkIn": "الوصول",
+      "checkOut": "المغادرة",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "charge": "رسوم",
+      "payment": "دفعة",
+      "totalCharges": "إجمالي الرسوم",
+      "totalPayments": "إجمالي الدفعات",
+      "balance": "الرصيد",
+      "reprintInvoice": "إعادة طباعة الفاتورة"
+    },
+    "floorPlan": {
+      "designMode": "وضع التصميم",
+      "manageFloors": "إدارة الطوابق",
+      "addFloor": "إضافة طابق",
+      "newFloorName": "اسم الطابق الجديد",
+      "deleteFloorConfirm": "هل أنت متأكد من حذف هذا الطابق وجميع غرفه؟",
+      "statuses": {
+        "available": "متاحة",
+        "occupied": "مشغولة",
+        "dirty": "متسخة",
+        "outofservice": "خارج الخدمة"
+      }
+    },
+    "roomStatusModal": {
+      "title": "حالة الغرفة: {{roomNumber}}",
+      "type": "النوع",
+      "status": "الحالة",
+      "guest": "النزيل",
+      "checkIn": "الوصول",
+      "checkOut": "المغادرة",
+      "createReservation": "إنشاء حجز",
+      "viewFolio": "عرض الحساب",
+      "markClean": "تحديد كنظيفة",
+      "startCleaning": "بدء التنظيف"
+    },
+    "packages": {
+      "addonsTitle": "الخدمات الإضافية",
+      "addAddon": "إضافة خدمة",
+      "perGuest": "للشخص الواحد",
+      "perNight": "لليلة الواحدة",
+      "packagesTitle": "الباقات",
+      "addPackage": "إضافة باقة",
+      "modal": {
+        "title_addon_add": "إضافة خدمة جديدة",
+        "title_addon_edit": "تعديل الخدمة",
+        "title_package_add": "إضافة باقة جديدة",
+        "title_package_edit": "تعديل الباقة"
+      },
+      "form": {
+        "name": "الاسم",
+        "price": "السعر",
+        "description": "الوصف",
+        "includedAddons": "الخدمات المضمنة"
+      }
+    },
+    "loyalty": {
+      "title": "برنامج الولاء",
+      "enable": "تفعيل برنامج الولاء",
+      "earningRate": {
+        "label": "معدل كسب النقاط",
+        "description": "نقطة لكل وحدة عملة."
+      },
+      "redemptionRate": {
+        "label": "معدل استبدال النقاط",
+        "description": "نقطة لكل وحدة خصم."
+      },
+      "tiersTitle": "مستويات الولاء",
+      "addTier": "إضافة مستوى",
+      "pointsThreshold": "{{count}} نقطة مطلوبة",
+      "points": "نقاط",
+      "noTier": "لا يوجد مستوى",
+      "progress": "{{points}} نقطة متبقية للوصول إلى {{tier}}",
+      "benefits": "المزايا",
+      "modal": {
+        "title_add": "إضافة مستوى جديد",
+        "title_edit": "تعديل المستوى"
+      },
+      "form": {
+        "name": "اسم المستوى",
+        "points": "عتبة النقاط",
+        "benefits": "المزايا"
+      },
+      "discountValue": "خصم ولاء",
+      "availablePoints": "نقاط {{name}} المتاحة: {{points}}",
+      "redeemPlaceholder": "نقاط للاستبدال"
+    },
+     "maintenance": {
+        "title": "طلبات الصيانة",
+        "createRequestTitle": "إنشاء طلب صيانة: غرفة {{roomNumber}}",
+        "description": "الوصف",
+        "descriptionPlaceholder": "مثال: المكيف لا يعمل، الحنفية تسرب...",
+        "markOutOfService": "تحديد الغرفة كخارج الخدمة",
+        "table": {
+            "room": "الغرفة",
+            "description": "الوصف",
+            "reportedBy": "المبلغ",
+            "date": "التاريخ",
+            "status": "الحالة"
+        },
+        "statuses": {
+            "reported": "تم الإبلاغ",
+            "inprogress": "قيد التنفيذ",
+            "completed": "مكتمل"
+        },
+        "empty": "لا توجد طلبات صيانة نشطة."
+    },
+    "channelManager": {
+        "title": "مدير القنوات",
+        "description": "قم بمزامنة حجوزاتك من قنوات الحجز الخاصة بك.",
+        "forceSync": "مزامنة الآن",
+        "syncStatus": "المزامنة",
+        "channels": "القنوات المتصلة",
+        "lastSync": "آخر مزامنة",
+        "activityLog": "سجل النشاط",
+        "statuses": {
+            "connected": "متصل",
+            "syncing": "جاري المزامنة",
+            "error": "خطأ",
+            "disabled": "معطل"
+        },
+        "time": {
+            "justNow": "الآن",
+            "secondsAgo": "قبل {{seconds}} ثانية",
+            "minutesAgo": "قبل {{minutes}} دقيقة"
+        }
+    }
+  },
+  "defaults": {
+    "hotel": {
+      "receiptHeader": "فاتورة الإقامة",
+      "receiptFooter": "نتمنى لكم إقامة ممتعة."
+    }
+  },
+  "addon": {
+    "breakfast": "فطور",
+    "airportTransfer": "توصيل المطار",
+    "spaAccess": "دخول السبا"
+  },
+  "package": {
+    "weekendGetaway": "باقة عطلة نهاية الأسبوع",
+    "weekendGetaway.desc": "استمتع بإقامة مريحة مع فطور ودخول للسبا.",
+    "businessTraveler": "باقة رجل الأعمال",
+    "businessTraveler.desc": "باقة مصممة لتلبية احتياجات المسافرين من رجال الأعمال."
+  },
+  "mock": {
+    "floors": {
+        "f1": "الطابق الأول"
+    },
+    "roomTypes": {
+        "single": "غرفة مفردة",
+        "double": "غرفة مزدوجة",
+        "suite": "جناح"
+    },
+    "amenities": {
+        "wifi": "واي فاي",
+        "ac": "تكييف",
+        "tv": "تلفزيون",
+        "cityView": "إطلالة على المدينة",
+        "kitchenette": "مطبخ صغير",
+        "balcony": "شرفة"
+    },
+    "ratePlans": {
+        "standard": "السعر القياسي"
+    }
+  }
+}

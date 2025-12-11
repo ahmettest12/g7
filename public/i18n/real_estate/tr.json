@@ -1,0 +1,167 @@
+{
+  "companyTypes": {
+    "real_estate": "Emlak Ajansı"
+  },
+  "dashboard": {
+    "kpi": {
+      "propertiesForSale": "Satılık Mülkler",
+      "propertiesForRent": "Kiralık Mülkler",
+      "contractsThisMonth": "Bu Ayki Sözleşmeler",
+      "totalSalesValue": "Toplam Satış Değeri",
+      "totalCommissionPaid": "Toplam Ödenen Komisyon"
+    }
+  },
+  "realEstate": {
+    "title": "Emlak Yönetimi",
+    "tabs": {
+      "listings": "İlanlar",
+      "map": "Harita Görünümü",
+      "contracts": "Sözleşmeler",
+      "agents": "Danışmanlar",
+      "crm": "CRM",
+      "commissions": "Komisyonlar",
+      "publicPage": "Genel Sayfa",
+      "settings": "Ayarlar",
+      "analytics": "Analiz"
+    },
+    "mobile": {
+      "my_listings": "İlanlarım",
+      "dashboard": "Kontrol Paneli",
+      "clients": "Müşteriler"
+    },
+    "map": {
+      "title": "Mevcut Mülk Haritası",
+      "forSale": "Satılık",
+      "forRent": "Kiralık"
+    },
+    "filters": {
+      "listingType": "İlan Türü",
+      "all": "Tümü",
+      "forSale": "Satılık",
+      "forRent": "Kiralık",
+      "priceRange": "Fiyat Aralığı",
+      "minPrice": "Min Fiyat",
+      "maxPrice": "Maks Fiyat",
+      "bedrooms": "Yatak Odası",
+      "bathrooms": "Banyo",
+      "any": "Herhangi",
+      "reset": "Filtreleri Sıfırla"
+    },
+    "analytics": {
+      "title": "Analiz",
+      "totalSalesValue": "Toplam Satış Değeri",
+      "totalRentalIncome": "Toplam Kira Geliri (Yıllık)",
+      "propertiesSold": "Satılan Mülkler",
+      "propertiesRented": "Kiralanan Mülkler",
+      "salesTrend": "Satış Trendi (Son 6 Ay)",
+      "listingStatus": "İlan Durumu",
+      "agentPerformance": "Danışman Performansı"
+    },
+    "listings": {
+      "title": "Mülk İlanları",
+      "add": "İlan Ekle",
+      "edit": "İlanı Düzenle",
+      "createContract": "Sözleşme Oluştur",
+      "table": {
+        "title": "Başlık",
+        "type": "Tür",
+        "status": "Durum",
+        "price": "Fiyat / Kira",
+        "agent": "Danışman"
+      },
+      "form": {
+        "addTitle": "Yeni İlan Ekle",
+        "editTitle": "İlanı Düzenle",
+        "title": "İlan Başlığı",
+        "description": "Açıklama",
+        "address": "Adres",
+        "price": "Satış Fiyatı",
+        "rent": "Aylık Kira",
+        "area": "Alan (m²)",
+        "bedrooms": "Yatak Odası Sayısı",
+        "bathrooms": "Banyo Sayısı",
+        "imageUrls": "Resimler",
+        "agent": "Atanan Danışman",
+        "selectAgent": "Bir danışman seçin"
+      },
+      "types": {
+        "sale": "Satılık",
+        "rent": "Kiralık"
+      },
+      "statuses": {
+        "available": "Müsait",
+        "sold": "Satıldı",
+        "rented": "Kiralandı"
+      }
+    },
+    "contracts": {
+      "title": "Sözleşmeler",
+      "salesTitle": "Satış Sözleşmeleri",
+      "rentalsTitle": "Kira Sözleşmeleri",
+      "empty": "Henüz sözleşme yok.",
+      "table": {
+        "listing": "Mülk",
+        "customer": "Müşteri",
+        "agent": "Danışman",
+        "date": "Tarih",
+        "price": "Tutar"
+      },
+      "modal": {
+        "titleSale": "Satış Sözleşmesi Oluştur: {{title}}",
+        "titleRent": "Kira Sözleşmesi Oluştur: {{title}}",
+        "customer": "Müşteri",
+        "selectCustomer": "Bir müşteri seçin",
+        "salePrice": "Nihai Satış Fiyatı",
+        "rentAmount": "Kira Tutarı",
+        "commission": "Hesaplanan Komisyon",
+        "saleDate": "Satış Tarihi",
+        "startDate": "Başlangıç Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "create": "Sözleşmeyi Oluştur"
+      }
+    },
+    "commissions": {
+      "unpaidContracts": "Ödenmemiş Sözleşmeler",
+      "agentName": "Danışman Adı"
+    },
+    "customers": {
+      "interests": "İlgilendiği Alanlar",
+      "interestsPlaceholder": "Satılık, kiralık, villa, daire...",
+      "budget": "Bütçe"
+    },
+    "documents": {
+      "title": "Belgeler",
+      "add": "Belge Ekle",
+      "namePlaceholder": "Belge Adı (örn. Tapu)",
+      "urlPlaceholder": "Belge URL'si"
+    },
+    "publicPage": {
+        "heroSubtitle": "Mükemmel Eviniz Sizi Bekliyor",
+        "listingsTitle": "Mevcut Mülklerimiz"
+    },
+    "settings": {
+        "title": "Emlak Ajansı Ayarları"
+    }
+  },
+   "notifications": {
+    "listingAdded": "İlan başarıyla eklendi.",
+    "listingUpdated": "İlan başarıyla güncellendi.",
+    "listingDeleted": "İlan başarıyla silindi.",
+    "contractCreated": "Sözleşme başarıyla oluşturuldu."
+  },
+  "employee": {
+      "profile": {
+          "tabs": {
+              "performance": "Performans"
+          },
+          "performance": {
+              "realEstate": {
+                  "totalSalesValue": "Toplam Satış Değeri",
+                  "totalRentalValue": "Toplam Kiralama Değeri",
+                  "salesCount": "Satış Sayısı",
+                  "rentalsCount": "Kiralama Sayısı"
+              }
+          }
+      }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "common": {
+    "appName": "ProCount",
+    "appTitle": "Kapsamlı Muhasebe Yazılımı",
+    "greeting": "Merhaba, {{name}}",
+    "logout": "Çıkış Yap",
+    "dashboard": "Kontrol Paneli",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "open": "Aç",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!",
+    "unassigned": "Atanmamış",
+    "undefined": "Tanımsız",
+    "notApplicable": "Uygulanamaz",
+    "searchPlaceholder": "Ara...",
+    "finish": "Bitir",
+    "monthly": "aylık",
+    "status": "Durum",
+    "actions": "İşlemler",
+    "total": "Toplam",
+    "back": "Geri",
+    "close": "Kapat",
+    "submit": "Gönder",
+    "print": "Yazdır",
+    "editReservation": "Rezervasyonu Düzenle",
+    "noAccess": "Erişim Reddedildi",
+    "noData": {
+      "default": "Veri bulunamadı.",
+      "makeSelections": "Detayları görmek için seçim yapın."
+    },
+    "featureUnderDevelopment": "Bu özellik geliştirme aşamasındadır.",
+    "example": "Örnek",
+    "currency": "TL",
+    "optional": "İsteğe Bağlı",
+    "loading": "Yükleniyor",
+    "phone": "Telefon",
+    "address": "Adres",
+    "printInvoice": "Faturayı Yazdır",
+    "next": "İleri",
+    "overrides": "Geçersiz Kılmalar",
+    "zoomOut": "Uzaklaştır",
+    "zoomIn": "Yakınlaştır",
+    "reset": "Sıfırla",
+    "unknown": "Bilinmiyor",
+    "printPdf": "Yazdır / PDF",
+    "and": " ve ",
+    "unknownUser": "Bilinmeyen Kullanıcı",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "all": "Tümü",
+    "upload": "Yükle",
+    "free": "Ücretsiz",
+    "date": "Tarih",
+    "systemStatus": {
+      "title": "Sistem Durumu",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı",
+      "pendingSync": "Bekleyen Senkronizasyon",
+      "items": "öğe",
+      "lastSynced": "Son Senkronizasyon",
+      "appInstall": "Uygulama Yükleme",
+      "installed": "Yüklendi",
+      "webMode": "Web Modu",
+      "installHint": "Yüklemek için adres çubuğunuzdaki veya tarayıcı menüsündeki yükle simgesine bakın.",
+      "syncNow": "Şimdi Senkronize Et"
+    },
+    "paymentSource": {
+      "title": "Ödeme Kaynağını Seçin",
+      "cashDrawer": "Nakit Kasa",
+      "bankAccount": "Şirket Hesabı",
+      "drawerNotAvailable": "Nakit kasa mevcut değil (Açık vardiya yok)"
+    },
+    "expenses": {
+      "title": "Giderler",
+      "add": "Gider Ekle",
+      "empty": "Henüz gider kaydedilmedi.",
+      "form": {
+        "title": "Yeni Gider Ekle",
+        "description": "Açıklama",
+        "amount": "Tutar",
+        "date": "Tarih",
+        "category": "Gider Kategorisi",
+        "selectCategory": "Bir kategori seçin",
+        "paymentSource": "Ödeme Kaynağı"
+      },
+      "table": {
+        "date": "Tarih",
+        "description": "Açıklama",
+        "category": "Kategori",
+        "amount": "Tutar"
+      }
+    },
+    "recordWastage": "Fire Kaydet",
+    "wastageWarning": "Bu işlem, miktarı envanterden düşecek ve maliyet değerinde bir gider (zarar) olarak kaydedecektir.",
+    "quantity": "Miktar",
+    "reason": "Sebep",
+    "selectReason": "Sebep Seçin",
+    "confirm": "Onayla",
+    "itemName": "Ürün Adı",
+    "reasons": {
+        "expired": "Son Kullanma Tarihi Geçmiş",
+        "damaged": "Hasarlı / Kırık",
+        "theft": "Çalıntı / Eksik",
+        "internalUse": "Dahili Kullanım",
+        "other": "Diğer"
+    },
+    "addCurrencyHint": "Daha fazla para birimi eklemek için (örn: USD), Ayarlar > Genel > Döviz Kurları'na gidin."
+  },
+  "brochureGenerator": {
+    "brochureName": "İlan: {{promoName}}",
+    "free": "Bedava!",
+    "discount": "%{{percent}} İNDİRİM",
+    "bogo": {
+      "sameProduct": {
+        "title": "{{buy}} Al, {{get}} {{discount}} Götür",
+        "subtitle": "{{name}} üzerinde"
+      },
+      "diffProduct": {
+        "title": "{{name}} Alana",
+        "subtitle": "{{name}} {{discount}}"
+      }
+    },
+    "global": {
+      "title": "%{{percent}} İNDİRİM",
+      "subtitle": "Tüm Ürünlerde!"
+    },
+    "validity": "Teklif {{startDate}} ile {{endDate}} arasında geçerlidir"
+  },
+  "reports": {
+    "printPdf": "Yazdır / PDF"
+  },
+  "aiAssistant": {
+    "title": "Yapay Zeka Asistanı",
+    "inputPlaceholder": "Satışlarınız, en iyi ürünleriniz veya trendler hakkında soru sorun...",
+    "send": "Gönder"
+  },
+  "theme": {
+    "toggle": "Açık/Koyu modu değiştir"
+  },
+  "pwa": {
+    "install": "Yükle",
+    "installApp": "Uygulamayı Yükle"
+  },
+  "features": {
+    "pos": "Satış Noktası",
+    "accounting": "Muhasebe",
+    "inventory": "Envanter",
+    "crm": "CRM",
+    "payroll": "Maaş Bordrosu",
+    "commissions": "Komisyonlar",
+    "ecommerce": "E-ticaret"
+  },
+  "languages": {
+    "ar": "Arapça",
+    "en": "İngilizce",
+    "tr": "Türkçe"
+  },
+  "loginPage": {
+    "welcomeBack": "Tekrar Hoş Geldiniz!",
+    "signInToContinue": "Kontrol panelinize devam etmek için giriş yapın.",
+    "email": "E-posta",
+    "password": "Şifre",
+    "signIn": "Giriş Yap",
+    "emailPlaceholder": "siz@example.com",
+    "passwordPlaceholder": "********",
+    "demoCredentials": "Demo kimlik bilgileri (şifre: {{password}})",
+    "tagline": "Tüm iş ihtiyaçlarınızı verimli bir şekilde yönetmek için kapsamlı ve esnek bir muhasebe çözümü.",
+    "roles": {
+      "superAdmin": "Süper Yönetici",
+      "restaurantAdmin": "Restoran Yöneticisi",
+      "waiter": "Garson",
+      "kitchen": "Mutfak Personeli",
+      "cashier": "Kasiyer"
+    }
+  },
+  "layout": {
+    "sidebar": {
+      "brand": "ProCount",
+      "favorites": "Favoriler"
+    },
+    "header": {
+      "welcome": "Hoş geldiniz,"
+    }
+  },
+  "superAdminDashboard": {
+    "title": "Süper Yönetici Paneli",
+    "mainDashboard": "Ana Kontrol Paneli",
+    "myCompany": "Şirketim",
+    "addCompany": "Şirket Ekle",
+    "companies": "Şirketler",
+    "publicPages": "Genel Sayfalar",
+    "publicPagesManagement": {
+      "title": "Sistem Genel Sayfa Yönetimi",
+      "add": "Sayfa Ekle",
+      "deleteConfirm": "Bu sayfayı silmek istediğinizden emin misiniz?",
+      "table": {
+        "name": "Ad",
+        "type": "Tür",
+        "slug": "URL Yolu"
+      },
+      "actions": {
+        "editContent": "İçeriği Düzenle",
+        "settings": "Ayarlar"
+      },
+      "types": {
+        "PLATFORM_OFFERS": "Teklif Toplayıcı",
+        "COMPANIES_AGGREGATOR": "Şirket Toplayıcı"
+      },
+      "addModal": {
+        "title": "Yeni Sistem Sayfası Ekle",
+        "name": "Sayfa Adı",
+        "type": "Sayfa Türü"
+      },
+      "settingsModal": {
+        "title": "Şirket Toplayıcı Ayarları",
+        "visibleCompanies": "Görünür Şirketler"
+      }
+    },
+    "subscriptionPlans": "Abonelik Planları",
+    "platformBilling": "Platform Faturalandırma",
+    "auditLog": "Denetim Kaydı",
+    "settings": "Sistem Ayarları",
+    "totalCompanies": "Toplam Şirketler",
+    "activeSubscriptions": "Aktif Abonelikler",
+    "monthlyRevenue": "Aylık Gelir",
+    "searchCompanyOrAdmin": "Şirket veya yönetici adına göre ara...",
+    "table": {
+      "branches": "Şubeler"
+    },
+    "actions": {
+      "manage": "Yönet",
+      "addBranch": "+ Şube Ekle"
+    },
+    "activeRevenue": "Aktif Aylık Gelir",
+    "potentialRevenue": "Potansiyel Gelir (Süresi Dolmuş)",
+    "expiredSubscriptions": "Süresi Dolmuş Abonelikler",
+    "subscriptionDetails": "Abonelik Gelir Detayları",
+    "company": "Şirket",
+    "plan": "Plan",
+    "expiryDate": "Bitiş Tarihi",
+    "totalActiveMonthly": "Toplam Aktif Aylık Gelir:",
+    "companyTypeDistribution": "Şirket Türü Dağılımı"
+  },
+  "companyCard": {
+    "admin": "Yönetici",
+    "publicPage": "Genel Sayfa",
+    "subscription": "Abonelik",
+    "editAdmin": "Yöneticiyi Düzenle",
+    "editCompany": "Şirketi Düzenle",
+    "loginAs": "Yönetici Olarak Giriş Yap"
+  },
+  "impersonation": {
+    "banner": "Şu anda {{name}} olarak görüntülüyorsunuz.",
+    "return": "Süper Yönetici'ye Dön"
+  },
+  "companyTypes": {
+    "restaurant": "Restoran",
+    "supermarket": "Süpermarket",
+    "commission": "Komisyon Bazlı",
+    "personal": "Kişisel Finans",
+    "hotel": "Otel",
+    "automotive": "Otomotiv",
+    "real_estate": "Emlak",
+    "manufacturing": "Üretim",
+    "tourism": "Turizm",
+    "ecommerce": "E-ticaret",
+    "website_builder": "Web Sitesi Oluşturucu",
+    "appointment": "Randevu bazlı",
+    "unknown": "Bilinmeyen"
+  },
+  "subscriptions": {
+    "status": {
+      "active": "Aktif",
+      "expired": "Süresi Dolmuş"
+    },
+    "management": {
+      "title": "Abonelik Planı Yönetimi",
+      "add": "Yeni Plan Ekle",
+      "edit": "Düzenle",
+      "deleteConfirm": "Bu planı silmek istediğinizden emin misiniz? Bu, abone olan şirketleri etkileyebilir.",
+      "storage": "Depolama"
+    }
+  },
+  "subscriptionPlans": {
+    "basic": {
+      "name": "Temel Plan"
+    },
+    "premium": {
+      "name": "Premium Plan"
+    },
+    "professional": {
+      "name": "Profesyonel Plan"
+    }
+  },
+  "modals": {
+    "addCompany": {
+      "title": "Yeni Şirket Ekle",
+      "details": "Şirket Detayları",
+      "name": "Şirket Adı",
+      "type": "Şirket Türü",
+      "features": "Etkin Özellikler",
+      "adminAccount": "Şirket Yönetici Hesabı",
+      "adminEmail": "Yönetici E-postası",
+      "password": "Şifre",
+      "addButton": "Şirket Ekle",
+      "adminNameTemplate": "{{name}} Yöneticisi",
+      "adminFirstName": "Yönetici Adı",
+      "adminLastName": "Yönetici Soyadı",
+      "adminPhone": "Yönetici Telefonu",
+      "adminAddress": "Yönetici Adresi",
+      "companyInfo": "Şirket Bilgileri",
+      "commissions": "Temel Komisyon Oranları (%)",
+      "taxNumber": "Vergi Numarası"
+    },
+    "editCompany": {
+      "title": "Şirketi Düzenle: {{name}}",
+      "customDomain": "Özel Alan Adı (isteğe bağlı)",
+      "domainPlaceholder": "example.com",
+      "saveButton": "Değişiklikleri Kaydet",
+      "storageOverride": "Depolama Limiti Geçersiz Kılma (MB)",
+      "storageOverridePlaceholder": "Plan limitini kullanmak için boş bırakın"
+    },
+    "editAdmin": {
+      "title": "Yöneticiyi Düzenle: {{name}}",
+      "name": "Yönetici Adı",
+      "newPassword": "Yeni Şifre",
+      "newPasswordPlaceholder": "Mevcut şifreyi korumak için boş bırakın"
+    },
+    "manageSubscription": {
+      "title": "Aboneliği Yönet: {{name}}",
+      "plan": "Abonelik Planı",
+      "expiryDate": "Bitiş Tarihi",
+      "currentStatus": "Mevcut Durum"
+    },
+    "planForm": {
+      "addTitle": "Yeni Abonelik Planı Ekle",
+      "editTitle": "Abonelik Planını Düzenle",
+      "name": "Plan Adı",
+      "price": "Aylık Fiyat",
+      "storage": "Depolama Limiti (MB)",
+      "features": "Etkin Özellikler"
+    }
+  },
+  "settings": {
+    "app": {
+      "title": "Uygulama Ayarları"
+    },
+    "notifications": {
+      "enable": "Bildirimleri Etkinleştir",
+      "description": "Uygulama içi bildirimleri göster."
+    },
+    "employees": {
+      "title": "Sistem Çalışanları",
+      "add": "Çalışan Ekle",
+      "table": {
+        "name": "Ad / E-posta",
+        "permissions": "İzinler"
+      }
+    },
+    "currencies": {
+      "title": "Para Birimleri",
+      "add": "Yeni Para Birimi Ekle",
+      "code": "Kod",
+      "name": "Ad",
+      "list": "Para Birimi Listesi"
+    },
+    "profile": {
+      "title": "Profil"
+    }
+  },
+  "tax": {
+    "settings": "Vergi Ayarları",
+    "general": "Genel Vergi",
+    "enable": "Genel Vergiyi Etkinleştir",
+    "name": "Vergi Adı",
+    "namePlaceholder": "Örn: KDV",
+    "rate": "Oran (%)",
+    "productSpecific": "Ürün Vergisi (%)"
+  },
+  "settings": {
+      "general": {
+          "title": "Genel Ayarlar",
+          "companyInfo": "Şirket Bilgileri",
+          "address": "Adres",
+          "currency": {
+              "label": "Para Birimi",
+              "placeholder": "TL",
+              "description": "Kullanılan para birimi"
+          },
+          "logo": { "title": "Logo" },
+          "mainBranchName": "Ana Şube Adı",
+          "mainBranchPhone": "Ana Şube Telefonu",
+          "mainBranchNamePlaceholder": "Tek şube ise boş bırakın",
+          "mainBranchPhonePlaceholder": "örn. +90...",
+          "branchRenaming": { "title": "Şube İsimlendirme", "branchLabel": "Şube Adı" }
+      },
+      "formatting": {
+          "title": "Biçimlendirme",
+          "calendar": { "label": "Takvim" },
+          "dateFormat": { "label": "Tarih Formatı" }
+      }
+  },
+  "defaults": {
+    "currency": "TL"
+  }
+}

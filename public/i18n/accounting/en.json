@@ -1,0 +1,111 @@
+{
+  "accounting": {
+    "accounts": {
+      "assets": "Assets",
+      "currentAssets": "Current Assets",
+      "cash": "Cash",
+      "bank": "Bank",
+      "inventory": "Inventory",
+      "fixedAssets": "Fixed Assets",
+      "liabilities": "Liabilities",
+      "currentLiabilities": "Current Liabilities",
+      "suppliers": "Suppliers",
+      "commissionsPayable": "Commissions Payable",
+      "salariesPayable": "Salaries Payable",
+      "equity": "Equity",
+      "capital": "Capital",
+      "revenue": "Revenue",
+      "salesRevenue": "Sales Revenue",
+      "expenses": "Expenses",
+      "cogs": "Cost of Goods Sold",
+      "salaryExpenses": "Salary Expenses",
+      "rentExpenses": "Rent Expenses",
+      "utilitiesExpenses": "Utilities Expenses",
+      "marketingExpenses": "Marketing Expenses",
+      "generalAdminExpenses": "General & Admin Expenses",
+      "commissionExpenses": "Commission Expenses",
+      "guestLedger": "Guest Ledger",
+      "roomRevenue": "Room Revenue",
+      "otherHotelRevenue": "Other Hotel Revenue",
+      "fbRevenue": "F&B Revenue",
+      "purchasesExpenses": "Purchases Expenses"
+    },
+    "tabs": {
+      "reports": "Financial Reports",
+      "journal": "Journal Entries",
+      "chart": "Chart of Accounts"
+    },
+    "chart": {
+      "title": "Chart of Accounts",
+      "add": "Add Account",
+      "table": {
+        "name": "Account Name",
+        "number": "Account Number",
+        "type": "Type",
+        "balance": "Balance"
+      }
+    },
+    "addAccountForm": {
+      "id": "Account Number",
+      "name": "Account Name",
+      "type": "Account Type",
+      "parent": "Parent Account",
+      "noParent": "None (Root Account)",
+      "add": "Add"
+    },
+    "journal": {
+      "title": "Journal Entries",
+      "add": "Add Entry",
+      "table": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      }
+    },
+    "journalTemplates": {
+        "payWaiterCommission": "Paid waiter commission: {{name}}",
+        "payEmployeeCommission": "Paid employee commission: {{name}}",
+        "payPartnerCommission": "Paid partner commission: {{name}}",
+        "paySalary": "Paid salary for employee: {{name}}"
+    },
+    "addJournalForm": {
+      "date": "Date",
+      "description": "Description",
+      "account": "Select Account",
+      "debit": "Debit",
+      "credit": "Credit",
+      "addLine": "+ Add Line",
+      "save": "Save Entry"
+    },
+    "reports": {
+      "income": "Income Statement",
+      "balance": "Balance Sheet",
+      "empty": {
+        "title": "No Data Available",
+        "subtitle": "Reports will be generated here once journal entries are created."
+      }
+    },
+    "incomeStatement": {
+      "title": "Income Statement",
+      "period": "For the period ended {{date}}",
+      "revenue": "Revenue",
+      "totalRevenue": "Total Revenue",
+      "expenses": "Expenses",
+      "totalExpenses": "Total Expenses",
+      "netIncome": "Net Income",
+      "netLoss": "Net Loss"
+    },
+    "balanceSheet": {
+      "title": "Balance Sheet",
+      "date": "As of {{date}}",
+      "assets": "Assets",
+      "totalAssets": "Total Assets",
+      "liabilitiesEquity": "Liabilities & Equity",
+      "liabilities": "Liabilities",
+      "totalLiabilities": "Total Liabilities",
+      "equity": "Equity",
+      "totalEquity": "Total Equity",
+      "totalLiabilitiesEquity": "Total Liabilities & Equity"
+    }
+  }
+}

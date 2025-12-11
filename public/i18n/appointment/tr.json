@@ -1,0 +1,105 @@
+{
+    "appointment": {
+        "title": "Randevu Yönetimi",
+        "tabs": {
+            "dashboard": "Kontrol Paneli",
+            "calendar": "Takvim",
+            "services": "Hizmetler",
+            "staff": "Personel",
+            "customers": "Müşteriler",
+            "reports": "Raporlar",
+            "public_page": "Genel Sayfa",
+            "settings": "Ayarlar",
+            "public_reservations": "Web Rezervasyonları"
+        },
+        "calendar": {
+            "title": "Randevu Takvimi",
+            "noAppointments": "Bu gün için randevu yok.",
+            "allStaff": "Tüm Personel",
+            "addAppointment": "Randevu Ekle"
+        },
+        "services": {
+            "title": "Hizmet Yönetimi",
+            "add": "Hizmet Ekle",
+            "editTitle": "Hizmeti Düzenle",
+            "addTitle": "Yeni Hizmet Ekle",
+            "deleteTitle": "Hizmeti Sil",
+            "deleteConfirm": "'{{name}}' adlı hizmeti silmek istediğinizden emin misiniz?",
+            "duration": "{{count}} dk",
+            "form": {
+                "name": "Hizmet Adı",
+                "description": "Açıklama",
+                "duration": "Süre (dakika)",
+                "price": "Fiyat"
+            }
+        },
+        "details": {
+            "title": "Randevu Detayları",
+            "customer": "Müşteri",
+            "phone": "Telefon",
+            "service": "Hizmet",
+            "staff": "Personel",
+            "dateTime": "Tarih & Saat",
+            "notes": "Notlar",
+            "edit": "Düzenle",
+            "cancel": "Randevuyu İptal Et"
+        },
+        "cancel": {
+            "title": "Randevuyu İptal Et",
+            "confirm": "Bu randevuyu iptal etmek istediğinizden emin misiniz?"
+        },
+        "form": {
+            "editTitle": "Randevuyu Düzenle"
+        },
+        "addModal": {
+            "title": "Yeni Randevu Ekle",
+            "customerName": "Müşteri Adı",
+            "customerPhone": "Müşteri Telefonu",
+            "service": "Hizmet",
+            "staff": "Personel",
+            "date": "Tarih",
+            "time": "Saat",
+            "notes": "Notlar",
+            "selectService": "-- Hizmet Seçin --",
+            "selectStaff": "-- Personel Seçin --"
+        }
+    },
+     "publicPage": {
+        "appointment": {
+            "selectService": "Hizmet Seç",
+            "selectStaff": "Personel Seç",
+            "selectDateTime": "Tarih ve Saat Seç",
+            "yourDetails": "Bilgileriniz",
+            "availableSlots": "Müsait Zamanlar",
+            "noSlots": "Bu günde müsait zaman aralığı yok.",
+            "back": "Geri",
+            "next": "İleri",
+            "yourName": "Ad Soyad",
+            "yourPhone": "Telefon Numarası",
+            "requestAppointment": "Randevu Talep Et",
+            "success": "Randevu talebiniz başarıyla gönderildi! Onay için sizinle iletişime geçeceğiz.",
+            "confirmDetails": "Randevu Detaylarını Onayla",
+            "service": "Hizmet",
+            "with": "ile",
+            "on": "tarihinde",
+            "at": "saat",
+            "change": "Değiştir",
+            "confirmYourBooking": "Rezervasyonunuzu Onaylayın",
+            "confirm": "Onayla",
+            "sendRequest": "Talep Gönder",
+            "bookNow": "Şimdi Rezervasyon Yap",
+            "bookingSubtitle": "Randevunuzu oluşturmak için istediğiniz hizmeti ve zamanı seçin."
+        }
+    },
+    "publicPageDefaults": {
+        "appointment": {
+            "heroSubtitle": "Randevunuzu kolayca alın",
+            "servicesTitle": "Hizmetlerimiz",
+            "bookingTitle": "Randevu Al"
+        }
+    },
+    "notifications": {
+        "appointmentConfirmed": "{{name}} için randevu onaylandı.",
+        "appointmentCancelled": "Randevu iptal edildi."
+    }
+}

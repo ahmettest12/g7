@@ -1,0 +1,238 @@
+{
+  "automotive": {
+    "title": "Otomotiv Yönetimi",
+    "editProduct": "Ürünü Düzenle",
+    "tabs": {
+        "publicPage": "Genel Sayfa",
+        "pos": "POS (Parça)",
+        "partsInventory": "Parça Envanteri",
+        "salesHistory": "Satış Geçmişi",
+        "cashDrawer": "Nakit Kasası",
+        "customers": "Müşteriler",
+        "settings": "Ayarlar"
+    },
+    "contracts": {
+        "title": "Sözleşmeler",
+        "idNumber": "TC Kimlik / Pasaport No",
+        "address": "Adres",
+        "vin": "Şasi Numarası",
+        "plate": "Plaka",
+        "color": "Renk",
+        "mileage": "Kilometre",
+        "saleContract": "Araç Satış Sözleşmesi",
+        "rentalContract": "Araç Kiralama Sözleşmesi",
+        "contractDate": "Sözleşme Tarihi",
+        "seller": "Satıcı",
+        "buyer": "Alıcı",
+        "renter": "Kiracı",
+        "representative": "Temsilci",
+        "vehicleDetails": "Araç Detayları",
+        "saleDetails": "Satış Detayları",
+        "rentalDetails": "Kiralama Detayları",
+        "salePrice": "Satış Fiyatı",
+        "rentalPeriod": "Kiralama Süresi",
+        "from": "Başlangıç",
+        "to": "Bitiş",
+        "dailyRate": "Günlük Ücret",
+        "termsAndConditions": "Şartlar ve Koşullar",
+        "sellerSignature": "Birinci Taraf İmza",
+        "buyerSignature": "İkinci Taraf İmza (Alıcı)",
+        "renterSignature": "İkinci Taraf İmza (Kiracı)",
+        "priceInWordsPlaceholder": "Yalnızca...",
+        "printContract": "Sözleşmeyi Yazdır",
+        "emptyTitle": "Sözleşme Bulunamadı",
+        "emptyDescription": "Yeni bir sözleşme oluşturmak için 'Araç Envanteri'ne gidin ve mevcut bir araç için 'Sözleşme Oluştur'u seçin.",
+        "terms": {
+            "sale": {
+                "p1": "Birinci Taraf, {{companyName}}, yukarıda açıklanan aracı İkinci Tarafa sattığını beyan eder.",
+                "p2": "İkinci Taraf, aracı tümüyle incelediğini ve mevcut durumuyla satın almayı kabul ettiğini beyan eder.",
+                "p3": "Yukarıda belirtilen fiyat üzerinde anlaşmaya varılmıştır ve İkinci Tarafın bu sözleşmeyi imzalaması, aracı teslim aldığını ve tam ödemeyi yaptığını kabul ettiğini gösterir.",
+                "p4": "İkinci Taraf, yasal süre içinde aracın mülkiyetini devretmekle yükümlüdür."
+            },
+            "rental": {
+                "p1": "Birinci Taraf, {{companyName}}, yukarıda açıklanan aracı belirtilen süre için İkinci Tarafa kiralamıştır.",
+                "p2": "İkinci Taraf, aracı korumakla ve aldığı aynı durumda iade etmekle yükümlüdür.",
+                "p3": "İkinci Taraf, kiralama süresi boyunca tüm trafik cezalarından ve araca gelebilecek her türlü hasardan sorumludur.",
+                "p4": "Kira bedelinin tamamı sözleşme imzalanırken ödenir."
+            }
+        },
+        "wizard": {
+            "step1": "Müşteri ve Tür",
+            "step2": "Finansal Detaylar",
+            "step3": "İnceleme ve Tamamlama"
+        },
+        "selectCustomer": "Mevcut bir müşteri seçin",
+        "customer": "Müşteri",
+        "downPayment": "Peşinat",
+        "paymentMethod": "Ödeme Yöntemi",
+        "paymentMethods": {
+            "cash": "Nakit",
+            "installments": "Taksit"
+        },
+        "startDate": "Başlangıç Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "securityDeposit": "Depozito",
+        "insuranceDetails": "Sigorta Detayları",
+        "notes": "Ek Notlar",
+        "auditNotes": "Denetim Notları (İsteğe Bağlı)",
+        "auditNotesPlaceholder": "Örn: Tüm belgeler doğrulandı.",
+        "auditConfirm": "Tüm sözleşme detaylarını incelediğimi ve doğru olduğunu onaylıyorum.",
+        "finalize": "Sonlandır ve Sözleşme Oluştur",
+        "auditorSignature": "Denetçi İmzası",
+        "errors": {
+            "noCustomer": "Lütfen devam etmeden önce bir müşteri seçin."
+        },
+        "notifications": {
+            "saleSuccess": "Satış sözleşmesi başarıyla kaydedildi.",
+            "rentalSuccess": "Kira sözleşmesi başarıyla kaydedildi."
+        }
+    },
+    "inventory": {
+      "title": "Araç Envanteri",
+      "vehicleInventory": "Araç Envanteri",
+      "addProduct": "Araç Ekle",
+      "sellRent": "Sat / Kirala",
+      "createContract": "Sözleşme Oluştur",
+      "empty": "Henüz araç eklenmedi.",
+      "table": {
+        "product": "Ürün",
+        "type": "Tür",
+        "status": "Durum",
+        "price": "Fiyat"
+      },
+      "form": {
+        "type": "Tür",
+        "types": {
+          "sale": "Satılık",
+          "rental": "Kiralık",
+          "part": "Yedek Parça"
+        },
+        "status": "Durum",
+        "statuses": {
+          "available": "Müsait",
+          "sold": "Satıldı",
+          "rented": "Kiralandı"
+        },
+        "make": "Marka",
+        "model": "Model",
+        "year": "Yıl",
+        "price": "Satış Fiyatı",
+        "dailyRate": "Günlük Kiralama Ücreti",
+        "partPrice": "Parça Fiyatı",
+        "features": "Özellikler",
+        "featuresPlaceholder": "Virgülle ayrılmış, örn. Otomatik, Sunroof",
+        "imageUrls": "Resimler",
+        "basicInfo": "Temel Bilgiler",
+        "series": "Seri",
+        "condition": "Araç Durumu",
+        "conditions": {
+          "new": "Yeni",
+          "used": "Kullanılmış"
+        },
+        "mileage": "KM",
+        "bodyType": "Kasa Tipi",
+        "engineSpecs": "Motor Özellikleri",
+        "enginePower": "Motor Gücü (BG)",
+        "engineVolume": "Motor Hacmi (cc)",
+        "fuelType": "Yakıt Tipi",
+        "fuelTypes": {
+          "gasoline": "Benzin",
+          "diesel": "Dizel",
+          "electric": "Elektrik",
+          "hybrid": "Hibrit"
+        },
+        "transmission": "Vites",
+        "transmissions": {
+          "automatic": "Otomatik",
+          "manual": "Manuel"
+        },
+        "drivetrain": "Çekiş",
+        "drivetrains": {
+          "fwd": "Önden Çekiş",
+          "rwd": "Arkadan İtiş",
+          "awd": "Dört Çeker"
+        },
+        "otherInfo": "Diğer Bilgiler",
+        "color": "Renk",
+        "warranty": "Garanti",
+        "warrantyOptions": {
+          "yes": "Evet",
+          "no": "Hayır"
+        },
+        "heavilyDamaged": "Ağır Hasar Kayıtlı",
+        "plate": "Plaka / Uyruk",
+        "pricing": "Fiyatlandırma",
+        "description": "Açıklama"
+      }
+    },
+    "publicPage": {
+      "heroSubtitle": "Satılık ve Kiralık En İyi Arabalar",
+      "carsTitle": "Showroom'umuz",
+      "details": {
+        "price": "Fiyat",
+        "dailyRate": "Günlük",
+        "specifications": "Özellikler",
+        "make": "Marka",
+        "model": "Model",
+        "year": "Yıl",
+        "features": "Özellikler",
+        "inquireNow": "Şimdi Bilgi Alın"
+      }
+    },
+    "sales": {
+      "title": "Satışlar & Kiralamalar",
+      "salesHistory": "Satış Geçmişi",
+      "activeRentals": "Aktif Kiralamalar",
+      "completeRental": "Kiralamayı Bitir",
+      "transactionModal": {
+        "titleSale": "Satış Kaydet",
+        "titleRental": "Kiralama Kaydet",
+        "customer": "Müşteri",
+        "salesperson": "Satış Temsilcisi",
+        "salePrice": "Satış Fiyatı",
+        "dailyRate": "Günlük Ücret",
+        "startDate": "Başlangıç Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "completeSale": "Satışı Tamamla",
+        "startRental": "Kiralamayı Başlat"
+      },
+      "table": {
+        "date": "Tarih",
+        "vehicle": "Araç",
+        "customer": "Müşteri",
+        "salesperson": "Satış Temsilcisi",
+        "price": "Fiyat",
+        "profit": "Kar",
+        "period": "Dönem",
+        "status": "Durum",
+        "actions": "İşlemler"
+      }
+    },
+    "settings": {
+      "title": "Otomotiv Ayarları"
+    },
+    "service": {
+      "title": "Servis Merkezi",
+      "workOrders": "İş Emirleri",
+      "newWorkOrder": "Yeni İş Emri",
+      "addTitle": "Yeni İş Emri Ekle",
+      "editTitle": "İş Emrini Düzenle",
+      "technician": "Teknisyen",
+      "statuses": {
+        "pending": "Beklemede",
+        "in_progress": "Devam Ediyor",
+        "awaiting_parts": "Parça Bekleniyor",
+        "completed": "Tamamlandı"
+      },
+      "notifications": {
+        "workOrderAdded": "İş emri başarıyla eklendi."
+      }
+    },
+     "mobile": {
+        "scan_vin": "Şasi No Tara",
+        "service_bay": "Servis Alanı",
+        "new_contract": "Yeni Sözleşme",
+        "start_process": "İşlemi Başlat"
+    }
+  }
+}

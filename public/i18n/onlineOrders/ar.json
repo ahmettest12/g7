@@ -1,0 +1,95 @@
+
+{
+    "onlineOrders": {
+        "title": "إدارة الطلبات الإلكترونية",
+        "card": {
+            "order": "طلب #{{num}}",
+            "items": "{{count}} أصناف",
+            "total": "الإجمالي: {{total}} ر.س"
+        },
+        "customerLogin": {
+            "title": "تسجيل دخول العميل",
+            "welcome": "المتسوق: {{name}}",
+            "button": "دخول العملاء",
+            "logout": "تسجيل الخروج"
+        },
+        "account": {
+            "title": "حسابي",
+            "personalInfo": "المعلومات الشخصية",
+            "address": "العنوان الأساسي",
+            "secondaryAddress": "العنوان الثانوي",
+            "changePassword": "تغيير كلمة المرور",
+            "newPassword": "كلمة المرور الجديدة",
+            "confirmPassword": "تأكيد كلمة المرور الجديدة",
+            "newAddress": "عنوان جديد"
+        },
+        "login": {
+            "title": "تسجيل الدخول للمتجر",
+            "noAccount": "ليس لديك حساب؟",
+            "registerHere": "سجل من هنا",
+            "googleSignIn": "تسجيل الدخول باستخدام جوجل"
+        },
+        "register": {
+            "title": "إنشاء حساب جديد",
+            "name": "الاسم الكامل",
+            "firstName": "الاسم الأول",
+            "lastName": "الاسم الأخير",
+            "phone": "رقم الهاتف",
+            "email": "البريد الإلكتروني",
+            "password": "كلمة المرور",
+            "confirmPassword": "تأكيد كلمة المرور",
+            "button": "تسجيل",
+            "haveAccount": "هل لديك حساب بالفعل؟",
+            "loginHere": "سجل الدخول من هنا",
+            "captcha": "رمز التحقق",
+            "captchaError": "رمز التحقق غير صحيح."
+        },
+        "store": {
+            "welcome": "أهلاً،",
+            "tabs": {
+                "store": "المتجر",
+                "myOrders": "طلباتي",
+                "myAccount": "حسابي"
+            },
+            "logout": "تسجيل الخروج",
+            "searchPlaceholder": "ابحث عن منتجات...",
+            "allCategories": "جميع الفئات",
+            "addToCart": "أضف إلى السلة",
+            "cart": "سلة التسوق",
+            "cartEmpty": "سلتك فارغة.",
+            "total": "الإجمالي",
+            "address": "عنوان التوصيل",
+            "placeOrder": "إتمام الطلب",
+            "orderSuccessTitle": "تم استلام طلبك بنجاح!",
+            "orderSuccessBody": "سنقوم بتجهيز طلبك وإعلامك عندما يكون جاهزًا للتوصيل.",
+            "continueShopping": "متابعة التسوق",
+            "notesPlaceholder": "ملاحظات إضافية (اختياري)",
+            "checkoutTitle": "إتمام الطلب",
+            "addressPlaceholder": "أدخل عنوان التوصيل الكامل",
+            "notes": "ملاحظات إضافية"
+        },
+        "myOrders": {
+            "title": "طلباتي",
+            "empty": "ليس لديك طلبات سابقة.",
+            "items": "الأصناف",
+            "notes": "الملاحظات",
+            "editOrder": "تعديل الطلب",
+            "cancelOrder": "إلغاء الطلب",
+            "confirmCancel": "هل أنت متأكد من رغبتك في إلغاء هذا الطلب؟",
+            "editModal": {
+                "title": "تعديل الطلب #{{num}}",
+                "address": "عنوان التوصيل",
+                "save": "حفظ التغييرات"
+            },
+            "reactivateOrder": "إعادة تفعيل"
+        },
+        "details": {
+            "title": "تفاصيل المنتج",
+            "reviewsTitle": "تقييمات العملاء",
+            "noReviews": "لا توجد تقييمات بعد.",
+            "rating": "({{count}} تقييمات)",
+            "selectVariant": "اختر {{name}}",
+            "options": "الخيارات"
+        }
+    }
+}

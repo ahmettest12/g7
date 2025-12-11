@@ -1,0 +1,105 @@
+{
+    "appointment": {
+        "title": "Appointment Management",
+        "tabs": {
+            "dashboard": "Dashboard",
+            "calendar": "Calendar",
+            "services": "Services",
+            "staff": "Staff",
+            "customers": "Customers",
+            "reports": "Reports",
+            "public_page": "Public Page",
+            "settings": "Settings",
+            "public_reservations": "Web Bookings"
+        },
+        "calendar": {
+            "title": "Appointment Calendar",
+            "noAppointments": "No appointments for this day.",
+            "allStaff": "All Staff",
+            "addAppointment": "Add Appointment"
+        },
+        "services": {
+            "title": "Services Management",
+            "add": "Add Service",
+            "editTitle": "Edit Service",
+            "addTitle": "Add New Service",
+            "deleteTitle": "Delete Service",
+            "deleteConfirm": "Are you sure you want to delete '{{name}}'?",
+            "duration": "{{count}} min",
+            "form": {
+                "name": "Service Name",
+                "description": "Description",
+                "duration": "Duration (minutes)",
+                "price": "Price"
+            }
+        },
+        "details": {
+            "title": "Appointment Details",
+            "customer": "Customer",
+            "phone": "Phone",
+            "service": "Service",
+            "staff": "Staff",
+            "dateTime": "Date & Time",
+            "notes": "Notes",
+            "edit": "Edit",
+            "cancel": "Cancel Appointment"
+        },
+        "cancel": {
+            "title": "Cancel Appointment",
+            "confirm": "Are you sure you want to cancel this appointment?"
+        },
+        "form": {
+            "editTitle": "Edit Appointment"
+        },
+        "addModal": {
+            "title": "Add New Appointment",
+            "customerName": "Customer Name",
+            "customerPhone": "Customer Phone",
+            "service": "Service",
+            "staff": "Staff",
+            "date": "Date",
+            "time": "Time",
+            "notes": "Notes",
+            "selectService": "-- Select Service --",
+            "selectStaff": "-- Select Staff --"
+        }
+    },
+     "publicPage": {
+        "appointment": {
+            "selectService": "Select Service",
+            "selectStaff": "Select Staff",
+            "selectDateTime": "Select Date & Time",
+            "yourDetails": "Your Details",
+            "availableSlots": "Available Slots",
+            "noSlots": "No available slots on this day.",
+            "back": "Back",
+            "next": "Next",
+            "yourName": "Full Name",
+            "yourPhone": "Phone Number",
+            "requestAppointment": "Request Appointment",
+            "success": "Your appointment request has been sent successfully! We will contact you to confirm.",
+            "confirmDetails": "Confirm Your Details",
+            "service": "Service",
+            "with": "With",
+            "on": "on",
+            "at": "at",
+            "change": "Change",
+            "confirmYourBooking": "Confirm Your Booking",
+            "confirm": "Confirm",
+            "sendRequest": "Send Request",
+            "bookNow": "Book Now",
+            "bookingSubtitle": "Choose your desired service and time to book your appointment."
+        }
+    },
+    "publicPageDefaults": {
+        "appointment": {
+            "heroSubtitle": "Book your appointment with ease",
+            "servicesTitle": "Our Services",
+            "bookingTitle": "Book an Appointment"
+        }
+    },
+    "notifications": {
+        "appointmentConfirmed": "Appointment for {{name}} has been confirmed.",
+        "appointmentCancelled": "Appointment has been cancelled."
+    }
+}

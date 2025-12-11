@@ -1,0 +1,432 @@
+{
+  "hotel": {
+    "title": "Otel Yönetimi",
+    "tabs": {
+      "frontDesk": "Ön Büro",
+      "public_reservations": "Web Rezervasyonları",
+      "tapeChart": "Rezervasyon Şeridi",
+      "housekeeping": "Kat Hizmetleri",
+      "settings": "Ayarlar",
+      "guests": "Misafirler",
+      "billing": "Faturalandırma",
+      "reports": "Raporlar",
+      "reservations": "Rezervasyonlar",
+      "rooms": "Odalar",
+      "employees": "Çalışanlar",
+      "maintenance": "Bakım",
+      "channelManager": "Kanal Yöneticisi",
+      "floorPlan": "Kat Planı",
+      "pos": "POS",
+      "publicPage": "Genel Sayfa",
+      "aiAssistant": "Yapay Zeka Asistanı",
+      "groups": {
+          "operations": "Operasyonlar",
+          "bookings": "Rezervasyonlar",
+          "management": "Yönetim",
+          "general": "Genel",
+          "hotel_inventory": "Envanter & Menü"
+      },
+      "menu_items": "Menü Öğeleri",
+      "ingredients": "Malzemeler",
+      "recipes": "Reçeteler"
+    },
+    "tapeChart": {
+      "title": "Rezervasyon Zaman Çizelgesi",
+      "goToToday": "Bugün",
+      "newReservation": "Yeni Rezervasyon",
+      "findRoom": "Oda Bul",
+      "modal": {
+        "guestSearchPlaceholder": "Bir misafir arayın veya yeni bir ad girin",
+        "guestList": "Mevcut Misafirler",
+        "reservationDetails": "Rezervasyon Detayları"
+      }
+    },
+     "publicReservations": {
+      "title": "Genel Sayfadan Gelen Rezervasyonlar",
+      "empty": "Genel sayfadan yeni rezervasyon yok.",
+      "card": {
+        "confirm": "Rezervasyonu Onayla",
+        "cancel": "Rezervasyonu İptal Et"
+      }
+    },
+    "housekeeping": {
+      "title": "Kat Hizmetleri Durumu",
+      "filters": {
+          "all": "Tümü"
+      },
+      "assignTasks": "Görev Ata",
+      "reportIssue": "Sorun Bildir",
+      "assignedTo": "Atanan",
+      "assignModal": {
+        "housekeeper": "Kat Görevlisi",
+        "selectHousekeeper": "Bir kat görevlisi seçin",
+        "dirtyRooms": "Kirli Odalar",
+        "selectAll": "Tümünü Seç",
+        "confirm": "Ata"
+      },
+       "actions": {
+        "startCleaning": "Temizliğe Başla",
+        "finishCleaning": "Temizliği Bitir",
+        "inspect": "Denetle & Onayla",
+        "pendingInspection": "Denetim Bekliyor"
+      }
+    },
+    "settings": {
+      "title": "Otel Ayarları",
+      "roomTypes": "Oda Tipleri",
+      "addRoomType": "Oda Tipi Ekle",
+      "ratePlans": "Fiyat Planları",
+      "addRatePlan": "Fiyat Planı Ekle",
+      "tabs": {
+        "general": "Genel",
+        "types_rates": "Tipler & Fiyatlar",
+        "addons_packages": "Eklentiler & Paketler",
+        "loyalty_program": "Sadakat Programı",
+        "tax": "Vergi"
+      },
+      "formatting": {
+        "title": "Tarih & Saat Biçimlendirme",
+        "calendar": {
+          "label": "Takvim Sistemi",
+          "gregorian": "Miladi",
+          "hijri": "Hicri"
+        },
+        "dateFormat": {
+          "label": "Tarih Formatı",
+          "description": "Uygulama genelinde tarihlerin nasıl görüntüleneceğini seçin.",
+          "yyyymmdd": "Yıl-Ay-Gün (YYYY-AA-GG)",
+          "ddmmyyyy": "Gün/Ay/Yıl (GG/AA/YYYY)",
+          "monthdyyyy": "Ay Adı Gün, Yıl (Month D, YYYY)"
+        }
+      }
+    },
+    "folio": {
+      "title": "Misafir Folyosu",
+      "balance": "Bakiye",
+      "addCharge": "Ücret Ekle",
+      "recordPayment": "Ödeme Kaydet",
+      "description": "Açıklama",
+      "amount": "Tutar",
+      "date": "Tarih",
+      "item": "Kalem",
+      "charges": "Ücretler",
+      "payments": "Ödemeler",
+      "empty": "Bu folyoya henüz bir kalem işlenmemiş.",
+      "settleAndCheckout": "Hesabı Kapat & Çıkış Yap",
+      "paymentMethod": "Ödeme Yöntemi"
+    },
+    "frontDesk": {
+      "title": "Ön Büro Paneli",
+      "arrivals": "Bugünkü Gelişler",
+      "departures": "Bugünkü Ayrılışlar",
+      "inHouse": "Oteldeki Misafirler",
+      "occupancy": "Doluluk",
+      "nightAudit": "Gece Denetimi",
+      "nightAuditConfirm": "{{date}} için gece denetimini çalıştırmak istediğinizden emin misiniz? Bu, giriş yapmış tüm misafirler için oda ücretlerini yansıtacaktır.",
+      "checkIn": "Giriş Yap",
+      "checkOut": "Çıkış Yap",
+      "viewFolio": "Folyoyu Görüntüle"
+    },
+    "rooms": {
+      "title": "Oda Yönetimi",
+      "roomNumber": "Oda Numarası",
+      "type": "Tip",
+      "addRoom": "Oda Ekle",
+      "table": {
+        "roomNumber": "Oda Numarası",
+        "type": "Tip",
+        "status": "Temizlik Durumu"
+      },
+      "empty": "Henüz oda eklenmemiş."
+    },
+    "reservations": {
+      "title": "Rezervasyon Yönetimi",
+      "searchPlaceholder": "Misafir adına göre ara...",
+      "filterByDate": "Tarihe göre filtrele:",
+      "filterByStatus": "Duruma göre filtrele:",
+      "allStatuses": "Tüm Durumlar",
+      "table": {
+        "guest": "Misafir",
+        "dates": "Tarihler",
+        "room": "Oda",
+        "status": "Durum",
+        "group": "Grup"
+      },
+      "empty": "Seçilen kriterlere uygun rezervasyon bulunamadı.",
+      "newGroupBooking": "Yeni Grup Rezervasyonu"
+    },
+    "form": {
+      "roomTypeName": "Oda Tipi Adı",
+      "ratePlanName": "Fiyat Planı Adı",
+      "ratePlanNamePlaceholder": "Örn: Standart Fiyat, Oda Kahvaltı",
+      "price": "Fiyat",
+      "pricePerNight": "Gecelik Fiyat",
+      "totalStayCost": "Toplam Konaklama Maliyeti",
+      "nights": "{{count}} gece",
+      "capacity": "Kapasite (kişi)",
+      "basePrice": "Taban Fiyat",
+      "roomNumber": "Oda Numarası",
+      "roomType": "Oda Tipi",
+      "guestName": "Misafir Adı",
+      "checkIn": "Giriş Tarihi",
+      "checkOut": "Çıkış Tarihi",
+      "totalAmount": "Toplam Tutar",
+      "selectRoom": "Bir Oda Seçin",
+      "selectRatePlan": "Bir Fiyat Planı Seçin",
+      "floor": "Kat",
+      "selectFloor": "Bir Kat Seçin",
+      "room": "Oda",
+      "imageUrls": "Resimler",
+      "imageUrlPlaceholder": "https://example.com/image.png",
+      "addImageUrl": "Resim URL'si Ekle",
+      "amenitiesLabel": "Olanaklar",
+      "amenitiesPlaceholder": "Virgülle ayrılmış, örn: Wifi, Klima"
+    },
+    "statuses": {
+      "clean": "Temiz",
+      "dirty": "Kirli",
+      "cleaninginprogress": "Temizleniyor",
+      "inspected": "Denetlendi",
+      "outofservice": "Servis Dışı",
+      "pending": "Beklemede",
+      "confirmed": "Onaylandı",
+      "checkedin": "Giriş Yaptı",
+      "checkedout": "Çıkış Yaptı",
+      "cancelled": "İptal Edildi",
+      "noshow": "Gelmedi",
+      "checkin": "Giriş Yap",
+      "checkout": "Çıkış Yap"
+    },
+    "guests": {
+      "title": "Misafir Yönetimi",
+      "searchPlaceholder": "İsim veya telefona göre ara...",
+      "addGuest": "Misafir Ekle",
+      "editGuest": "Misafiri Düzenle",
+      "table": {
+        "name": "İsim",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "stays": "# Konaklama"
+      },
+      "empty": "Misafir bulunamadı.",
+      "backToList": "Misafir Listesine Geri Dön",
+      "preferences": "Tercihler",
+      "notes": "Notlar",
+      "noInfo": "Bilgi yok.",
+      "reservationHistory": "Rezervasyon Geçmişi",
+      "historyTable": {
+        "room": "Oda",
+        "dates": "Tarihler",
+        "status": "Durum"
+      }
+    },
+    "reports": {
+      "title": "Otel Raporları",
+      "dailyReportTitle": "Günlük Finans Raporu",
+      "roomRevenue": "Oda Geliri",
+      "fbRevenue": "Yiyecek & İçecek Geliri",
+      "totalRevenue": "Toplam Gelir",
+      "occupancy": "Doluluk",
+      "adr": "Ortalama Günlük Fiyat (ADR)",
+      "revpar": "Müsait Oda Başına Gelir (RevPAR)",
+      "occupancyTrend": "Haftalık Doluluk Trendi",
+      "dailyMovements": "Günlük Hareket Raporu",
+      "selectDate": "Rapor Tarihini Seçin",
+      "arrivals": "Gelişler",
+      "departures": "Ayrılışlar",
+      "inHouse": "Oteldeki Misafirler",
+      "empty": "Bu tarih için hareket yok."
+    },
+    "billing": {
+      "title": "Faturalandırma & Folyolar",
+      "searchPlaceholder": "Misafir adı veya odaya göre ara...",
+      "guestLedger": "Misafir Hesap Defteri",
+      "viewFolio": "Folyoyu Görüntüle",
+      "table": {
+        "guest": "Misafir",
+        "room": "Oda",
+        "balance": "Bakiye",
+        "date": "Tarih",
+        "description": "Açıklama",
+        "charge": "Ücret",
+        "payment": "Ödeme"
+      },
+      "empty": "Ödenmemiş bakiyesi olan hesap yok.",
+      "activeAccounts": "Aktif Hesaplar",
+      "invoiceHistory": "Fatura Geçmişi",
+      "emptyHistory": "Geçmiş fatura yok."
+    },
+    "receipt": {
+      "invoice": "Fatura",
+      "invoiceNo": "Fatura No",
+      "printDate": "Yazdırma Tarihi",
+      "guestInfo": "Misafir Bilgileri",
+      "stayInfo": "Konaklama Bilgileri",
+      "roomNumber": "Oda Numarası",
+      "checkIn": "Giriş",
+      "checkOut": "Çıkış",
+      "date": "Tarih",
+      "description": "Açıklama",
+      "charge": "Ücret",
+      "payment": "Ödeme",
+      "totalCharges": "Toplam Ücretler",
+      "totalPayments": "Toplam Ödemeler",
+      "balance": "Bakiye",
+      "reprintInvoice": "Faturayı Yeniden Yazdır"
+    },
+    "floorPlan": {
+      "designMode": "Tasarım Modu",
+      "manageFloors": "Katları Yönet",
+      "addFloor": "Kat Ekle",
+      "newFloorName": "Yeni Kat Adı",
+      "deleteFloorConfirm": "Bu katı ve tüm odalarını silmek istediğinizden emin misiniz?",
+      "statuses": {
+        "available": "Müsait",
+        "occupied": "Dolu",
+        "dirty": "Kirli",
+        "outofservice": "Servis Dışı"
+      }
+    },
+    "roomStatusModal": {
+      "title": "Oda Durumu: {{roomNumber}}",
+      "type": "Tip",
+      "status": "Durum",
+      "guest": "Misafir",
+      "checkIn": "Giriş",
+      "checkOut": "Çıkış",
+      "createReservation": "Rezervasyon Oluştur",
+      "viewFolio": "Folyoyu Görüntüle",
+      "markClean": "Temiz Olarak İşaretle",
+      "startCleaning": "Temizliğe Başla"
+    },
+    "packages": {
+      "addonsTitle": "Ek Hizmetler",
+      "addAddon": "Hizmet Ekle",
+      "perGuest": "Kişi Başı",
+      "perNight": "Gecelik",
+      "packagesTitle": "Paketler",
+      "addPackage": "Paket Ekle",
+      "modal": {
+        "title_addon_add": "Yeni Hizmet Ekle",
+        "title_addon_edit": "Hizmeti Düzenle",
+        "title_package_add": "Yeni Paket Ekle",
+        "title_package_edit": "Paketi Düzenle"
+      },
+      "form": {
+        "name": "İsim",
+        "price": "Fiyat",
+        "description": "Açıklama",
+        "includedAddons": "Dahil Olan Hizmetler"
+      }
+    },
+    "loyalty": {
+      "title": "Sadakat Programı",
+      "enable": "Sadakat programını etkinleştir",
+      "earningRate": {
+        "label": "Puan Kazanma Oranı",
+        "description": "Para birimi başına puan."
+      },
+      "redemptionRate": {
+        "label": "Puan Kullanma Oranı",
+        "description": "İndirim birimi başına puan."
+      },
+      "tiersTitle": "Sadakat Seviyeleri",
+      "addTier": "Seviye Ekle",
+      "pointsThreshold": "{{count}} puan gerekli",
+      "points": "puan",
+      "noTier": "Seviye Yok",
+      "progress": "{{tier}} seviyesine ulaşmak için {{points}} puan kaldı",
+      "benefits": "Avantajlar",
+      "modal": {
+        "title_add": "Yeni Seviye Ekle",
+        "title_edit": "Seviyeyi Düzenle"
+      },
+      "form": {
+        "name": "Seviye Adı",
+        "points": "Puan Eşiği",
+        "benefits": "Avantajlar"
+      },
+      "discountValue": "Sadakat İndirimi",
+      "availablePoints": "{{name}} adlı kullanıcının puanları: {{points}}",
+      "redeemPlaceholder": "Kullanılacak puanlar"
+    },
+     "maintenance": {
+        "title": "Bakım Talepleri",
+        "createRequestTitle": "Bakım Talebi Oluştur: Oda {{roomNumber}}",
+        "description": "Açıklama",
+        "descriptionPlaceholder": "Örn: Klima çalışmıyor, musluk sızdırıyor...",
+        "markOutOfService": "Odayı Servis Dışı olarak işaretle",
+        "table": {
+            "room": "Oda",
+            "description": "Açıklama",
+            "reportedBy": "Bildiren",
+            "date": "Tarih",
+            "status": "Durum"
+        },
+        "statuses": {
+            "reported": "Bildirildi",
+            "inprogress": "Devam Ediyor",
+            "completed": "Tamamlandı"
+        },
+        "empty": "Aktif bakım talebi yok."
+    },
+    "channelManager": {
+        "title": "Kanal Yöneticisi",
+        "description": "Rezervasyonlarınızı rezervasyon kanallarınızdan senkronize edin.",
+        "forceSync": "Şimdi Senkronize Et",
+        "syncStatus": "Senkronizasyon",
+        "channels": "Bağlı Kanallar",
+        "lastSync": "Son Senkronizasyon",
+        "activityLog": "Aktivite Günlüğü",
+        "statuses": {
+            "connected": "Bağlı",
+            "syncing": "Senkronize Ediliyor",
+            "error": "Hata",
+            "disabled": "Devre Dışı"
+        },
+        "time": {
+            "justNow": "Şimdi",
+            "secondsAgo": "{{seconds}}s önce",
+            "minutesAgo": "{{minutes}}d önce"
+        }
+    }
+  },
+  "defaults": {
+    "hotel": {
+      "receiptHeader": "Konaklama Faturası",
+      "receiptFooter": "Keyifli bir konaklama dileriz."
+    }
+  },
+  "addon": {
+    "breakfast": "Kahvaltı",
+    "airportTransfer": "Havaalanı Transferi",
+    "spaAccess": "Spa Girişi"
+  },
+  "package": {
+    "weekendGetaway": "Hafta Sonu Kaçamağı Paketi",
+    "weekendGetaway.desc": "Kahvaltı ve spa girişi dahil rahatlatıcı bir konaklamanın tadını çıkarın.",
+    "businessTraveler": "İş Seyahati Paketi",
+    "businessTraveler.desc": "İş seyahatindeki misafirlerin ihtiyaçlarını karşılamak için tasarlanmış bir paket."
+  },
+  "mock": {
+    "floors": {
+        "f1": "Birinci Kat"
+    },
+    "roomTypes": {
+        "single": "Tek Kişilik Oda",
+        "double": "Çift Kişilik Oda",
+        "suite": "Süit"
+    },
+    "amenities": {
+        "wifi": "Wi-Fi",
+        "ac": "Klima",
+        "tv": "Televizyon",
+        "cityView": "Şehir Manzarası",
+        "kitchenette": "Mini Mutfak",
+        "balcony": "Balkon"
+    },
+    "ratePlans": {
+        "standard": "Standart Fiyat"
+    }
+  }
+}

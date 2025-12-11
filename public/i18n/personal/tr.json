@@ -1,0 +1,112 @@
+{
+  "personal": {
+    "title": "Kişisel Finans",
+    "tabs": {
+      "dashboard": "Kontrol Paneli",
+      "transactions": "İşlemler",
+      "goals": "Hedefler",
+      "spreadsheet": "Hesap Tablosu",
+      "settings": "Ayarlar"
+    },
+    "dashboard": {
+      "expenseChart": "Harcama Dağılımı",
+      "aiInsight": "Akıllı Analizler",
+      "generatingInsight": "Analizler oluşturuluyor..."
+    },
+    "summary": {
+      "income": "Aylık Gelir",
+      "expense": "Aylık Gider",
+      "balance": "Kalan Bakiye"
+    },
+    "form": {
+      "title": "Yeni İşlem Ekle",
+      "add": "İşlem Ekle",
+      "expense": "Gider",
+      "income": "Gelir",
+      "description": "Açıklama",
+      "amount": "Tutar"
+    },
+    "transactions": {
+        "title": "İşlem Kaydı"
+    },
+    "searchPlaceholder": "İşlemlerde ara...",
+    "deleteConfirm": "Bu işlemi silmek istediğinizden emin misiniz?",
+    "aiInputPlaceholder": "Yeni bir işlem ekleyin (ör: öğle yemeği için 50 ödedim)...",
+    "scanReceipt": "Fiş Tara",
+    "scanReceiptTitle": "Yeni Fiş Tara",
+    "capture": "Çek",
+    "processingReceipt": "Fiş analiz ediliyor...",
+     "categories": {
+      "salary": "Maaş",
+      "food": "Yemek",
+      "transport": "Ulaşım",
+      "housing": "Konut",
+      "bills": "Faturalar",
+      "entertainment": "Eğlence",
+      "health": "Sağlık",
+      "shopping": "Alışveriş",
+      "other": "Diğer",
+      "savings": "Birikim"
+    },
+    "budgets": {
+      "title": "Bütçe İlerlemesi",
+      "budgeted": "Bütçelenen",
+      "spentOf": "{{budgeted}} tutarından {{spent}} harcandı",
+      "overBudget": "Bütçe aşıldı!"
+    },
+    "reports": {
+      "title": "Harcama Raporu",
+      "category": "Kategori",
+      "amount": "Tutar",
+      "percentage": "Yüzde"
+    },
+    "spreadsheet": {
+        "sheets": {
+            "sheet": "Sayfa"
+        },
+        "toolbar": {
+            "bold": "Kalın",
+            "italic": "İtalik",
+            "textColor": "Metin Rengi",
+            "bgColor": "Arka Plan Rengi",
+            "alignLeft": "Sola Hizala",
+            "alignCenter": "Ortala",
+            "alignRight": "Sağa Hizala",
+            "addRow": "Satır Ekle",
+            "removeRow": "Satır Sil",
+            "addColumn": "Sütun Ekle",
+            "removeColumn": "Sütun Sil"
+        },
+        "renameSheetPrompt": "Yeni sayfa adını girin:",
+        "deleteSheetConfirm": "Bu sayfayı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "newSheetName": "Sayfa {{number}}"
+    },
+    "goals": {
+      "title": "Finansal Hedefler",
+      "add": "Yeni Hedef Ekle",
+      "empty": "Henüz hiç hedef belirlemediniz. Şimdi başlayın!",
+      "target": "Hedef",
+      "progress": "İlerleme",
+      "addFunds": "Para Ekle",
+      "editGoal": "Hedefi Düzenle",
+      "form": {
+        "addTitle": "Yeni Bir Finansal Hedef Oluştur",
+        "editTitle": "Finansal Hedefi Düzenle",
+        "name": "Hedef Adı",
+        "namePlaceholder": "Örn: Yeni Araba, Tatil Fonu",
+        "targetAmount": "Hedef Tutar",
+        "targetDate": "Hedef Tarih (İsteğe Bağlı)"
+      },
+      "addFundsModal": {
+        "title": "'{{name}}' Hedefine Para Ekle",
+        "amount": "Eklenecek tutar",
+        "contribute": "Katkıda Bulun"
+      },
+      "aiSuggestionTitle": "Akıllı Öneri",
+      "aiSuggestionLoading": "Sizin için uygun bir hedef aranıyor...",
+      "aiSuggestionCreate": "Bu hedefi oluştur",
+      "aiSuggestionPrompt": "Bir finansal danışman olarak, kullanıcının geçen aydaki gelirini ({{income}}) ve giderlerini ({{expenses}}) inceleyin. Gerçekçi, ulaşılabilir bir birikim hedefi önerin. Hedef adını, önerilen tutarı ve ulaşmak için tahmini süreyi belirtin. Kısa ve motive edici olsun. Örnek: '4 ay içinde Acil Durum Fonu için 1.000 TL biriktirebilirsiniz'. Sadece öneriyi sunun."
+    },
+    "aiInsightPrompt": "Bir finansal danışman olarak, bu kullanıcı verilerini {{currentMonth}} ayı için analiz edin. Kısa ve eyleme geçirilebilir bir içgörü sağlayın. Veriler: Toplam Gelir={{totalIncome}} {{currency}}, Toplam Giderler={{totalExpenses}} {{currency}}, Bakiye={{balance}} {{currency}}. Bütçeler={{budgets}}. Kategoriye göre harcamalar={{expenses}}. Kullanıcıya doğrudan Türkçe hitap edin."
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "reports": {
+        "printPdf": "Yazdır / PDF",
+        "filterByDateRange": "Tarih Aralığına Göre Filtrele",
+        "startDate": "Başlangıç Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "dailyPayments": {
+            "title": "Günlük Ödemeler Raporu",
+            "description": "Seçilen gün için kaydedilen tüm giderleri görüntüleyin.",
+            "date": "Tarih",
+            "descriptionColumn": "Açıklama",
+            "amount": "Tutar",
+            "source": "Ödeme Kaynağı",
+            "empty": "Bu gün için kaydedilmiş ödeme yok.",
+            "sources": {
+                "cash": "Nakit Kasa",
+                "bank": "Şirket Hesabı"
+            }
+        }
+    }
+}

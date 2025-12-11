@@ -1,0 +1,72 @@
+
+{
+  "promotions": {
+    "title": "العروض الترويجية",
+    "add": "إضافة عرض",
+    "edit": "تعديل العرض",
+    "table": {
+      "name": "اسم العرض",
+      "type": "النوع"
+    },
+    "types": {
+      "BOGO": "اشترِ س واحصل على ص",
+      "CATEGORY_DISCOUNT": "خصم على فئة منتجات",
+      "BUNDLE_DEAL": "عرض حزمة",
+      "TIERED_DISCOUNT": "خصم حسب الكمية",
+      "GLOBAL_DISCOUNT": "خصم عام"
+    },
+    "templates": {
+      "bogo_1_1_free": "اشترِ قطعة والثانية مجاناً",
+      "bogo_2_2_free": "اشترِ قطعتين وقطعتين مجاناً",
+      "bogo_1_1_discount": "اشترِ قطعة والثانية بخصم",
+      "bogo_custom": "عرض مخصص (اشتر س واحصل على ص)",
+      "global_discount": "خصم على جميع المنتجات",
+      "tiered_discount": "خصم حسب الكمية",
+      "category_discount": "خصم على فئة",
+      "bundle_deal": "عرض حزمة (سعر ثابت)"
+    },
+    "statuses": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "form": {
+      "name": "اسم العرض",
+      "description": "الوصف (للعرض العام)",
+      "generateWithAi": "إنشاء باستخدام الذكاء الاصناعي",
+      "type": "نوع العرض",
+      "active": "العرض نشط",
+      "scheduling": "الجدولة (اختياري)",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "time": "وقت محدد (للساعة السعيدة)",
+      "startTime": "وقت البدء",
+      "endTime": "وقت الانتهاء",
+      "categoryName": "اسم الفئة",
+      "discountPercentage": "نسبة الخصم (%)",
+      "buyProducts": "المنتجات المطلوب شراؤها",
+      "buyQuantity": "كمية الشراء",
+      "getProducts": "المنتجات التي سيتم الحصول عليها",
+      "getQuantity": "كمية الحصول",
+      "getDiscountPercentage": "نسبة الخصم على المنتج الذي سيتم الحصول عليه (%)",
+      "bogoDescription": "مثال: اشترِ 2 من 'منتج أ' واحصل على 1 من 'منتج ب' بخصم 50%. للحصول على منتج مجاني، اجعل نسبة الخصم 100.",
+      "bundleProducts": "منتجات الحزمة",
+      "bundlePrice": "سعر الحزمة",
+      "tieredDiscount": "مستويات الخصم",
+      "tieredDescription": "مثال: اشترِ 3 قطع واحصل على خصم 10%، اشترِ 5 قطع واحصل على خصم 20%. يطبق الخصم على المنتجات المحددة.",
+      "addTier": "إضافة مستوى",
+      "tierQuantity": "الكمية",
+      "applicableProducts": "المنتجات التي ينطبق عليها العرض",
+      "aiPrompt": "اكتب وصفًا ترويجيًا قصيرًا وجذابًا باللغة العربية لعرض {{type}} يسمى '{{name}}'. التفاصيل: {{details}}",
+      "applyTo": "تطبيق العرض على",
+      "allProducts": "جميع المنتجات",
+      "specificCategories": "فئات محددة",
+      "specificProducts": "منتجات محددة",
+      "getSameItem": "الحصول على نفس المنتج",
+      "buyCategories": "فئات الشراء"
+    },
+    "delete": {
+      "title": "حذف العرض",
+      "message": "هل أنت متأكد من رغبتك في حذف العرض '{{name}}'؟"
+    }
+  }
+}

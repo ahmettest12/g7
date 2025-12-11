@@ -1,0 +1,230 @@
+
+{
+  "publicPage": {
+    "search": {
+      "placeholder": "ابحث عن منتجات, أطباق...",
+      "noResults": "لم يتم العثور على نتائج.",
+      "allCategories": "كل الأصناف",
+      "minPrice": "أقل سعر",
+      "maxPrice": "أعلى سعر",
+      "sortDefault": "ترتيب افتراضي",
+      "sortPriceAsc": "السعر: من الأقل للأعلى",
+      "sortPriceDesc": "السعر: من الأعلى للأقل"
+    },
+    "tabs": {
+      "content": "المحتوى",
+      "design": "التصميم",
+      "qrcode": "رمز QR"
+    },
+    "googleLogin": {
+      "prompt": "للمتابعة، يرجى تسجيل الدخول باستخدام حساب جوجل الخاص بك.",
+      "simulationTitle": "محاكاة تسجيل الدخول بحساب جوجل",
+      "simulationInfo": "في تطبيق حقيقي، سيتم الحصول على هذه المعلومات بشكل آمن من حساب جوجل الخاص بك. يرجى إدخال بياناتك للمتابعة.",
+      "nameLabel": "الاسم الكامل",
+      "emailLabel": "عنوان البريد الإلكتروني",
+      "continueButton": "متابعة باسم {{name}}"
+    },
+    "promotions": {
+      "sectionTitle": "عروضنا الخاصة"
+    },
+    "saveDesign": "حفظ التصميم",
+    "content": {
+      "enable": "تفعيل الصفحة العامة",
+      "sections": "أقسام الصفحة",
+      "add": "إضافة قسم",
+      "addTypes": {
+        "hero": "قسم رئيسي",
+        "banner": "بانر إعلاني",
+        "text": "نص",
+        "gallery": "معرض صور",
+        "testimonials": "آراء العملاء",
+        "video": "فيديو",
+        "menu": "قائمة طعام",
+        "products": "منتجات",
+        "rooms": "غرف",
+        "tours": "جولات سياحية",
+        "cars": "سيارات",
+        "listings": "عقارات",
+        "projects": "مشاريع",
+        "services": "خدمات",
+        "appointment_booking": "نموذج حجز",
+        "reservation": "حجز",
+        "companies_aggregator": "قائمة الشركات",
+        "promotions_aggregator": "قائمة العروض",
+        "cta": "دعوة للإجراء",
+        "contact": "تواصل معنا",
+        "ecommerce": "تجارة إلكترونية"
+      }
+    },
+    "design": {
+      "logo": "الشعار",
+      "primaryColor": "اللون الأساسي",
+      "socialLinks": "روابط التواصل الاجتماعي",
+      "whatsapp": "واتساب",
+      "whatsappPlaceholder": "الرقم مع رمز الدولة (مثال: 966...)",
+      "instagram": "انستغرام",
+      "x": "X (تويتر سابقاً)",
+      "facebook": "فيسبوك",
+      "themes": {
+        "title": "الثيمات",
+        "classic": "كلاسيكي",
+        "elegant": "أنيق",
+        "bold": "جريء",
+        "dark": "داكن"
+      },
+      "templates": {
+        "title": "القوالب",
+        "confirmTitle": "تأكيد تطبيق القالب",
+        "confirmMessage": "سيؤدي تطبيق هذا القالب إلى استبدال محتوى وتخطيط صفحتك الحالي. هل أنت متأكد من المتابعة؟"
+      }
+    },
+    "qrcode": {
+      "title": "رمز الاستجابة السريعة (QR)",
+      "description": "يمكن للعملاء مسح هذا الرمز للوصول إلى قائمتك أو صفحتك العامة.",
+      "generating": "جاري إنشاء الرمز...",
+      "download": "تحميل",
+      "printTitle": "امسح لعرض القائمة",
+      "printHeader": "امسح لعرض قائمتنا",
+      "printFooter": "شكرًا لزيارتكم!"
+    },
+    "editSection": {
+      "title": "تعديل قسم: {{type}}",
+      "contact": {
+        "showMap": "إظهار الخريطة",
+        "showForm": "إظهار نموذج التواصل"
+      },
+      "field": {
+        "title": "العنوان",
+        "subtitle": "العنوان الفرعي",
+        "content": "المحتوى",
+        "imageUrl": "رابط الصورة",
+        "buttonText": "نص الزر",
+        "buttonLink": "رابط الزر",
+        "bgColor": "لون خلفية القسم"
+      },
+      "appearance": "المظهر",
+      "spacing": {
+        "none": "بدون",
+        "sm": "صغير",
+        "md": "متوسط",
+        "lg": "كبير",
+        "xl": "كبير جداً"
+      },
+      "layout": {
+        "single-column": "عمود واحد",
+        "two-column": "عمودان",
+        "three-column": "ثلاثة أعمدة"
+      },
+      "content": {
+        "mainTitle": "عنوان القسم الرئيسي",
+        "columnTitle": "عنوان العمود",
+        "columnContent": "محتوى العمود",
+        "addColumn": "إضافة عمود"
+      }
+    },
+    "preview": {
+      "footer": "مدعوم من ProCount",
+      "copyright": "© {{year}} {{name}}. جميع الحقوق محفوظة.",
+      "notFound": {
+        "description": "الصفحة التي تبحث عنها غير موجودة."
+      },
+      "disabled": {
+        "description": "هذه الصفحة غير متوفرة في الوقت الحالي."
+      }
+    },
+    "reservationForm": {
+      "name": "الاسم الكامل",
+      "phone": "رقم الهاتف",
+      "guests": "عدد الضيوف",
+      "submit": "إرسال طلب الحجز"
+    },
+    "gallery": {
+      "image": "صورة"
+    },
+    "video": {
+      "invalidUrl": "رابط الفيديو غير صالح."
+    },
+    "defaults": {
+      "contact": {
+        "title": "تواصل معنا"
+      },
+      "hero": {
+        "title": "أهلاً بكم في صفحتنا",
+        "subtitle": "اكتشفوا منتجاتنا وخدماتنا الرائعة"
+      },
+      "text": {
+        "title": "من نحن",
+        "content": "معلومات مفصلة عن الشركة هنا. يمكنك تعديل هذا النص من لوحة التحكم."
+      },
+      "menu": {
+        "title": "قائمة طعامنا"
+      },
+      "products": {
+        "title": "منتجاتنا"
+      },
+      "rooms": {
+        "title": "غرفنا"
+      },
+      "reservation": {
+        "title": "احجز الآن"
+      },
+      "cta": {
+        "title": "هل أنت مستعد للبدء؟",
+        "buttonText": "اطلب الآن"
+      },
+      "gallery": {
+        "title": "معرض الصور"
+      },
+      "testimonials": {
+        "title": "آراء عملائنا"
+      },
+      "video": {
+        "title": "شاهد الفيديو التعريفي"
+      },
+      "banner": {
+        "title": "بانر إعلاني",
+        "subtitle": "رسالة ترويجية قصيرة وجذابة هنا.",
+        "buttonText": "تسوق الآن"
+      }
+    },
+    "contact": {
+      "showMap": "إظهار الخريطة",
+      "showForm": "إظهار نموذج التواصل",
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "formTitle": "أرسل لنا رسالة",
+      "form": {
+        "name": "اسمك",
+        "email": "بريدك الإلكتروني",
+        "message": "الرسالة",
+        "send": "إرسال الرسالة",
+        "sent": "تم إرسال رسالتك بنجاح! سنقوم بالرد عليك قريباً."
+      }
+    },
+    "cart": {
+      "addedToCart": "أضيف إلى السلة",
+      "addToCart": "أضف للسلة",
+      "added": "تمت الإضافة الى السلة"
+    },
+    "appointment": {
+      "bookNow": "احجز الآن",
+      "bookingSubtitle": "اختر الخدمة والوقت المناسب لك لحجز موعدك بكل سهولة.",
+      "change": "تغيير"
+    },
+    "templates": {
+      "standard": {
+        "name": "قياسي",
+        "description": "تخطيط كلاسيكي مع جميع الأقسام."
+      },
+      "minimalist": {
+        "name": "بسيط",
+        "description": "تصميم نظيف يركز على القسم الرئيسي."
+      },
+      "bold": {
+        "name": "جريء",
+        "description": "تصميم ملفت بألوان قوية."
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "hr": {
+    "title": "الموارد البشرية",
+    "tabs": {
+      "attendance": "الحضور",
+      "leave": "طلبات الإجازة",
+      "documents": "المستندات"
+    },
+    "attendance": {
+      "title": "سجل الحضور اليومي",
+      "add": "إضافة سجل حضور",
+      "table": {
+        "employee": "الموظف",
+        "status": "الحالة",
+        "checkIn": "وقت الدخول",
+        "checkOut": "وقت الخروج"
+      },
+      "statuses": {
+        "present": "حاضر",
+        "absent": "غائب",
+        "late": "متأخر"
+      },
+      "empty": "لا توجد سجلات حضور لهذا اليوم."
+    },
+    "documents": {
+      "title": "مستندات الموظفين",
+      "add": "إضافة مستند",
+      "view": "عرض",
+      "empty": "لم يتم تحميل أي مستندات بعد.",
+      "table": {
+        "name": "اسم المستند",
+        "actions": "إجراءات"
+      }
+    },
+    "leave": {
+      "pending": "الطلبات المعلقة",
+      "history": "سجل الإجازات",
+      "add": "طلب جديد",
+      "fromTo": "من {{start}} إلى {{end}}",
+      "reason": "السبب:",
+      "actions": {
+        "reject": "رفض",
+        "approve": "موافقة"
+      },
+      "emptyPending": "لا توجد طلبات إجازة معلقة حالياً.",
+      "table": {
+        "employee": "الموظف",
+        "period": "الفترة",
+        "reason": "السبب",
+        "status": "الحالة"
+      },
+      "statuses": {
+        "pending": "معلق",
+        "approved": "موافق عليه",
+        "rejected": "مرفوض"
+      }
+    },
+    "addDocForm": {
+      "employee": "الموظف",
+      "selectEmployee": "اختر موظف",
+      "name": "اسم المستند",
+      "namePlaceholder": "مثال: نسخة من الهوية، عقد عمل",
+      "file": "الملف",
+      "fileNote": "تحميل الملفات هو للمحاكاة فقط في هذا العرض."
+    },
+    "addAttendanceForm": {
+      "employee": "الموظف",
+      "selectEmployee": "اختر موظف",
+      "date": "التاريخ",
+      "status": "الحالة",
+      "checkIn": "وقت الدخول",
+      "checkOut": "وقت الخروج"
+    },
+    "addLeaveForm": {
+      "employee": "الموظف",
+      "selectEmployee": "اختر موظف",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "reason": "السبب",
+      "submit": "إرسال الطلب"
+    }
+  },
+  "modals": {
+    "addAttendance": "إضافة سجل حضور جديد",
+    "addLeaveRequest": "إضافة طلب إجازة جديد",
+    "addDocument": "إضافة مستند جديد"
+  }
+}

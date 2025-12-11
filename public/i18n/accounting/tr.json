@@ -1,0 +1,111 @@
+{
+  "accounting": {
+    "accounts": {
+      "assets": "Varlıklar",
+      "currentAssets": "Dönen Varlıklar",
+      "cash": "Nakit",
+      "bank": "Banka",
+      "inventory": "Stok",
+      "fixedAssets": "Duran Varlıklar",
+      "liabilities": "Yükümlülükler",
+      "currentLiabilities": "Kısa Vadeli Yükümlülükler",
+      "suppliers": "Tedarikçiler",
+      "commissionsPayable": "Ödenecek Komisyonlar",
+      "salariesPayable": "Ödenecek Maaşlar",
+      "equity": "Özkaynak",
+      "capital": "Sermaye",
+      "revenue": "Gelir",
+      "salesRevenue": "Satış Geliri",
+      "expenses": "Giderler",
+      "cogs": "Satılan Malın Maliyeti",
+      "salaryExpenses": "Maaş Giderleri",
+      "rentExpenses": "Kira Giderleri",
+      "utilitiesExpenses": "Fatura Giderleri",
+      "marketingExpenses": "Pazarlama Giderleri",
+      "generalAdminExpenses": "Genel Yönetim Giderleri",
+      "commissionExpenses": "Komisyon Giderleri",
+      "guestLedger": "Misafir Cari Hesabı",
+      "roomRevenue": "Oda Geliri",
+      "otherHotelRevenue": "Diğer Otel Gelirleri",
+      "fbRevenue": "Yiyecek & İçecek Geliri",
+      "purchasesExpenses": "Satın Alma Giderleri"
+    },
+    "tabs": {
+      "reports": "Finansal Raporlar",
+      "journal": "Yevmiye Kayıtları",
+      "chart": "Hesap Planı"
+    },
+    "chart": {
+      "title": "Hesap Planı",
+      "add": "Hesap Ekle",
+      "table": {
+        "name": "Hesap Adı",
+        "number": "Hesap Numarası",
+        "type": "Tür",
+        "balance": "Bakiye"
+      }
+    },
+    "addAccountForm": {
+      "id": "Hesap Numarası",
+      "name": "Hesap Adı",
+      "type": "Hesap Türü",
+      "parent": "Üst Hesap",
+      "noParent": "Yok (Ana Hesap)",
+      "add": "Ekle"
+    },
+    "journal": {
+      "title": "Yevmiye Kayıtları",
+      "add": "Kayıt Ekle",
+      "table": {
+        "date": "Tarih",
+        "description": "Açıklama",
+        "amount": "Tutar"
+      }
+    },
+    "journalTemplates": {
+        "payWaiterCommission": "Garson komisyonu ödendi: {{name}}",
+        "payEmployeeCommission": "Çalışan komisyonu ödendi: {{name}}",
+        "payPartnerCommission": "Partner komisyonu ödendi: {{name}}",
+        "paySalary": "Çalışan maaşı ödendi: {{name}}"
+    },
+    "addJournalForm": {
+      "date": "Tarih",
+      "description": "Açıklama",
+      "account": "Hesap Seç",
+      "debit": "Borç",
+      "credit": "Alacak",
+      "addLine": "+ Satır Ekle",
+      "save": "Kaydı Kaydet"
+    },
+    "reports": {
+      "income": "Gelir Tablosu",
+      "balance": "Bilanço",
+      "empty": {
+        "title": "Veri Yok",
+        "subtitle": "Yevmiye kayıtları oluşturulduğunda raporlar burada görünecektir."
+      }
+    },
+    "incomeStatement": {
+      "title": "Gelir Tablosu",
+      "period": "{{date}} tarihinde sona eren dönem için",
+      "revenue": "Gelir",
+      "totalRevenue": "Toplam Gelir",
+      "expenses": "Giderler",
+      "totalExpenses": "Toplam Giderler",
+      "netIncome": "Net Kar",
+      "netLoss": "Net Zarar"
+    },
+    "balanceSheet": {
+      "title": "Bilanço",
+      "date": "{{date}} itibarıyla",
+      "assets": "Varlıklar",
+      "totalAssets": "Toplam Varlıklar",
+      "liabilitiesEquity": "Yükümlülükler & Özkaynak",
+      "liabilities": "Yükümlülükler",
+      "totalLiabilities": "Toplam Yükümlülükler",
+      "equity": "Özkaynak",
+      "totalEquity": "Toplam Özkaynak",
+      "totalLiabilitiesEquity": "Toplam Yükümlülükler & Özkaynak"
+    }
+  }
+}

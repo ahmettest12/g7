@@ -1,0 +1,162 @@
+
+{
+  "commission": {
+    "title": "إدارة شركة العمولة",
+    "tabs": {
+      "groups": {
+        "sales": "المبيعات",
+        "inventory": "المخزون والمشتريات",
+        "commissions": "العمولات",
+        "people": "الأفراد",
+        "general": "عام"
+      },
+      "sales": "المبيعات",
+      "online_orders": "الطلبات الإلكترونية",
+      "inventory": "المخزون",
+      "employees": "أداء الموظفين",
+      "partners": "الشركاء",
+      "purchasing": "المشتريات",
+      "accounting": "المحاسبة",
+      "payroll": "كشوف المرتبات",
+      "hr": "الموارد البشرية",
+      "manage_employees": "إدارة الموظفين",
+      "public_page": "الصفحة العامة",
+      "ai_assistant": "المساعد الذكي",
+      "settings": "الإعدادات",
+      "reports": "التقارير"
+    },
+    "sales": {
+      "products": "المنتجات",
+      "seller": "موظف البيع",
+      "referringCompany": "الشركة المحيلة",
+      "noCompany": "بدون شركة",
+      "variants": "اختر المقاس واللون لـ '{{name}}'",
+      "available": "(المتاح: {{stock}})"
+    },
+    "inventory": {
+      "form": {
+        "employeeCommissionRate": "نسبة عمولة الموظف (%)",
+        "companyCommissionRate": "نسبة عمولة الشركة الشريكة (%)",
+        "variants": "المتغيرات (مقاسات، ألوان)",
+        "addVariant": "+ إضافة متغير"
+      },
+      "table": {
+        "size": "المقاس",
+        "color": "اللون",
+        "stock": "المخزون"
+      }
+    },
+    "partners": {
+      "title": "عمولات الشركات الشريكة",
+      "add": "إضافة شركة",
+      "form": {
+        "addTitle": "إضافة شركة شريكة جديدة",
+        "name": "اسم الشركة",
+        "address": "العنوان",
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "taxNumber": "الرقم الضريبي",
+        "commissionRate": "نسبة العمولة (%)"
+      },
+      "card": {
+        "rate": "نسبة العمولة",
+        "unpaidInvoices": "الفواتير غير المدفوعة",
+        "dueAmount": "العمولة المستحقة",
+        "payButton": "دفع العمولة"
+      },
+      "archiveTitle": "سجل العمولات المدفوعة",
+      "archiveTable": {
+        "paymentDate": "تاريخ الدفع",
+        "companyName": "اسم الشركة",
+        "amountPaid": "المبلغ المدفوع",
+        "reprint": "إعادة طباعة",
+        "period": "الفترة"
+      },
+      "emptyArchive": "لا توجد سجلات دفع حتى الآن."
+    },
+    "commissions": {
+      "pendingTitle": "عمولات الموظفين المستحقة",
+      "archiveTitle": "سجل عمولات الموظفين المدفوعة",
+      "card": {
+        "rate": "النسبة الفعالة: {{rate}}%",
+        "unpaidSales": "المبيعات غير المدفوعة",
+        "dueAmount": "العمولة المستحقة",
+        "payButton": "دفع العمولة"
+      },
+      "archiveTable": {
+        "paymentDate": "تاريخ الدفع",
+        "employeeName": "اسم الموظف",
+        "amountPaid": "المبلغ المدفوع",
+        "period": "الفترة"
+      },
+      "emptyArchive": "لا توجد سجلات دفع حتى الآن.",
+      "emptyPending": "لا يوجد موظفون لديهم نسبة عمولة محددة.",
+      "receipt": {
+        "title": "إيصال عمولة موظف",
+        "employee": "الموظف",
+        "table": {
+          "category": "الفئة",
+          "totalSales": "إجمالي المبيعات",
+          "commission": "العمولة"
+        },
+        "footer": {
+          "totalSales": "إجمالي المبيعات:",
+          "totalCommission": "إجمالي العمولة المدفوعة:"
+        }
+      }
+    },
+    "receipt": {
+      "title": "فاتورة عمولة شركة",
+      "company": "الشركة",
+      "date": "التاريخ",
+      "table": {
+        "category": "الفئة",
+        "totalSales": "إجمالي المبيعات",
+        "commission": "العمولة المستحقة",
+        "commissionRate": "النسبة %"
+      },
+      "footer": {
+        "totalInvoices": "إجمالي الفواتير",
+        "totalSales": "إجمالي المبيعات",
+        "totalCommission": "إجمالي العمولة المستحقة",
+        "companyRate": "نسبة الشركة:",
+        "productsRateAvg": "متوسط نسبة المنتجات:",
+        "totalRateAvg": "إجمالي متوسط النسبة:"
+      }
+    },
+    "settings": {
+      "title": "إعدادات العمولة"
+    },
+    "reports": {
+        "dailyPayments": "تقرير المدفوعات اليومية"
+    }
+  },
+  "mock": {
+    "categories": {
+      "womenswear": "ملابس نسائية",
+      "menswear": "ملابس رجالية"
+    },
+     "colors": {
+        "red": "أحمر",
+        "blue": "أزرق",
+        "black": "أسود"
+    }
+  },
+  "loyalty": {
+    "title": "برنامج الولاء",
+    "enable": "تفعيل برنامج الولاء",
+    "earningRate": {
+      "label": "معدل كسب النقاط",
+      "description": "نقطة لكل وحدة عملة."
+    },
+    "redemptionRate": {
+      "label": "معدل استبدال النقاط",
+      "description": "نقطة لكل وحدة خصم."
+    },
+    "tiersTitle": "مستويات الولاء",
+    "addTier": "إضافة مستوى",
+    "discountValue": "خصم ولاء",
+    "availablePoints": "نقاط {{name}} المتاحة: {{points}}",
+    "redeemPlaceholder": "نقاط للاستبدال"
+  }
+}

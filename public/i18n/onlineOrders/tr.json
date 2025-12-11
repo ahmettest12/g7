@@ -1,0 +1,95 @@
+
+{
+    "onlineOrders": {
+        "title": "Online Sipariş Yönetimi",
+        "card": {
+            "order": "Sipariş #{{num}}",
+            "items": "{{count}} ürün",
+            "total": "Toplam: {{total}} TL"
+        },
+        "customerLogin": {
+            "title": "Müşteri Girişi",
+            "welcome": "Alışveriş Yapan: {{name}}",
+            "button": "Müşteri Girişi",
+            "logout": "Çıkış Yap"
+        },
+        "account": {
+            "title": "Hesabım",
+            "personalInfo": "Kişisel Bilgiler",
+            "address": "Birincil Adres",
+            "secondaryAddress": "İkincil Adres",
+            "changePassword": "Şifre Değiştir",
+            "newPassword": "Yeni Şifre",
+            "confirmPassword": "Yeni Şifreyi Onayla",
+            "newAddress": "Yeni Adres"
+        },
+        "login": {
+            "title": "Mağaza Girişi",
+            "noAccount": "Hesabınız yok mu?",
+            "registerHere": "Buradan kaydolun",
+            "googleSignIn": "Google ile Giriş Yap"
+        },
+        "register": {
+            "title": "Yeni Hesap Oluştur",
+            "name": "Tam Ad",
+            "firstName": "Ad",
+            "lastName": "Soyad",
+            "phone": "Telefon Numarası",
+            "email": "E-posta",
+            "password": "Şifre",
+            "confirmPassword": "Şifreyi Onayla",
+            "button": "Kaydol",
+            "haveAccount": "Zaten bir hesabınız var mı?",
+            "loginHere": "Buradan giriş yapın",
+            "captcha": "Güvenlik Kodu",
+            "captchaError": "Güvenlik kodu yanlış."
+        },
+        "store": {
+            "welcome": "Hoş geldiniz,",
+            "tabs": {
+                "store": "Mağaza",
+                "myOrders": "Siparişlerim",
+                "myAccount": "Hesabım"
+            },
+            "logout": "Çıkış Yap",
+            "searchPlaceholder": "Ürün ara...",
+            "allCategories": "Tüm Kategoriler",
+            "addToCart": "Sepete Ekle",
+            "cart": "Alışveriş Sepeti",
+            "cartEmpty": "Sepetiniz boş.",
+            "total": "Toplam",
+            "address": "Teslimat Adresi",
+            "placeOrder": "Siparişi Ver",
+            "orderSuccessTitle": "Siparişiniz alındı!",
+            "orderSuccessBody": "Siparişinizi işleme alıp yola çıktığında sizi bilgilendireceğiz.",
+            "continueShopping": "Alışverişe Devam Et",
+            "notesPlaceholder": "Ek notlar (isteğe bağlı)",
+            "checkoutTitle": "Ödeme",
+            "addressPlaceholder": "Tam teslimat adresinizi girin",
+            "notes": "Ek Notlar"
+        },
+        "myOrders": {
+            "title": "Siparişlerim",
+            "empty": "Geçmiş siparişiniz yok.",
+            "items": "Ürünler",
+            "notes": "Notlar",
+            "editOrder": "Siparişi Düzenle",
+            "cancelOrder": "Siparişi İptal Et",
+            "confirmCancel": "Bu siparişi iptal etmek istediğinizden emin misiniz?",
+            "editModal": {
+                "title": "#{{num}} Numaralı Siparişi Düzenle",
+                "address": "Teslimat Adresi",
+                "save": "Değişiklikleri Kaydet"
+            },
+            "reactivateOrder": "Yeniden Etkinleştir"
+        },
+        "details": {
+            "title": "Ürün Detayları",
+            "reviewsTitle": "Müşteri Yorumları",
+            "noReviews": "Henüz yorum yok.",
+            "rating": "({{count}} yorum)",
+            "selectVariant": "{{name}} Seçin",
+            "options": "Seçenekler"
+        }
+    }
+}

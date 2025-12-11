@@ -1,0 +1,123 @@
+
+{
+  "ecommerce": {
+    "title": "إدارة التجارة الإلكترونية",
+    "tabs": {
+      "dashboard": "لوحة التحكم",
+      "orders": "الطلبات",
+      "products": "المنتجات",
+      "customers": "العملاء",
+      "analytics": "التحليلات",
+      "promotions": "العروض",
+      "public_page": "واجهة المتجر",
+      "settings": "الإعدادات"
+    },
+    "dashboard": {
+      "newOrders": "طلبات جديدة",
+      "pendingShipments": "شحنات معلقة",
+      "totalRevenue": "إجمالي الإيرادات",
+      "topSelling": "الأكثر مبيعاً"
+    },
+    "products": {
+      "title": "إدارة المنتجات",
+      "addProduct": "إضافة منتج",
+      "editProduct": "تعديل المنتج",
+      "table": {
+        "image": "صورة",
+        "name": "الاسم",
+        "sku": "SKU",
+        "price": "السعر",
+        "stock": "المخزون"
+      },
+      "form": {
+        "title": "تفاصيل المنتج",
+        "name": "اسم المنتج",
+        "sku": "SKU (وحدة حفظ المخزون)",
+        "category": "الفئة",
+        "price": "السعر",
+        "cost": "التكلفة",
+        "stock": "كمية المخزون",
+        "lowStock": "حد المخزون المنخفض",
+        "multiImage": "صور المنتج",
+        "richDesc": "الوصف",
+        "shipping": "تفاصيل الشحن",
+        "weight": "الوزن (كجم)",
+        "dimensions": "الأبعاد (طول×عرض×ارتفاع) سم",
+        "digital": "منتج رقمي (لا يتطلب شحن)",
+        "seo": "تحسين محركات البحث (SEO)",
+        "metaTitle": "عنوان Meta",
+        "metaDesc": "وصف Meta",
+        "taxRate": "نسبة الضريبة (%)"
+      }
+    },
+    "orders": {
+      "title": "إدارة الطلبات",
+      "statuses": {
+        "new": "جديد",
+        "processing": "قيد المعالجة",
+        "shipped": "تم الشحن",
+        "delivered": "تم التسليم",
+        "cancelled": "ملغي"
+      },
+      "actions": {
+        "printSlip": "طباعة بوليصة الشحن",
+        "addTracking": "إضافة رقم تتبع"
+      }
+    },
+    "settings": {
+      "title": "إعدادات المتجر الإلكتروني",
+      "shipping": {
+        "title": "مناطق وأسعار الشحن",
+        "addZone": "إضافة منطقة شحن",
+        "zoneName": "اسم المنطقة",
+        "countries": "الدول (مفصولة بفاصلة)",
+        "price": "السعر"
+      },
+      "payments": {
+        "title": "بوابات الدفع"
+      },
+      "checkout": {
+        "title": "إعدادات الدفع",
+        "allowGuest": "السماح للزوار بإتمام الشراء"
+      }
+    },
+    "publicPage": {
+        "heroSubtitle": "تسوق أحدث مجموعاتنا",
+        "productsTitle": "منتجاتنا",
+        "sort": "فرز حسب",
+        "sortDefault": "افتراضي",
+        "sortPriceAsc": "السعر: من الأقل للأعلى",
+        "sortPriceDesc": "السعر: من الأعلى للأقل"
+    },
+    "cart": {
+        "promotionApplied": "تم تطبيق العرض!",
+        "totalDiscount": "خصم العروض"
+    }
+  },
+  "onlineOrders": {
+    "customerLogin": {
+      "button": "دخول العملاء"
+    },
+    "login": {
+      "title": "تسجيل الدخول للمتجر",
+      "googleSignIn": "تسجيل الدخول باستخدام جوجل"
+    }
+  },
+  "loyalty": {
+    "title": "برنامج الولاء",
+    "enable": "تفعيل برنامج الولاء",
+    "earningRate": {
+      "label": "معدل كسب النقاط",
+      "description": "نقطة لكل وحدة عملة."
+    },
+    "redemptionRate": {
+      "label": "معدل استبدال النقاط",
+      "description": "نقطة لكل وحدة خصم."
+    },
+    "tiersTitle": "مستويات الولاء",
+    "addTier": "إضافة مستوى",
+    "discountValue": "خصم ولاء",
+    "availablePoints": "نقاط {{name}} المتاحة: {{points}}",
+    "redeemPlaceholder": "نقاط للاستبدال"
+  }
+}

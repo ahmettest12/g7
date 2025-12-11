@@ -1,0 +1,23 @@
+{
+  "analytics": {
+    "title": "Analiz",
+    "tabs": {
+        "sales": "Satışlar",
+        "visitors": "Ziyaretçiler"
+    },
+    "totalRevenue": "Toplam Gelir",
+    "totalOrders": "Toplam Sipariş",
+    "avgOrderValue": "Ort. Sipariş Değeri",
+    "newCustomers": "Yeni Müşteriler",
+    "performance": "Performans (Son 7 Gün)",
+    "chartPlaceholder": "Grafik görüntülemek için yeterli veri yok.",
+    "totalVisitors": "Toplam Ziyaretçi",
+    "uniqueCountries": "Benzersiz Ülkeler",
+    "topCountries": "Ziyaretçilere Göre En İyi Ülkeler",
+    "topReferrers": "En İyi Yönlendiriciler",
+    "recentVisitors": "Son Ziyaretçiler",
+    "time": "Zaman",
+    "country": "Ülke",
+    "referrer": "Yönlendiren"
+  }
+}
